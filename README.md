@@ -3,6 +3,7 @@
 Kriss's personal knowledge base and the home of his email assistant (Kjell Odne). Private repo.
 
 - **Content:** [`kb/`](kb/index.md) — people, voice, email rules, areas, notes.
+- **Build:** [`docs/brief.md`](docs/brief.md) (plan) and [`docs/progress.md`](docs/progress.md) (status, decisions, handoff).
 - **Conventions:** [`AGENTS.md`](AGENTS.md), on top of livid-kb's AGENTS.md (sibling folder `../livid-kb`).
 - **Format:** OKF v0.2 with the extensions in [`schema/`](schema/).
 
