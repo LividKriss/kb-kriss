@@ -31,6 +31,8 @@ from pathlib import Path
 
 APP_DIR = os.path.expanduser("~/Library/Application Support/kb-kriss")
 MSG_PATH = os.path.join(APP_DIR, "cache", "headers", "messages.jsonl")
+# Kriss's review answers (domain/address -> category, org); applied when present.
+CORRECTIONS = os.path.join(APP_DIR, "cache", "step3-review", "corrections.json")
 OUT_DIR = os.path.join(APP_DIR, "cache", "step3")
 LIVID_KB = Path(__file__).resolve().parents[2].parent / "livid-kb"
 
@@ -49,8 +51,9 @@ PLATFORM_DOMAINS = ["xero.com", "via.tripletex.no", "fiken.no", "xledger.net", "
 # so a sender there is kept as a contact but never matched to an organization.
 NO_ORG_MATCH = ["vismaonline.com", "microsoftonline.com", "insight.ly", "faktura.poweroffice.net",
                 "gorgias.com", "gorgias.io", "intercom-mail.eu", "intercom-mail.com", "zendesk.com", "freshdesk.com", "hubspot.com", "docusign.net", "visma.com"]
-NOISE_DOMAINS = ["news.modeinfo.com", "paddlersuk.com", "email.kinto-europe.com", "labels-things.com",
-                 "later.com", "mail.adobe.com", "hs-send.com", "tvstore.fr", "123lyd.no", "123lyd.com"]
+# paddlersuk.com and tvstore.fr were on this list in progress.md; Kriss confirmed both are suppliers.
+NOISE_DOMAINS = ["news.modeinfo.com", "email.kinto-europe.com", "labels-things.com",
+                 "later.com", "mail.adobe.com", "hs-send.com", "123lyd.no", "123lyd.com"]
 FREEMAIL = {"gmail.com", "googlemail.com", "hotmail.com", "hotmail.no", "outlook.com", "live.com",
             "live.no", "icloud.com", "me.com", "mac.com", "yahoo.com", "yahoo.no", "online.no",
             "msn.com", "aol.com", "protonmail.com", "proton.me", "gmx.com", "gmx.de", "hotmail.co.uk",
@@ -162,6 +165,13 @@ def main():
         OUT_DIR += f"-{args.months}m"
     os.makedirs(OUT_DIR, exist_ok=True)
 
+    corr = json.load(open(CORRECTIONS)) if os.path.exists(CORRECTIONS) else {}
+    fix_dom, fix_addr = corr.get("domains", {}), corr.get("addresses", {})
+    hr_domains = corr.get("exclude_hr", [])
+
+    def fix_for(a, dom):
+        return fix_addr.get(a) or fix_dom.get(dom) or fix_dom.get(base_domain(dom))
+
     msgs = [json.loads(line) for line in open(MSG_PATH) if line.strip()]
     if args.months:
         since = (dt.datetime.now() - dt.timedelta(days=round(args.months * 30.44))).timestamp() * 1000
@@ -185,11 +195,15 @@ def main():
                              "replied": set(), "replied_12m": set()})
     invoice_traffic = Counter()
     platform = Counter()
+    hr_excluded = 0
     by_thread = defaultdict(list)
     for m in msgs:
         h = m["headers"]
         frm = (addrs(h.get("From")) or [""])[0]
         rcpt = addrs(h.get("To")) + addrs(h.get("Cc"))
+        if any(in_list(a.split("@")[1], hr_domains) for a in [frm] + rcpt if "@" in a):
+            hr_excluded += 1  # employee matters stay out entirely (AGENTS.md §2.3)
+            continue
         out = "SENT" in m["labelIds"] or frm in own
         if not out and INVOICE_INBOXES & set(rcpt):
             invoice_traffic[frm] += 1
@@ -234,11 +248,16 @@ def main():
         engaged = r["out"] > 0 or r["replied"]
         wrote_to = r["out"] > 0  # a forward of their mail sets "replied" but is not engagement with a robot
         internal = in_list(dom, INTERNAL_DOMAINS)
+        fix = fix_for(a, dom)
         rule = None
         if internal:
             pass  # colleagues and shared Livid mailboxes are never noise
+        elif in_list(dom, corr.get("noise", [])):
+            rule = "noise (Kriss)"
         elif ROBOT_LOCAL.search(local) and not wrote_to:
             rule = "no-reply / robot address"
+        elif fix:
+            pass  # a domain Kriss classified is never dropped as role/bulk/one-off
         elif ROLE_LOCAL.search(local) and not wrote_to:
             rule = "role mailbox, never written to"
         elif in_list(dom, NOISE_DOMAINS) and not engaged:
@@ -256,11 +275,17 @@ def main():
             continue
 
         org, how = (None, "") if internal else match_org(dom, names[a], orgs)
+        note = ""
         if internal:
             cat = "colleague"
-        elif dom in FREEMAIL and ("livid" in local or "past" in local
-                                  or norm((names[a].most_common(1) or [("", 0)])[0][0]) in colleague_names):
-            cat = "colleague?"  # store/workshop mailboxes, or a colleague's private address
+        elif dom in FREEMAIL and ("livid" in local or "past" in local):
+            cat, note = "colleague", "shared store/workshop mailbox, no Person note"
+        elif dom in FREEMAIL and norm((names[a].most_common(1) or [("", 0)])[0][0]) in colleague_names:
+            cat, note = "colleague?", "private address of a colleague?"
+        elif fix:
+            cat, note = fix["category"], fix.get("note", "")
+        elif org and org["addr"] in corr.get("org_category", {}):
+            cat = corr["org_category"][org["addr"]]
         elif org:
             cat = org["kind"] or "?"
         elif in_list(dom, AUTHORITY_HINTS) or dom.endswith(".kommune.no"):
@@ -271,13 +296,18 @@ def main():
             cat = "private?"
         else:
             cat = "?"
+        org_addr = org["addr"] if org else ""
+        if fix and fix.get("org"):
+            org_addr, how = fix["org"], "Kriss"
+        elif fix and fix["category"] in ("private", "skip"):
+            org_addr, how = "", ""
         kept.append({
             "address": a, "name": (names[a].most_common(1) or [("", 0)])[0][0], "domain": dom,
-            "org": org["addr"] if org else "", "org_match": how, "in": r["in"], "out": r["out"],
+            "org": org_addr, "org_match": how, "in": r["in"], "out": r["out"],
             "threads": len(r["threads"]), "replied_threads": len(r["replied"]),
             "replied_12m": len(r["replied_12m"]), "first": r["first"].date().isoformat(),
             "last": r["last"].date().isoformat(), "category": cat,
-            "note": "never answered" if not engaged else "",
+            "note": "; ".join(x for x in (note, "" if engaged else "never answered") if x),
         })
     kept.sort(key=lambda k: (-k["replied_threads"], -k["out"], -k["in"]))
 
@@ -313,8 +343,8 @@ def main():
     # Proposed organizations: unmatched, non-freemail, non-internal domains with real traffic.
     pd = defaultdict(lambda: {"contacts": 0, "in": 0, "out": 0, "replied": 0, "names": Counter(), "cats": Counter()})
     for k in kept:
-        if (k["org"] or k["category"] in ("colleague", "colleague?") or k["domain"] in FREEMAIL
-                or in_list(k["domain"], NO_ORG_MATCH)):
+        if (k["org"] or k["category"] in ("colleague", "colleague?", "private", "skip", "consumer")
+                or k["domain"] in FREEMAIL or in_list(k["domain"], NO_ORG_MATCH)):
             continue
         b = base_domain(k["domain"])
         p = pd[b]
@@ -351,6 +381,7 @@ def main():
                 f"(domain {sum(1 for k in kept if k['org_match'] == 'domain')}, "
                 f"name {sum(1 for k in kept if k['org_match'] == 'name')})\n")
         f.write(f"Platform-sender messages dropped: {sum(platform.values())} from {len(platform)} addresses\n")
+        f.write(f"Employee-matter messages excluded entirely: {hr_excluded}\n")
         f.write(f"Invoice@ traffic excluded: {sum(invoice_traffic.values())} messages from "
                 f"{len(invoice_traffic)} senders\n")
         rules = Counter()
