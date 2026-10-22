@@ -48,17 +48,21 @@ PLATFORM_DOMAINS = ["xero.com", "via.tripletex.no", "fiken.no", "xledger.net", "
 # Further platforms found in step 3 (proposed for the list above): they send on behalf of other companies,
 # so a sender there is kept as a contact but never matched to an organization.
 NO_ORG_MATCH = ["vismaonline.com", "microsoftonline.com", "insight.ly", "faktura.poweroffice.net",
-                "gorgias.com", "zendesk.com", "freshdesk.com", "hubspot.com", "docusign.net", "visma.com"]
+                "gorgias.com", "gorgias.io", "intercom-mail.eu", "intercom-mail.com", "zendesk.com", "freshdesk.com", "hubspot.com", "docusign.net", "visma.com"]
 NOISE_DOMAINS = ["news.modeinfo.com", "paddlersuk.com", "email.kinto-europe.com", "labels-things.com",
                  "later.com", "mail.adobe.com", "hs-send.com", "tvstore.fr", "123lyd.no", "123lyd.com"]
 FREEMAIL = {"gmail.com", "googlemail.com", "hotmail.com", "hotmail.no", "outlook.com", "live.com",
             "live.no", "icloud.com", "me.com", "mac.com", "yahoo.com", "yahoo.no", "online.no",
             "msn.com", "aol.com", "protonmail.com", "proton.me", "gmx.com", "gmx.de", "hotmail.co.uk",
-            "qq.com", "163.com", "126.com", "naver.com", "libero.it", "sapo.pt", "yahoo.co.jp"}
-AUTOMATED_LOCAL = re.compile(
+            "qq.com", "163.com", "126.com", "naver.com", "libero.it", "sapo.pt", "yahoo.co.jp",
+            "aliyun.com", "lyse.net", "altibox.no", "getmail.no", "broadpark.no"}
+# Robots: never a person behind them.
+ROBOT_LOCAL = re.compile(
     r"(^|[._-])(no-?reply|do-?not-?reply|donotreply|noreply|notifications?|notify|alerts?|mailer-daemon|"
     r"postmaster|bounces?|newsletters?|news|marketing|nyhetsbrev|automated|system|calendar-notification|"
-    r"invitations?|updates?|digest|mailer|hello|info|support|service|kundeservice|team)([._+-]|$)")
+    r"invitations?|updates?|digest|mailer)([._+-]|$)")
+# Role mailboxes: people may answer them, so a drop here is worth a second look.
+ROLE_LOCAL = re.compile(r"(^|[._-])(hello|info|support|service|kundeservice|team|contact|post|firmapost)([._+-]|$)")
 MULTI_PART_TLDS = {"co.uk", "com.au", "co.jp", "com.br", "co.nz", "com.tr", "co.kr", "com.cn",
                    "com.hk", "co.in", "com.pt", "com.es", "co.za", "com.sg", "com.tw", "com.mx"}
 # Heuristic categories for unmatched domains; always shown with "?" for Kriss to confirm.
@@ -233,8 +237,10 @@ def main():
         rule = None
         if internal:
             pass  # colleagues and shared Livid mailboxes are never noise
-        elif AUTOMATED_LOCAL.search(local) and not wrote_to:
-            rule = "automated sender (local part)"
+        elif ROBOT_LOCAL.search(local) and not wrote_to:
+            rule = "no-reply / robot address"
+        elif ROLE_LOCAL.search(local) and not wrote_to:
+            rule = "role mailbox, never written to"
         elif in_list(dom, NOISE_DOMAINS) and not engaged:
             rule = "known noise domain"
         elif not wrote_to and r["bulk_in"] >= max(1, r["in"] / 2):
@@ -290,11 +296,13 @@ def main():
             f.write(f"| {i} | {k['address']} | {name} | {org} | {k['in']} | {k['out']} | "
                     f"{k['replied_threads']} ({k['replied_12m']}) | {k['first']}–{k['last']} | {k['category']} |\n")
 
+    kept_at = Counter(base_domain(k["domain"]) for k in kept)
     drows = sorted(({"domain": d, "rule": rule, "contacts": v["contacts"], "msgs": v["msgs"],
+                     "kept_at_domain": kept_at[base_domain(d)],
                      "examples": " ".join(sorted(v["examples"]))} for (d, rule), v in dropped.items()),
                    key=lambda x: -x["msgs"])
     with open(os.path.join(OUT_DIR, "dropped.csv"), "w", newline="") as f:
-        w = csv.DictWriter(f, ["domain", "rule", "contacts", "msgs", "examples"])
+        w = csv.DictWriter(f, ["domain", "rule", "contacts", "msgs", "kept_at_domain", "examples"])
         w.writeheader()
         w.writerows(drows)
     with open(os.path.join(OUT_DIR, "invoice_traffic.csv"), "w", newline="") as f:

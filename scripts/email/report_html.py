@@ -80,15 +80,16 @@ def main():
            for i, c in enumerate(contacts[:args.top], 1)]
 
     # 3. Dropped noise, per base domain.
-    dd = defaultdict(lambda: {"contacts": 0, "msgs": 0, "rules": set(), "examples": set()})
+    dd = defaultdict(lambda: {"contacts": 0, "msgs": 0, "kept": 0, "rules": set(), "examples": set()})
     for r in dropped:
         dom = r["domain"]
         x = dd[dom]
         x["contacts"] += int(r["contacts"])
         x["msgs"] += int(r["msgs"])
+        x["kept"] = int(r["kept_at_domain"])
         x["rules"].add(r["rule"])
         x["examples"].update(r["examples"].split())
-    drop_rows = sorted(((dom, v["msgs"], v["contacts"], "; ".join(sorted(v["rules"])),
+    drop_rows = sorted(((dom, v["msgs"], v["contacts"], v["kept"], "; ".join(sorted(v["rules"])),
                          " ".join(sorted(v["examples"])[:3])) for dom, v in dd.items()), key=lambda x: -x[1])
     by_rule = defaultdict(lambda: [0, 0, 0])
     for r in dropped:
@@ -98,10 +99,12 @@ def main():
         b[2] += int(r["msgs"])
 
     # 5. Threshold options.
+    cats = [k for k, *_ in summary]
     thr = []
     for t in (1, 2, 3, 4, 5):
-        thr.append((f">= {t}", sum(1 for c in contacts if int(c["replied_12m"]) >= t),
-                    sum(1 for c in contacts if int(c["replied_threads"]) >= t)))
+        hit = [c for c in contacts if int(c["replied_12m"]) >= t]
+        thr.append((f">= {t}", len(hit), sum(1 for c in contacts if int(c["replied_threads"]) >= t),
+                    *(sum(1 for c in hit if c["category"] == k) for k in cats)))
 
     parts = [f"<!doctype html><meta charset=utf-8><title>Step 3 checkpoint</title><style>{CSS}</style>",
              f"<h1>Backfill pass 1, contact table ({window})</h1>",
@@ -120,16 +123,19 @@ def main():
                    numeric={"domains", "contacts", "messages"}),
              f"<p>Mail addressed to invoice@ excluded as invoice traffic: "
              f"{sum(int(r['msgs']) for r in invoice)} messages from {len(invoice)} senders.</p>",
-             table(["domain", "messages", "contacts", "rule", "example local parts"], drop_rows[:200],
-                   numeric={"messages", "contacts"}),
+             "<p>“kept at domain” = contacts at the same domain that stay in the table: there the robots "
+             "are dropped, not the organization.</p>",
+             table(["domain", "messages", "contacts", "kept at domain", "rule", "example local parts"],
+                   drop_rows[:200], numeric={"messages", "contacts", "kept at domain"}),
              "<h2>4. Proposed new Organizations / email_domains</h2><p>Unmatched business domains with at least "
              "one reply from Kriss or two messages out. Freemail and Livid domains excluded.</p>",
              table(["domain", "contacts", "in", "out", "replied threads", "hint", "names"],
                    [(p["domain"], p["contacts"], p["in"], p["out"], p["replied_threads"], p["hint"], p["names"])
                     for p in proposed], numeric={"contacts", "in", "out", "replied threads"}),
              "<h2>5. Threshold for step 4</h2>",
-             table(["replied threads", "contacts (last 12 months)", f"contacts ({window})"], thr, cls="",
-                   numeric={"contacts (last 12 months)", f"contacts ({window})"}),
+             "<p>Category columns break down the last-12-months count.</p>",
+             table(["replied threads", "contacts (last 12 months)", f"contacts ({window})", *cats], thr, cls="",
+                   numeric={"contacts (last 12 months)", f"contacts ({window})", *cats}),
              f"<script>{JS}</script>"]
     path = os.path.join(d, "report.html")
     with open(path, "w") as f:
