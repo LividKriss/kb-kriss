@@ -63,7 +63,7 @@ After Kriss's corrections: update this file (status + decisions), and add a `kb/
 **Review was done on a 12-month preview** (28.7k messages), in rounds of click-through questions; the 3-year rebuild applies the same corrections. Result: 843 contacts kept, 275 matched to a livid-kb org, "?" down to 99 contacts that Kriss never replied to.
 
 **Category enum (Person `category`)**
-- Keep the brief's list, plus **`3pl-client`** (brands Livid does warehouse fulfilment for). Adding a category needs a **second confirmation** before `schema/types.yaml` changes. TODO(kriss): confirm.
+- Keep the brief's list, plus **`3pl-client`** (brands Livid does warehouse fulfilment for). Second confirmation given; added to `schema/types.yaml` and logged (2026-10-22).
 - `vendor-sales` stays (for triage), though cold outreach is mostly dropped as noise.
 - **manufacturer** = garment factories and production agents. **supplier** = fabric mills, trims, logistics, systems/SaaS, retail goods for Livid Retail (external brands and their agents), services. The sub-type (production / fabrics-trims / logistics / system / retail goods) belongs on the **Organization in livid-kb**, not on the Person.
 - Several livid-kb `suppliers/` docs are garment factories (Stork Texteis, Lisama, Texgoios = now **Mill-Tex**, Afonso, Dia Exemplar, Officocta); their people get `manufacturer`. Propose moving or reclassifying the orgs in the step 4 batch.
