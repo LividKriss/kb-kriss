@@ -1,0 +1,67 @@
+# Concept types allowed in Kriss's personal KB (kb-kriss).
+# Same structure as livid-kb/schema/types.yaml; read by tools/validate.py.
+# Adding or changing a type, category or tier requires Kriss's explicit approval (see AGENTS.md).
+
+okf_version: "0.2"
+
+# One tier: readable by the owner only.
+tiers: [personal]
+
+# `owner` must be one of these (a person, because this KB is personal).
+owners: [kriss]
+
+statuses: [draft, stable, deprecated]
+
+# Process only.
+autonomy: [read-only, propose, execute-with-approval, execute]
+
+common_required: [type, title, description, owner, tier, status, generated]
+stable_required: [verified, stale_after]
+default_review_every: 365d
+
+# Cross-repo links: kb://<name>/<path> resolves against these bundle roots
+# (relative to this repo's root). A root that isn't present locally is skipped.
+kb_roots:
+  kriss: kb
+  livid: ../livid-kb/kb
+
+# Contact categories (Person.category). Also valid values for Voice Profile /
+# Rule `applies_to`, together with `all`. Confirm/adjust with Kriss at step 3.
+categories: [colleague, board-owner, manufacturer, supplier, wholesale-customer, consumer,
+             advisor, authority, landlord, investor, partner-press, vendor-sales, private]
+
+types:
+  Person:
+    template: templates/person.md
+    folders: [people]
+    required: [emails, category]      # organization: kb://livid/organizations/... (optional for private)
+    review_every: 365d
+  Voice Profile:
+    template: templates/voice-profile.md
+    folders: [voice]
+    required: [applies_to]            # a category, a list of categories, or `all`
+    review_every: 180d
+  Rule:
+    template: templates/rule.md
+    folders: [email]
+    required: [applies_to]            # a category, a list, `all`, or a kb:// / bundle path
+    review_every: 90d
+  Process:
+    template: templates/process.md
+    folders: [email]
+    required: [autonomy]
+    review_every: 90d
+  Area:
+    template: templates/area.md
+    folders: [areas]
+    required: []
+    review_every: 90d
+  Note:
+    template: templates/note.md
+    folders: [notes]
+    required: []
+    review_every: 365d
+  Decision:
+    template: templates/decision.md
+    folders: [notes]
+    required: []

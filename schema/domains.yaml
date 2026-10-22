@@ -1,0 +1,23 @@
+# kb-kriss has foundations only (no domains). Edit only with Kriss's approval.
+foundations:
+  people:
+    owner: kriss
+    tier: personal
+    description: One note per contact — who they are, relationship, how Kriss communicates with them, history, open threads.
+  voice:
+    owner: kriss
+    tier: personal
+    description: How Kriss writes — a general profile plus one per contact category.
+  email:
+    owner: kriss
+    tier: personal
+    description: Email assistant rules and processes — triage, labels, actions, send policy, signature, daily run.
+  areas:
+    owner: kriss
+    tier: personal
+    description: Kriss's ongoing responsibilities and projects.
+  notes:
+    owner: kriss
+    tier: personal
+    description: Things to remember (Note) and decisions with their reasoning (Decision).
+domains: {}
