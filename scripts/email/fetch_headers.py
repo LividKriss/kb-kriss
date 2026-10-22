@@ -18,7 +18,6 @@ import json
 import os
 import random
 import sys
-import threading
 import time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -31,14 +30,14 @@ IDS_PATH = os.path.join(OUT_DIR, "ids.txt")
 MSG_PATH = os.path.join(OUT_DIR, "messages.jsonl")
 
 # Headers only. The list/auto headers are what make the noise pass reliable.
-RETRIES = [0]  # items re-queued after an error, shown in the progress line
 HEADERS = ["From", "To", "Cc", "Reply-To", "Date", "Subject", "List-Unsubscribe", "List-Id",
            "Precedence", "Auto-Submitted", "X-Autoreply", "X-Autorespond"]
-# Quota: 250 units/s per user, messages.get = 5 units (= 50/s). In practice Gmail's per-user concurrency
-# limit bites first: items in a batch run in parallel, and 50 per batch (or 3 workers x 20) mostly came
-# back 429. Batches are latency-bound (~0.8 s), so a couple of small parallel batches is fastest.
+# The binding limit is the per-user "units per minute" quota (403 "Quota exceeded … per minute per user"),
+# not concurrency. So: one worker, small batches, a paced rate that drops 20% and waits out the minute on
+# a quota error, and creeps up 10% after every 1000 clean fetches.
 BATCH_SIZE = 10
-WORKERS = 2
+START_RATE = 10.0   # messages per second
+MAX_RATE = 40.0
 
 
 def list_ids(svc, after):
@@ -59,7 +58,8 @@ def call(req, tries=8):
         try:
             return req.execute()
         except HttpError as e:
-            if e.resp.status in (429, 500, 503) or (e.resp.status == 403 and b"ateLimit" in e.content):
+            if e.resp.status in (429, 500, 503) or (e.resp.status == 403 and (
+                    b"ateLimit" in e.content or b"Quota exceeded" in e.content)):
                 time.sleep(min(64, 2 ** i) + random.random())
                 continue
             raise
@@ -75,11 +75,12 @@ def slim(msg):
             "labelIds": msg.get("labelIds", []), "headers": hdrs}
 
 
-def fetch(svc, ids, write):
-    """Fetch ids in batches, pacing to the quota; calls write(messages) after each batch."""
+def fetch(svc, ids, write, log):
+    """Fetch ids in paced batches; calls write(messages) after each batch."""
     pending = list(ids)
-    delay = 0.0
+    rate, clean, retries = START_RATE, 0, 0
     while pending:
+        started = time.time()
         chunk, pending = pending[:BATCH_SIZE], pending[BATCH_SIZE:]
         got, retry = [], []
 
@@ -99,11 +100,16 @@ def fetch(svc, ids, write):
         write(got)
         if retry:
             pending = retry + pending
-            delay = min(30.0, delay * 2 or 1.0)
-        else:
-            delay = delay / 2 if delay > 0.1 else 0.0
-        RETRIES[0] += len(retry)
-        time.sleep(delay)
+            retries += len(retry)
+            rate = max(2.0, rate * 0.8)
+            clean = 0
+            log(f"quota hit, {retries} retries so far; waiting 60 s, rate now {rate:.1f}/s")
+            time.sleep(60)
+            continue
+        clean += len(got)
+        if clean >= 1000:
+            rate, clean = min(MAX_RATE, rate * 1.1), 0
+        time.sleep(max(0.0, len(chunk) / rate - (time.time() - started)))
 
 
 def main():
@@ -111,10 +117,11 @@ def main():
     ap.add_argument("--years", type=int, default=3)
     args = ap.parse_args()
     os.makedirs(OUT_DIR, exist_ok=True)
+    svc = gmail_service()
 
     if not os.path.exists(IDS_PATH):
         after = (dt.date.today() - dt.timedelta(days=365 * args.years)).strftime("%Y/%m/%d")
-        ids = list_ids(gmail_service(), after)
+        ids = list_ids(svc, after)
         with open(IDS_PATH, "w") as f:
             f.write("\n".join(ids) + "\n")
     with open(IDS_PATH) as f:
@@ -127,28 +134,24 @@ def main():
     todo = [i for i in ids if i not in done]
     print(f"{len(ids)} in window, {len(done)} already fetched, {len(todo)} to go")
 
-    lock = threading.Lock()
     count = {"n": 0, "next": 1000}
     t0 = time.time()
+
+    def log(text):
+        print(f"{time.strftime('%H:%M:%S')} {count['n']}/{len(todo)} "
+              f"({count['n'] / max(1, time.time() - t0):.1f}/s avg) {text}", flush=True)
+
     with open(MSG_PATH, "a") as out:
         def write(msgs):
-            with lock:
-                for m in msgs:
-                    out.write(json.dumps(m, ensure_ascii=False) + "\n")
-                out.flush()
-                count["n"] += len(msgs)
-                if count["n"] >= count["next"]:
-                    count["next"] += 1000
-                    rate = count["n"] / max(1, time.time() - t0)
-                    print(f"{count['n']}/{len(todo)} ({rate:.0f}/s, {RETRIES[0]} retries)", flush=True)
+            for m in msgs:
+                out.write(json.dumps(m, ensure_ascii=False) + "\n")
+            out.flush()
+            count["n"] += len(msgs)
+            if count["n"] >= count["next"]:
+                count["next"] += 1000
+                log("")
 
-        # One service per thread: the HTTP client is not thread-safe.
-        workers = [threading.Thread(target=fetch, args=(gmail_service(), todo[w::WORKERS], write))
-                   for w in range(WORKERS)]
-        for t in workers:
-            t.start()
-        for t in workers:
-            t.join()
+        fetch(svc, todo, write, log)
     print(f"Done: {count['n']} fetched this run")
 
 
