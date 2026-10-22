@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Secrets and raw mail never go in this repo (auto-sync pushes everything else).
+# OAuth client JSON lives in ~/Library/Application Support/kb-kriss/; the token lives in the Keychain.
+client_secret*.json
+credentials*.json
+token*.json
+*.pickle
+.env
+.venv/
+cache/
+*.eml
+*.mbox
