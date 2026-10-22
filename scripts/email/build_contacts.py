@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Backfill pass 1: build the contact table from the headers fetched by fetch_headers.py.
 
-    build_contacts.py [--top 150]
+    build_contacts.py [--top 150] [--months N]
+
+--months N limits the table to the last N months (output in cache/step3-<N>m/), e.g. for a preview
+while the 3-year fetch is still running.
 
 Reads  cache/headers/messages.jsonl and the Organization docs in ../livid-kb/kb/organizations/.
 Writes cache/step3/ (outside the repo, never committed):
@@ -36,17 +39,22 @@ from kblib import split_frontmatter  # noqa: E402
 
 KNOWN_OWN = {"kristoffer@livid.no", "kristoffer@lividjeans.com"}
 INTERNAL_DOMAINS = {"livid.no", "lividjeans.com"}
-INVOICE_INBOX = "invoice@lividjeans.com"
+INVOICE_INBOXES = {"invoice@lividjeans.com", "invoice@livid.no"}
 
 # Shared platforms send on behalf of many companies: never a contact, never an org match (progress.md).
 PLATFORM_DOMAINS = ["xero.com", "via.tripletex.no", "fiken.no", "xledger.net", "e-conomic.com",
                     "delivery.payex.com", "traede.com", "stripe.com", "mail.poweroffice.net",
                     "equity.credit", "equity.no", "fortnox.se", "exact.com", "superhuman.com"]
+# Further platforms found in step 3 (proposed for the list above): they send on behalf of other companies,
+# so a sender there is kept as a contact but never matched to an organization.
+NO_ORG_MATCH = ["vismaonline.com", "microsoftonline.com", "insight.ly", "faktura.poweroffice.net",
+                "gorgias.com", "zendesk.com", "freshdesk.com", "hubspot.com", "docusign.net", "visma.com"]
 NOISE_DOMAINS = ["news.modeinfo.com", "paddlersuk.com", "email.kinto-europe.com", "labels-things.com",
                  "later.com", "mail.adobe.com", "hs-send.com", "tvstore.fr", "123lyd.no", "123lyd.com"]
 FREEMAIL = {"gmail.com", "googlemail.com", "hotmail.com", "hotmail.no", "outlook.com", "live.com",
             "live.no", "icloud.com", "me.com", "mac.com", "yahoo.com", "yahoo.no", "online.no",
-            "msn.com", "aol.com", "protonmail.com", "proton.me", "gmx.com", "gmx.de", "hotmail.co.uk"}
+            "msn.com", "aol.com", "protonmail.com", "proton.me", "gmx.com", "gmx.de", "hotmail.co.uk",
+            "qq.com", "163.com", "126.com", "naver.com", "libero.it", "sapo.pt", "yahoo.co.jp"}
 AUTOMATED_LOCAL = re.compile(
     r"(^|[._-])(no-?reply|do-?not-?reply|donotreply|noreply|notifications?|notify|alerts?|mailer-daemon|"
     r"postmaster|bounces?|newsletters?|news|marketing|nyhetsbrev|automated|system|calendar-notification|"
@@ -74,10 +82,11 @@ def in_list(domain, lst):
     return any(domain == d or domain.endswith("." + d) or base_domain(domain) == d for d in lst)
 
 
+LEGAL = r"\b(as|asa|ab|aps|a/s|ltd|limited|gmbh|srl|s\.r\.l|spa|s\.p\.a|sa|inc|llc|bv|oy|kk|co)\b"
+
+
 def norm(s):
-    s = s.lower()
-    s = re.sub(r"\b(as|asa|ab|aps|a/s|ltd|limited|gmbh|srl|s\.r\.l|spa|s\.p\.a|sa|inc|llc|bv|oy|kk|co)\b", "", s)
-    return re.sub(r"[^a-z0-9]", "", s)
+    return re.sub(r"[^a-z0-9]", "", re.sub(LEGAL, "", s.lower()))
 
 
 def load_orgs():
@@ -91,27 +100,39 @@ def load_orgs():
         orgs.append({"addr": "kb://livid/" + str(p.relative_to(LIVID_KB / "kb")),
                      "title": fm.get("title", ""), "kind": fm.get("kind", ""),
                      "domains": [d.lower() for d in fm.get("email_domains") or []],
-                     "slug": norm(p.stem), "ntitle": norm(fm.get("title", ""))})
+                     "slug": norm(p.stem), "ntitle": norm(fm.get("title", "")),
+                     "first": p.stem.split("-")[0]})
     return orgs
 
 
+def words(s):
+    return " " + " ".join(re.findall(r"[a-z0-9]+", norm_spaced(s))) + " "
+
+
+def norm_spaced(s):
+    return re.sub(LEGAL, " ", s.lower())
+
+
 def match_org(domain, names, orgs):
+    if in_list(domain, NO_ORG_MATCH):
+        return None, ""
     for o in orgs:
         if in_list(domain, o["domains"]):
             return o, "domain"
-    if domain in FREEMAIL:
-        return None, ""
     stem = norm(base_domain(domain).split(".")[0])
-    if len(stem) >= 4:
+    if domain not in FREEMAIL and len(stem) >= 3:
         for o in orgs:
-            if (stem in (o["slug"], o["ntitle"]) or (len(o["slug"]) >= 5 and o["slug"] in stem)
-                    or (len(stem) >= 5 and o["slug"].startswith(stem))):
+            if ((len(stem) >= 4 and stem in (o["slug"], o["ntitle"]))
+                    or (len(stem) >= 4 and len(o["slug"]) >= 5 and o["slug"] in stem)
+                    or (len(stem) >= 6 and o["slug"].startswith(stem))
+                    or stem == o["first"]):  # dht.no -> dht-corporate-finance
                 return o, "name"
-    # Display name, e.g. "Helena - STORKTEXTEIS": an org title of 6+ letters inside it.
+    # Display name, e.g. "Helena - STORKTEXTEIS": the org title (6+ letters) as whole words inside it.
     for n in names:
-        nn = norm(n)
+        wn = words(n)
         for o in orgs:
-            if len(o["ntitle"]) >= 6 and o["ntitle"] in nn:
+            wt = words(o["title"])
+            if len(wt.replace(" ", "")) >= 6 and wt in wn:
                 return o, "display name"
     return None, ""
 
@@ -130,15 +151,22 @@ def is_bulk(h):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--top", type=int, default=150)
+    ap.add_argument("--months", type=int, default=0, help="only the last N months (default: everything)")
     args = ap.parse_args()
+    global OUT_DIR
+    if args.months:
+        OUT_DIR += f"-{args.months}m"
     os.makedirs(OUT_DIR, exist_ok=True)
 
     msgs = [json.loads(line) for line in open(MSG_PATH) if line.strip()]
+    if args.months:
+        since = (dt.datetime.now() - dt.timedelta(days=round(args.months * 30.44))).timestamp() * 1000
+        msgs = [m for m in msgs if m["internalDate"] >= since]
     print(f"{len(msgs)} messages")
 
-    # Kriss's own addresses: the known two plus any From address on 5+ SENT messages.
+    # Kriss's own addresses: the known two plus any Livid From address on 5+ SENT messages (send-as aliases).
     sent_from = Counter(a for m in msgs if "SENT" in m["labelIds"] for a in addrs(m["headers"].get("From")))
-    own = KNOWN_OWN | {a for a, n in sent_from.items() if n >= 5}
+    own = KNOWN_OWN | {a for a, n in sent_from.items() if n >= 5 and in_list(a.split("@")[1], INTERNAL_DOMAINS)}
 
     names = defaultdict(Counter)
     for m in msgs:
@@ -159,7 +187,7 @@ def main():
         frm = (addrs(h.get("From")) or [""])[0]
         rcpt = addrs(h.get("To")) + addrs(h.get("Cc"))
         out = "SENT" in m["labelIds"] or frm in own
-        if not out and INVOICE_INBOX in rcpt:
+        if not out and INVOICE_INBOXES & set(rcpt):
             invoice_traffic[frm] += 1
             continue
         targets = [a for a in rcpt if a not in own] if out else ([frm] if frm and frm not in own else [])
@@ -194,19 +222,22 @@ def main():
                 seen.add(frm)
 
     orgs = load_orgs()
+    colleague_names = {norm(names[a].most_common(1)[0][0]) for a in c
+                       if in_list(a.split("@")[1], INTERNAL_DOMAINS) and names[a]}
     kept, dropped = [], defaultdict(lambda: {"contacts": 0, "msgs": 0, "examples": set()})
     for a, r in c.items():
         local, dom = a.split("@", 1)
         engaged = r["out"] > 0 or r["replied"]
+        wrote_to = r["out"] > 0  # a forward of their mail sets "replied" but is not engagement with a robot
         internal = in_list(dom, INTERNAL_DOMAINS)
         rule = None
         if internal:
             pass  # colleagues and shared Livid mailboxes are never noise
-        elif AUTOMATED_LOCAL.search(local) and not engaged:
+        elif AUTOMATED_LOCAL.search(local) and not wrote_to:
             rule = "automated sender (local part)"
         elif in_list(dom, NOISE_DOMAINS) and not engaged:
             rule = "known noise domain"
-        elif not engaged and r["bulk_in"] >= max(1, r["in"] / 2):
+        elif not wrote_to and r["bulk_in"] >= max(1, r["in"] / 2):
             rule = "bulk/list/auto headers, never answered"
         elif not engaged and r["in"] <= 2:
             rule = "one-off, never answered"
@@ -221,8 +252,9 @@ def main():
         org, how = (None, "") if internal else match_org(dom, names[a], orgs)
         if internal:
             cat = "colleague"
-        elif dom in FREEMAIL and "livid" in local:
-            cat = "colleague?"  # store and workshop mailboxes on Gmail
+        elif dom in FREEMAIL and ("livid" in local or "past" in local
+                                  or norm((names[a].most_common(1) or [("", 0)])[0][0]) in colleague_names):
+            cat = "colleague?"  # store/workshop mailboxes, or a colleague's private address
         elif org:
             cat = org["kind"] or "?"
         elif in_list(dom, AUTHORITY_HINTS) or dom.endswith(".kommune.no"):
@@ -273,7 +305,8 @@ def main():
     # Proposed organizations: unmatched, non-freemail, non-internal domains with real traffic.
     pd = defaultdict(lambda: {"contacts": 0, "in": 0, "out": 0, "replied": 0, "names": Counter(), "cats": Counter()})
     for k in kept:
-        if k["org"] or k["category"] in ("colleague", "colleague?") or k["domain"] in FREEMAIL:
+        if (k["org"] or k["category"] in ("colleague", "colleague?") or k["domain"] in FREEMAIL
+                or in_list(k["domain"], NO_ORG_MATCH)):
             continue
         b = base_domain(k["domain"])
         p = pd[b]
