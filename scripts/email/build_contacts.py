@@ -31,8 +31,9 @@ from pathlib import Path
 
 APP_DIR = os.path.expanduser("~/Library/Application Support/kb-kriss")
 MSG_PATH = os.path.join(APP_DIR, "cache", "headers", "messages.jsonl")
-# Kriss's review answers (domain/address -> category, org); applied when present.
-CORRECTIONS = os.path.join(APP_DIR, "cache", "step3-review", "corrections.json")
+# Kriss's review answers (domain/address -> category, org): distilled decisions, kept outside the cache so they
+# survive its deletion. Applied when present.
+CORRECTIONS = os.path.join(APP_DIR, "review", "corrections.json")
 OUT_DIR = os.path.join(APP_DIR, "cache", "step3")
 LIVID_KB = Path(__file__).resolve().parents[2].parent / "livid-kb"
 
@@ -46,11 +47,13 @@ INVOICE_INBOXES = {"invoice@lividjeans.com", "invoice@livid.no"}
 # Shared platforms send on behalf of many companies: never a contact, never an org match (progress.md).
 PLATFORM_DOMAINS = ["xero.com", "via.tripletex.no", "fiken.no", "xledger.net", "e-conomic.com",
                     "delivery.payex.com", "traede.com", "stripe.com", "mail.poweroffice.net",
-                    "equity.credit", "equity.no", "fortnox.se", "exact.com", "superhuman.com"]
-# Further platforms found in step 3 (proposed for the list above): they send on behalf of other companies,
-# so a sender there is kept as a contact but never matched to an organization.
-NO_ORG_MATCH = ["vismaonline.com", "microsoftonline.com", "insight.ly", "faktura.poweroffice.net",
-                "gorgias.com", "gorgias.io", "intercom-mail.eu", "intercom-mail.com", "zendesk.com", "freshdesk.com", "hubspot.com", "docusign.net", "visma.com"]
+                    "equity.credit", "equity.no", "fortnox.se", "exact.com", "superhuman.com",
+                    # added at the step 3 review (Kriss, 2026-10-22)
+                    "vismaonline.com", "faktura.poweroffice.net", "gorgias.com", "gorgias.io", "intercom-mail.eu",
+                    "intercom-mail.com", "zendesk.com", "insight.ly", "joor.com", "judge.me", "post.dearsystems.com",
+                    "microsoftonline.com", "docusign.net"]
+# Likely platforms not yet confirmed: a sender there is kept as a contact but never matched to an organization.
+NO_ORG_MATCH = ["freshdesk.com", "hubspot.com", "visma.com"]
 # paddlersuk.com and tvstore.fr were on this list in progress.md; Kriss confirmed both are suppliers.
 NOISE_DOMAINS = ["news.modeinfo.com", "email.kinto-europe.com", "labels-things.com",
                  "later.com", "mail.adobe.com", "hs-send.com", "123lyd.no", "123lyd.com"]
@@ -76,6 +79,11 @@ ADVISOR_HINTS = ["dnb.no", "nordea.no", "nordea.com", "handelsbanken.no", "spare
                  "seb.no", "kpmg.no", "pwc.com", "ey.com", "deloitte.no", "bdo.no", "wiersholm.no",
                  "thommessen.no", "schjodt.com", "wikborg.no", "kvale.no", "grette.no", "simonsen.no",
                  "advokat", "revisjon", "regnskap"]
+
+
+STEP4_MIN = 2
+STEP4_ALWAYS = {"board-owner", "landlord", "advisor", "3pl-client"}
+NO_NOTE_CATEGORIES = {"private", "private?", "skip", "?", "colleague?", "authority?", "advisor?", "consumer"}
 
 
 def base_domain(domain):
@@ -181,6 +189,7 @@ def main():
     # Kriss's own addresses: the known two plus any Livid From address on 5+ SENT messages (send-as aliases).
     sent_from = Counter(a for m in msgs if "SENT" in m["labelIds"] for a in addrs(m["headers"].get("From")))
     own = KNOWN_OWN | {a for a, n in sent_from.items() if n >= 5 and in_list(a.split("@")[1], INTERNAL_DOMAINS)}
+    own |= set(corr.get("own", []))  # e.g. Kriss's private Gmail
 
     names = defaultdict(Counter)
     for m in msgs:
@@ -212,7 +221,7 @@ def main():
         when = dt.datetime.fromtimestamp(m["internalDate"] / 1000)
         for a in targets:
             dom = a.split("@")[1]
-            if in_list(dom, PLATFORM_DOMAINS) or a.split("@")[0] == "mailer-daemon":
+            if (in_list(dom, PLATFORM_DOMAINS) or a.split("@")[0] == "mailer-daemon") and a not in fix_addr:
                 platform[a] += 1
                 continue
             r = c[a]
@@ -278,12 +287,12 @@ def main():
         note = ""
         if internal:
             cat = "colleague"
+        elif fix:
+            cat, note = fix["category"], fix.get("note", "")
         elif dom in FREEMAIL and ("livid" in local or "past" in local):
             cat, note = "colleague", "shared store/workshop mailbox, no Person note"
         elif dom in FREEMAIL and norm((names[a].most_common(1) or [("", 0)])[0][0]) in colleague_names:
             cat, note = "colleague?", "private address of a colleague?"
-        elif fix:
-            cat, note = fix["category"], fix.get("note", "")
         elif org and org["addr"] in corr.get("org_category", {}):
             cat = corr["org_category"][org["addr"]]
         elif org:
@@ -310,6 +319,14 @@ def main():
             "note": "; ".join(x for x in (note, "" if engaged else "never answered") if x),
         })
     kept.sort(key=lambda k: (-k["replied_threads"], -k["out"], -k["in"]))
+
+    # Step 4 candidates (Kriss, 2026-10-22): >= STEP4_MIN replied threads in the last 12 months, plus every
+    # contact Kriss has written to in the always-included categories. No notes for private/skip/unknown
+    # contacts or shared mailboxes.
+    for k in kept:
+        noted = k["category"] not in NO_NOTE_CATEGORIES and "no Person note" not in k["note"]
+        k["step4"] = "yes" if noted and (k["replied_12m"] >= STEP4_MIN
+                                         or (k["category"] in STEP4_ALWAYS and k["out"] > 0)) else ""
 
     fields = list(kept[0].keys())
     with open(os.path.join(OUT_DIR, "contacts.csv"), "w", newline="") as f:
@@ -388,6 +405,9 @@ def main():
         for d in drows:
             rules[d["rule"]] += d["contacts"]
         f.write("Dropped contacts by rule: " + ", ".join(f"{r}: {n}" for r, n in rules.most_common()) + "\n\n")
+        step4 = Counter(k["category"] for k in kept if k["step4"])
+        f.write(f"Step 4 candidates: {sum(step4.values())} ("
+                + ", ".join(f"{c} {n}" for c, n in step4.most_common()) + ")\n\n")
         f.write("Threshold options (replied threads in the last 12 months / ever):\n")
         for t in (1, 2, 3, 5):
             f.write(f"- >= {t}: {sum(1 for k in kept if k['replied_12m'] >= t)} contacts (12m), "
