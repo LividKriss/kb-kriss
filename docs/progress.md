@@ -18,7 +18,7 @@ Companion to [brief.md](brief.md). Read the brief first; this file records what 
 - **Person notes** written by an agent start as `status: draft` until Kriss has reviewed them (bulk confirmation is fine).
 - **kb-router** is one skill, uploaded to Kriss's Claude account (`anthropic-skills:kb-router`), used by both Cowork and Claude Code. No symlink. After any edit to `livid-kb/.claude/skills/kb-router/SKILL.md` it must be re-uploaded — tell Kriss.
 - **Finding docs:** `python3 ~/livid-kb/tools/kb_find.py [--kb company|personal|both] [--type T] <terms>` — frontmatter/path/email search, never bodies.
-- **livid-kb schema:** Organization has optional `email_domains` (sender domains, never shared platforms) and `invoice_channels` (`ehf | email | portal`). Filled for ~56 suppliers (top 50 by 2026 voucher count + 14 new docs).
+- **livid-kb schema:** Organization has optional `email_domains` (sender domains, never shared platforms) and `invoice_channels` (`ehf | email | portal`). As of 2026-10-22: `invoice_channels` on 54 orgs, `email_domains` on 31 (EHF-only suppliers often have none). `kb_find.py <domain>` searches both since 2026-10-22.
 - **Invoice routing** (livid-kb `finance/bookkeeping/processes/invoice-routing.md`, draft): invoices/credit notes/receipts → entity's PowerOffice voucher address after batch approval; customs documents → Google Drive `My Drive/test/REGNSKAP/Tolldeklarasjoner/LJAS|LRAS`, never PowerOffice. Used in steps 5–6, not in step 3.
 
 ## What step 3 needs to know
@@ -84,6 +84,6 @@ After Kriss's corrections: update this file (status + decisions), and add a `kb/
 - New `email_domains` on existing orgs: milltex.pt → Texgoios (renamed Mill-Tex), videbula.com.pt → Lisama, axm.cz → Axpel Made, amorgado.pt → Albano Morgado, abelfragrance.com → Abel Odor, idegroup.no + printcollect.no → Eplehuset; dht.no → DHT Corporate Finance.
 - **Eplehuset** is mainly a **customer** (Livid produces and stores their uniforms; orders arrive through a webshop run by Konsis, as PrintCollect emails) and also a supplier (leased office hardware). livid-kb has it only as a supplier.
 - New Organizations (~100 domains): wholesale customers, the 3PL clients, manufacturers, fabric mills/trims, retail-goods suppliers and agents, logistics, systems, landlords (incl. DNB Næringseiendom for Galleriet/Livid Bergen, Prinsens Gate AS, Stavanger, Trondheim), advisors (bank, IP lawyers, investment bank), board/owners.
-- **Gap:** only 31 of 209 livid-kb Organizations have `email_domains` (not ~56 as noted above), so most supplier matches are by name. `kb_find.py <domain>` does not search `email_domains`.
+- **Gap:** only 31 of 209 livid-kb Organizations have `email_domains` (not ~56 as noted above), so most supplier matches are by name. (Fixed: `kb_find.py` now searches `email_domains`.)
 
 **Workflow idea (later):** Eplehuset uniform orders arrive as PrintCollect emails → create the order in Loom. Candidate for a livid-kb process / step 5 triage rule.
