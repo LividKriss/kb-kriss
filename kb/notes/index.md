@@ -4,4 +4,6 @@ Things to remember (Note) and decisions with their reasoning (Decision).
 
 <!-- generated:start -->
 
-_Nothing here yet._
+## Decision
+
+- [Email assistant — scope](email-assistant-scope.md) — Which mailbox, how much history and which languages the email assistant and its backfill cover.
