@@ -27,7 +27,8 @@ would do and change nothing.
 The duplicate checks still run, so a dry run shows what a real run would skip.
 
 Guards that live here, not only in the agent's instructions:
-  - forward sends only to ALLOWED_TO (the two PowerOffice voucher addresses and Ole Eivind);
+  - forward sends only to ALLOWED_TO (the two PowerOffice voucher addresses and Ole Eivind),
+    and sends nothing while a [STOP-SENDING] draft exists (exit 5; the send policy's kill switch);
   - forward refuses (exit 3) when the message already went to that address: the AI/PO-forwarded
     label for a voucher address, a sent message to it in the same thread, or a sent message to it
     carrying an attachment with the same file name. --force skips the last two, never the allowlist.
@@ -71,6 +72,7 @@ ALLOWED_TO = VOUCHER_TO | {"oleeivind@livid.no"}  # docs/mac-agent.md "Never"
 FORWARDED_LABEL = "AI/PO-forwarded"
 DOCS_DIR = Path(APP_DIR) / "docs"
 DOC_PREFIX = "[Doc]"
+KILL_SWITCH = "[STOP-SENDING]"  # kb/email/send-policy.md: while this draft exists, nothing is forwarded
 MAX_FETCH = 200 * 1024 * 1024
 
 
@@ -137,9 +139,11 @@ def cmd_list(svc, args):
 
 
 def inside_git_repo(folder: Path) -> bool:
-    r = subprocess.run(["git", "-C", str(folder), "rev-parse", "--is-inside-work-tree"],
+    """True inside a project repo. A repo at $HOME itself (Kriss's Mac has ~/.git) doesn't count."""
+    r = subprocess.run(["git", "-C", str(folder), "rev-parse", "--show-toplevel"],
                        capture_output=True, text=True)
-    return r.stdout.strip() == "true"
+    top = r.stdout.strip()
+    return bool(top) and Path(top).resolve() != Path.home().resolve()
 
 
 def target_dir(path: str) -> Path:
@@ -302,10 +306,22 @@ def note_html(path: str) -> str:
     return "".join(f"<p>{html.escape(p).replace(chr(10), '<br>')}</p>" for p in paras)
 
 
+def kill_switch_on(svc) -> bool:
+    resp = svc.users().drafts().list(userId="me", q='subject:"STOP-SENDING"', maxResults=20).execute()
+    for d in resp.get("drafts", []):
+        m = svc.users().drafts().get(userId="me", id=d["id"], format="metadata").execute()["message"]
+        if headers(m).get("subject", "").strip().startswith(KILL_SWITCH):
+            return True
+    return False
+
+
 def cmd_forward(svc, args):
     to = args.to.strip().lower()
     if to not in ALLOWED_TO:
         sys.exit(f"Refusing: {to} is not an allowed recipient ({', '.join(sorted(ALLOWED_TO))})")
+    if kill_switch_on(svc):
+        print(f"STOP {args.msg_id}: a {KILL_SWITCH} draft exists (kb/email/send-policy.md), nothing forwarded")
+        sys.exit(5)
     msg = svc.users().messages().get(userId="me", id=args.msg_id).execute()
     h = headers(msg)
     labels = label_map(svc)
