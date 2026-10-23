@@ -11,7 +11,8 @@ Process: kb-kriss/kb/email/daily-run.md (step 4) and livid-kb invoice-routing (s
 For each message labelled AI/Customs: download the PDF attachment(s), read the entity
 (Livid Jeans AS -> LJAS, Livid Retail AS -> LRAS) from the declaration, save it as
 YYYY-MM-DD_<Carrier>_<Type>_<Ref>.pdf in that folder's root, then relabel the message
-AI/Customs -> AI/Filed. If the entity is unclear, the PDF goes to _Usikker/ and the
+AI/Customs -> AI/Filed and archive the thread (gmail_tool.archive_thread keeps it in the inbox if it
+still needs Kriss). If the entity is unclear, the PDF goes to _Usikker/ and the
 message gets AI/Action, so the morning brief asks Kriss. Never overwrites a file.
 Needs the gmail.modify scope (re-run gmail_auth.py authorize once after adding it).
 """
@@ -106,6 +107,7 @@ def label_ids(svc, names):
 def run(dry: bool):
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     from gmail_auth import gmail_service
+    from gmail_tool import archive_thread
     svc = gmail_service()
     customs, filed, action = (label_ids(svc, [n]) for n in ("AI/Customs", "AI/Filed", "AI/Action"))
     msgs = svc.users().messages().list(userId="me", q=QUERY, maxResults=200).execute().get("messages", [])
@@ -142,6 +144,8 @@ def run(dry: bool):
         if not dry:
             body = {"addLabelIds": filed + (action if unclear else []), "removeLabelIds": [] if unclear else customs}
             svc.users().messages().modify(userId="me", id=ref["id"], body=body).execute()
+        if not unclear:
+            print(f"  {archive_thread(svc, msg['threadId'], dry)}")
 
 
 if __name__ == "__main__":

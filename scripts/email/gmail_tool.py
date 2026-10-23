@@ -13,6 +13,8 @@
                                                   forward with the original PDFs (or only the named ones);
                                                   note above the quote
     gmail_tool.py label <msg_id> +A -B ...        add/remove labels by name (missing ones are created)
+    gmail_tool.py archive <msg_id>                archive the message's whole thread, unless it still needs
+                                                  Kriss (a KEEP_IN_INBOX label on any message in it)
     gmail_tool.py draft <thread_id> <subject> <body-file>
                                                   [Doc] summary draft, no recipient; the thread link is
                                                   appended; replaces an earlier [Doc] draft for the thread
@@ -22,7 +24,7 @@
                                                   --days, and [Doc] drafts whose thread is archived
 
 Documents for a thread live in DOCS_DIR/<threadId>/ (outside any repo) until housekeep removes them.
-With KB_AGENT_DRY=1 (or --dry), forward, label, draft, delete-draft and housekeep print what they
+With KB_AGENT_DRY=1 (or --dry), forward, label, archive, draft, delete-draft and housekeep print what they
 would do and change nothing.
 The duplicate checks still run, so a dry run shows what a real run would skip.
 
@@ -73,6 +75,10 @@ ALLOWED_TO = VOUCHER_TO | {"oleeivind@livid.no",      # external brands (invoice
 FORWARDED_LABEL = "AI/PO-forwarded"
 DOCS_DIR = Path(APP_DIR) / "docs"
 DOC_PREFIX = "[Doc]"
+# Threads with any of these stay in the inbox (kb/email/labels.md); AI/Docs-read too, since housekeep
+# deletes a [Doc] draft as soon as its thread is archived.
+KEEP_IN_INBOX = {"AI/Urgent", "AI/Reply", "AI/Action", "AI/HR", "AI/Invoice", "AI/Payments",
+                 "AI/Docs", "AI/Docs-read"}
 KILL_SWITCH = "[STOP-SENDING]"  # kb/email/send-policy.md: while this draft exists, nothing is forwarded
 MAX_FETCH = 200 * 1024 * 1024
 
@@ -376,6 +382,27 @@ def cmd_forward(svc, args):
     print(f"SENT {args.msg_id} to {to} as {sent['id']}: {fwd['Subject']} | attachments: {names}")
 
 
+def archive_thread(svc, thread_id, dry) -> str:
+    """Archive a whole thread (remove INBOX from every message) unless it still needs Kriss."""
+    names = {v: k for k, v in label_map(svc).items()}
+    t = svc.users().threads().get(userId="me", id=thread_id, format="minimal").execute()
+    on = {names.get(i, i) for m in t.get("messages", []) for i in m.get("labelIds", [])}
+    keep = sorted(on & KEEP_IN_INBOX)
+    if keep:
+        return f"KEEP {thread_id} in the inbox: {', '.join(keep)}"
+    if "INBOX" not in on:
+        return f"already archived {thread_id}"
+    if dry:
+        return f"DRY would archive thread {thread_id}"
+    svc.users().threads().modify(userId="me", id=thread_id, body={"removeLabelIds": ["INBOX"]}).execute()
+    return f"archived thread {thread_id}"
+
+
+def cmd_archive(svc, args):
+    msg = svc.users().messages().get(userId="me", id=args.msg_id, format="minimal").execute()
+    print(archive_thread(svc, msg["threadId"], dry_mode(args)))
+
+
 def cmd_label(svc, args):
     labels = label_map(svc)
     add = [c[1:] for c in args.changes if c.startswith("+")]
@@ -501,6 +528,7 @@ def main():
     p.add_argument("--dry", action="store_true")
     sub.add_parser("drafts")
     p = sub.add_parser("delete-draft"); p.add_argument("draft_id"); p.add_argument("--dry", action="store_true")
+    p = sub.add_parser("archive"); p.add_argument("msg_id"); p.add_argument("--dry", action="store_true")
     p = sub.add_parser("housekeep"); p.add_argument("--days", type=int, default=14)
     p.add_argument("--dry", action="store_true")
     args = ap.parse_args()
@@ -511,7 +539,7 @@ def main():
             ap.error("label needs at least one +LABEL or -LABEL")
     svc = None if args.cmd in ("text", "fetch") else gmail_service()
     {"list": cmd_list, "attachments": cmd_attachments, "pdfs": cmd_attachments, "text": cmd_text,
-     "fetch": cmd_fetch, "forward": cmd_forward, "label": cmd_label, "draft": cmd_draft,
+     "fetch": cmd_fetch, "forward": cmd_forward, "label": cmd_label, "archive": cmd_archive, "draft": cmd_draft,
      "drafts": cmd_drafts, "delete-draft": cmd_delete_draft, "housekeep": cmd_housekeep}[args.cmd](svc, args)
 
 
