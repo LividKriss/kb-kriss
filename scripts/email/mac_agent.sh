@@ -41,6 +41,7 @@ Per-run temp folder (invoice PDFs, note and draft-body files): $RUN
 Documents folder for AI/Docs threads: $DOCS/<threadId>/ (gmail_tool.py attachments/fetch write there).
 Last finished run: $(date -r "$LAST" "+%Y-%m-%d %H:%M") (Gmail search: after:$LAST).
 Commands: python scripts/email/gmail_tool.py ... (see its --help), python scripts/email/file_customs.py, python3 ../livid-kb/tools/kb_find.py ..., python3 tools/build_index.py, python3 tools/validate.py. Links: gmail_tool.py fetch for files; WebFetch only to read a public page. Never sign in anywhere.
+Read every PDF before you forward or file it (gmail_tool.py text, or Read for scans); never match a document on its subject alone.
 Your last line must be one summary line for the run log: counts forwarded / to Ole Eivind / filed / left for the brief, suppliers, entity. No amounts."
 
 ALLOWED=(
