@@ -68,6 +68,7 @@ NOISE_LINE = re.compile(
 PHONE = re.compile(r"(?<![\w/=.-])(\+|00)?\d[\d ().-]{6,}\d(?![\w/=-])")
 URL = re.compile(r"https?://\S+")
 WS = re.compile(r"[ \t ]+")
+AI_SIGNED = re.compile(r"Kjell Odne|AI[- ]assist", re.I)
 
 
 class _Text(HTMLParser):
