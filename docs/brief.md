@@ -180,21 +180,14 @@ The policy is a table: class × contact category → maximum level. Each email g
 - Every sent email is logged (class, level, rule, recipient domain, thread link). No body text in the log.
 
 ### Signature (`email/signature.md`)
-Kjell's sign-off goes directly under the body, **above** Kriss's existing Gmail signature, which stays. Language follows the email.
-
-| | Sign-off |
-|---|---|
-| Norwegian | Vennlig hilsen,<br>Kjell Odne (AI assistent) |
-| English | Best regards,<br>Kjell Odne (AI assistant) |
-
-Under the sign-off, small grey text:
+**Changed 2026-10-23 (Kriss): no "Kjell Odne" sign-off.** An email the agent sends ends like Kriss's own mail — his usual sign-off from the voice profile ("All the best," / "Vennlig hilsen," + "Kristoffer") — followed by an AI disclaimer in small grey text, then Kriss's existing Gmail signature, which stays. Language follows the email.
 
 | | Reviewed by Kriss (`send-after-approval`) | Sent automatically (`auto-send`) |
 |---|---|---|
 | Norwegian | Denne e-posten ble generert av Kristoffer sin AI assistent. Kristoffer har sett over og godkjent innholdet. | Denne e-posten ble generert av Kristoffer sin AI assistent. Innholdet er sendt ut automatisk basert på regler og ikke gjennomgått. |
 | English | This message was prepared by Kristoffer's AI assistant and reviewed by him before sending. | This message was prepared by Kristoffer's AI assistant. It was automatically sent without human review based on automation rules. |
 
-Drafts that Kriss sends himself from Gmail (`draft` level) carry no Kjell sign-off; they go out as his own email.
+Drafts that Kriss sends himself from Gmail (`draft` level) carry no disclaimer; they go out as his own email.
 
 ## Which knowledge base (routing)
 

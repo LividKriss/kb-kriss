@@ -2,6 +2,7 @@
 
 ## 2026-10-23
 
+- **Update** Signature decision changed (Kriss): no "Kjell Odne (AI assistent)" sign-off; agent-sent mail uses Kriss's own sign-off plus the AI disclaimer (reviewed / auto-sent, Norwegian or English). Brief, voice/general.md and progress.md updated. Also recorded: KB sync will read sent mail too (step 5).
 - **Removal** Step 3 review round files deleted (`~/Library/Application Support/kb-kriss/review/round1–6.json`); the review folder is now empty. Confirmed by Kriss.
 - **Removal** Step 4 local cache deleted (`~/Library/Application Support/kb-kriss/cache/`: headers, fetched content, step 3/4 working files and report) and `review/corrections.json`, per step 4 §6. Confirmed by Kriss.
 - **Update** AGENTS.md §2 rule 3: expense claims, reimbursements and staff purchases count as HR; hired-in freelancers who aren't employed by Livid are `supplier` with no organization. Person template: `tags: [former]` and a "Former contact" first line in Who for people who have left (notes kept as history). Confirmed by Kriss. One Person note set back to `colleague` (employed by Livid).

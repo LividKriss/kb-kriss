@@ -16,6 +16,9 @@ Companion to [brief.md](brief.md). Read the brief first; this file records what 
 
 ## Decisions made so far (also in the KBs)
 
+- **Signature (2026-10-23):** no "Kjell Odne (AI assistent)" sign-off. Agent-sent mail uses Kriss's own sign-off + the AI disclaimer (reviewed / auto-sent, NO/EN) above his Gmail signature. See brief → Signature.
+- **KB sync from all mail (2026-10-23):** the daily run also reads Kriss's **sent** mail (incl. replies he writes himself in Gmail), message-level label `AI/KB-synced`, weekly 8-day sweep; to be written in step 5 as `email/kb-sync.md`.
+
 - **Scope** (kb-kriss `kb/notes/email-assistant-scope.md`): work Gmail only; headers 3 years; content 12 months (3 years for key contacts); KB in English, drafts in the thread's language.
 - **Person notes** written by an agent start as `status: draft` until Kriss has reviewed them (bulk confirmation is fine).
 - **kb-router** is one skill, uploaded to Kriss's Claude account (`anthropic-skills:kb-router`), used by both Cowork and Claude Code. No symlink. After any edit to `livid-kb/.claude/skills/kb-router/SKILL.md` it must be re-uploaded — tell Kriss.

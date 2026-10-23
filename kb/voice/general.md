@@ -110,7 +110,7 @@ Drafts use one fixed closing, then the first name, above the Gmail auto-signatur
 What counts as casual (proposed, to confirm): colleagues; 3PL clients and other contacts he is on quick, first-name terms with; short replies inside an ongoing thread. Everything else uses the closing: first messages in a thread, formal or external mail (suppliers, manufacturers, customers, landlords, advisors, banks, authorities, vendors).
 - Never "Best", "Best regards", "Mvh", "Med vennlig hilsen" or "Hilsen" in drafts, even though "Best" appears in his older mail.
 - Never his full name or title in the typed sign-off; the auto-signature carries those.
-- Drafts sent by the assistant itself follow `email/signature.md` (Kjell's sign-off) instead.
+- Mail the assistant sends uses the same sign-off, plus the AI disclaimer from `email/signature.md` (no "Kjell Odne" sign-off; Kriss, 2026-10-23).
 
 # Typical phrasing
 - Norwegian:
