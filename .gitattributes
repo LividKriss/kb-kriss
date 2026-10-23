@@ -1,0 +1,2 @@
+# Several writers (Mac auto-sync, cloud email run) append to the change log; keep both sides on merge.
+kb/log.md merge=union
