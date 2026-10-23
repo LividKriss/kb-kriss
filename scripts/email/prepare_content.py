@@ -45,10 +45,19 @@ QUOTE_START = re.compile(
     r"(From|Fra|De|Da|Von|Van)\s*:\s.+)$", re.I)
 OUTLOOK_BLOCK = re.compile(r"^\s*(Sent|Sendt|Enviado|Inviato|Gesendet|Date|Dato)\s*:", re.I)
 SIGNOFF = re.compile(
-    r"^\s*(vennlig hilsen|med vennlig hilsen|vennleg helsing|mvh\.?|hilsen|beste hilsen|best regards|kind regards|"
-    r"warm regards|regards|best|cheers|thanks|thank you|many thanks|takk|tusen takk|cumprimentos|"
-    r"melhores cumprimentos|com os melhores cumprimentos|obrigad[oa]|cordiali saluti|distinti saluti|saluti|"
-    r"mit freundlichen grüßen|viele grüße|liebe grüße|bien à vous|cordialement|br|kr|rgds)\b[\s,.!]*$", re.I)
+    r"^\s*(all the best|vennlig hilsen|med vennlig hilsen|vennleg helsing|mvh\.?|hilsen|beste hilsen|best regards?|"
+    r"kind regards|warm regards|regards|best|cheers|many thanks|tusen takk|cumprimentos|melhores cumprimentos|"
+    r"com os melhores cumprimentos|cordiali saluti|distinti saluti|saluti|mit freundlichen grüßen|viele grüße|"
+    r"liebe grüße|bien à vous|cordialement|br|kr|rgds)\b", re.I)
+THANKS_SIGNOFF = re.compile(r"^\s*(thanks|thank you|takk|obrigad[oa]|grazie)\b[\s,.!]*$", re.I)
+
+
+def is_signoff(ln, rest):
+    """A sign-off line; a bare "Thanks," only when what follows looks like a signature (short lines)."""
+    if len(ln.strip()) <= 50 and SIGNOFF.match(ln):
+        return True
+    tail = [x for x in rest if x.strip()]
+    return bool(THANKS_SIGNOFF.match(ln)) and len(tail) <= 12 and all(len(x) <= 80 for x in tail)
 SIG_DASH = re.compile(r"^--\s*$")
 NOISE_LINE = re.compile(
     r"(sent from my (iphone|ipad|android)|sendt fra min (iphone|ipad)|get outlook for|hentet outlook|"
@@ -121,7 +130,7 @@ def clean_body(m, keep_signoff=True):
         if NOISE_LINE.search(ln):
             continue
         out.append(ln)
-        if SIGNOFF.match(ln):
+        if is_signoff(ln, lines[i + 1:]):
             # keep the sign-off and the name under it, drop the signature block
             for nxt in lines[i + 1:i + 4]:
                 if nxt.strip():
@@ -165,12 +174,12 @@ def fmt_msg(m, own, body_max):
     return "\n".join(lines) + "\n"
 
 
-def header_index(emails, by_thread_hdr, own, c3):
+def header_index(emails, by_addr, by_thread_hdr, own, c3):
     """Header-only list of the person's threads in 3 years (date, subject, messages, Kriss replied)."""
     rows = []
-    es = set(emails)
-    for tid, msgs in by_thread_hdr.items():
-        if msgs[-1]["internalDate"] < c3 or not any(es & s4.participants(m) for m in msgs):
+    for tid in set().union(*(by_addr.get(a, set()) for a in emails)):
+        msgs = by_thread_hdr[tid]
+        if msgs[-1]["internalDate"] < c3:
             continue
         sent = any(s4.is_sent(m, own) for m in msgs)
         rows.append((msgs[-1]["internalDate"], msgs[0]["internalDate"], tid,
@@ -200,13 +209,19 @@ def main():
     contacts = s4.load_contacts()
     merged = {a for v in plan["persons"].values() for a in v["emails"]}
     # Excluded threads (employee matters, private contacts) never appear, not even by subject.
-    hidden = {t for t, ms in by_thread_hdr.items()
-              if t not in plan["threads"] and s4.thread_exclusion(ms, contacts, corr, own, merged)}
+    tracked = merged | set(plan["roles"])
+    by_addr = defaultdict(set)
+    for t, ms in by_thread_hdr.items():
+        for m in ms:
+            for a in s4.participants(m) & tracked:
+                by_addr[a].add(t)
+    hidden = {t for ts in by_addr.values() for t in ts
+              if t not in plan["threads"] and s4.thread_exclusion(by_thread_hdr[t], contacts, corr, own, merged)}
     c12, c3 = s4.cutoff(s4.WINDOW_12M_DAYS), s4.cutoff(s4.WINDOW_3Y_DAYS)
 
     def write_file(path, head, emails, tids, since, budget):
         parts = [head]
-        idx = [r for r in header_index(emails, by_thread_hdr, own, c3) if r[2] not in hidden]
+        idx = [r for r in header_index(emails, by_addr, by_thread_hdr, own, c3) if r[2] not in hidden]
         parts.append(f"## Thread index (headers only, 3 years; {len(idx)} threads, newest first)\n")
         parts.append("last | first | messages | Kriss wrote | subject | threadId\n")
         for last, first, tid, subj, n, sent in idx[:INDEX_MAX]:
