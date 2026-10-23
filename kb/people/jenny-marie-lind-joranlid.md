@@ -1,19 +1,19 @@
 ---
 type: Person
 title: Jenny Marie Lind Jøranlid
-description: "Assistant designer at Livid (design team, women's styles), copied on supplier development and payment threads that Kriss handles."
+description: "Freelance designer for Livid (earlier assistant designer on the design team, women's styles), copied on supplier development and payment threads that Kriss handles."
 owner: kriss
 tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T12:41:11+02:00
+  at: 2026-10-23T13:02:01+02:00
 emails: [jenny@livid.no, jennymlj99@gmail.com]
-category: colleague
+category: supplier
 ---
 
 # Who
-Assistant designer at Livid (design team under Design Director Charlie Selvig). Main contact for technical specs on women's styles in SS27 development; sends tech packs to manufacturers.
+Freelances for Livid on design now (Kriss, 2026-10-23); earlier assistant designer on the design team under Design Director Charlie Selvig. Main contact for technical specs on women's styles in SS27 development; sends tech packs to manufacturers.
 
 # Relationship
 Since 2024-05 (subjects), active with Kriss from 2025-12 to 2026-06. Kriss mostly meets her on supplier threads: sample orders, POs, material shipments and supplier payment requests where she is in cc.
@@ -35,7 +35,7 @@ Supplier threads are in English (Kriss: "Hello <name>", short, signs "Kristoffer
 - None.
 
 # Links
-- Organization: Livid (colleague).
+- Organization: No organization (individual).
 - [Charlie Selvig](/people/charlie-selvig.md): Design Director; her lead.
 - [Christopher Stangeby](/people/christopher-stangeby.md): handles supplier follow-up and payment reminders.
 - [Catalina Gurau](/people/catalina-gurau.md): Siluete, SS27 prototypes.

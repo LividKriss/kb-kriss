@@ -9,7 +9,7 @@ generated:
   by: <human:kriss or <producer>/<version>>
   at: <YYYY-MM-DDTHH:MM:SS+HH:MM>
 emails: [<address>]                 # lookup key; the only contact detail stored
-category: <colleague | board-owner | manufacturer | supplier | wholesale-customer | consumer | advisor | authority | landlord | investor | partner-press | vendor-sales | private>
+category: <colleague | board-owner | manufacturer | supplier | wholesale-customer | 3pl-client | sales-agent | consumer | advisor | authority | landlord | investor | partner-press | vendor-sales | private>
 organization: <kb://livid/organizations/<kind>/<id>.md — omit for private>
 ---
 

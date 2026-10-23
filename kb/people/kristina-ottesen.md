@@ -7,7 +7,7 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T12:41:11+02:00
+  at: 2026-10-23T13:02:01+02:00
 emails: [kristina@livid.no, kristinaeileen@hotmail.com, kristinaottes1@gmail.com]
 category: colleague
 tags: [former]

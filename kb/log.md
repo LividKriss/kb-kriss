@@ -2,6 +2,8 @@
 
 ## 2026-10-23
 
+- **Update** Schema `schema/types.yaml` + Person template: added contact category `sales-agent` (agents selling Livid's collections to retailers on commission). Second confirmation given by Kriss at the step 4 checkpoint. 3 Person notes moved to `sales-agent`; 1 former colleague now freelancing → `supplier`.
+- **Creation** Voice Profiles (draft) in `voice/`: general + colleague, supplier, manufacturer, wholesale-customer, landlord, advisor, 3pl-client, vendor-sales, from Kriss's sent mail (12 months). Sign-off rule set by Kriss: "All the best," / "Vennlig hilsen," + "Kristoffer"; casual mail just "Kristoffer". Thin categories (board-owner, partner-press, authority) folded into general. `stable` needs Kriss's second confirmation.
 - **Removal** 3 Person notes deleted at Kriss's request (contacts that only sent automated system mail or auto-replies).
 - **Update** Person notes after Kriss's second round of checkpoint answers: 13 marked as former contacts (`tags: [former]`, kept as history); 7 recategorised (2 → `supplier`, 2 → `vendor-sales`, 2 → `manufacturer`, 1 colleague → `supplier` as a hired-in freelancer); roles of 4 colleagues corrected; 1 note renamed to the person's current surname; 4 notes got extra addresses and 1 typo address was dropped; organization links follow the batch decisions (one 3PL org for ESP Oslo/Lillunn/Manufacture Oslo, Oxer, Galleriet Kjøpesenter, Acapo Onsagers).
 - **Update** Person notes after Kriss's checkpoint answers: 2 contacts recategorised `supplier` → `wholesale-customer` (their companies are customers), 1 `supplier` → `landlord` (landlord of Past Løkka).

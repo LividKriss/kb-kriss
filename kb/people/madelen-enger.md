@@ -7,7 +7,7 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T12:41:11+02:00
+  at: 2026-10-23T13:02:01+02:00
 emails: [madelen.enger@dhl.com]
 category: vendor-sales
 organization: kb://livid/organizations/suppliers/dhl.md

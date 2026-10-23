@@ -28,7 +28,8 @@ kb_roots:
 # Contact categories (Person.category). Also valid values for Voice Profile /
 # Rule `applies_to`, together with `all`. Confirmed with Kriss at step 3 (2026-10-22).
 # 3pl-client: brands Livid does warehouse fulfilment for (they buy a service, not Livid goods).
-categories: [colleague, board-owner, manufacturer, supplier, wholesale-customer, 3pl-client, consumer,
+# sales-agent: agents who sell Livid's collections to retailers on commission (Kriss, 2026-10-23).
+categories: [colleague, board-owner, manufacturer, supplier, wholesale-customer, 3pl-client, sales-agent, consumer,
              advisor, authority, landlord, investor, partner-press, vendor-sales, private]
 
 types:
