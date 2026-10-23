@@ -27,7 +27,7 @@ would do and change nothing.
 The duplicate checks still run, so a dry run shows what a real run would skip.
 
 Guards that live here, not only in the agent's instructions:
-  - forward sends only to ALLOWED_TO (the two PowerOffice voucher addresses and Ole Eivind),
+  - forward sends only to ALLOWED_TO (the two PowerOffice voucher addresses, Ole Eivind, Patrícia at HK),
     and sends nothing while a [STOP-SENDING] draft exists (exit 5; the send policy's kill switch);
   - forward refuses (exit 3) when the message already went to that address: the AI/PO-forwarded
     label for a voucher address, a sent message to it in the same thread, or a sent message to it
@@ -68,7 +68,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from gmail_auth import APP_DIR, gmail_service  # noqa: E402
 
 VOUCHER_TO = {"livid@faktura.poweroffice.net", "lividretail@faktura.poweroffice.net"}  # livid-kb systems/poweroffice-go.md
-ALLOWED_TO = VOUCHER_TO | {"oleeivind@livid.no"}  # docs/mac-agent.md "Never"
+ALLOWED_TO = VOUCHER_TO | {"oleeivind@livid.no",      # external brands (invoice routing 7b)
+                           "pfaisca@hkconsulting.pt"}  # Unipessoal invoices (7c); kb/email/send-policy.md
 FORWARDED_LABEL = "AI/PO-forwarded"
 DOCS_DIR = Path(APP_DIR) / "docs"
 DOC_PREFIX = "[Doc]"

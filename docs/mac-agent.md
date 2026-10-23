@@ -8,8 +8,9 @@ Runs **Claude Code headless on Kriss's Mac, every hour while the Mac is awake** 
 2. **Invoices:** messages labelled `AI/Invoice` (set by the 06:47 cloud run) and any new unlabelled mail with a PDF from a supplier domain or to invoice@ since the last run. Download the PDFs (`scripts/email/gmail_tool.py`), read them, then per invoice-routing:
    - clear case (step 6) → forward to the entity's PowerOffice voucher address, label `AI/PO-forwarded`, remove `AI/Invoice`;
    - external brand (step 7b) → also forward to Ole Eivind with the Norwegian note + auto-sent disclaimer;
+   - addressed to Livid Jeans Unipessoal (step 7c) → Livid Jeans AS's voucher address unless already paid against a proforma (check, don't guess; unclear → brief), and every official invoice/credit note (not proformas) to Patrícia at HK Consulting (`pfaisca@hkconsulting.pt`) with the English note + auto-sent disclaimer (an `.html` note like Ole Eivind's);
    - not clear → keep `AI/Invoice`, and add a one-line reason to the message's entry in the run log so the brief can show "why not automatic".
-3. **Documents and links (`AI/Docs`):** threads the cloud run marked because the email points to a document or link that matters (packing list, proforma, PO, production plan, shipping or customs papers, contract, price list). For each, newest first:
+3. **Documents and links (`AI/Docs`):** threads the cloud run marked because the email points to a document or link that matters (packing list, proforma, PO, production plan, shipping or customs papers, contract, price list). New unlabelled supplier/production mail found in step 2 that carries such documents (and isn't a voucher to forward) → label the thread `AI/Docs` yourself and handle it in this run, so documents that arrive after the morning run don't wait a day. For each, newest first:
    - Download attachments (PDF, Excel, Word, images) and open links that work without a login (WeTransfer, public Drive/Dropbox). A link behind a login → note "link needs login", don't try to sign in.
    - Store them in `~/Library/Application Support/kb-kriss/docs/<threadId>/` (never in a repo).
    - Read them and write a **Gmail draft, no recipient, subject `[Doc] <thread subject>`**: 3–8 lines of facts that matter for a decision (what the document is, PO/order numbers, quantities, cartons, dates/ETD/ETA, amounts, discrepancies vs. what was agreed, what it asks of Kriss), plus the Gmail thread link. The morning brief reads these.
@@ -19,7 +20,7 @@ Runs **Claude Code headless on Kriss's Mac, every hour while the Mac is awake** 
 4. **Customs:** run `scripts/email/file_customs.py` (it files `AI/Customs` mail into Tolldeklarasjoner/LJAS|LRAS and relabels `AI/Filed`).
 5. **Housekeeping:** delete folders in `…/kb-kriss/docs/` older than 14 days, and `[Doc]` drafts whose thread is archived or older than 14 days.
 6. **Log:** append one line per run to `~/Library/Logs/kb-kriss-mac-agent.log` and, if anything was forwarded or filed, one `kb/log.md` entry (counts, suppliers, entity; no amounts or bodies). Auto-sync pushes it; the morning brief reads it for "Forwarded automatically".
-7. Never: reply, delete, unsubscribe, or send to anyone other than the two PowerOffice voucher addresses and Ole Eivind (`oleeivind@livid.no`). Never forward the same message twice (`AI/PO-forwarded` and the Sent check). Raw mail and PDFs only in a temp folder outside the repo, deleted at the end of the run.
+7. Never: reply, delete, unsubscribe, or send to anyone other than the two PowerOffice voucher addresses, Ole Eivind (`oleeivind@livid.no`) and Patrícia at HK Consulting (`pfaisca@hkconsulting.pt`). Never forward the same message twice (`AI/PO-forwarded` and the Sent check). Raw mail and PDFs only in a temp folder outside the repo, deleted at the end of the run.
 
 ## Setup (Claude Code, once)
 - Gmail scopes in `scripts/email/gmail_auth.py`: readonly + modify + send; re-authorize.

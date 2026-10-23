@@ -4,11 +4,15 @@ title: Send policy
 description: When the assistant may send email for Kriss — email classes, the maximum level per class and contact category, hard blocks, system auto-sends, guardrails, the kill switch, and how autonomy is earned and lost.
 owner: kriss
 tier: personal
-status: draft
+status: stable
 generated:
   by: claude/opus-5.5
   at: 2026-10-23T22:00:00+02:00
 applies_to: all
+verified:
+  - by: human:kriss
+    at: 2026-10-23T22:30:00+02:00
+stale_after: 2027-01-21
 ---
 
 # Applies to
@@ -57,6 +61,7 @@ No class starts at `auto-send`.
 Fixed-recipient system messages, sent without approval by the Mac agent (`docs/mac-agent.md`) per [invoice routing](kb://livid/finance/bookkeeping/processes/invoice-routing.md). Not replies; outside the class table and the track-record rules; not counted in the daily cap; stopped by the kill switch; every one logged.
 1. Clear-case vouchers forwarded to the entity's PowerOffice voucher address.
 2. External-brand invoices forwarded to Ole Eivind (oleeivind@livid.no) with the short Norwegian note and the auto-sent disclaimer.
+3. Official invoices and credit notes addressed to Livid Jeans Unipessoal forwarded to Patrícia at HK Consulting (pfaisca@hkconsulting.pt) with the short English note and the auto-sent disclaimer (invoice routing step 7c; Kriss, second confirmation 2026-10-23).
 Any other recipient is never a system auto-send.
 
 # Guardrails on auto-send (when a class has earned it)
