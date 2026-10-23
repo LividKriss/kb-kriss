@@ -238,9 +238,13 @@ def main():
             ms = [m for m in by_thread[tid] if m["internalDate"] >= since]
             if not ms:
                 continue
-            body_max = BODY_MAX if size < budget * 0.6 else OLD_BODY_MAX
-            block = (f"\n### {ms[0]['headers'].get('Subject', '(no subject)')[:120]} — thread {tid}\n"
-                     + "".join(fmt_msg(m, own, body_max) for m in ms))
+            # Long threads are kept with shorter bodies rather than dropped (a 30-message thread can matter most).
+            block = ""
+            for body_max in (BODY_MAX if size < budget * 0.6 else OLD_BODY_MAX, 400, 160):
+                block = (f"\n### {ms[0]['headers'].get('Subject', '(no subject)')[:120]} — thread {tid}\n"
+                         + "".join(fmt_msg(m, own, body_max) for m in ms))
+                if len(block) <= budget * 0.3 and size + len(block) <= budget:
+                    break
             if size + len(block) > budget:
                 omitted += 1
                 continue

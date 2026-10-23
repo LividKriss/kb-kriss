@@ -85,10 +85,12 @@ def org_title(org, org_map):
     return Path(rel).stem
 
 
-def resolve_links(body, org, org_map, files):
+def resolve_links(body, org, org_map, files, colleague=False):
     """{{organization}} -> org link; [[person:addr|Name]] -> link to that person's note (or plain name)."""
     if org:
         body = body.replace("{{organization}}", f"[{org_title(org, org_map)}]({org})")
+    elif colleague:
+        body = body.replace("{{organization}}", "Livid (colleague).")
     else:
         body = body.replace("{{organization}}", "No organization (individual).")
 
@@ -139,7 +141,7 @@ def main():
     for p, v, meta, body in todo:
         base = bases[p]
         org = organization(v, org_map)
-        body = resolve_links(body, org, org_map, files)
+        body = resolve_links(body, org, org_map, files, v["category"] == "colleague")
         fm = ["---", "type: Person", f"title: {yaml_str(meta['full_name'])}",
               f"description: {yaml_str(meta['description'])}", "owner: kriss", "tier: personal", "status: draft",
               "generated:", f"  by: {GENERATED_BY}", f"  at: {now}",
