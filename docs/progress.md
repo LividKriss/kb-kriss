@@ -11,10 +11,12 @@ Companion to [brief.md](brief.md). Read the brief first; this file records what 
 | 2 livid-kb changes | Done | Cowork |
 | 3 Backfill pass 1 (headers) | Done (3 years fetched and reviewed, 2026-10-23) | Claude Code |
 | 4 Backfill pass 2 (content) | Done (2026-10-23; cache deleted) | Claude Code |
-| 5 Triage rules and labels | **Next** | Cowork |
+| 5 Triage rules and labels | **In progress**: docs drafted, dry run done (2026-10-23, report `dry-run-2026-10-23.md` in the Cowork chat), fixes applied | Cowork |
 | 5b–7 | Not started | |
 
 ## Decisions made so far (also in the KBs)
+
+- **Hosting (2026-10-23):** daily run = Claude cloud scheduled task (routine), weekdays 06:47 Oslo, repos kb-kriss + livid-kb, Gmail connector; pushes to main at the end. Customs filing = separate scheduled task on the Mac (no Drive connector in the cloud). Runs use the Team plan's normal usage. Superhuman retired at go-live.
 
 - **Signature (2026-10-23):** no "Kjell Odne (AI assistent)" sign-off. Agent-sent mail uses Kriss's own sign-off + the AI disclaimer (reviewed / auto-sent, NO/EN) above his Gmail signature. See brief → Signature.
 - **KB sync from all mail (2026-10-23):** the daily run also reads Kriss's **sent** mail (incl. replies he writes himself in Gmail), message-level label `AI/KB-synced`, weekly 8-day sweep; to be written in step 5 as `email/kb-sync.md`.
