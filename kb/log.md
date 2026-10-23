@@ -2,6 +2,7 @@
 
 ## 2026-10-23
 
+- **Update** Part C added: Mac attachment agent (docs/mac-agent.md) — Claude Code on the Mac, hourly while awake, reads invoice PDFs via the Gmail API, forwards clear cases to PowerOffice, notifies Ole Eivind for external brands, files customs. The cloud run no longer forwards (connector cannot read attachments). Kriss chose this over a fixed-rule script.
 - **Update** Clear-case invoices are now forwarded automatically by the 06:47 run (livid-kb invoice-routing autonomy execute, CFO second confirmation); brief lists them for checking. Customs filing: scripts/email/file_customs.py + install_customs_job.sh (launchd every 30 min on the Mac; needs gmail.modify scope, added to gmail_auth.py SCOPES; re-authorize once).
 - **Update** voice/general.md Never: no dashes to join or split sentences (reads as AI-written) — Kriss. AGENTS.md §6: voice profiles + Person note apply to every draft for Kriss, whatever task made it.
 - **Update** Daily email run (cloud, 2nd run), partial: ~200 threads in the 2-day window. KB sync done for 2 business threads (Paulo Teixeira: Dia account statement; Mette Helgesen: new rent reminder 23.10) and 55 noise/platform/invoice/customs/HR threads labelled `AI/KB-synced` (nothing written for those). ~140 threads, mainly production threads with Christopher/Charlie/Stork/Lisama/Cervo/Siluete, were NOT synced or drafted this run (time-boxed); they stay without `AI/KB-synced` for the next run. No new classification, drafts or archiving. No `[KB-inbox]` drafts. Nothing sent, forwarded or deleted.
