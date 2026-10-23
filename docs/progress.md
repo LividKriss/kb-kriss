@@ -9,8 +9,9 @@ Companion to [brief.md](brief.md). Read the brief first; this file records what 
 | 0 Prerequisites | Done | Claude Code |
 | 1 Scaffold kb-kriss | Done | Cowork |
 | 2 livid-kb changes | Done | Cowork |
-| 3 Backfill pass 1 (headers) | **Reviewed on 12 months; 3-year refresh pending** (fetch running) | Claude Code |
-| 4–7 | Not started | |
+| 3 Backfill pass 1 (headers) | Done (3 years fetched and reviewed, 2026-10-23) | Claude Code |
+| 4 Backfill pass 2 (content) | **Next** | Claude Code |
+| 5–7 | Not started | |
 
 ## Decisions made so far (also in the KBs)
 
@@ -62,6 +63,8 @@ After Kriss's corrections: update this file (status + decisions), and add a `kb/
 
 **Review was done on a 12-month preview** (28.7k messages), in rounds of click-through questions; the 3-year rebuild applies the same corrections. Result: 843 contacts kept, 275 matched to a livid-kb org, "?" down to 99 contacts that Kriss never replied to.
 
+**3-year rebuild (2026-10-23):** all 69,608 messages fetched (2023-10-23 … 2026-10-22, none missing). One more click-through round covered the people and ~20 domains that only appear in older mail (former staff, a former auditor, banks, trade shows, mills). Result: **1,397 contacts kept**, 412 matched to a livid-kb org, 153 proposed new organizations. Every contact with ≥ 2 replied threads has a confirmed category; the 303 left as "?" have 25 replied threads between them. Former staff are `colleague` with a "former staff" note (work context only).
+
 **Category enum (Person `category`)**
 - Keep the brief's list, plus **`3pl-client`** (brands Livid does warehouse fulfilment for). Second confirmation given; added to `schema/types.yaml` and logged (2026-10-22).
 - `vendor-sales` stays (for triage), though cold outreach is mostly dropped as noise.
@@ -76,9 +79,9 @@ After Kriss's corrections: update this file (status + decisions), and add a `kb/
 
 **Shared-platform list, additions confirmed by Kriss** (never a contact, never an org match): vismaonline.com, faktura.poweroffice.net (incl. Livid's own voucher inboxes), gorgias.com/.io (Livid's support desk: its internal mailbox stays a colleague), intercom-mail.eu/.com, zendesk.com, insight.ly, joor.com, judge.me, post.dearsystems.com, microsoftonline.com, docusign.net.
 
-**Noise list changes:** paddlersuk.com (Livid Retail supplier) and tvstore.fr (rental) are **not** noise; epsonconnect.com and livid.com (UPS notices) are. Role mailboxes rescued from the drop: profrakt.no, virke.no, nfta.no. Authority robots (Altinn, Skatteetaten, NAV …) are dropped as *contacts* but matter for step 5 urgency rules.
+**Noise list changes:** paddlersuk.com (Livid Retail supplier), tvstore.fr (rental) and labels-things.com (caps manufacturer) are **not** noise; epsonconnect.com and livid.com (UPS notices) are. Role mailboxes rescued from the drop: profrakt.no, virke.no, nfta.no. Authority robots (Altinn, Skatteetaten, NAV …) are dropped as *contacts* but matter for step 5 urgency rules.
 
-**Threshold for step 4:** a Person note for every contact with **≥ 2 threads Kriss replied in during the last 12 months**, plus **every contact Kriss has written to** in `board-owner`, `landlord`, `advisor`, `3pl-client`. No notes for private, skip, unknown, consumer or shared mailboxes. On the 12-month preview: **221 candidates** (98 supplier, 31 colleague, 24 wholesale-customer, 19 manufacturer, 18 advisor, 16 landlord, 8 3pl-client, 5 board-owner, 2 partner-press). Top ~50 extended to 3 years.
+**Threshold for step 4:** a Person note for every contact with **≥ 2 threads Kriss replied in during the last 12 months**, plus **every contact Kriss has written to** in `board-owner`, `landlord`, `advisor`, `3pl-client`. No notes for private, skip, unknown, consumer or shared mailboxes. On the full 3-year data: **235 candidates** (99 supplier, 32 colleague, 27 advisor, 24 wholesale-customer, 19 manufacturer, 19 landlord, 8 3pl-client, 5 board-owner, 2 partner-press); `build_contacts.py` marks them `step4=yes` in `cache/step3/contacts.csv`. Top ~50 extended to 3 years.
 
 **For the step 4 livid-kb batch** (from the review; details in `review/corrections.json`)
 - New `email_domains` on existing orgs: milltex.pt → Texgoios (renamed Mill-Tex), videbula.com.pt → Lisama, axm.cz → Axpel Made, amorgado.pt → Albano Morgado, abelfragrance.com → Abel Odor, idegroup.no + printcollect.no → Eplehuset; dht.no → DHT Corporate Finance.

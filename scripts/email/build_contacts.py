@@ -54,8 +54,8 @@ PLATFORM_DOMAINS = ["xero.com", "via.tripletex.no", "fiken.no", "xledger.net", "
                     "microsoftonline.com", "docusign.net"]
 # Likely platforms not yet confirmed: a sender there is kept as a contact but never matched to an organization.
 NO_ORG_MATCH = ["freshdesk.com", "hubspot.com", "visma.com"]
-# paddlersuk.com and tvstore.fr were on this list in progress.md; Kriss confirmed both are suppliers.
-NOISE_DOMAINS = ["news.modeinfo.com", "email.kinto-europe.com", "labels-things.com",
+# paddlersuk.com, tvstore.fr and labels-things.com were on this list in progress.md; Kriss confirmed they are suppliers.
+NOISE_DOMAINS = ["news.modeinfo.com", "email.kinto-europe.com",
                  "later.com", "mail.adobe.com", "hs-send.com", "123lyd.no", "123lyd.com"]
 FREEMAIL = {"gmail.com", "googlemail.com", "hotmail.com", "hotmail.no", "outlook.com", "live.com",
             "live.no", "icloud.com", "me.com", "mac.com", "yahoo.com", "yahoo.no", "online.no",
