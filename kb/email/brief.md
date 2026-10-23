@@ -28,7 +28,7 @@ Part B of the [daily run](/email/daily-run.md).
 
 3. **Reply** — same columns, minus deadline when there is none; similar emails batched into one row ("3 wholesale restock requests — Retro, Bulifa, Modo").
 4. **Needs action** — notifications that ask for something done: `# · Source · What it asks · Suggested handling`. Ends with the question "How should I handle these kinds going forward?" for any kind without a rule yet.
-5. **Invoices to forward** — `# · Supplier · Doc no · Amount · Entity · Note`; one line saying how many customs documents are waiting for the Mac task.
+5. **Invoices** — first *Forwarded automatically since the last brief* (`Supplier · Doc no · Amount · Entity`, no numbers; for checking), then *Need your OK* (`# · Supplier · Doc no · Amount · Entity · Why not automatic`). One line: customs documents filed by the Mac job / still waiting.
 6. **Payments due** — `Supplier · Amount · Due · Reminder no.` (no numbering needed unless an action is proposed).
 7. **Waiting** — overdue threads: `# · Who · Asked on · Nudge draft`.
 8. **FYI** — up to 8 one-liners, most relevant first; "+N more" if longer. Noise: count only (list on request).

@@ -16,7 +16,7 @@ Kriss starts the day with an inbox that holds only what needs him, ready drafts,
 
 # Trigger
 Two parts:
-- **A. Processing** — Claude cloud scheduled task (routine) "Daily email run", weekdays **06:47** Oslo. Unattended. Instructions: `docs/routine.md`. Customs filing: a separate scheduled task on Kriss's Mac.
+- **A. Processing** — Claude cloud scheduled task (routine) "Daily email run", weekdays **06:47** Oslo. Unattended. Instructions: `docs/routine.md`. Customs filing: `scripts/email/file_customs.py`, a launchd job on Kriss's Mac every 30 minutes while it is awake (no Claude session needed).
 - **B. Morning brief** — Cowork scheduled task, weekdays **07:30** Oslo: opens a **new Cowork chat** with the brief ([brief format](/email/brief.md)); Kriss goes through it by voice or typing and gives instructions.
 Also on request ("morning run", "go through my email").
 
@@ -28,7 +28,7 @@ Also on request ("morning run", "go through my email").
 1. **Load** both AGENTS.md, this doc, [urgency](/email/urgency.md), [labels](/email/labels.md), [actions](/email/actions.md), [KB sync](/email/kb-sync.md), [invoice routing](kb://livid/finance/bookkeeping/processes/invoice-routing.md).
 2. **Collect** new mail since the last run (2-day overlap; skip messages already labelled `AI/KB-synced`): inbox, archived, sent, and mail to invoice@.
 3. **Classify and label** each thread per urgency and labels. Remove labels the thread has outgrown.
-4. **Invoices and customs:** vouchers awaiting approval → `AI/Invoice`; ordinary payment reminders → `AI/Payments`; customs documents → `AI/Customs` (the Mac task files them and relabels `AI/Filed`).
+4. **Invoices and customs:** clear vouchers are **forwarded now** per invoice routing step 6 (label `AI/PO-forwarded`, listed in the brief); the rest await approval → `AI/Invoice`; ordinary payment reminders → `AI/Payments`; customs documents → `AI/Customs` (the Mac job files them and relabels `AI/Filed`).
 5. **KB sync — every run** (all new messages, incl. Kriss's own sent mail), after classification. Bulk-label messages that need no KB writing; substantive threads in parallel batches (see `docs/routine.md`). If the run must be cut short, stop drafts first, then KB sync — never classification; the backlog carries over via the missing `AI/KB-synced` label.
 6. **Follow-ups:** Kriss's sent questions → `AI/Waiting`; overdue Waiting threads (3 working days; 2 for production/payment) → nudge drafts.
 7. **Drafts** for Urgent and Reply threads per [actions](/email/actions.md). Where the answer depends on Kriss's decision, still draft it with the open point marked `[KRISS: …]` and state the decision needed — a draft with one open point beats no draft.

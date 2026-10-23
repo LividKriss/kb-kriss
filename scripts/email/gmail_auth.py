@@ -28,7 +28,8 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
 APP_DIR = os.path.expanduser("~/Library/Application Support/kb-kriss")
-SCOPES = ["https://www.googleapis.com/auth/gmail.readonly"]
+SCOPES = ["https://www.googleapis.com/auth/gmail.readonly",
+          "https://www.googleapis.com/auth/gmail.modify"]  # modify: labels only (customs filing job)
 KEYCHAIN_SERVICE = "kb-kriss-gmail"
 KEYCHAIN_ACCOUNT = "oauth-token"
 EXPECTED_MAILBOX = "kristoffer@livid.no"
