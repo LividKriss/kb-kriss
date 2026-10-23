@@ -20,7 +20,7 @@ Every save proposal names its destination: "Save to Livid KB → `organizations/
 
 1. **No raw email in any repo.** Only distilled notes. Raw messages fetched for processing live in `~/Library/Application Support/kb-kriss/cache/` (outside the repo) and are deleted after each pass.
 2. **Minimal notes about third parties.** Only what helps work: role, relationship, history, open threads, how to communicate. Never health, family, private life, opinions about the person's character, or anything you wouldn't be comfortable showing them.
-3. **Employees: work context only.** Nothing HR-related (performance, absence, salary, conflicts).
+3. **Employees: work context only.** Nothing HR-related (performance, absence, salary, conflicts, expense claims, reimbursements, staff purchases). Hired-in freelancers who are not employed by Livid (e.g. a photographer) are `supplier` with no `organization`, not `colleague`.
 4. **Email address is the only contact detail stored.** It is the lookup key, unique across `people/`. No phone numbers, home addresses etc.
 5. **Sending is governed by `kb/email/send-policy.md`.** Nothing is sent, forwarded or deleted outside what it allows. Until that doc exists and is stable, nothing is sent. When in doubt: draft, don't send.
 6. Names of individuals are allowed here (unlike livid-kb's "roles, not people"), within rules 2–4.

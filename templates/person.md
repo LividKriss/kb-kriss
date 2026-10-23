@@ -11,9 +11,11 @@ generated:
 emails: [<address>]                 # lookup key; the only contact detail stored
 category: <colleague | board-owner | manufacturer | supplier | wholesale-customer | 3pl-client | sales-agent | consumer | advisor | authority | landlord | investor | partner-press | vendor-sales | private>
 organization: <kb://livid/organizations/<kind>/<id>.md — omit for private>
+tags: [former]                      # only for contacts who have left; the note is kept as history, never deleted for that reason
 ---
 
 # Who
+<For a former contact, start with: **Former contact** (<what changed, e.g. left X in 2026-09>).>
 <Role and organization. Work context only — no health, family, private life or character judgements.>
 
 # Relationship

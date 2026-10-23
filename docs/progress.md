@@ -10,7 +10,7 @@ Companion to [brief.md](brief.md). Read the brief first; this file records what 
 | 1 Scaffold kb-kriss | Done | Cowork |
 | 2 livid-kb changes | Done | Cowork |
 | 3 Backfill pass 1 (headers) | Done (3 years fetched and reviewed, 2026-10-23) | Claude Code |
-| 4 Backfill pass 2 (content) | Done (2026-10-23; cache deletion pending Kriss's yes) | Claude Code |
+| 4 Backfill pass 2 (content) | Done (2026-10-23; cache deleted) | Claude Code |
 | 5 Triage rules and labels | **Next** | Cowork |
 | 5b–7 | Not started | |
 
@@ -104,7 +104,7 @@ After Kriss's corrections: update this file (status + decisions), and add a `kb/
 - New contact category **`sales-agent`** (Standard Agency, John Webb); second confirmation given.
 - **Voice Profiles** (`draft`) in `voice/`: general + 8 categories. Sign-off rule (Kriss): "All the best," / "Vennlig hilsen," + "Kristoffer"; casual mail just "Kristoffer". Setting them `stable` needs Kriss's second confirmation. Messages signed "Kjell Odne" were excluded from the samples.
 - **Contacts exception** recorded in AGENTS.md §1: a business contact's name, role and work email may be in both KBs.
-- Kriss's corrections that are rules went into the notes/config: former contacts kept, freelancers (a photographer, a designer) are `supplier`, not `colleague`.
+- Kriss's corrections that are rules went into the notes/config: former contacts kept, hired-in freelancers (e.g. a photographer) are `supplier`, not `colleague` (now in AGENTS.md §2.3).
 
 **livid-kb** (all with log entries, 0 validator errors)
 - AGENTS.md §1 rule 4 + Organization template: **business contacts by name** in a `# Contacts` section (second confirmation given); backfilled on all org docs that step-4 people link to.
@@ -115,4 +115,4 @@ After Kriss's corrections: update this file (status + decisions), and add a `kb/
 - **Urgency signals seen:** UPS Collections (suspension → debt collection deadlines), bank KYC deadlines (account blocked if missed), Eksfin/credit-line renewals, landlord rent reminders, Altinn/NAV/SSB notices, auditor reminders, debt-collection notices from creditors.
 - **Send policy (5b):** replies signed "Kjell Odne (AI assistent)" were already sent on 2026-10-10 and 2026-10-15 (Eplehuset, Rangel, Frameless) before any send policy exists.
 - **invoice@ gap:** messages addressed to invoice@ were not fetched; some supplier threads that copy invoice@ have gaps.
-- Delete `~/Library/Application Support/kb-kriss/cache/` and `review/corrections.json` once Kriss says yes (step4.md §6); the Person notes then can't be regenerated from the readers' output, only edited.
+- The cache and `review/corrections.json` were deleted on 2026-10-23 (Kriss's yes). Person notes and org docs can now only be edited, not regenerated; the step 3 review rounds (`review/round*.json`) are still there. A new backfill would start from `fetch_headers.py` again.
