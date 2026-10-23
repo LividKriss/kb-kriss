@@ -211,7 +211,16 @@ def fetch_all(svc, ids, path, log):
             batch = svc.new_batch_http_request(callback=cb)
             for i in chunk:
                 batch.add(svc.users().messages().get(userId="me", id=i, format="full"), request_id=i)
-            call(batch)
+            for attempt in range(10):
+                try:
+                    call(batch)
+                    break
+                except (OSError, TimeoutError) as e:  # network drop (Wi-Fi, sleep): wait and resend the batch
+                    got.clear(), retry.clear(), why.clear()
+                    log(f"messages {n}: network error ({e}); retrying in {min(300, 15 * 2 ** attempt)} s")
+                    time.sleep(min(300, 15 * 2 ** attempt))
+            else:
+                sys.exit("Network still down after 10 tries; re-run to resume.")
             for r in got:
                 out.write(json.dumps(slim(r), ensure_ascii=False) + "\n")
             out.flush()
