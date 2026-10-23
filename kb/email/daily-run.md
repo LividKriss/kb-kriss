@@ -29,7 +29,7 @@ Also on request ("morning run", "go through my email").
 2. **Collect** new mail since the last run (2-day overlap; skip messages already labelled `AI/KB-synced`): inbox, archived, sent, and mail to invoice@.
 3. **Classify and label** each thread per urgency and labels. Remove labels the thread has outgrown.
 4. **Invoices and customs:** vouchers awaiting approval → `AI/Invoice`; ordinary payment reminders → `AI/Payments`; customs documents → `AI/Customs` (the Mac task files them and relabels `AI/Filed`).
-5. **KB sync — mandatory, every run** (all new messages, incl. Kriss's own sent mail). Never skip it to save time; if the run must be cut short, skip drafts first and say so.
+5. **KB sync — every run** (all new messages, incl. Kriss's own sent mail), after classification. Bulk-label messages that need no KB writing; substantive threads in parallel batches (see `docs/routine.md`). If the run must be cut short, stop drafts first, then KB sync — never classification; the backlog carries over via the missing `AI/KB-synced` label.
 6. **Follow-ups:** Kriss's sent questions → `AI/Waiting`; overdue Waiting threads (3 working days; 2 for production/payment) → nudge drafts.
 7. **Drafts** for Urgent and Reply threads per [actions](/email/actions.md). Where the answer depends on Kriss's decision, still draft it with the open point marked `[KRISS: …]` and state the decision needed — a draft with one open point beats no draft.
 8. **Archive** FYI, Noise and handled invoice mail.
