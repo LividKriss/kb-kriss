@@ -69,6 +69,7 @@ Same common fields as livid-kb (`type, title, description, owner, tier, status, 
 - **Second explicit confirmation:** changing `autonomy`, setting a Voice Profile/Rule/Process `stable`, any send-policy change, adding a type or category, deleting a doc.
 - **"Forget X"** → delete the line or doc and log it as **Removal** (no confirmation beyond the request itself; the log entry says what was removed, not its content).
 - Saving works as in livid-kb: auto-sync (launchd `no.livid.kb-kriss-autosync`) commits and pushes; the new `kb/log.md` entries become the commit message. Agents never run Git and never edit `tools/autosync.sh` / `tools/install_autosync.sh`.
+- **Exception — the scheduled daily email run in Claude's cloud** (`kb-kriss/kb/email/daily-run.md`) works on fresh clones of this repo, not the Mac folder. At the end of a run it runs `tools/build_index.py` and `tools/validate.py` (0 errors), commits with the new `kb/log.md` entries as the message, pulls with rebase, and pushes to `main`. Never force-push; on a conflict it stops and reports in the brief. No other agent runs Git. (CFO, 2026-10-23.)
 - After writing: `python3 tools/build_index.py`, then `python3 tools/validate.py`; fix all errors.
 
 ## 6. Using this KB
