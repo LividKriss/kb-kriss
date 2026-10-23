@@ -7,8 +7,8 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
-emails: [contact@silueteprod.com]
+  at: 2026-10-23T12:41:11+02:00
+emails: [contact@silueteprod.com, office.siluete@yahoo.com]
 category: manufacturer
 organization: kb://livid/organizations/manufacturers/siluete-prod.md
 ---

@@ -7,7 +7,7 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [liv.inger.tonjum@innovasjonnorge.no]
 category: supplier
 organization: kb://livid/organizations/suppliers/innovasjon-norge.md

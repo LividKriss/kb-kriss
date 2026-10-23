@@ -7,13 +7,15 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [ekb@horus.no]
 category: supplier
 organization: kb://livid/organizations/suppliers/horus.md
+tags: [former]
 ---
 
 # Who
+**Former contact** (Horus was cancelled 2026-05-01).
 Espen Kirkesæther Brun works on product and development at Horus of Norway, a Norwegian budgeting and forecasting SaaS. He handled Livid's bug reports and feature requests. Hans Falck (CEO and co-founder) and Peik Vikøren are his colleagues.
 
 # Relationship

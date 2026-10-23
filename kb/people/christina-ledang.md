@@ -7,10 +7,10 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [christina@manufacture-oslo.no, christina@lillunn.no]
 category: 3pl-client
-organization: kb://livid/organizations/customers/manufacture-oslo.md
+organization: kb://livid/organizations/customers/esp-oslo.md
 ---
 
 # Who
@@ -34,5 +34,5 @@ Norwegian, "Hei!", very short and informal; copies Elisabeth Stray Pedersen.
 - None.
 
 # Links
-- Organization: [Manufacture Oslo](kb://livid/organizations/customers/manufacture-oslo.md)
+- Organization: [ESP Oslo (Elisabeth Stray Pedersen: ESP Oslo, Lillunn, Manufacture Oslo)](kb://livid/organizations/customers/esp-oslo.md)
 - [Elisabeth Stray Pedersen](/people/elisabeth-stray-pedersen.md) — owner of ESP / Lillunn, approves requests

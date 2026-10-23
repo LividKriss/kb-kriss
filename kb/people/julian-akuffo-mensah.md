@@ -1,19 +1,19 @@
 ---
 type: Person
 title: Julian Akuffo-Mensah
-description: "Livid colleague on webshop customer service (helpdesk tickets, refunds, gift cards, order follow-up) who brings Kriss payment, refund and order issues he can't solve in Shopify himself."
+description: "Livid colleague at the Livid Oslo store; earlier on webshop customer service, bringing Kriss refund, payment and order issues he couldn't solve in Shopify."
 owner: kriss
 tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
-emails: [julianakuffomensah@outlook.com]
+  at: 2026-10-23T12:41:11+02:00
+emails: [julianakuffomensah@outlook.com, julian_bekoe@hotmail.com]
 category: colleague
 ---
 
 # Who
-Works in Livid's webshop customer service: handles helpdesk tickets and customer questions about orders, refunds, gift cards and credit notes (tilgodelapp). Writes from a private Outlook address.
+Works at the Livid Oslo store (Livid Retail AS). In the 2025 mail he handled webshop customer service: helpdesk tickets and customer questions about orders, refunds, gift cards and credit notes (tilgodelapp). Writes from private addresses.
 
 # Relationship
 Since 2025-09. Julian sends Kriss cases that need finance or admin access: refunds Shopify won't process, refunds to bank account instead of a credit note, gift card resends, payment receipts with VAT for customers, stuck shipments. Frequent in autumn 2025 (about 15 threads Sep–Dec), quiet since.

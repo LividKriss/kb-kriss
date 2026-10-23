@@ -2,6 +2,8 @@
 
 ## 2026-10-23
 
+- **Removal** 3 Person notes deleted at Kriss's request (contacts that only sent automated system mail or auto-replies).
+- **Update** Person notes after Kriss's second round of checkpoint answers: 13 marked as former contacts (`tags: [former]`, kept as history); 7 recategorised (2 → `supplier`, 2 → `vendor-sales`, 2 → `manufacturer`, 1 colleague → `supplier` as a hired-in freelancer); roles of 4 colleagues corrected; 1 note renamed to the person's current surname; 4 notes got extra addresses and 1 typo address was dropped; organization links follow the batch decisions (one 3PL org for ESP Oslo/Lillunn/Manufacture Oslo, Oxer, Galleriet Kjøpesenter, Acapo Onsagers).
 - **Update** Person notes after Kriss's checkpoint answers: 2 contacts recategorised `supplier` → `wholesale-customer` (their companies are customers), 1 `supplier` → `landlord` (landlord of Past Løkka).
 - **Creation** Step 4 backfill: 188 draft Person notes in `people/` (supplier 77, colleague 26, wholesale-customer 22, advisor 21, manufacturer 17, landlord 16, 3pl-client 4, board-owner 4, partner-press 1), written from Kriss's work Gmail (12 months; 3 years for the top 50; newest 100 threads per person). All `status: draft` until Kriss's review; 64 `organization` links point to Organizations proposed in the livid-kb batch (not yet written). Role/shared mailboxes and 3 contacts (private matter, HR-adjacent, unnamed address) got no note.
 - **Creation** Scripts for step 4 in `scripts/email/`: `step4lib.py`, `fetch_content.py`, `prepare_content.py`, `write_people.py`, `build_batch.py`, `report_step4.py` (no addresses or names in code; raw mail only in the local cache).

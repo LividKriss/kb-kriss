@@ -7,13 +7,15 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [renate.iversen@dnb.no]
 category: landlord
-organization: kb://livid/organizations/suppliers/dnb-naeringseiendom.md
+organization: kb://livid/organizations/suppliers/galleriet-kjopesenter.md
+tags: [former]
 ---
 
 # Who
+**Former contact** (no longer handles Galleriet (Kaviya Elaiyarajah took over)).
 Renate Iversen was property manager for Galleriet at DNB Næringseiendom, Livid Bergen's landlord. She no longer handles Galleriet; Kaviya Elaiyarajah took over (per DNB, 2025-12-08).
 
 # Relationship
@@ -31,6 +33,6 @@ Norwegian, "Hei Renate,". Formal notice style.
 - None.
 
 # Links
-- Organization: [DNB Næringseiendom](kb://livid/organizations/suppliers/dnb-naeringseiendom.md)
+- Organization: [Galleriet Kjøpesenter AS](kb://livid/organizations/suppliers/galleriet-kjopesenter.md)
 - [Kaviya Elaiyarajah](/people/kaviya-elaiyarajah.md) — her successor as property manager for Galleriet.
 - [Natalie Diethelm Hjemgaard](/people/natalie-diethelm-hjemgaard.md) — DNB colleague who passed the extension request on.

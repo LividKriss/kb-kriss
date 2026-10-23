@@ -7,7 +7,7 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [elisabeth@esp-oslo.no, elisabeth@lillunn.no]
 category: 3pl-client
 organization: kb://livid/organizations/customers/esp-oslo.md
@@ -41,6 +41,6 @@ Livid stores, receives, picks and ships goods for both brands from its warehouse
 - Fwd: [ESP Oslo] Order #1236 — she asked to collect a store-pickup order at 09:00–09:30. There is no reply in email, so check whether it was handled ([thread](https://mail.google.com/mail/u/0/#all/1a0ca6fe8efd518f))
 
 # Links
-- Organization: [ESP Oslo](kb://livid/organizations/customers/esp-oslo.md)
+- Organization: [ESP Oslo (Elisabeth Stray Pedersen: ESP Oslo, Lillunn, Manufacture Oslo)](kb://livid/organizations/customers/esp-oslo.md)
 - [Christopher Stangeby](/people/christopher-stangeby.md) — Livid colleague who follows up her warehouse orders, deliveries and Pio questions
 - Lina Nybø — warehouse staff who picks and packs her orders

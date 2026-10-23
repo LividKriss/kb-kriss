@@ -7,13 +7,15 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [simao.silva@rangel.com]
 category: supplier
 organization: kb://livid/organizations/suppliers/rangel.md
+tags: [former]
 ---
 
 # Who
+**Former contact** (has left Rangel (address bounces since 2026-05-23)).
 Operations Agent, Import, at Rangel Logistics Solutions (Portugal). He was Rangel's day-to-day operator for Livid's imports from Japan until spring 2026. His address has bounced since 2026-05-23. Follow-up on his files went to João Alves, Fábio Teixeira Lopes and Rodrigo Fonseca.
 
 # Relationship

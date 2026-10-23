@@ -7,7 +7,7 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [ingvild.reiakvam@livid.no, ingvild.reiakvam@gmail.com]
 category: colleague
 ---
@@ -38,5 +38,5 @@ Norwegian, "Hei Ingvild", short. Store-wide mails go to all store managers with 
 # Links
 - Organization: Livid (colleague).
 - [Larissa Vea](/people/larissa-vea.md): Livid Stavanger colleague, on store mails from 2026-01.
-- [Kaia Walstad](/people/kaia-walstad.md): retail lead, cc on store mails.
+- [Kaia Walstad](/people/kaia-gronland.md): retail lead, cc on store mails.
 - [Jens Olav Dankertsen](/people/jens-olav-dankertsen.md): Managing Director; sends store reports.

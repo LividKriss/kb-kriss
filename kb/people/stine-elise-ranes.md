@@ -7,13 +7,15 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [stine.ranes@idegroup.no]
 category: wholesale-customer
 organization: kb://livid/organizations/suppliers/eplehuset.md
+tags: [former]
 ---
 
 # Who
+**Former contact** (ID Group (Eplehuset's old webshop) is no longer involved).
 Staff member at IDE Group (idegroup.no). For Eplehuset's staff-uniform webshop ("Eplehuset nettbutikk") she forwarded incoming orders to Livid and made webshop changes on Livid's request: sold-out sizes, restock dates and prices.
 
 # Relationship

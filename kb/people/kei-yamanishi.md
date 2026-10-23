@@ -7,13 +7,15 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [h-yamanishi@japanblue.co.jp]
 category: supplier
 organization: kb://livid/organizations/suppliers/japan-blue.md
+tags: [former]
 ---
 
 # Who
+**Former contact** (has left Japan Blue (2026-05)).
 Former sales contact at Japan Blue Co., Ltd. Answered price, spec and stock questions (EXW JPY/m prices, fabric weight, composition, origin) and confirmed orders. Has left Japan Blue; Yuhei Yasunobu and Reiichiro Yoshida took over.
 
 # Relationship

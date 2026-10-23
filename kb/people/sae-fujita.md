@@ -7,13 +7,15 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [s-fujita@japanblue.co.jp]
 category: supplier
 organization: kb://livid/organizations/suppliers/japan-blue.md
+tags: [former]
 ---
 
 # Who
+**Former contact** (has left Japan Blue (2026-09)).
 Former sales/order contact at Japan Blue Co., Ltd. (signed "Fuji"). Handled stock and sampling requests, order confirmations, packing, shipping documents and the coordination of sea freight with Livid's forwarder (OTEL). Has left Japan Blue; Yuhei Yasunobu and Reiichiro Yoshida took over.
 
 # Relationship

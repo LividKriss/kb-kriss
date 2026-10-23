@@ -7,10 +7,10 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [kaviya.elaiyarajah@dnb.no]
 category: landlord
-organization: kb://livid/organizations/suppliers/dnb-naeringseiendom.md
+organization: kb://livid/organizations/suppliers/galleriet-kjopesenter.md
 ---
 
 # Who
@@ -35,7 +35,7 @@ Norwegian. "Hei Kaviya," and signs "Kristoffer". Polite, and firm when a matter 
 - None.
 
 # Links
-- Organization: [DNB Næringseiendom](kb://livid/organizations/suppliers/dnb-naeringseiendom.md)
+- Organization: [Galleriet Kjøpesenter AS](kb://livid/organizations/suppliers/galleriet-kjopesenter.md)
 - [Janicke Folgerø](/people/janicke-folgero.md) — controller at DNB, handles deposits/guarantees and payment status.
 - [Natalie Diethelm Hjemgaard](/people/natalie-diethelm-hjemgaard.md) — DNB colleague who passed the extension request to Kaviya.
 - [Renate Iversen](/people/renate-iversen.md) — former property manager for Galleriet (Kaviya's predecessor).

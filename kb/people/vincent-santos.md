@@ -7,7 +7,7 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [vincent.santos@livid.no, santosten.98@gmail.com, vincent-santos@hotmail.com]
 category: colleague
 ---
@@ -42,4 +42,4 @@ Norwegian. "Hei," and very short, factual replies; most contact is in group mail
 - [Ole Eivind Siggerud](/people/ole-eivind-siggerud.md) — head of buying; copied on Hobo and stock matters
 - [Linda Dale](/people/linda-dale.md) — also at Livid Oslo, gets store reports and routines with Vincent
 - [Mina Larsen](/people/mina-larsen.md) — store manager at Past; same store-manager mailing group
-- [Kaia Walstad](/people/kaia-walstad.md) — retail lead
+- [Kaia Walstad](/people/kaia-gronland.md) — retail lead

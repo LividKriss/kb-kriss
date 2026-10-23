@@ -7,7 +7,7 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [serena@frameless-asia-pacific.com]
 category: supplier
 organization: kb://livid/organizations/suppliers/frameless-asia-pacific.md
@@ -41,5 +41,5 @@ English. Very short replies ("Confirmed, please proceed", "Payment slip attached
 # Links
 - Organization: [Frameless Asia Pacific Limited](kb://livid/organizations/suppliers/frameless-asia-pacific.md)
 - [Christopher Stangeby](/people/christopher-stangeby.md) — Livid colleague who leads button orders and confirms PIs.
-- [Ling Lam](/people/ling-lam.md) — Frameless colleague who issues sales orders.
+- Ling Lam — Frameless colleague who issues sales orders.
 - Vicky Leung — Frameless; covers for Serena.

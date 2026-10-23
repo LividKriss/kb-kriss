@@ -7,7 +7,7 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [cristina@olmetex.it]
 category: supplier
 organization: kb://livid/organizations/suppliers/olmetex.md
@@ -39,5 +39,5 @@ English, very short and direct ("Hello," / "Hello Cristina,"; often one or two l
 
 # Links
 - Organization: [Olmetex S.p.A.](kb://livid/organizations/suppliers/olmetex.md)
-- [Fabio](/people/fabio-olmetex.md) — Olmetex; sends the system-generated invoices and packing lists.
+- Fabio — Olmetex; sends the system-generated invoices and packing lists.
 - [Christopher Stangeby](/people/christopher-stangeby.md) — Livid colleague who follows up Olmetex orders day to day.

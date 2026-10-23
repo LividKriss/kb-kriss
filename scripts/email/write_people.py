@@ -111,10 +111,13 @@ def main():
     args = ap.parse_args()
     plan = json.load(open(s4.PLAN))
     org_map = json.load(open(ORG_MAP))
-    # Kriss's category corrections after reading (people.json "category": primary address -> category).
-    for p, cat in json.load(open(s4.PEOPLE_JSON)).get("category", {}).items():
+    # Kriss's corrections after reading (people.json): category per primary address, notes he asked to delete,
+    # and former contacts (kept as history, tagged `former`).
+    cfg = json.load(open(s4.PEOPLE_JSON))
+    for p, cat in cfg.get("category", {}).items():
         if p in plan["persons"]:
             plan["persons"][p]["category"] = cat
+    deleted, former = cfg.get("deleted", {}), cfg.get("former", {})
     now = dt.datetime.now().astimezone().replace(microsecond=0).isoformat()
 
     todo, missing = [], []
@@ -124,7 +127,7 @@ def main():
             missing.append(p)
             continue
         meta, body = parse(path)
-        if meta.get("skip"):
+        if meta.get("skip") or p in deleted:
             missing.append(p)
             continue
         todo.append((p, v, meta, body))
@@ -153,6 +156,10 @@ def main():
               "emails: [" + ", ".join(v["emails"]) + "]", f"category: {v['category']}"]
         if org:
             fm.append(f"organization: {org}")
+        if p in former:
+            fm.append("tags: [former]")
+            if "**Former contact**" not in body:
+                body = body.replace("# Who\n", f"# Who\n**Former contact** ({former[p]}).\n", 1)
         fm.append("---")
         out = PEOPLE / f"{base}.md"
         written[p] = {"file": str(out.relative_to(REPO)), "name": meta["full_name"], "category": v["category"],

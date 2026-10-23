@@ -7,12 +7,14 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [liamnord.v@gmail.com]
 category: colleague
+tags: [former]
 ---
 
 # Who
+**Former contact** (former staff).
 Works on Livid's content and e-commerce production: e-com and campaign shoots, product flats (incl. vintage), filming and editing release videos. Arnt Eriksen follows him up. Writes from a private Gmail address.
 
 # Relationship

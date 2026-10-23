@@ -7,10 +7,10 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [hege.sogstad@onsagers.no]
 category: advisor
-organization: kb://livid/organizations/advisors/onsagers.md
+organization: kb://livid/organizations/advisors/acapo-onsagers.md
 ---
 
 # Who
@@ -30,6 +30,6 @@ Follows the category voice (Norwegian, "Hei,").
 - None.
 
 # Links
-- Organization: [Onsagers](kb://livid/organizations/advisors/onsagers.md)
+- Organization: [Acapo Onsagers AS](kb://livid/organizations/advisors/acapo-onsagers.md)
 - [Pernille Rekdal Foss](/people/pernille-rekdal-foss.md) — Onsagers colleague, main contact on trademarks
 - Herman Vestrum Danielsen — lawyer at Acapo Onsagers

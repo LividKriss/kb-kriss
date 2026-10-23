@@ -7,9 +7,9 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [ery@foreverind.com]
-category: supplier
+category: manufacturer
 organization: kb://livid/organizations/suppliers/forever-ind.md
 ---
 

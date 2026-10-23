@@ -1,19 +1,19 @@
 ---
 type: Person
-title: Kaia Walstad
-description: "Retail lead for the Livid stores (Livid Retail AS); Kriss works with her on store operations, stock counts, store fixtures and customer invoicing."
+title: Kaia Grønland
+description: "Led retail for the Livid stores (Livid Retail AS) in 2026; Kriss worked with her on store operations, stock counts, store fixtures and customer invoicing."
 owner: kriss
 tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [kaia.walstad@livid.no, kaiawalstad@gmail.com, kaiagronland@gmail.com]
 category: colleague
 ---
 
 # Who
-Leads retail (the Livid stores) at Livid Retail AS, going by the managing director's mails to store managers. Exact title not seen.
+Led retail (the Livid stores) at Livid Retail AS in 2026; Thea Martine Jacobsen leads retail again. Her current role is open.
 
 # Relationship
 Store operations between Kriss and the stores: she coordinates store managers (stock-count dates, replenishment), asks about fixtures and costs, and passes on invoices and customer purchases for Kriss to handle. She is on the management list (to:) for Kriss's weekly and monthly sales reports and goes to operations meetings (driftsmøte). 239 threads in 3 years (oldest listed 2025-11-11; 159 older not listed); Kriss replied in 42 (15 in the last 12 months).

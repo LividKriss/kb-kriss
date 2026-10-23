@@ -7,10 +7,10 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [janicke.folgero@dnb.no]
 category: landlord
-organization: kb://livid/organizations/suppliers/dnb-naeringseiendom.md
+organization: kb://livid/organizations/suppliers/galleriet-kjopesenter.md
 ---
 
 # Who
@@ -31,6 +31,6 @@ Norwegian, very short, with Kaviya Elaiyarajah copied ("Hei dere,").
 - None.
 
 # Links
-- Organization: [DNB Næringseiendom](kb://livid/organizations/suppliers/dnb-naeringseiendom.md)
+- Organization: [Galleriet Kjøpesenter AS](kb://livid/organizations/suppliers/galleriet-kjopesenter.md)
 - [Kaviya Elaiyarajah](/people/kaviya-elaiyarajah.md) — property manager for Galleriet, Livid's main contact at DNB.
 - [Margit Woldseth](/people/margit-woldseth.md) — Livid's adviser at SpareBank 1 SMN (guarantor).

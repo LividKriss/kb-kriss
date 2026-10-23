@@ -7,7 +7,7 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [luis.sistelo@diaexemplar.com]
 category: manufacturer
 organization: kb://livid/organizations/suppliers/dia-exemplar.md

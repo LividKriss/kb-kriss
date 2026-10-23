@@ -35,7 +35,11 @@ KIND = {"supplier": "supplier", "manufacturer": "manufacturer", "wholesale-custo
         "partner-press": "supplier", "vendor-sales": "supplier", "investor": "advisor"}
 # Garment factories filed under suppliers/ (step 3 review, progress.md); target id where it changes.
 MOVES = {"stork-texteis": "stork-texteis", "lisama": "lisama", "texgoios": "mill-tex", "afonso": "afonso",
-         "dia-exemplar": "dia-exemplar", "officocta": "officocta"}
+         "dia-exemplar": "dia-exemplar", "officocta": "officocta",
+         # the rest of the production-partners group (Kriss, checkpoint 2026-10-23)
+         "zhejiang-springair": "zhejiang-springair", "forever-ind": "forever-ind", "goldfine-asia": "goldfine-asia",
+         "pro-trading": "pro-trading", "primeboots": "primeboots", "dibella-india": "dibella-india",
+         "jose-magalhaes": "jose-magalhaes", "outfit21": "outfit21"}
 
 
 def domain_paths(org_map):
@@ -70,6 +74,16 @@ def link(tid):
     return f"[{tid}](https://mail.google.com/mail/u/0/#all/{tid})" if re.fullmatch(r"[0-9a-f]{12,}", tid) else tid
 
 
+def contacts(people):
+    """Business-contact lines for an Organization doc: name, role, work email; former contacts marked."""
+    out = []
+    for w in sorted(people, key=lambda w: (w.get("former", False), w["name"])):
+        work = [a for a in w["emails"] if s4.domain(a) not in s4.FREEMAIL] or w["emails"]
+        role = re.split(r"[;—]", w["meta"].get("description", ""))[0].strip().rstrip(".")
+        out.append(f"  - {w['name']} — {role} ({', '.join(work)})" + (" — **former**" if w.get("former") else ""))
+    return out
+
+
 def refs(org_id, livid_files):
     """livid-kb files that mention the org (its own doc, indexes and the log excluded)."""
     pat = re.compile(rf"\b{re.escape(org_id)}\b")
@@ -87,8 +101,12 @@ def main():
     for f in fs:
         by_org[f["org"]].append(f)
     livid_files = [p for p in (LIVID / "kb").rglob("*.md")] + [p for p in (LIVID / ".claude").rglob("*.md")]
+    cfg = json.load(open(s4.PEOPLE_JSON))
+    plan = json.load(open(s4.PLAN))
     people_by_org = defaultdict(list)
-    for w in written.values():
+    for p, w in written.items():
+        w["emails"] = plan["persons"].get(p, {}).get("emails", [p])
+        w["former"] = p in cfg.get("former", {})
         if w["organization"]:
             people_by_org[w["organization"].replace("kb://livid/organizations/", "")].append(w)
 
@@ -97,9 +115,21 @@ def main():
          "On approval each group is written per livid-kb AGENTS.md (template, `draft`, a log entry per group, "
          "`build_index.py`, `validate.py`). A move = rename + update every link; deleting or changing a type "
          "needs a second confirmation there.",
-         "Facts below are as the readers wrote them and still name individual contacts; livid-kb records roles, not "
-         "people (AGENTS.md §1.4), so names become roles when written. Bank details, passwords and personal data were "
-         "left out; amounts are business figures only.", ""]
+         "Business contacts are kept by name (group 0). Bank details, passwords and personal data were left out; "
+         "amounts are business figures only.", "",
+         "## 0. Rule change: business contacts by name in livid-kb (Kriss, 2026-10-23; needs the second confirmation)",
+         "",
+         "- **`AGENTS.md` §1 rule 4**, from \"Roles, not people: write `cfo`, not a name.\" to: \"Processes, rules and "
+         "policies name roles (`cfo`), not people. Organization docs may list their business contacts by name, role "
+         "and work email in a **Contacts** section; nothing else about individuals (no private contact details, no "
+         "HR, no personal notes — those live in each person's own KB).\"",
+         "- **`templates/organization.md`**: add `# Contacts` (\"Name — role (work email). Mark people who have left "
+         "as former.\") after \"Relationship to Livid\".",
+         "- **Backfill when written:** every Organization doc below gets its Contacts from the step-4 people "
+         "(listed under each org in 1a and in 2f); facts keep the names the readers used. Colleagues are not listed "
+         "on Organization docs.",
+         "- The kb-router skill's \"never put personal notes about individuals in the company KB\" still holds "
+         "(contacts are not personal notes); no change there.", ""]
 
     # 1a: new orgs linked to step-4 people.
     new = {}
@@ -131,6 +161,9 @@ def main():
                 L.append(f"- {f['fact']} ({link(f['source'])})")
         for fl in sorted(e["flags"]):
             L.append(f"- **Unsure:** {fl}")
+        if ppl:
+            L.append("- Contacts:")
+            L += contacts(ppl)
         L.append("")
 
     # 1b: the rest of the step-3 proposals.
@@ -156,7 +189,10 @@ def main():
     # 2: changes to existing orgs.
     L += ["## 2. Changes to existing organizations", "", "### 2a. New `email_domains`", "",
           "| organization | add | why |", "|---|---|---|"]
+    dropped = org_map.get("drop_email_domains", {})
     for d, f in sorted(fix.items()):
+        if d in dropped:
+            continue
         org = (f.get("org") or "").replace("kb://livid/organizations/", "")
         doc = LIVID / "kb" / "organizations" / org if org else None
         if doc and doc.exists():
@@ -171,9 +207,10 @@ def main():
             L.append(f"| `{hit['path']}` | {d} | **unsure:** {hit['flag']} |")
     L.append("")
 
-    L += ["### 2b. Garment factories: `suppliers/` → `manufacturers/` (kind `manufacturer`)", "",
-          "Step 3 review: their people are `manufacturer`. Texgoios is renamed **Mill-Tex** in the same move "
-          "(new title, `email_domains` + milltex.pt). Links that must change:", ""]
+    L += ["### 2b. Production partners: `suppliers/` → `manufacturers/` (kind `manufacturer`) — decided", "",
+          "Garment factories and production agents (step 3 review; the whole production-partners group per Kriss, "
+          "2026-10-23). Texgoios is renamed **Mill-Tex** in the same move (new title, `email_domains` + milltex.pt). "
+          "Links that must change:", ""]
     for old, new_id in MOVES.items():
         files = refs(old, livid_files)
         kriss = [w["file"] for w in written.values() if w["organization"].endswith(f"suppliers/{old}.md")]
@@ -181,24 +218,28 @@ def main():
                  + (" (rename: Texgoios → Mill-Tex)" if old != new_id else ""))
         L.append(f"  - livid-kb: {', '.join(f'`{x}`' for x in files) or 'no other links'}")
         L.append(f"  - kb-kriss Person notes (`organization`): {len(kriss)}")
-    others = ["zhejiang-springair", "forever-ind", "goldfine-asia", "pro-trading", "primeboots", "dibella-india",
-              "jose-magalhaes", "outfit21"]
-    L += ["", "**Unsure:** these are also in the production-partners coding rule but were not on the move list; "
-          "move them too? " + ", ".join(f"`suppliers/{o}.md`" for o in others)
-          + ". (Petter Korseth is the production agent for Springair/Bellanza.)", ""]
+    L.append("")
 
-    L += ["### 2c. Eplehuset: customer as well as supplier", "",
-          "`suppliers/eplehuset.md` has kind `supplier` (leased office hardware). It is mainly a **customer**: Livid "
-          "produces and stores their uniforms; orders arrive through a webshop run by Konsis as PrintCollect emails. "
-          "An Organization has one `kind`. Options: (a) keep it in `suppliers/` and add a \"Customer relationship\" "
-          "section; (b) move to `customers/eplehuset.md` (kind customer) with a \"Also a supplier\" section — links: "
-          + ", ".join(f"`{x}`" for x in refs("eplehuset", livid_files)) + ". Recommendation: (b), since most "
-          "traffic is the uniform business.", ""]
+    L += ["### 2c. Eplehuset → `customers/eplehuset.md` (kind customer) — decided", "",
+          "Mainly a **customer**: Livid produces and stores their uniforms; orders arrive through a webshop run by "
+          "Konsis as PrintCollect emails. Also a supplier (leased office hardware) — an \"Also a supplier\" section. "
+          "ID Group (idegroup.no, the old webshop) is no longer involved, so idegroup.no is not added as a domain. "
+          "Links that must change: " + ", ".join(f"`{x}`" for x in refs("eplehuset", livid_files))
+          + f"; kb-kriss Person notes: {len(people_by_org.get('suppliers/eplehuset.md', []))}.", ""]
 
     # Additions decided with Kriss at the checkpoint (cache/step4/batch_extra.md), after group 2.
     extra = os.path.join(s4.STEP4, "batch_extra.md")
     if os.path.exists(extra):
         L += open(extra).read().splitlines() + [""]
+
+    # 2f: Contacts to add to existing organizations (backfill under the group 0 rule).
+    existing_orgs = sorted(o for o in people_by_org if (LIVID / "kb" / "organizations" / o).exists())
+    L += [f"### 2f. Contacts to add to existing organizations ({len(existing_orgs)})", "",
+          "Under the group 0 rule, from the step-4 Person notes.", ""]
+    for o in existing_orgs:
+        L.append(f"- `{o}`")
+        L += ["  " + x for x in contacts(people_by_org[o])]
+    L.append("")
 
     # 3 and 4.
     L += ["## 3. Company facts found while reading", "",

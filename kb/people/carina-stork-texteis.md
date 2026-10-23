@@ -7,13 +7,15 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [carina@storktexteis.pt]
 category: manufacturer
 organization: kb://livid/organizations/suppliers/stork-texteis.md
+tags: [former]
 ---
 
 # Who
+**Former contact** (left Stork Texteis 2026-09-30; Helena took over).
 Production and client contact at Stork Texteis, the garment manufacturer in Portugal; Livid works with Stork through the agent Tex-Challenge. **Left Stork on 2026-09-30**. Helena is now the contact (see Links).
 
 # Relationship

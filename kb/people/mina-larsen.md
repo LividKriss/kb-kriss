@@ -7,12 +7,14 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [mina@livid.no, minahlarsen@gmail.com]
 category: colleague
+tags: [former]
 ---
 
 # Who
+**Former contact** (former staff).
 Store manager at Past Workshop (Past, Løkka in Oslo), Livid Retail AS. Works with Kristina Ottesen at Past. Exact title not seen in a signature.
 
 # Relationship
@@ -38,5 +40,5 @@ Follows the category voice (Norwegian, "Hei", short; often one-word replies like
 - Organization: Livid (colleague).
 - [Kristina Ottesen](/people/kristina-ottesen.md) — works at Past with Mina
 - [Ole Eivind Siggerud](/people/ole-eivind-siggerud.md) — buying; complaints and credit notes
-- [Kaia Walstad](/people/kaia-walstad.md) — retail lead
+- [Kaia Walstad](/people/kaia-gronland.md) — retail lead
 - [Vincent Santos](/people/vincent-santos.md) — store manager, Livid Oslo

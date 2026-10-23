@@ -7,13 +7,15 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [beatriz.silva@somelos.pt]
 category: supplier
 organization: kb://livid/organizations/suppliers/somelos.md
+tags: [former]
 ---
 
 # Who
+**Former contact** (left Somelos 2026-06-03).
 Sales at Somelos Tecidos, SA. She left Somelos on 2026-06-03.
 
 # Relationship

@@ -7,10 +7,10 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [pernille.rekdal@onsagers.no]
 category: advisor
-organization: kb://livid/organizations/advisors/onsagers.md
+organization: kb://livid/organizations/advisors/acapo-onsagers.md
 ---
 
 # Who
@@ -31,6 +31,6 @@ Norwegian, "Hei," short and polite. Writes to her and Hege Ravnås together.
 - None.
 
 # Links
-- Organization: [Onsagers](kb://livid/organizations/advisors/onsagers.md)
+- Organization: [Acapo Onsagers AS](kb://livid/organizations/advisors/acapo-onsagers.md)
 - [Hege Ravnås](/people/hege-ravnas.md) — Onsagers colleague, copied on the trademark case
 - Herman Vestrum Danielsen — lawyer at Acapo Onsagers, gave the WIPO quote

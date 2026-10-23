@@ -1,19 +1,19 @@
 ---
 type: Person
 title: Mathilde Wilhelmina Isdahl
-description: "Livid colleague in the Oslo workshop/factory (Past Workshop) who screens factory job applications; deals with Kriss on recruiting access, repairs/shipments and admin for the workshop."
+description: "Livid colleague at Past Workshop doing repairs in the workshop; deals with Kriss on repairs, shipments and admin for the workshop."
 owner: kriss
 tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [ma101deis@gmail.com]
 category: colleague
 ---
 
 # Who
-Works in Livid's Oslo factory/workshop (Past Workshop: production, repairs). Screens applications for factory positions. Works alongside the Past Workshop shared mailbox (lividpastworkshop@gmail.com). Writes from a private Gmail address and signs "Mathilde Wilhelmina Isdahl".
+Works at Past Workshop, doing repairs in the workshop/factory. Works alongside the Past Workshop shared mailbox (lividpastworkshop@gmail.com). Writes from a private Gmail address and signs "Mathilde Wilhelmina Isdahl".
 
 # Relationship
 In the mail since 2024-01 (staff mailings), direct work with Kriss since 2026-01. Typical topics: access to the job-application mailbox, travel for events, shipments and refunds for workshop customers. A few threads a month in 2026.

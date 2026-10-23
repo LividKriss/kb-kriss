@@ -7,13 +7,15 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [jannicke.jakobsen@idegroup.no]
 category: wholesale-customer
 organization: kb://livid/organizations/suppliers/eplehuset.md
+tags: [former]
 ---
 
 # Who
+**Former contact** (ID Group (Eplehuset's old webshop) is no longer involved).
 Employee at ID Group (idegroup.no). She forwarded "Takk for din bestilling hos Eplehuset nettbutikk" order confirmations (EPLE… numbers) to Kriss so that Livid could pick and ship the uniforms.
 
 # Relationship

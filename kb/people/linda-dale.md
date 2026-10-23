@@ -7,12 +7,14 @@ tier: personal
 status: draft
 generated:
   by: claude-code/claude-opus-5-5
-  at: 2026-10-23T10:11:20+02:00
+  at: 2026-10-23T12:41:11+02:00
 emails: [linda@livid.no, lindadalebr@gmail.com]
 category: colleague
+tags: [former]
 ---
 
 # Who
+**Former contact** (former staff).
 Store lead at Livid Oslo (Livid Retail AS), working alongside Vincent Santos. Store numbers and reports for Oslo go to both of them.
 
 # Relationship
