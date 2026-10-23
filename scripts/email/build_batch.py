@@ -38,14 +38,30 @@ MOVES = {"stork-texteis": "stork-texteis", "lisama": "lisama", "texgoios": "mill
          "dia-exemplar": "dia-exemplar", "officocta": "officocta"}
 
 
-def facts():
+def domain_paths(org_map):
+    """Sender domain -> organization path (from step-4 people, roles and the org map), for facts keyed by domain."""
+    out = {d: h["path"] for d, h in org_map["by_domain"].items()}
+    plan = json.load(open(s4.PLAN))
+    prepared = json.load(open(os.path.join(s4.STEP4, "prepared.json")))
+    for p, v in prepared["people"].items():
+        if v.get("organization"):
+            out.setdefault(s4.domain(p), v["organization"].replace("kb://livid/organizations/", ""))
+    for a, r in plan["roles"].items():
+        if r["org"]:
+            out.setdefault(s4.domain(a), r["org"].replace("kb://livid/organizations/", ""))
+    return out
+
+
+def facts(paths=None):
+    paths = paths or {}
     out = []
     for path in sorted(glob.glob(os.path.join(s4.STEP4, "facts", "*.md"))):
         for line in open(path):
             m = re.match(r"\s*-\s*org:\s*(.*?)\s*\|\s*kind:\s*(.*?)\s*\|\s*fact:\s*(.*?)\s*\|\s*source:\s*(\S*)", line)
             if m:
                 org, kind, fact, src = m.groups()
-                org = org.replace("kb://livid/", "").replace("organizations/", "")
+                org = org.replace("kb://livid/", "").replace("organizations/", "").strip("`")
+                org = paths.get(org) or paths.get(base_domain(org)) or org
                 out.append({"org": org, "kind": kind.strip(), "fact": fact, "source": src.strip("`")})
     return out
 
@@ -64,7 +80,7 @@ def main():
     org_map = json.load(open(ORG_MAP))
     written = json.load(open(os.path.join(s4.STEP4, "written.json")))["written"]
     corr = s4.load_corrections()
-    fs = facts()
+    fs = facts(domain_paths(org_map))
     by_org = defaultdict(list)
     for f in fs:
         by_org[f["org"]].append(f)
