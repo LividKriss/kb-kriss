@@ -288,7 +288,7 @@ def main():
 
     for cat, items in plan["voice"].items():
         parts = [f"# Kriss's sent mail to `{cat}` contacts (12 months, his own text only)\n\n"]
-        kept = 0
+        kept = ai_skipped = 0
         for it in items:
             m = msgs.get(it["id"])
             if not m:
@@ -297,13 +297,17 @@ def main():
             subj = m["headers"].get("Subject", "")
             if len(body) < 40 or (re.match(r"^\s*(fwd?|vs|videresend)\s*:", subj, re.I) and len(body) < 80):
                 continue  # one-word replies and forwards without text
+            raw = (m.get("text") or "") + (m.get("html") or "")
+            if AI_SIGNED.search(raw):
+                ai_skipped += 1
+                continue  # written by the AI assistant, not Kriss: never a voice sample
             first_in_thread = by_thread[m["threadId"]][0]["id"] == m["id"]
             parts.append(f"--- {day(m['internalDate'])} | {'new thread' if first_in_thread else 'reply'} | "
                          f"subject: {subj[:100]}\n{short(body, 1500)}\n\n")
             kept += 1
         path = os.path.join(OUT_VOICE, cat + ".md")
         open(path, "w").write("".join(parts))
-        prepared["voice"][cat] = {"file": path, "messages": kept}
+        prepared["voice"][cat] = {"file": path, "messages": kept, "ai_signed_skipped": ai_skipped}
 
     json.dump(prepared, open(os.path.join(s4.STEP4, "prepared.json"), "w"), indent=1)
     sizes = sorted((v["chars"], p) for p, v in prepared["people"].items())
