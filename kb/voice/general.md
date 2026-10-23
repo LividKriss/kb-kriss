@@ -144,6 +144,7 @@ What counts as casual (proposed, to confirm): colleagues; 3PL clients and other 
   - "revert" meaning reply ("Could you please revert")
 
 # Never
+- **No dashes to join or split sentences** (" - ", " – ", " — "): it reads as AI-written. Use a full stop, a comma or a new line instead. Hyphens inside words (e-post, follow-up) are fine. Applies to every draft unless Kriss asks otherwise (Kriss, 2026-10-23).
 - **Greetings and closings he doesn't use:** "Dear …", "Kjære …", "Hi <Name>,", "Regards" or "Kind regards", "Cheers", "Mvh", "Med vennlig hilsen", "Hilsen". No closing phrase in Norwegian outside formal landlord letters.
 - **"Hope this email finds you well":** never; he writes "Hope you are well." "I hope this message finds you well" appears twice, only in long English apology letters to customers. Keep it to that register.
 - **Emojis:** one 😅 in about 430 messages, to an owner he knows well. ":)" appears now and then, only with colleagues and 3PL clients. Drafts don't use emojis.

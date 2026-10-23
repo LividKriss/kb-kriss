@@ -76,4 +76,4 @@ Same common fields as livid-kb (`type, title, description, owner, tier, status, 
 
 - Locate docs with `python3 ../livid-kb/tools/kb_find.py --kb personal|company|both <terms>` instead of reading folders.
 - Email work: follow `kb/email/daily-run.md` and the rules it links; respect `autonomy` and the send policy.
-- Drafting: thread + Person note + Voice Profile (category, then person override) + relevant livid-kb docs. Drafts go in the language of the thread.
+- Drafting: thread + Person note + Voice Profile (category, then person override) + relevant livid-kb docs. Drafts go in the language of the thread. This applies to **every** email or message drafted for Kriss, whatever task produced it (e.g. a bookkeeping chat), not only the email assistant.

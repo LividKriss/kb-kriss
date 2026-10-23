@@ -2,6 +2,7 @@
 
 ## 2026-10-23
 
+- **Update** voice/general.md Never: no dashes to join or split sentences (reads as AI-written) — Kriss. AGENTS.md §6: voice profiles + Person note apply to every draft for Kriss, whatever task made it.
 - **Update** Daily email run (cloud, 2nd run), partial: ~200 threads in the 2-day window. KB sync done for 2 business threads (Paulo Teixeira: Dia account statement; Mette Helgesen: new rent reminder 23.10) and 55 noise/platform/invoice/customs/HR threads labelled `AI/KB-synced` (nothing written for those). ~140 threads, mainly production threads with Christopher/Charlie/Stork/Lisama/Cervo/Siluete, were NOT synced or drafted this run (time-boxed); they stay without `AI/KB-synced` for the next run. No new classification, drafts or archiving. No `[KB-inbox]` drafts. Nothing sent, forwarded or deleted.
 - **Update** docs/routine.md + daily-run.md: fixed run order after the second test run (KB sync ran first, ran out of time, and classification/archiving were skipped). Now: classify/label/archive first (always finishes), then invoices, KB-inbox, KB sync (bulk-label non-substantive mail; substantive threads in parallel subagent batches, newest first; backlog carries over), drafts last.
 - **Creation** New rule email/signature.md (draft): Kriss's sign-off + AI disclaimer (reviewed / auto-sent, NO/EN) + his Gmail signature. Morning brief scheduled task created in Cowork (weekdays 07:30 Oslo, new chat; KB instructions from the chat go via [KB-inbox] Gmail drafts that part A applies).
