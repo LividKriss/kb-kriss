@@ -1,7 +1,7 @@
 ---
 type: Person
 title: Anette Braathu Haaverstad
-description: "Contact at Spabo Eiendom/Næring AS, landlord of a Livid store; follows up rent, the bank guarantee and lease matters with Kriss."
+description: "Contact at Spabo Eiendom/Næring AS, landlord of Past Løkka; follows up rent, the bank guarantee and lease matters with Kriss."
 owner: kriss
 tier: personal
 status: draft
@@ -9,12 +9,12 @@ generated:
   by: claude-code/claude-opus-5-5
   at: 2026-10-23T10:11:20+02:00
 emails: [anette.haaverstad@spabo.no, anette@spabo.no]
-category: supplier
+category: landlord
 organization: kb://livid/organizations/suppliers/spabo-eiendom.md
 ---
 
 # Who
-Anette Braathu Haaverstad, Spabo Eiendom/Næring AS. Contact for Livid's lease (rent, guarantee, lease terms).
+Anette Braathu Haaverstad, Spabo Eiendom/Næring AS, landlord of Past Løkka (Livid Retail). Contact for the lease (rent, guarantee, lease terms).
 
 # Relationship
 First thread 2024-04-18 (lease ending 2025-03-31, renewal). Handles rent reminders and the bank guarantee; turnover-rent statements go through her colleague Caroline Halmrast with Anette in copy. A few times a year, usually when something is overdue.

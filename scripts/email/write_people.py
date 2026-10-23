@@ -111,6 +111,10 @@ def main():
     args = ap.parse_args()
     plan = json.load(open(s4.PLAN))
     org_map = json.load(open(ORG_MAP))
+    # Kriss's category corrections after reading (people.json "category": primary address -> category).
+    for p, cat in json.load(open(s4.PEOPLE_JSON)).get("category", {}).items():
+        if p in plan["persons"]:
+            plan["persons"][p]["category"] = cat
     now = dt.datetime.now().astimezone().replace(microsecond=0).isoformat()
 
     todo, missing = [], []

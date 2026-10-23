@@ -9,7 +9,7 @@ generated:
   by: claude-code/claude-opus-5-5
   at: 2026-10-23T10:11:20+02:00
 emails: [shaylan@yokiestudio.com]
-category: supplier
+category: wholesale-customer
 organization: kb://livid/organizations/customers/yokie.md
 ---
 

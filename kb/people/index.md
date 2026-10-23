@@ -13,7 +13,7 @@ One note per contact — who they are, relationship, how Kriss communicates with
 - [Ana Catarina Rodrigues](ana-catarina-rodrigues.md) *(draft)* — Freight quotations contact at Rangel Logistics Solutions (Portugal); sends rates for Livid's sea-freight fabric imports from Japan to Leixões.
 - [Anders Berg Halvorsen](anders-berg-halvorsen.md) *(draft)* — Markedskoordinator at Eplehuset; follows up the staff-uniform orders that Livid makes, stores and ships to Eplehuset's stores.
 - [Anders Thoresen](anders-thoresen.md) *(draft)* — Corporate-finance advisor at DHT Corporate Finance helping Livid with its growth-capital raise (pitch deck, IM, valuation, investor preparation).
-- [Anette Braathu Haaverstad](anette-braathu-haaverstad.md) *(draft)* — Contact at Spabo Eiendom/Næring AS, landlord of a Livid store; follows up rent, the bank guarantee and lease matters with Kriss.
+- [Anette Braathu Haaverstad](anette-braathu-haaverstad.md) *(draft)* — Contact at Spabo Eiendom/Næring AS, landlord of Past Løkka; follows up rent, the bank guarantee and lease matters with Kriss.
 - [Angel](angel-huzhou-yixu.md) *(draft)* — Merchandiser/order contact ("Angel") at Huzhou Yixu Imp. & Exp. Co., Ltd, the Chinese fur and leather accessories maker; Kriss deals with her on orders, quantities and payments.
 - [Anna Blomqvist](anna-blomqvist.md) *(draft)* — Collection clerk at UPS Sweden AB (Collection Nordics) who chases overdue UPS invoices on Livid Jeans AS's account.
 - [Anna Elisabeth Ueland](anna-elisabeth-ueland.md) *(draft)* — Livid store staff on a private address; only on Kriss's store-staff broadcasts.

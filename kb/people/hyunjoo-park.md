@@ -9,7 +9,7 @@ generated:
   by: claude-code/claude-opus-5-5
   at: 2026-10-23T10:11:20+02:00
 emails: [hyunjoopark@nawainternational.co.kr]
-category: supplier
+category: wholesale-customer
 organization: kb://livid/organizations/customers/nawa-international.md
 ---
 

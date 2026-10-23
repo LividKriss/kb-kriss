@@ -195,6 +195,11 @@ def main():
           + ", ".join(f"`{x}`" for x in refs("eplehuset", livid_files)) + ". Recommendation: (b), since most "
           "traffic is the uniform business.", ""]
 
+    # Additions decided with Kriss at the checkpoint (cache/step4/batch_extra.md), after group 2.
+    extra = os.path.join(s4.STEP4, "batch_extra.md")
+    if os.path.exists(extra):
+        L += open(extra).read().splitlines() + [""]
+
     # 3 and 4.
     L += ["## 3. Company facts found while reading", "",
           "For existing docs; one line each with the source thread. New-org facts are listed under 1a.", ""]
