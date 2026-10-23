@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [ning@goldfineasia.com]
 category: manufacturer
-organization: kb://livid/organizations/suppliers/goldfine-asia.md
+organization: kb://livid/organizations/manufacturers/goldfine-asia.md
 ---
 
 # Who
@@ -40,7 +40,7 @@ Ning has been Livid's knitwear partner since 2023-11 (boiled merino knit and ori
 - None.
 
 # Links
-- Organization: [GOLDFINE (ASIA) LIMITED](kb://livid/organizations/suppliers/goldfine-asia.md)
+- Organization: [GOLDFINE (ASIA) LIMITED](kb://livid/organizations/manufacturers/goldfine-asia.md)
 - [Christopher Stangeby](/people/christopher-stangeby.md): Livid design and production assistant, runs the day-to-day samples, comments and trims with Ning.
 - [Charlie Selvig](/people/charlie-selvig.md): Livid, copied on all production threads.
 - [Jens Olav Dankertsen](/people/jens-olav-dankertsen.md): Livid, copied on all production threads.

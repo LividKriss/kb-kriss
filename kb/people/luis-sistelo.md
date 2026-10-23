@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [luis.sistelo@diaexemplar.com]
 category: manufacturer
-organization: kb://livid/organizations/suppliers/dia-exemplar.md
+organization: kb://livid/organizations/manufacturers/dia-exemplar.md
 ---
 
 # Who
@@ -41,7 +41,7 @@ English: "Hello Luis," / "Hope you are well." / "Best, Kristoffer". He always co
 - Livid — Kelvin Gray SS27 — Zipper order & grading confirmation — Dia owes Christopher the zipper lengths and quantities per size ([thread](https://mail.google.com/mail/u/0/#all/1a1598f44541fff4))
 
 # Links
-- Organization: [Dia Exemplar](kb://livid/organizations/suppliers/dia-exemplar.md)
+- Organization: [Dia Exemplar](kb://livid/organizations/manufacturers/dia-exemplar.md)
 - Ana Costa — Dia colleague; technical/production questions, in cc on everything
 - Mafalda Sistelo — Dia colleague; receives portal notices and MOs
 - [Paulo Teixeira](/people/paulo-teixeira.md) — Tex-Challenge agent between Livid and Dia

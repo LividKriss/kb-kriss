@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [sonia.cad@afonsovestuario.pt]
 category: manufacturer
-organization: kb://livid/organizations/suppliers/afonso.md
+organization: kb://livid/organizations/manufacturers/afonso.md
 ---
 
 # Who
@@ -43,7 +43,7 @@ Kriss has worked with Sónia since at least 2025-11 (earliest listed thread 2025
 - AFONSO: Fw26 deliveries — Kriss's own follow-up. He planned to review the UPS bill and decide whether to ask Afonso to cover part of the extra cost against Cargolinnea. ([thread](https://mail.google.com/mail/u/0/#all/1a08670ee23ed9ed))
 
 # Links
-- Organization: [AFONSO – Produção de Vestuário, Lda.](kb://livid/organizations/suppliers/afonso.md)
+- Organization: [AFONSO – Produção de Vestuário, Lda.](kb://livid/organizations/manufacturers/afonso.md)
 - Conceição Pinhão: Afonso management, co-addressee on orders and plans.
 - [Paulo Teixeira](/people/paulo-teixeira.md): Tex Challenge, Livid's liaison with Afonso, copied on everything.
 - [Christopher Stangeby](/people/christopher-stangeby.md): Livid design and production assistant, handles UPS labels, trims and production details.

@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [goretti.catarino@texgoios.pt]
 category: manufacturer
-organization: kb://livid/organizations/suppliers/texgoios.md
+organization: kb://livid/organizations/manufacturers/mill-tex.md
 ---
 
 # Who
@@ -34,7 +34,7 @@ English, short. Kriss mostly forwards without replying; when he writes it's "Hel
 - None.
 
 # Links
-- Organization: [Texgoios S.A.](kb://livid/organizations/suppliers/texgoios.md)
+- Organization: [Texgoios S.A.](kb://livid/organizations/manufacturers/mill-tex.md)
 - [Paulo Teixeira](/people/paulo-teixeira.md) — Tex-Challenge, in copy on Texgoios shipments.
 - [Sandra Pontes](/people/sandra-pontes.md) — Texgoios colleague, copied on the insurance issue.
 - [Christopher Stangeby](/people/christopher-stangeby.md) — receives the goods documents at Livid.

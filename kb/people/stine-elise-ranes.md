@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [stine.ranes@idegroup.no]
 category: wholesale-customer
-organization: kb://livid/organizations/suppliers/eplehuset.md
+organization: kb://livid/organizations/customers/eplehuset.md
 tags: [former]
 ---
 
@@ -39,7 +39,7 @@ Norwegian, "Hei!" or "Hei," then a short practical message, signed "Kristoffer".
 - None.
 
 # Links
-- Organization: [Eplehuset Norge AS](kb://livid/organizations/suppliers/eplehuset.md)
+- Organization: [Eplehuset Norge AS](kb://livid/organizations/customers/eplehuset.md)
 - Anders Skjøstad — store manager at Eplehuset Storo; orders uniforms and chased late orders.
 - [Christopher Stangeby](/people/christopher-stangeby.md) — Livid colleague who received forwarded orders for entry and shipping.
 - Marte Nyhus Willmann — IDE Group colleague (cardigan restock, 2025-02).

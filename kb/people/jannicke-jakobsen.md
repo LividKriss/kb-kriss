@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [jannicke.jakobsen@idegroup.no]
 category: wholesale-customer
-organization: kb://livid/organizations/suppliers/eplehuset.md
+organization: kb://livid/organizations/customers/eplehuset.md
 tags: [former]
 ---
 
@@ -34,5 +34,5 @@ Norwegian, very short ("Hei,"), only when something needs action on the webshop 
 - None.
 
 # Links
-- Organization: [Eplehuset Norge AS](kb://livid/organizations/suppliers/eplehuset.md)
+- Organization: [Eplehuset Norge AS](kb://livid/organizations/customers/eplehuset.md)
 - [Anders Berg Halvorsen](/people/anders-berg-halvorsen.md) — Eplehuset's uniform coordinator.

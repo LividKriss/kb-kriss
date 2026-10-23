@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [anders.halvorsen@eplehuset.no]
 category: wholesale-customer
-organization: kb://livid/organizations/suppliers/eplehuset.md
+organization: kb://livid/organizations/customers/eplehuset.md
 ---
 
 # Who
@@ -38,7 +38,7 @@ Norwegian, "Hei Anders!", short and friendly. Kriss copies Mats Tranvåg on stat
 - FW: Produksjonsvarsel- [20821] — Anders asked about Moa's order from 16 Sep; no direct reply in the thread, probably covered by the 2026-10-14 backlog fix. Confirm it shipped ([thread](https://mail.google.com/mail/u/0/#all/1a1165dee0998246))
 
 # Links
-- Organization: [Eplehuset Norge AS](kb://livid/organizations/suppliers/eplehuset.md)
+- Organization: [Eplehuset Norge AS](kb://livid/organizations/customers/eplehuset.md)
 - [Mats Tranvåg](/people/mats-tranvag.md) — Anders's colleague; handles terms and escalations.
 - Pia Talmo — Eplehuset; gave the invoice address.
 - Odd Johnny Pettersen — Konsis, runs the profile shop (PrintCollect).

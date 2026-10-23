@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [delfina.pereira@lisama.pt]
 category: manufacturer
-organization: kb://livid/organizations/suppliers/lisama.md
+organization: kb://livid/organizations/manufacturers/lisama.md
 ---
 
 # Who
@@ -39,7 +39,7 @@ She is the day-to-day admin and logistics contact for Livid's production at Lisa
 - Stock Transfer Request — ST-00103 — On 2026-09-07 she sent the pallet measurements and is waiting for Livid or Paulo to confirm pickup. No later reply in the thread; it may have been settled elsewhere. ([thread](https://mail.google.com/mail/u/0/#all/19fc93e459272747))
 
 # Links
-- Organization: [LISAMA – Sociedade de Confecções, Lda.](kb://livid/organizations/suppliers/lisama.md)
+- Organization: [LISAMA – Sociedade de Confecções, Lda.](kb://livid/organizations/manufacturers/lisama.md)
 - [Emanuel Fertuzinhos](/people/emanuel-fertuzinhos.md) — Lisama colleague, main production and commercial contact
 - [Catarina Peixoto](/people/catarina-peixoto.md) — Lisama colleague, production follow-up
 - [Paulo Teixeira](/people/paulo-teixeira.md) — Tex-Challenge, Livid's agent with Lisama; receives her invoices

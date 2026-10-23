@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [carina@storktexteis.pt]
 category: manufacturer
-organization: kb://livid/organizations/suppliers/stork-texteis.md
+organization: kb://livid/organizations/manufacturers/stork-texteis.md
 tags: [former]
 ---
 
@@ -42,7 +42,7 @@ English. "Hello Carina," / "Hello Carina and Helena," / "Hello both," then "Hope
 - New Lab Dip Order — LD-002 — Stork was asked to confirm delivery dates (deadline 2026-10-08). The reply is not visible, so status is unclear ([thread](https://mail.google.com/mail/u/0/#all/1a09fc5996e9bcf4))
 
 # Links
-- Organization: [Stork Texteis, Lda](kb://livid/organizations/suppliers/stork-texteis.md)
+- Organization: [Stork Texteis, Lda](kb://livid/organizations/manufacturers/stork-texteis.md)
 - Helena — Stork colleague, Livid's contact at Stork from October 2026
 - [Paulo Teixeira](/people/paulo-teixeira.md) — Tex-Challenge, agent between Livid and Stork, copied on everything
 - Luis — Stork, production planning and dispatch

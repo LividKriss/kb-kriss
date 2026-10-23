@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [jonathan.tafjord@eplehuset.no]
 category: supplier
-organization: kb://livid/organizations/suppliers/eplehuset.md
+organization: kb://livid/organizations/customers/eplehuset.md
 ---
 
 # Who
@@ -32,6 +32,6 @@ Norwegian, "Hei Jonathan" or "Heisann", short. Jonathan writes informally with e
 - Inkasso — Jonathan asked whether the new address is for deliveries too or only for invoices; Kriss has not answered ([thread](https://mail.google.com/mail/u/0/#all/1a0473bfc57ffe6f))
 
 # Links
-- Organization: [Eplehuset Norge AS](kb://livid/organizations/suppliers/eplehuset.md)
+- Organization: [Eplehuset Norge AS](kb://livid/organizations/customers/eplehuset.md)
 - [Ole Edvard Halmøy](/people/ole-edvard-halmoy.md) — Eplehuset account manager he is covering for
 - [Mats Tranvåg](/people/mats-tranvag.md) — Eplehuset uniform-programme contact (customer side)

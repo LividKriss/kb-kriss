@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [catarina.peixoto@lisama.pt, catarina@videbula.com.pt]
 category: manufacturer
-organization: kb://livid/organizations/suppliers/lisama.md
+organization: kb://livid/organizations/manufacturers/lisama.md
 ---
 
 # Who
@@ -42,7 +42,7 @@ English. "Hello Catarina," then clear step-by-step explanations of portal featur
 - Lisama - Updated production plan — Emanuel replied 2026-10-20 with fixed SS27 quantities/dates; Kriss owes a response and the final plan ([thread](https://mail.google.com/mail/u/0/#all/1a1587987e8a23d6))
 
 # Links
-- Organization: [LISAMA – Sociedade de Confecções, Lda.](kb://livid/organizations/suppliers/lisama.md)
+- Organization: [LISAMA – Sociedade de Confecções, Lda.](kb://livid/organizations/manufacturers/lisama.md)
 - [Emanuel Fertuzinhos](/people/emanuel-fertuzinhos.md) — Lisama, production planning, capacity and delivery dates.
 - Hugo Costa — Lisama patterns and measurement charts (also hugo@videbula.com.pt).
 - [Delfina Pereira](/people/delfina-pereira.md) — Lisama, goods receipt and shipping documents.

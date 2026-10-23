@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [ole.halmoy@eplehuset.no]
 category: supplier
-organization: kb://livid/organizations/suppliers/eplehuset.md
+organization: kb://livid/organizations/customers/eplehuset.md
 ---
 
 # Who
@@ -33,6 +33,6 @@ Norwegian, "Hei Ole Edvard", short and friendly.
 - None.
 
 # Links
-- Organization: [Eplehuset Norge AS](kb://livid/organizations/suppliers/eplehuset.md)
+- Organization: [Eplehuset Norge AS](kb://livid/organizations/customers/eplehuset.md)
 - [Jonathan Tafjord](/people/jonathan-tafjord.md) — Eplehuset colleague covering his accounts
 - [Arnt Eriksen](/people/arnt-david-eriksen.md) — Livid CDMO, also on the introduction email

@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [ery@foreverind.com]
 category: manufacturer
-organization: kb://livid/organizations/suppliers/forever-ind.md
+organization: kb://livid/organizations/manufacturers/forever-ind.md
 ---
 
 # Who
@@ -37,5 +37,5 @@ English, "Hello Ery", short and direct; clear instructions (e.g. UPS Expedited, 
 - Re: parcel sent on 24th & 25th August — Ery asked on 2026-09-02 whether to send the original Form A by UPS; no reply visible, Livid owes an answer ([thread](https://mail.google.com/mail/u/0/#all/1a039094935395d8))
 
 # Links
-- Organization: [Forever Ind Limited](kb://livid/organizations/suppliers/forever-ind.md)
+- Organization: [Forever Ind Limited](kb://livid/organizations/manufacturers/forever-ind.md)
 - [Christopher Stangeby](/people/christopher-stangeby.md): Livid's day-to-day contact on samples and production.

@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [emanuel.fertuzinhos@lisama.pt]
 category: manufacturer
-organization: kb://livid/organizations/suppliers/lisama.md
+organization: kb://livid/organizations/manufacturers/lisama.md
 ---
 
 # Who
@@ -43,7 +43,7 @@ He is Kriss's main contact at Lisama for production planning and operations. He 
 - RE: Livid - FW27 SMS overview — Christopher owes Lisama a prioritised list of which samples go in each batch. ([thread](https://mail.google.com/mail/u/0/#all/1a1599a2ecd822bd))
 
 # Links
-- Organization: [LISAMA – Sociedade de Confecções, Lda.](kb://livid/organizations/suppliers/lisama.md)
+- Organization: [LISAMA – Sociedade de Confecções, Lda.](kb://livid/organizations/manufacturers/lisama.md)
 - [Delfina Pereira](/people/delfina-pereira.md) — Lisama admin and logistics (invoices, shipping documents, imports)
 - [Catarina Peixoto](/people/catarina-peixoto.md) — Lisama production follow-up and label ordering
 - Hugo Costa — Lisama patterns and PPS

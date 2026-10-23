@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [mats.tranvag@eplehuset.no]
 category: wholesale-customer
-organization: kb://livid/organizations/suppliers/eplehuset.md
+organization: kb://livid/organizations/customers/eplehuset.md
 ---
 
 # Who
@@ -39,7 +39,7 @@ Norwegian. "Hei Mats" (or "Hei dere" when Anders is included), signs "Kristoffer
 - Svar: Mangler på størrelser — Kriss owes follow-up: restock dates in the profile shop, an updated stock-list link, and contact with Morten Strand on the Hamar opening ([thread](https://mail.google.com/mail/u/0/#all/1a13e85ef2e20aef))
 
 # Links
-- Organization: [Eplehuset Norge AS](kb://livid/organizations/suppliers/eplehuset.md)
+- Organization: [Eplehuset Norge AS](kb://livid/organizations/customers/eplehuset.md)
 - [Anders Berg Halvorsen](/people/anders-berg-halvorsen.md) — Eplehuset marketing coordinator, copied on all uniform threads
 - Morten Strand — Eplehuset regional manager, placed order 20985 for the Hamar opening
 - [Jonathan Tafjord](/people/jonathan-tafjord.md) — Eplehuset account manager on the hardware/leasing side

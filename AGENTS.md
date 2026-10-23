@@ -14,7 +14,7 @@ People and relationships, how Kriss writes (voice), email assistant rules and pr
 - About an organization → company. About an individual person → here.
 - Ambiguous → ask Kriss with a one-line choice.
 
-Every save proposal names its destination: "Save to Livid KB → `organizations/suppliers/ups.md`" or "Saved to your notes → `people/jane-doe.md`". Never copy a fact into both KBs; link instead.
+Every save proposal names its destination: "Save to Livid KB → `organizations/suppliers/ups.md`" or "Saved to your notes → `people/jane-doe.md`". Never copy a fact into both KBs; link instead. One deliberate exception (Kriss, 2026-10-23): a business contact's name, role and work email may appear both in the livid-kb Organization doc (Contacts) and in the Person note here; relationship history, voice and open threads stay here only.
 
 ## 2. Ground rules (in addition to livid-kb §1)
 

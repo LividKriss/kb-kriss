@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [susana.o@officocta.com]
 category: manufacturer
-organization: kb://livid/organizations/suppliers/officocta.md
+organization: kb://livid/organizations/manufacturers/officocta.md
 ---
 
 # Who
@@ -39,7 +39,7 @@ English, short and direct ("Hello Susana" / "Hi", signs "Kristoffer"). He usuall
 - Pending matters for Octa: sample request SR-SS27-095 and label order TRO-00003 still open in the portal; Octa owes action ([thread](https://mail.google.com/mail/u/0/#all/1a152bbfd4bc3407))
 
 # Links
-- Organization: [Officocta Trading, Lda](kb://livid/organizations/suppliers/officocta.md)
+- Organization: [Officocta Trading, Lda](kb://livid/organizations/manufacturers/officocta.md)
 - Iara Fernandes: Octa office (geral@), proformas, invoices, shipping.
 - Jose Lima: Octa, copied on orders and portal mails.
 - [Paulo Teixeira](/people/paulo-teixeira.md): copied on Octa (and Stork) production threads; role not stated.

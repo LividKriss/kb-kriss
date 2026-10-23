@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [sandra.pontes@texgoios.pt, sandra.pontes@milltex.pt]
 category: manufacturer
-organization: kb://livid/organizations/suppliers/texgoios.md
+organization: kb://livid/organizations/manufacturers/mill-tex.md
 ---
 
 # Who
@@ -34,7 +34,7 @@ English, "Hello Sandra," + "Hope you are well.", short, signs "Kristoffer". Usua
 - Prices and lead time Eplehuset: Paulo quoted on 2026-10-21. Kriss owes a go-ahead after checking with Eplehuset ([thread](https://mail.google.com/mail/u/0/#all/1a13a82ad439361c))
 - FW: RECLAMAÇÕES PROD LIVID AW26 - ENTREGUE ANTES DE FÉRIAS AGRUP P260050: Kriss demanded 40% off Atohi and new zips on 2026-10-08. Texgoios has not replied ([thread](https://mail.google.com/mail/u/0/#all/1a0f1bebf9882224))
 # Links
-- Organization: [Texgoios S.A.](kb://livid/organizations/suppliers/texgoios.md)
+- Organization: [Texgoios S.A.](kb://livid/organizations/manufacturers/mill-tex.md)
 - [Paulo Teixeira](/people/paulo-teixeira.md): Tex-Challenge agent who speaks for Texgoios on prices and deliveries
 - José Santos: Texgoios engineer, joins quality and delivery decisions
 - [Christopher Stangeby](/people/christopher-stangeby.md): Livid production colleague, on cc for samples and shipments
