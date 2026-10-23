@@ -23,6 +23,7 @@ Kriss and Paulo work on season production (SS27 now, FW26 deliveries, FW27 sampl
 English. "Hello Paulo," / "Hope you are well.", signed "Best / Kristoffer" or with the signature block only. Direct and short. He chases with one-liners ("Did you see the above…"). He copies Christopher Stangeby, and usually Charlie Selvig and Jens Olav Dankertsen, on production matters.
 
 # History
+- 2026-10-23: Paulo forwarded Dia Exemplar's account statement asking Livid to pay open invoices.
 - 2026-10-22: Stork invoiced the FW26 Extensive Bean silk shirt with the 10% discount Livid asked for (the colour was off). Paulo said the dye house Pizarro will no longer do this silk dyeing, and flagged an overdue Stork invoice.
 - 2026-10-21: Paulo quoted a restock of the Eplehuset uniform tee and zip cardigan (Texgoios). Best delivery is 2027-01-29.
 - 2026-10-20: Kriss cancelled Mill-Tex SS27 styles Atohi and Alpha after Paulo explained the high velvet fabric prices.
@@ -34,6 +35,7 @@ English. "Hello Paulo," / "Hope you are well.", signed "Best / Kristoffer" or wi
 - 2026-02-25: Development of a new 220 g jersey started (from subject, 25 messages).
 
 # Open threads
+- DIA: Account statement: Dia requests payment of open invoices; Kriss to check and pay or reply
 - STORK: FW26 EXTENSIVE BEAN SILK invoice + pending invoices: Livid owes the waybill for the shipment and payment of an overdue Stork invoice ([thread](https://mail.google.com/mail/u/0/#all/1a163e660141d3cb))
 - SS27 pending matters Mill-Tex: Paulo owes confirmation that the Atohi/Alpha fabric can be cancelled. After that, Kriss sends the updated MO ([thread](https://mail.google.com/mail/u/0/#all/1a13509eaff36b49))
 - Prices and lead time Eplehuset: prices and the 2027-01-29 date are in. Kriss owes a lock-in with Eplehuset and the order ([thread](https://mail.google.com/mail/u/0/#all/1a13a82ad439361c))
