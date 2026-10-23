@@ -2,6 +2,7 @@
 
 ## 2026-10-23
 
+- **Update** Step 4 applied after Kriss's review: AGENTS.md §1 records the contacts exception (business contact name/role/work email may be in both KBs; history stays here). `docs/progress.md` updated (step 4 done; what step 5 needs), and `docs/step4-pending-facts.md` added (Livid-internal facts and grouped ideas that have no livid-kb doc yet). Person-note organization links now resolve to the new livid-kb Organization docs.
 - **Update** Schema `schema/types.yaml` + Person template: added contact category `sales-agent` (agents selling Livid's collections to retailers on commission). Second confirmation given by Kriss at the step 4 checkpoint. 3 Person notes moved to `sales-agent`; 1 former colleague now freelancing → `supplier`.
 - **Creation** Voice Profiles (draft) in `voice/`: general + colleague, supplier, manufacturer, wholesale-customer, landlord, advisor, 3pl-client, vendor-sales, from Kriss's sent mail (12 months). Sign-off rule set by Kriss: "All the best," / "Vennlig hilsen," + "Kristoffer"; casual mail just "Kristoffer". Thin categories (board-owner, partner-press, authority) folded into general. `stable` needs Kriss's second confirmation.
 - **Removal** 3 Person notes deleted at Kriss's request (contacts that only sent automated system mail or auto-replies).

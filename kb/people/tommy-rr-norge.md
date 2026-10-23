@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [tommy@rrnorge.no]
 category: advisor
-organization: kb://livid/organizations/advisors/rr-norge.md
+organization: kb://livid/organizations/advisors/effekt-rad-revisjon.md
 ---
 
 # Who
@@ -33,5 +33,5 @@ Follows the category voice (no messages available).
 - None.
 
 # Links
-- Organization: [RR Norge](kb://livid/organizations/advisors/rr-norge.md)
+- Organization: [RR Norge](kb://livid/organizations/advisors/effekt-rad-revisjon.md)
 - [Jarl Erik Ulvedal](/people/jarl-erik-ulvedal.md) — auditor at Signatur Revisjon, which took over the engagement

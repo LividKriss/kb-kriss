@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [pfaisca@hkconsulting.pt]
 category: supplier
-organization: kb://livid/organizations/suppliers/hk-consulting.md
+organization: kb://livid/organizations/advisors/hk-consulting.md
 ---
 
 # Who
@@ -39,7 +39,7 @@ English. "Hello Patricia/Patrícia," then a short message signed "Kristoffer". M
 - Order at our office — 5 boxes refused at HK's office 2026-10-12; Kriss asked which courier, HK doesn't know; shipment not yet identified ([thread](https://mail.google.com/mail/u/0/#all/1a12fae90bf97155))
 
 # Links
-- Organization: [HK Consulting Ltd](kb://livid/organizations/suppliers/hk-consulting.md)
+- Organization: [HK Consulting Ltd](kb://livid/organizations/advisors/hk-consulting.md)
 - Andrew Kennard — HK Consulting colleague; backup when she is away; filed the RCBE
 - Marilia Silva — HK Consulting colleague, copied on bank/RCBE threads
 - [Paulo Teixeira](/people/paulo-teixeira.md) — Tex Challenge; copied on urgent export invoice requests

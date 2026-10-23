@@ -2,7 +2,7 @@
 
 Companion to [brief.md](brief.md). Read the brief first; this file records what is done, what was decided along the way, and what step 3 needs to know. Update it at the end of every step.
 
-## Status (2026-10-22)
+## Status (2026-10-23)
 
 | Step | Status | Where |
 |---|---|---|
@@ -10,8 +10,9 @@ Companion to [brief.md](brief.md). Read the brief first; this file records what 
 | 1 Scaffold kb-kriss | Done | Cowork |
 | 2 livid-kb changes | Done | Cowork |
 | 3 Backfill pass 1 (headers) | Done (3 years fetched and reviewed, 2026-10-23) | Claude Code |
-| 4 Backfill pass 2 (content) | **Next** | Claude Code |
-| 5–7 | Not started | |
+| 4 Backfill pass 2 (content) | Done (2026-10-23; cache deletion pending Kriss's yes) | Claude Code |
+| 5 Triage rules and labels | **Next** | Cowork |
+| 5b–7 | Not started | |
 
 ## Decisions made so far (also in the KBs)
 
@@ -90,3 +91,28 @@ After Kriss's corrections: update this file (status + decisions), and add a `kb/
 - **Gap:** only 31 of 209 livid-kb Organizations have `email_domains` (not ~56 as noted above), so most supplier matches are by name. (Fixed: `kb_find.py` now searches `email_domains`.)
 
 **Workflow idea (later):** Eplehuset uniform orders arrive as PrintCollect emails → create the order in Loom. Candidate for a livid-kb process / step 5 triage rule.
+
+## Step 4 — what was done and decided (2026-10-23)
+
+**Tooling** (`scripts/email/`, venv; raw mail only in the local cache)
+- `fetch_content.py plan|fetch`: decides from headers what may be fetched, then `messages.get(format=full)` per message (not whole threads), so excluded material is never fetched: threads with employee matters or confirmed private contacts, and single platform/noise, unconfirmed-freemail and invoice@ messages. Gmail's per-user quota allows only ~1.5 msgs/s for full format; the script paces itself and retries on network drops.
+- **What "3 years for the top 50" became:** full content for each person's **newest 100 threads** in their window (12 months; 3 years for the top 50 by threads Kriss replied in); older threads appear only as a header index (dates, subjects). 14.7k messages fetched.
+- `prepare_content.py` (cleaned per-person files, quotes/signatures stripped, phones masked, ~2,000 chars per body), `write_people.py` (frontmatter from the plan, bodies from readers), `build_batch.py`, `report_step4.py`. Readers were parallel subagents with a fixed brief.
+
+**kb-kriss**
+- 185 Person notes (`draft`). 13 tagged `former` (kept as history, `tags: [former]` + a line in Who). Role/shared mailboxes and 3 contacts (a private matter, an HR-adjacent recruitment fee, an unnamed address) have no note; 3 notes deleted at Kriss's request (automated senders).
+- New contact category **`sales-agent`** (Standard Agency, John Webb); second confirmation given.
+- **Voice Profiles** (`draft`) in `voice/`: general + 8 categories. Sign-off rule (Kriss): "All the best," / "Vennlig hilsen," + "Kristoffer"; casual mail just "Kristoffer". Setting them `stable` needs Kriss's second confirmation. Messages signed "Kjell Odne" were excluded from the samples.
+- **Contacts exception** recorded in AGENTS.md §1: a business contact's name, role and work email may be in both KBs.
+- Kriss's corrections that are rules went into the notes/config: former contacts kept, freelancers (a photographer, a designer) are `supplier`, not `colleague`.
+
+**livid-kb** (all with log entries, 0 validator errors)
+- AGENTS.md §1 rule 4 + Organization template: **business contacts by name** in a `# Contacts` section (second confirmation given); backfilled on all org docs that step-4 people link to.
+- ~100 new Organization docs (first `customers/` and `manufacturers/` docs), 72 existing docs updated, 14 production partners moved to `manufacturers/` (Texgoios → Mill-Tex), Eplehuset → `customers/`, HK Consulting → `advisors/`, new entity `company/entities/livid-jeans-unipessoal.md`. Many open questions are `TODO(cfo)` in the docs (entity per supplier, legal names, invoice channels).
+
+**What step 5 needs**
+- `docs/step4-pending-facts.md`: Livid-internal facts (store routines, Loom/Sitoo/Cin7 flows, intercompany, year-end items) and ideas grouped in 7 themes — the most frequent is auto-forwarding emailed supplier invoices to PowerOffice (~15 senders), then payment/due-date tracking (UPS suspended 5× in 2026, Kowa, Quickship, rent reminders), orders typed in by hand (PrintCollect/Eplehuset, wholesale restocks), system-sync monitoring, mail routing, checklists (offboarding, 3PL onboarding, year-end, bank deadlines).
+- **Urgency signals seen:** UPS Collections (suspension → debt collection deadlines), bank KYC deadlines (account blocked if missed), Eksfin/credit-line renewals, landlord rent reminders, Altinn/NAV/SSB notices, auditor reminders, debt-collection notices from creditors.
+- **Send policy (5b):** replies signed "Kjell Odne (AI assistent)" were already sent on 2026-10-10 and 2026-10-15 (Eplehuset, Rangel, Frameless) before any send policy exists.
+- **invoice@ gap:** messages addressed to invoice@ were not fetched; some supplier threads that copy invoice@ have gaps.
+- Delete `~/Library/Application Support/kb-kriss/cache/` and `review/corrections.json` once Kriss says yes (step4.md §6); the Person notes then can't be regenerated from the readers' output, only edited.

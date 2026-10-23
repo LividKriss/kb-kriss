@@ -10,7 +10,7 @@ generated:
   at: 2026-10-23T13:02:01+02:00
 emails: [info@thevintagewholesalecompany.com]
 category: supplier
-organization: kb://livid/organizations/suppliers/the-vintage-wholesale-company.md
+organization: kb://livid/organizations/suppliers/vwcc.md
 ---
 
 # Who
@@ -39,7 +39,7 @@ English, informal and short ("Hello Ricardo", "Hello guys", "Hey Ricardo", signs
 - Handpick invoice - The VWC: Louie chased payment of INV-0171 on 2026-10-21; it is covered by the payment above ([thread](https://mail.google.com/mail/u/0/#all/1a15d809cd60168d))
 
 # Links
-- Organization: [The Vintage Wholesale Company](kb://livid/organizations/suppliers/the-vintage-wholesale-company.md)
+- Organization: [The Vintage Wholesale Company](kb://livid/organizations/suppliers/vwcc.md)
 - [Ole Eivind Siggerud](/people/ole-eivind-siggerud.md): Livid head of buying, picks and orders the stock.
 - [Christopher Stangeby](/people/christopher-stangeby.md): Livid, books UPS labels and collections.
 - Louie Bottomley: VWC office, invoices and payment follow-up.
