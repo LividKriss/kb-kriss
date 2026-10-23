@@ -2,6 +2,9 @@
 
 ## 2026-10-23
 
+- **Creation** Step 4 backfill: 188 draft Person notes in `people/` (supplier 77, colleague 26, wholesale-customer 22, advisor 21, manufacturer 17, landlord 16, 3pl-client 4, board-owner 4, partner-press 1), written from Kriss's work Gmail (12 months; 3 years for the top 50; newest 100 threads per person). All `status: draft` until Kriss's review; 64 `organization` links point to Organizations proposed in the livid-kb batch (not yet written). Role/shared mailboxes and 3 contacts (private matter, HR-adjacent, unnamed address) got no note.
+- **Creation** Scripts for step 4 in `scripts/email/`: `step4lib.py`, `fetch_content.py`, `prepare_content.py`, `write_people.py`, `build_batch.py`, `report_step4.py` (no addresses or names in code; raw mail only in the local cache).
+- **Update** `tools/validate.py`: the 11-digit personal-number check no longer matches digits inside a token (Gmail thread ids in Open-thread links were false positives).
 - **Creation** Added docs/step4.md: detailed brief for step 4 (content backfill: Person notes, voice profiles, livid-kb batch, checkpoint, cache deletion).
 
 ## 2026-10-22

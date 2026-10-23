@@ -132,7 +132,8 @@ def main():
     bases = {}
     for p, v, meta, body in todo:
         base = kebab(meta["full_name"])
-        if len(names[base]) > 1:
+        # Same name twice, or only a first name known: add the organization id.
+        if len(names[base]) > 1 or "-" not in base:
             org = organization(v, org_map)
             base += "-" + (Path(org).stem if org else kebab(s4.domain(p).split(".")[0]))
         bases[p] = base

@@ -71,9 +71,11 @@ def link(tid):
 
 
 def refs(org_id, livid_files):
+    """livid-kb files that mention the org (its own doc, indexes and the log excluded)."""
     pat = re.compile(rf"\b{re.escape(org_id)}\b")
+    own = LIVID / "kb" / "organizations" / "suppliers" / f"{org_id}.md"
     return [str(p.relative_to(LIVID)) for p in livid_files
-            if p.name != "index.md" and p.stem != org_id and pat.search(p.read_text(encoding="utf-8"))]
+            if p.name not in ("index.md", "log.md") and p != own and pat.search(p.read_text(encoding="utf-8"))]
 
 
 def main():
@@ -94,7 +96,10 @@ def main():
          "Proposal only: nothing has been written to livid-kb. Approve per group (e.g. \"1a ok except X\", \"2 ok\").",
          "On approval each group is written per livid-kb AGENTS.md (template, `draft`, a log entry per group, "
          "`build_index.py`, `validate.py`). A move = rename + update every link; deleting or changing a type "
-         "needs a second confirmation there.", ""]
+         "needs a second confirmation there.",
+         "Facts below are as the readers wrote them and still name individual contacts; livid-kb records roles, not "
+         "people (AGENTS.md §1.4), so names become roles when written. Bank details, passwords and personal data were "
+         "left out; amounts are business figures only.", ""]
 
     # 1a: new orgs linked to step-4 people.
     new = {}

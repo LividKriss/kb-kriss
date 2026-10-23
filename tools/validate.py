@@ -19,7 +19,7 @@ from kblib import (KB, RESERVED, area_of, default_tier, iter_docs, load_domains,
                    split_frontmatter)
 
 SECRET_PATTERNS = [
-    ("11-digit number (personnummer / bank account)", re.compile(r"(?<![\d.])\d{6} ?\d{5}(?![\d])")),
+    ("11-digit number (personnummer / bank account)", re.compile(r"(?<![\w.])\d{6} ?\d{5}(?!\w)")),  # not inside a token (e.g. a Gmail thread id)
     ("bank account number (xxxx.xx.xxxxx)", re.compile(r"(?<!\d)\d{4}[. ]\d{2}[. ]\d{5}(?!\d)")),
     ("IBAN", re.compile(r"\b[A-Z]{2}\d{2} ?(?:[A-Z0-9]{4} ?){2,7}[A-Z0-9]{1,4}\b")),
     ("credential assignment", re.compile(

@@ -110,9 +110,11 @@ def main():
     cfg = json.load(open(s4.PEOPLE_JSON))
     skipped += [(a, "Livid shared mailbox — no Person note", "colleague") for a in cfg["role"]
                 if a not in plan["roles"]]
-    skipped += [(p, "no reader output (" + (written.get(p, {}).get("meta", {}).get("skip") or
-                 ("no threads in window" if not plan["persons"][p]["threads"] else "see unsure")) + ")",
-                 plan["persons"][p]["category"]) for p in missing]
+    def skip_reason(p):
+        path = os.path.join(s4.STEP4, "notes", p + ".md")
+        m = re.search(r"^skip:\s*(.+)$", open(path).read(), re.M) if os.path.exists(path) else None
+        return "no note on purpose: " + m.group(1) if m else "no reader output"
+    skipped += [(p, skip_reason(p), plan["persons"][p]["category"]) for p in missing]
     H.append(f"<p>Contacts without a note: {len(skipped)}</p>")
     H.append(table(["address", "why", "category"], skipped))
     H.append(f"<p>Notes whose <code>organization</code> waits for the livid-kb batch: <b>{len(waits)}</b>; "
@@ -133,7 +135,7 @@ def main():
     H.append("<p>Usable sent messages per recipient category (12 months): "
              + ", ".join(f"{e(c)} {n}" for c, n in sorted(vs.items(), key=lambda x: -x[1])) + "</p>")
     order = ["general"] + sorted(Path(p).stem for p in glob.glob(os.path.join(s4.STEP4, "voice", "*.md"))
-                                 if Path(p).stem != "general")
+                                 if Path(p).stem != "general" and not Path(p).stem.startswith("_"))
     for c in order:
         p = os.path.join(s4.STEP4, "voice", c + ".md")
         if os.path.exists(p):
@@ -141,7 +143,8 @@ def main():
 
     # 3. Spot-check: 10 notes, spread over categories.
     rnd = random.Random(args.seed)
-    pool = list(written.values())
+    # Only notes written from real mail (not header-only stubs) are worth a review slot.
+    pool = [x for p, x in written.items() if prepared["people"].get(p, {}).get("threads_shown", 0) > 0]
     rnd.shuffle(pool)
     pick, need = [], [("colleague", 2), (("supplier", "manufacturer"), 2), (("advisor", "board-owner"), 1)]
     for cats, n in need:
