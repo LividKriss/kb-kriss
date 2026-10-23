@@ -2,6 +2,7 @@
 
 ## 2026-10-23
 
+- **Creation** Step 5 email docs (draft): email/urgency.md, labels.md, actions.md (Rules) and email/kb-sync.md (Process, execute), email/daily-run.md (Process, execute-with-approval), from Kriss's step 5 interview: production and payments that release shipments top urgency; VIP groups; FYI archived; follow-up after 3 working days (2 for production/payment); new AI/ label set; KB sync reads sent mail too. Dry run on the last 2 weeks next.
 - **Update** Signature decision changed (Kriss): no "Kjell Odne (AI assistent)" sign-off; agent-sent mail uses Kriss's own sign-off plus the AI disclaimer (reviewed / auto-sent, Norwegian or English). Brief, voice/general.md and progress.md updated. Also recorded: KB sync will read sent mail too (step 5).
 - **Removal** Step 3 review round files deleted (`~/Library/Application Support/kb-kriss/review/round1–6.json`); the review folder is now empty. Confirmed by Kriss.
 - **Removal** Step 4 local cache deleted (`~/Library/Application Support/kb-kriss/cache/`: headers, fetched content, step 3/4 working files and report) and `review/corrections.json`, per step 4 §6. Confirmed by Kriss.

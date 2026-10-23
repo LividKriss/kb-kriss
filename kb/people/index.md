@@ -85,7 +85,7 @@ One note per contact — who they are, relationship, how Kriss communicates with
 - [Jannicke Jakobsen](jannicke-jakobsen.md) *(draft)* — Works at ID Group (idegroup.no), which forwarded Eplehuset webshop uniform orders to Livid until early 2026.
 - [Jarl Erik Ulvedal](jarl-erik-ulvedal.md) *(draft)* — State-authorised auditor at Signatur Revisjon AS who audits Livid Jeans AS (incl. group accounts) and Livid Retail AS; Kriss is his main contact for year-end, audit questions and grant/SkatteFUNN attestations.
 - [Jeanett Stuve](jeanett-stuve.md) *(draft)* — Contact at Konsis, which runs the PrintCollect webshop where Eplehuset orders staff uniforms from Livid; Kriss asks her to update sizes and stock status.
-- [Jenny Marie Lind Jøranlid](jenny-marie-lind-joranlid.md) *(draft)* — Freelance designer for Livid (earlier assistant designer on the design team, women's styles), copied on supplier development and payment threads that Kriss handles.
+- [Jenny Marie Lind Jøranlid](jenny-marie-lind-joranlid.md) *(draft)* — Works with design at Livid (earlier assistant designer on the design team, women's styles), copied on supplier development and payment threads that Kriss handles.
 - [Jens Olav Dankertsen](jens-olav-dankertsen.md) *(draft)* — Managing Director of Livid; Kriss's main management counterpart on finance, production, leases, wholesale and legal matters.
 - [Jimmy Fållby](jimmy-fallby.md) *(draft)* — Senior Account Manager at Sitoo (Livid's POS platform); Kriss deals with him on Sitoo integrations (Shopify, Centra), API keys and account matters.
 - [Joana Gomes](joana-gomes.md) *(draft)* — Customer service/sales contact at Somelos (Portuguese fabric mill) who confirms Livid's fabric POs, OCs, ETDs and delivery splits to Livid's garment makers.

@@ -4,4 +4,13 @@ Email assistant rules and processes — triage, labels, actions, send policy, si
 
 <!-- generated:start -->
 
-_Nothing here yet._
+## Rule
+
+- [Email urgency and priority](urgency.md) *(draft)* — What makes an incoming email urgent, reply-needed, FYI or noise, and in which order the morning brief lists them.
+- [Gmail labels used by the assistant](labels.md) *(draft)* — The small AI/ label set the daily run applies, what each means, and which labels it ignores.
+- [What the assistant does with each kind of email](actions.md) *(draft)* — Per label — draft, archive, forward, file, follow up — and the limits on each action.
+
+## Process
+
+- [Daily email run](daily-run.md) *(draft)* — The weekday morning run of Kriss's email assistant — label, route invoices, sync the KB, draft replies, follow up, and give Kriss a priority brief to approve from.
+- [KB sync from email](kb-sync.md) *(draft)* — How every new incoming and sent message in Kriss's work Gmail — including replies he writes himself — updates the Person notes, voice samples and (by proposal) livid-kb.
