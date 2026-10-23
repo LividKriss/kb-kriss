@@ -17,7 +17,7 @@ Kriss starts the day with an inbox that holds only what needs him, ready drafts,
 # Trigger
 Three parts:
 - **A. Processing** — Claude cloud scheduled task (routine) "Daily email run", weekdays **06:47** Oslo. Unattended. Instructions: `docs/routine.md`.
-- **C. Mac attachment agent** — Claude Code on Kriss's Mac, hourly while awake (`docs/mac-agent.md`): reads invoice PDFs, forwards clear cases to PowerOffice (+ Ole Eivind for external brands), files customs documents. The cloud can't read attachments.
+- **C. Mac attachment agent** — Claude Code on Kriss's Mac, hourly while awake (`docs/mac-agent.md`): reads invoice PDFs, forwards clear cases to PowerOffice (+ Ole Eivind for external brands), files customs documents, and reads documents/links on `AI/Docs` threads into `[Doc]` summary drafts and the KB. The cloud can't read attachments.
 - **B. Morning brief** — Cowork scheduled task, weekdays **07:30** Oslo: opens a **new Cowork chat** with the brief ([brief format](/email/brief.md)); Kriss goes through it by voice or typing and gives instructions.
 Also on request ("morning run", "go through my email").
 
@@ -38,7 +38,7 @@ Also on request ("morning run", "go through my email").
 9. **Close:** short run report as the session's last message (counts, failures); `kb/log.md` entry; `tools/build_index.py`, `tools/validate.py` (0 errors); commit and push to `main` (AGENTS.md §5). No other branches.
 
 # Steps — B. Morning brief (interactive, Cowork)
-1. Read the labels and drafts part A left (`AI/Urgent`, `AI/Reply`, `AI/Action`, `AI/Payments`, `AI/Invoice`, `AI/Waiting`, `AI/Customs`, `AI/HR` count), the last run report in `kb/log.md`, and the Person notes involved. If part A did not run today, say so first and offer to run it now.
+1. Read the labels, the `[Doc]` summary drafts from the Mac agent, and the drafts part A left (`AI/Urgent`, `AI/Reply`, `AI/Action`, `AI/Payments`, `AI/Invoice`, `AI/Waiting`, `AI/Customs`, `AI/HR` count), the last run report in `kb/log.md`, and the Person notes involved. If part A did not run today, say so first and offer to run it now.
 2. Present the brief per [brief format](/email/brief.md).
 3. Work through it with Kriss: open threads in full on request, check systems, revise drafts, and do what he approves — send (with the reviewed disclaimer, [signature](/email/signature.md)), forward vouchers (`AI/PO-forwarded`), archive, relabel. Nothing sent or forwarded without his approval of that item in this chat.
 4. Capture his instructions: new rules (e.g. how to handle an Action kind), corrections to Person notes, things to remember. The brief chat runs in the cloud and cannot write the KB, so it saves each as a **Gmail draft with subject `[KB-inbox] <short title>`**, no recipient, body = the instruction in Kriss's words + "confirmed by Kriss in the morning brief <date>" + the KB doc it concerns. Part A applies them the next morning.

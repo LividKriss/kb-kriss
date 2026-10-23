@@ -35,6 +35,8 @@ Part B of the [daily run](/email/daily-run.md).
 9. **KB** — what part A changed (notes created/updated) and proposals waiting for a yes (voice, livid-kb), one line each.
 10. **Close** — "Reply with numbers, e.g. *send 1, 4 · forward 7–9 · more on 2*."
 
+**Documents:** when a row's thread has a `[Doc]` draft, add its key facts in the row (e.g. "PL: 3 ctn, ETD 30.10") and offer the full summary on request. "Proposed for Livid KB" lines from `[Doc]` drafts go in the KB section for a yes.
+
 **Rows:** who = person (organization); what = the ask in ≤ 10 words; why = the deadline or consequence; draft = ✓ + its direction in ≤ 8 words, or "decision needed: …". Amounts with currency. No email body text beyond that.
 
 **HR:** count only, never names of the matter beyond "HR matter (n)".

@@ -27,6 +27,8 @@ Kriss's work Gmail. Applied by the [daily run](/email/daily-run.md) and [KB sync
 | `AI/Invoice` | Voucher waiting for Kriss's approval to forward | thread |
 | `AI/Payments` | Ordinary payment reminder; grouped in the brief | thread |
 | `AI/PO-forwarded` | Voucher forwarded to PowerOffice | message |
+| `AI/Docs` | Email points to a document/link worth reading; the Mac agent reads it | thread |
+| `AI/Docs-read` | Document read; summary in a `[Doc]` draft | thread |
 | `AI/Customs` | Customs document waiting to be filed (cloud run can't reach Drive) | message |
 | `AI/Filed` | Customs document saved in the customs folder | message |
 | `AI/KB-synced` | Message processed by [KB sync](/email/kb-sync.md) | message |
