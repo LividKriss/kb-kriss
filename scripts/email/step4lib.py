@@ -32,6 +32,9 @@ CONTENT = os.path.join(CACHE, "content")
 MESSAGES_JSONL = os.path.join(CONTENT, "messages.jsonl")
 
 TOP_N = 50
+# Gmail's per-user units-per-minute quota allows ~3 messages/s. Full content is fetched for each person's
+# newest THREAD_CAP threads in their window; older threads are covered by the header-only index.
+THREAD_CAP = 100
 WINDOW_12M_DAYS = 365
 WINDOW_3Y_DAYS = 365 * 3
 VOICE_TARGET = 60  # sent messages sampled per recipient category (≈40 left after skipping one-liners)

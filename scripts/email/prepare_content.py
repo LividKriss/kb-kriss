@@ -26,10 +26,11 @@ from html.parser import HTMLParser
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import step4lib as s4  # noqa: E402
+from write_people import ORG_MAP, organization  # noqa: E402
 
 BODY_MAX = 2000
 OLD_BODY_MAX = 700          # when a person's file runs over budget, older bodies are cut harder
-BUDGET = 90_000             # characters per person file (top 50: 1.5x)
+BUDGET = 60_000             # characters per person file (top 50: 1.5x)
 INDEX_MAX = 80              # header-only index lines per person
 
 OUT_PEOPLE = os.path.join(s4.CONTENT, "people")
@@ -252,19 +253,21 @@ def main():
         open(path, "w").write(text)
         return {"chars": len(text), "threads_shown": shown, "threads_omitted": omitted, "index": len(idx)}
 
+    org_map = json.load(open(ORG_MAP))
     prepared = {"people": {}, "roles": {}, "voice": {}}
     for p, v in plan["persons"].items():
+        org = organization(v, org_map)
         since = c3 if v["top50"] else c12
         head = (f"# {v['name'] or p}\n"
                 f"emails: {', '.join(v['emails'])}\ncategory: {v['category']}"
                 f"{' (also ' + ', '.join(c for c in v['categories'] if c != v['category']) + ')' if len(v['categories']) > 1 else ''}\n"
-                f"organization (step 3 match): {v['org'] or '(none)'}\n"
+                f"organization: {org or '(none)'}{'' if v['org'] or not org else ' (proposed, not yet in livid-kb)'}\n"
                 f"review notes: {'; '.join(v['notes']) or '-'}\n"
                 f"window: {'3 years (top 50)' if v['top50'] else '12 months'}; today {dt.date.today()}\n"
                 f"threads Kriss replied in (3y / 12m): {v['replied_threads']} / {v['replied_12m']}\n\n")
         budget = int(BUDGET * 1.5) if v["top50"] else BUDGET
         path = os.path.join(OUT_PEOPLE, p + ".md")
-        prepared["people"][p] = {"file": path, **write_file(path, head, v["emails"], v["threads"], since, budget)}
+        prepared["people"][p] = {"file": path, "organization": org, "top50": v["top50"], **write_file(path, head, v["emails"], v["threads"], since, budget)}
 
     by_dom = defaultdict(list)
     for a, r in plan["roles"].items():

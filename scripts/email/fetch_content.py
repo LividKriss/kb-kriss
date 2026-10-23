@@ -24,10 +24,10 @@ from collections import Counter, defaultdict
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import step4lib as s4  # noqa: E402
 
-# Same adaptive pacing as fetch_headers.py (format=full is the same quota cost as metadata).
+# Paced like fetch_headers.py, but slower: format=full counts far more against the per-minute quota.
 BATCH_SIZE = 10
-START_RATE = 4.0   # messages per second
-MAX_RATE = 20.0
+START_RATE = 1.5   # messages per second; full format runs into the per-user quota at ~100/min
+MAX_RATE = 1.6
 
 
 def plan():
@@ -65,15 +65,30 @@ def plan():
             excluded[why] += 1
             excluded_msgs[why] += len(msgs)
             continue
-        selected[tid] = sorted(wanted)
         for k in wanted:
             per_person[k].append(tid)
-        for m in msgs:
-            skip = s4.message_skip(m, contacts, corr, own)
-            if skip:
-                skipped_msgs[skip] += 1
-            else:
-                fetch_ids.append(m["id"])
+
+    # Newest THREAD_CAP threads per person; fetch order round-robin so everyone's recent mail comes first.
+    capped_away = 0
+    for k, tids in per_person.items():
+        tids.sort(key=lambda t: -by_thread[t][-1]["internalDate"])
+        capped_away += max(0, len(tids) - s4.THREAD_CAP)
+        del tids[s4.THREAD_CAP:]
+    for k, tids in per_person.items():
+        for t in tids:
+            selected.setdefault(t, []).append(k)
+    seen = set()
+    for rank in range(s4.THREAD_CAP):
+        for k in sorted(per_person):
+            if rank < len(per_person[k]) and per_person[k][rank] not in seen:
+                tid = per_person[k][rank]
+                seen.add(tid)
+                for m in by_thread[tid]:
+                    skip = s4.message_skip(m, contacts, corr, own)
+                    if skip:
+                        skipped_msgs[skip] += 1
+                    else:
+                        fetch_ids.append(m["id"])
 
     # Voice sample: Kriss's sent messages, last 12 months, by recipient category (To first, then Cc).
     sent_by_cat = defaultdict(list)
@@ -112,6 +127,8 @@ def plan():
         "excluded_threads": dict(excluded),
         "excluded_messages": dict(excluded_msgs),
         "skipped_messages": dict(skipped_msgs),
+        "thread_cap": s4.THREAD_CAP,
+        "threads_over_cap": capped_away,
         "fetch_ids": fetch_ids + [i["id"] for v in voice.values() for i in v if not i["in_thread_fetch"]],
         "voice": voice,
         "voice_available": {c: len(v) for c, v in sent_by_cat.items()},
@@ -123,7 +140,7 @@ def plan():
           f"replied threads")
     print(f"threads {len(selected)}; messages to fetch {len(fetch_ids)} + {extra} extra voice")
     print("excluded threads:", dict(excluded), "messages:", dict(excluded_msgs))
-    print("skipped messages:", dict(skipped_msgs))
+    print("skipped messages:", dict(skipped_msgs), f"; person-threads over the cap: {capped_away}")
     print("voice available per category (12m):", {c: len(v) for c, v in sorted(sent_by_cat.items())})
     print("no threads:", [p for p in metas if not per_person.get(p)])
 
@@ -178,7 +195,7 @@ def fetch_all(svc, ids, path, log):
         while pending:
             started = time.time()
             chunk, pending = pending[:BATCH_SIZE], pending[BATCH_SIZE:]
-            got, retry = [], []
+            got, retry, why = [], [], []
 
             def cb(request_id, response, exception):
                 if exception is None:
@@ -187,6 +204,9 @@ def fetch_all(svc, ids, path, log):
                     pass
                 else:
                     retry.append(request_id)
+                    content = getattr(exception, "content", b"") or b""
+                    why.append(f"{getattr(exception, 'resp', {}).get('status', '?')} "
+                               f"{content.decode('utf-8', 'replace')[:160]}".replace("\n", " "))
 
             batch = svc.new_batch_http_request(callback=cb)
             for i in chunk:
@@ -199,10 +219,13 @@ def fetch_all(svc, ids, path, log):
             if retry:
                 pending = retry + pending
                 retries += len(retry)
-                rate = max(0.5, rate * 0.8)
+                # Per-minute quota: wait the minute out and slow down. Concurrency/backend errors: short pause.
+                per_minute = any("per minute" in w or "Quota exceeded" in w for w in why)
+                rate = max(1.0, rate * (0.9 if per_minute else 0.95))
                 clean = 0
-                log(f"messages {n}: quota hit, {retries} retries; waiting 60 s, rate {rate:.1f}/s")
-                time.sleep(60)
+                wait = 60 if per_minute else 15
+                log(f"messages {n}: {len(retry)} to retry ({retries} so far), waiting {wait} s, rate {rate:.1f}/s; {why[0]}")
+                time.sleep(wait)
                 continue
             clean += len(got)
             if clean >= 500:
