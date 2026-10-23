@@ -22,7 +22,7 @@ Every thread the [daily run](/email/daily-run.md) labels.
 - **AI/Action:** stays in the inbox; listed under Needs action with the question "how should this be handled?" until Kriss has given a rule for that kind.
 - **AI/HR:** stays in the inbox; count only in the brief.
 - **Invoices and customs documents:** per [invoice routing](kb://livid/finance/bookkeeping/processes/invoice-routing.md) — vouchers in an approval batch, customs documents filed. Kriss's own forwards to a PowerOffice voucher address count as done.
-- **Sending, forwarding, replying:** only what Kriss approves in the run's session ("send 1, 3", "forward 1–7"), until `email/send-policy.md` (step 5b) is stable. After sending: archive the thread, move the label (Waiting if a question was asked).
+- **Sending, forwarding, replying:** per the [send policy](/email/send-policy.md): at most `send-after-approval` for most classes (Kriss approves in the brief: "send 1, 3"), `draft` for sensitive ones (he sends himself), system auto-sends only as listed there. After sending: archive the thread, move the label (Waiting if a question was asked).
 - **Never:** delete mail, mark spam, unsubscribe, accept invitations, add recipients, or send attachments with financial or personal data without explicit approval of that item.
 
 # Exceptions

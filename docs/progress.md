@@ -11,8 +11,10 @@ Companion to [brief.md](brief.md). Read the brief first; this file records what 
 | 2 livid-kb changes | Done | Cowork |
 | 3 Backfill pass 1 (headers) | Done (3 years fetched and reviewed, 2026-10-23) | Claude Code |
 | 4 Backfill pass 2 (content) | Done (2026-10-23; cache deleted) | Claude Code |
-| 5 Triage rules and labels | **In progress**: docs drafted, dry run done (2026-10-23, report `dry-run-2026-10-23.md` in the Cowork chat), fixes applied | Cowork |
-| 5b–7 | Not started | |
+| 5 Triage rules and labels | Done (docs drafted, dry run, cloud routine + Cowork brief running; Mac agent being installed) | Cowork |
+| 5b Send policy + signature | Done as draft (2026-10-23); stable after Kriss's second confirmation | Cowork |
+| 6 Live trial (2 weeks) | **Next**: from Mon 2026-10-26 | Cloud + Cowork + Mac |
+| 7 Review and automate | Not started | |
 
 ## Decisions made so far (also in the KBs)
 
