@@ -8,6 +8,8 @@ Email assistant rules and processes — triage, labels, actions, send policy, si
 
 - [Email urgency and priority](urgency.md) *(draft)* — What makes an incoming email urgent, reply-needed, FYI or noise, and in which order the morning brief lists them.
 - [Gmail labels used by the assistant](labels.md) *(draft)* — The small AI/ label set the daily run applies, what each means, and which labels it ignores.
+- [Morning brief format](brief.md) *(draft)* — How the morning brief is laid out in the Cowork chat — short summary, then one table per section, numbered so Kriss can act by number.
+- [Signature and AI disclaimer on mail the assistant sends](signature.md) *(draft)* — How email sent by the assistant ends — Kriss's own sign-off, the AI disclaimer (reviewed or auto-sent, Norwegian or English), then his Gmail signature.
 - [What the assistant does with each kind of email](actions.md) *(draft)* — Per label — draft, archive, forward, file, follow up — and the limits on each action.
 
 ## Process

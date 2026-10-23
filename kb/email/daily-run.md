@@ -12,38 +12,36 @@ autonomy: execute-with-approval
 ---
 
 # Purpose
-Kriss starts the day with an empty-but-for-what-needs-him inbox, ready drafts, an approval list, and a KB that knows what happened yesterday. Nothing is sent or forwarded without his approval of that item (until [send policy](/email/send-policy.md) says otherwise).
+Kriss starts the day with an inbox that holds only what needs him, ready drafts, a brief in a Cowork chat he can work through by voice or typing, and a KB that knows what happened yesterday. Nothing is sent or forwarded without his approval of that item (until [send policy](/email/send-policy.md) says otherwise).
 
 # Trigger
-Scheduled task in Claude's cloud, weekdays **06:47** Oslo time (KBs cloned from GitHub, pushed back at the end). Customs filing: a separate scheduled task on Kriss's Mac. Also on request ("morning run", "go through my email").
+Two parts:
+- **A. Processing** — Claude cloud scheduled task (routine) "Daily email run", weekdays **06:47** Oslo. Unattended. Instructions: `docs/routine.md`. Customs filing: a separate scheduled task on Kriss's Mac.
+- **B. Morning brief** — Cowork scheduled task, weekdays **07:30** Oslo: opens a **new Cowork chat** with the brief ([brief format](/email/brief.md)); Kriss goes through it by voice or typing and gives instructions.
+Also on request ("morning run", "go through my email").
 
 # Inputs
-- Gmail: search (incl. sent and archived), read, label, archive, create drafts; send, reply and forward **only after approval**.
+- Gmail: search (incl. sent and archived), read, label, archive, create drafts; send, reply and forward **only after Kriss's approval in part B**.
 - Both KBs (read; write per AGENTS.md §5): `kb-kriss/AGENTS.md`, `livid-kb/AGENTS.md`, this doc and the docs it links.
-- Customs folder (Google Drive on Kriss's Mac) — only via the customs filing task.
 
-# Steps
-1. **Load** both AGENTS.md, this doc, [urgency](/email/urgency.md), [labels](/email/labels.md), [actions](/email/actions.md), [KB sync](/email/kb-sync.md), [invoice routing](kb://livid/finance/bookkeeping/processes/invoice-routing.md). Check the kill switch in the send policy (once it exists).
+# Steps — A. Processing (unattended)
+1. **Load** both AGENTS.md, this doc, [urgency](/email/urgency.md), [labels](/email/labels.md), [actions](/email/actions.md), [KB sync](/email/kb-sync.md), [invoice routing](kb://livid/finance/bookkeeping/processes/invoice-routing.md).
 2. **Collect** new mail since the last run (2-day overlap; skip messages already labelled `AI/KB-synced`): inbox, archived, sent, and mail to invoice@.
 3. **Classify and label** each thread per urgency and labels. Remove labels the thread has outgrown.
-4. **Invoices and customs:** run invoice routing — vouchers into the approval batch. Customs documents: the cloud run labels them `AI/Customs` and lists them; the **customs filing task** on Kriss's Mac saves them in the Drive folder and relabels them `AI/Filed` (it runs when the Mac is on).
-5. **KB sync** (all new messages, incl. Kriss's own sent mail).
+4. **Invoices and customs:** vouchers awaiting approval → `AI/Invoice`; ordinary payment reminders → `AI/Payments`; customs documents → `AI/Customs` (the Mac task files them and relabels `AI/Filed`).
+5. **KB sync — mandatory, every run** (all new messages, incl. Kriss's own sent mail). Never skip it to save time; if the run must be cut short, skip drafts first and say so.
 6. **Follow-ups:** Kriss's sent questions → `AI/Waiting`; overdue Waiting threads (3 working days; 2 for production/payment) → nudge drafts.
-7. **Drafts** for Urgent and Reply threads per [actions](/email/actions.md).
+7. **Drafts** for Urgent and Reply threads per [actions](/email/actions.md). Where the answer depends on Kriss's decision, still draft it with the open point marked `[KRISS: …]` and state the decision needed — a draft with one open point beats no draft.
 8. **Archive** FYI, Noise and handled invoice mail.
-9. **Brief** (in the run's session; Kriss gets a notification):
-   1. Two-line summary.
-   2. Urgent — one line each: who, what, why urgent, draft direction (not the text).
-   3. Reply — same, grouped: similar emails batched.
-   4. Payments due — grouped ordinary reminders (supplier, amount, due date).
-   5. Needs action — action-needed notifications, each with "how should this be handled?"; HR — count only.
-   6. Invoice batch — supplier · document no · amount · entity · reason; customs documents filed.
-   7. Waiting — overdue items and nudge drafts.
-   8. FYI — one line each. Noise — count.
-   9. KB digest — notes created/updated, proposals (voice, livid-kb) waiting for a yes.
-   Numbered so Kriss can answer "send 1, 3; forward 1–7; skip 4".
-10. **After Kriss answers:** send approved drafts with the reviewed disclaimer ([signature](/email/signature.md)), forward approved vouchers (`AI/PO-forwarded`), archive the threads, move labels, log. Anything not approved stays as a draft.
-11. **Close:** `kb/log.md` entry (counts, KB changes; no bodies), `tools/build_index.py`, `tools/validate.py` (0 errors).
+8b. **KB inbox:** apply every draft with subject `[KB-inbox]` (written by the morning brief at Kriss's instruction) per AGENTS.md §5 — Person notes and notes directly; rules, voice and livid-kb changes count as confirmed by Kriss for that item (second-confirmation items excepted: list those in the run report instead). Log each, then delete the draft.
+9. **Close:** short run report as the session's last message (counts, failures); `kb/log.md` entry; `tools/build_index.py`, `tools/validate.py` (0 errors); commit and push to `main` (AGENTS.md §5). No other branches.
+
+# Steps — B. Morning brief (interactive, Cowork)
+1. Read the labels and drafts part A left (`AI/Urgent`, `AI/Reply`, `AI/Action`, `AI/Payments`, `AI/Invoice`, `AI/Waiting`, `AI/Customs`, `AI/HR` count), the last run report in `kb/log.md`, and the Person notes involved. If part A did not run today, say so first and offer to run it now.
+2. Present the brief per [brief format](/email/brief.md).
+3. Work through it with Kriss: open threads in full on request, check systems, revise drafts, and do what he approves — send (with the reviewed disclaimer, [signature](/email/signature.md)), forward vouchers (`AI/PO-forwarded`), archive, relabel. Nothing sent or forwarded without his approval of that item in this chat.
+4. Capture his instructions: new rules (e.g. how to handle an Action kind), corrections to Person notes, things to remember. The brief chat runs in the cloud and cannot write the KB, so it saves each as a **Gmail draft with subject `[KB-inbox] <short title>`**, no recipient, body = the instruction in Kriss's words + "confirmed by Kriss in the morning brief <date>" + the KB doc it concerns. Part A applies them the next morning.
+5. End with what was done and what is still open.
 
 # Decision rules
 - Gmail is the system of record; archived = done.
