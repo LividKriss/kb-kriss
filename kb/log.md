@@ -2,6 +2,7 @@
 
 ## 2026-10-23
 
+- **Creation** Mac attachment agent setup (docs/mac-agent.md): scripts/email/gmail_tool.py (list, pdfs, text, forward with recipient allowlist + duplicate checks, label), mac_agent.sh (one headless `claude -p` run, dontAsk with minimal permissions, `--dry` via KB_AGENT_DRY=1), install_mac_agent.sh (launchd no.livid.kb-kriss-mac-agent, hourly; replaces the separate customs job). gmail.send added to SCOPES; file_customs.py fixed for the venv's Python 3.9 and honours KB_AGENT_DRY. Not yet authorized or installed.
 - **Update** Part C added: Mac attachment agent (docs/mac-agent.md) — Claude Code on the Mac, hourly while awake, reads invoice PDFs via the Gmail API, forwards clear cases to PowerOffice, notifies Ole Eivind for external brands, files customs. The cloud run no longer forwards (connector cannot read attachments). Kriss chose this over a fixed-rule script.
 - **Update** Clear-case invoices are now forwarded automatically by the 06:47 run (livid-kb invoice-routing autonomy execute, CFO second confirmation); brief lists them for checking. Customs filing: scripts/email/file_customs.py + install_customs_job.sh (launchd every 30 min on the Mac; needs gmail.modify scope, added to gmail_auth.py SCOPES; re-authorize once).
 - **Update** voice/general.md Never: no dashes to join or split sentences (reads as AI-written) — Kriss. AGENTS.md §6: voice profiles + Person note apply to every draft for Kriss, whatever task made it.

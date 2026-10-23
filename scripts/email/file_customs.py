@@ -5,7 +5,7 @@ Runs unattended (launchd, see install_customs_job.sh), whenever the Mac is awake
 Process: kb-kriss/kb/email/daily-run.md (step 4) and livid-kb invoice-routing (step 8).
 
     file_customs.py           file everything labelled AI/Customs (not yet AI/Filed)
-    file_customs.py --dry     show what would happen, change nothing
+    file_customs.py --dry     show what would happen, change nothing (also when KB_AGENT_DRY=1)
     file_customs.py --test F  parse one local PDF and print the result
 
 For each message labelled AI/Customs: download the PDF attachment(s), read the entity
@@ -15,6 +15,8 @@ AI/Customs -> AI/Filed. If the entity is unclear, the PDF goes to _Usikker/ and 
 message gets AI/Action, so the morning brief asks Kriss. Never overwrites a file.
 Needs the gmail.modify scope (re-run gmail_auth.py authorize once after adding it).
 """
+from __future__ import annotations  # venv is Python 3.9
+
 import base64
 import datetime as dt
 import io
@@ -149,4 +151,4 @@ if __name__ == "__main__":
     else:
         if not ROOT.is_dir():
             sys.exit(f"Customs folder not found (Google Drive not mounted?): {ROOT}")
-        run(dry="--dry" in sys.argv)
+        run(dry="--dry" in sys.argv or os.environ.get("KB_AGENT_DRY") == "1")
