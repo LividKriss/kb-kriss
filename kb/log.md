@@ -3,6 +3,7 @@
 ## 2026-10-26
 
 - **Update** Daily email run (cloud), partial: classified and labelled 77 threads in the 3-day window with no AI label (Noise 26, FYI 12, Action 4, Payments 3, Invoice 2, Customs 2, Docs 1, Urgent 2, Reply 4; created label `AI/Payments`, it did not exist); Noise and FYI archived. Urgent: epregnskap unpaid-invoices notice (Livid Retail AS), Tex-Challenge FW26 PI + PLIST balance. Labelled `AI/KB-synced` only for mail needing no KB writing. NOT done this run: KB sync of the substantive production threads (Christopher/Charlie/Siluete/Stork/Lisama/Cervo/Ligaard etc.), drafts, follow-ups (backlog carries over without `AI/KB-synced`). No `[KB-inbox]` drafts. Nothing sent, forwarded or deleted.
+- **Update** Mac agent run 08:18: 0 vouchers forwarded, 0 to Ole Eivind. Filed 3 customs documents (LJAS 2: UPS; LRAS 1: FedEx). 2 document threads read (RTM courier booking, DHL PP sample from Huzhou Yixu), [Doc] drafts written. Left for the brief: CRUDE AS receipt via Stripe (addressed to Kristoffer personally, not a Livid entity; supplier not in either register), Adobe monthly invoice (no PDF, link only), Quickship (EHF, never forward), Somelos FT G0/466573 for Livid Jeans AS (09.10, no forward to PowerOffice found in Sent; outside this run's window), Elite Vinduspuss reminder (not a voucher).
 
 ## 2026-10-23
 
