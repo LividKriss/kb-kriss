@@ -13,7 +13,7 @@ category: colleague
 ---
 
 # Who
-Store manager / buyer at Livid Oslo (Livid Retail AS). Earlier signed as NK (second in command) at Livid Oslo.
+Store manager / buyer at Livid Oslo (Livid Retail AS). Earlier signed as NK (second in command) at Livid Oslo. Also joins buying trips for vintage (Past), among others (Kriss, 2026-10-26).
 
 # Relationship
 Day-to-day retail operations for the Oslo store: stock corrections and counts, replenishment, goods picked by Hobo that need invoicing, POS (Sitoo) support cases, and store-wide routines Kriss rolls out (Loom app, gift cards, Saved). He is on cc of Kriss's weekly sales report. 158 threads in 3 years (oldest listed 2025-12-01; 78 older not listed); Kriss replied in 18 (6 in the last 12 months).
@@ -22,6 +22,7 @@ Day-to-day retail operations for the Oslo store: stock corrections and counts, r
 Norwegian. "Hei," and very short, factual replies; most contact is in group mails to all store managers. Ole Eivind Siggerud is usually copied on Hobo and stock matters. Vincent calls him "Kris".
 
 # History
+- 2026-10-26: Hotel on the Naples/Caserta trip (Sept 2026, with Ole Eivind) booked as travel in Livid Jeans AS after Kriss confirmed his role.
 - 2026-10-07: Kriss told stores repair shipments to customers are now registered in Loom (updated store guide).
 - 2026-09-27: Kriss told store managers that stock requests for B2B orders, and some B2B orders, will come as Loom orders.
 - 2026-09-24: Hobo picked more goods from the store; Vincent sent the sheet, and Ole Eivind asked Kriss to invoice this and the previous delivery.

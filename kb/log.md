@@ -2,6 +2,8 @@
 
 ## 2026-10-26
 
+- **Update** Person `people/vincent-santos.md`: also joins vintage buying trips; History line on the Naples/Caserta hotel booked as travel. Told by Kriss in the Jeans bookkeeping chat.
+
 - **Update** Mac agent run 20:38: 1 customs document filed (UPS Innførsel 5F37A0TTJQH → LJAS, Livid Jeans AS; goods from Dia Exemplar; labelled AI/Customs by the agent, it arrived after the cloud run). 0 forwarded to PowerOffice, 0 to Ole Eivind, 0 to HK. Left for the brief, unchanged: Camper/Biniaraix invoices via Ole Eivind (unknown supplier), Wispr Flow receipt (no Organization doc), Diemme reminder with invoice copies, YKK Portugal invoice copies in payment thread, Adobe (link only). 0 Docs threads.
 - **Update** Archive = archived **and read**: `email/labels.md`, `email/actions.md`, `email/daily-run.md`, `docs/routine.md`: archiving always removes both INBOX and UNREAD from the whole thread; every thread that is sent, replied to or forwarded (by Kriss or the assistant), Waiting, and anything needing no action is archived; part A sweeps archived AI-labelled threads still unread. `scripts/email/gmail_tool.py` `archive` now also removes UNREAD (file_customs.py uses it). Why: Gmail's archive leaves mail unread, so handled mail still showed as unread. Requested by Kriss.
 - **Update** Mac agent run 19:37: 1 customs document filed (UPS Utførsel W459F0TR9BP → LJAS, Livid Jeans AS; labelled AI/Customs by the agent, it arrived after the cloud run). 0 forwarded to PowerOffice, 0 to Ole Eivind, 0 to HK. Left for the brief, unchanged: Camper/Biniaraix invoices via Ole Eivind (unknown supplier), Wispr Flow receipt (no Organization doc), Diemme reminder with invoice copies, YKK Portugal invoice copies in payment thread, Adobe (link only). 0 Docs threads.
