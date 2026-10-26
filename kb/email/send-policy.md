@@ -21,7 +21,7 @@ Every email the assistant sends, replies to or forwards from Kriss's work Gmail 
 # Levels
 | Level | Meaning | Disclaimer ([signature](/email/signature.md)) |
 |---|---|---|
-| `draft` | Gmail draft only; Kriss sends it himself from Gmail as his own email | none |
+| `draft` | Gmail draft only; Kriss sends it himself from Gmail | reviewed (Kriss, 2026-10-26) |
 | `send-after-approval` | the assistant sends after Kriss approves that specific email in the brief chat or another chat | reviewed |
 | `auto-send` | the assistant sends on its own, within the guardrails below | auto-sent |
 
