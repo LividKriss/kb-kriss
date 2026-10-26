@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-10-26
+
+- **Update** Daily email run (cloud), partial: classified and labelled 77 threads in the 3-day window with no AI label (Noise 26, FYI 12, Action 4, Payments 3, Invoice 2, Customs 2, Docs 1, Urgent 2, Reply 4; created label `AI/Payments`, it did not exist); Noise and FYI archived. Urgent: epregnskap unpaid-invoices notice (Livid Retail AS), Tex-Challenge FW26 PI + PLIST balance. Labelled `AI/KB-synced` only for mail needing no KB writing. NOT done this run: KB sync of the substantive production threads (Christopher/Charlie/Siluete/Stork/Lisama/Cervo/Ligaard etc.), drafts, follow-ups (backlog carries over without `AI/KB-synced`). No `[KB-inbox]` drafts. Nothing sent, forwarded or deleted.
+
 ## 2026-10-23
 
 - **Update** Mac agent archives per actions.md ("after sending: archive the thread"): gmail_tool.py `archive` archives the whole thread after its forwards, file_customs.py after filing; threads carrying AI/Urgent, Reply, Action, HR, Invoice, Payments, Docs or Docs-read stay in the inbox (Kriss). Passamar 2026/6930 thread archived by hand; the other first-run forwards and customs were already archived.
