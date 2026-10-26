@@ -23,6 +23,7 @@ Since 2024-05. One-way document flow: for each Livid order, a D.d.T. and packing
 Follows the category voice. No direct replies to him in the files; the mails are standard Italian templates ("Gentile cliente").
 
 # History
+- 2026-10-26: Delivery for PO-00149 (HELIOS, D.d.T. and packing list B/26018192, DHL to Dia Exemplar); 148.20 m shipped vs 130 m ordered.
 - 2026-07-13: Delivery for PO-00026 (D.d.T. B/26012350, invoice C/2609250).
 - 2026-05-29: Delivery for PO-00089 SS27 (D.d.T. B/26009869, invoice C/2606892, forwarded 2026-06-09).
 - 2025-12-02: Delivery (D.d.T. B/25021372, invoice C/2516557).
