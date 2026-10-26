@@ -13,7 +13,7 @@
                                                   forward with the original PDFs (or only the named ones);
                                                   note above the quote
     gmail_tool.py label <msg_id> +A -B ...        add/remove labels by name (missing ones are created)
-    gmail_tool.py archive <msg_id>                archive the message's whole thread, unless it still needs
+    gmail_tool.py archive <msg_id>                archive + mark read the message's whole thread, unless it still needs
                                                   Kriss (a KEEP_IN_INBOX label on any message in it)
     gmail_tool.py draft <thread_id> <subject> <body-file>
                                                   [Doc] summary draft, no recipient; the thread link is
@@ -383,19 +383,20 @@ def cmd_forward(svc, args):
 
 
 def archive_thread(svc, thread_id, dry) -> str:
-    """Archive a whole thread (remove INBOX from every message) unless it still needs Kriss."""
+    """Archive a whole thread (remove INBOX and UNREAD from every message) unless it still needs Kriss."""
     names = {v: k for k, v in label_map(svc).items()}
     t = svc.users().threads().get(userId="me", id=thread_id, format="minimal").execute()
     on = {names.get(i, i) for m in t.get("messages", []) for i in m.get("labelIds", [])}
     keep = sorted(on & KEEP_IN_INBOX)
     if keep:
         return f"KEEP {thread_id} in the inbox: {', '.join(keep)}"
-    if "INBOX" not in on:
+    if "INBOX" not in on and "UNREAD" not in on:
         return f"already archived {thread_id}"
     if dry:
-        return f"DRY would archive thread {thread_id}"
-    svc.users().threads().modify(userId="me", id=thread_id, body={"removeLabelIds": ["INBOX"]}).execute()
-    return f"archived thread {thread_id}"
+        return f"DRY would archive and mark read thread {thread_id}"
+    svc.users().threads().modify(userId="me", id=thread_id,
+                                 body={"removeLabelIds": ["INBOX", "UNREAD"]}).execute()
+    return f"archived and marked read thread {thread_id}"
 
 
 def cmd_archive(svc, args):

@@ -34,7 +34,8 @@ Kriss's work Gmail. Applied by the [daily run](/email/daily-run.md) and [KB sync
 | `AI/KB-synced` | Message processed by [KB sync](/email/kb-sync.md) | message |
 
 - Only one of Urgent / Reply / Waiting / FYI / Noise / Action / HR / Payments per thread at a time; the run moves it as the thread changes. Kriss's reply removes Urgent/Reply (and adds Waiting if he asked something).
-- **Archived = done** (removed from the inbox). The run never deletes, never marks spam, never unsubscribes without asking.
+- **Archived = done.** Archiving always means removing **both `INBOX` and `UNREAD`** from every message in the thread — Gmail's archive alone leaves mail unread. Done = archived **and** read.
+- **Archive everything handled:** FYI, Noise, handled invoice/customs mail, every thread Kriss or the assistant has sent, replied to or forwarded (incl. Kriss's own forwards to PowerOffice), Waiting threads, and anything else that needs no action. Only Urgent, Reply, Action, HR, Invoice, Payments, Docs and Docs-read stay in the inbox (and keep their unread state). The run never deletes, never marks spam, never unsubscribes without asking.
 - No per-category labels: the contact category lives in the Person note.
 - Ignore old labels (`[Superhuman]/…`, `Kjell Odne/Done`, `Invoices`, Kriss's manual labels); never remove them.
 

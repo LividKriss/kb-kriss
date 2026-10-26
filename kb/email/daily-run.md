@@ -33,19 +33,19 @@ Also on request ("morning run", "go through my email").
 5. **KB sync — every run** (all new messages, incl. Kriss's own sent mail), after classification. Bulk-label messages that need no KB writing; substantive threads in parallel batches (see `docs/routine.md`). If the run must be cut short, stop drafts first, then KB sync — never classification; the backlog carries over via the missing `AI/KB-synced` label.
 6. **Follow-ups:** Kriss's sent questions → `AI/Waiting`; overdue Waiting threads (3 working days; 2 for production/payment) → nudge drafts.
 7. **Drafts** for Urgent and Reply threads per [actions](/email/actions.md). Where the answer depends on Kriss's decision, still draft it with the open point marked `[KRISS: …]` and state the decision needed — a draft with one open point beats no draft.
-8. **Archive** FYI, Noise and handled invoice mail.
+8. **Archive** (remove `INBOX` + `UNREAD`) FYI, Noise, Waiting, handled invoice/customs mail, and every thread whose latest message is Kriss's own send/reply/forward. Also sweep already-archived AI-labelled threads that are still unread and mark them read.
 8b. **KB inbox:** apply every draft with subject `[KB-inbox]` (written by the morning brief at Kriss's instruction) per AGENTS.md §5 — Person notes and notes directly; rules, voice and livid-kb changes count as confirmed by Kriss for that item (second-confirmation items excepted: list those in the run report instead). Log each, then delete the draft.
 9. **Close:** short run report as the session's last message (counts, failures); `kb/log.md` entry; `tools/build_index.py`, `tools/validate.py` (0 errors); commit and push to `main` (AGENTS.md §5). No other branches.
 
 # Steps — B. Morning brief (interactive, Cowork)
 1. Read the labels, the `[Doc]` summary drafts from the Mac agent, and the drafts part A left (`AI/Urgent`, `AI/Reply`, `AI/Action`, `AI/Payments`, `AI/Invoice`, `AI/Waiting`, `AI/Customs`, `AI/HR` count), the last run report in `kb/log.md`, and the Person notes involved. If part A did not run today, say so first and offer to run it now.
 2. Present the brief per [brief format](/email/brief.md).
-3. Work through it with Kriss: open threads in full on request, check systems, revise drafts, and do what he approves — send (with the reviewed disclaimer, [signature](/email/signature.md)), forward vouchers (`AI/PO-forwarded`), archive, relabel. Nothing sent or forwarded without his approval of that item in this chat, and only up to the level the [send policy](/email/send-policy.md) allows (sensitive classes: leave as a draft for him to send himself). Check for a `[STOP-SENDING]` draft first.
+3. Work through it with Kriss: open threads in full on request, check systems, revise drafts, and do what he approves — send (with the reviewed disclaimer, [signature](/email/signature.md)), forward vouchers (`AI/PO-forwarded`), archive, relabel. Everything sent, forwarded or decided as no-action in the brief is archived and marked read right away. Nothing sent or forwarded without his approval of that item in this chat, and only up to the level the [send policy](/email/send-policy.md) allows (sensitive classes: leave as a draft for him to send himself). Check for a `[STOP-SENDING]` draft first.
 4. Capture his instructions: new rules (e.g. how to handle an Action kind), corrections to Person notes, things to remember. The brief chat runs in the cloud and cannot write the KB, so it saves each as a **Gmail draft with subject `[KB-inbox] <short title>`**, no recipient, body = the instruction in Kriss's words + "confirmed by Kriss in the morning brief <date>" + the KB doc it concerns. Part A applies them the next morning.
 5. End with what was done and what is still open.
 
 # Decision rules
-- Gmail is the system of record; archived = done.
+- Gmail is the system of record; archived (and read) = done.
 - Until Superhuman is retired, its auto-archive can hide mail — always search all mail, never only the inbox.
 - Low confidence about class, facts or tone → draft and say so; never send.
 
