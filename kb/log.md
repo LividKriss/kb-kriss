@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-10-27
+
+- **Update** Mac agent run 06:45: 1 customs document filed (UPS Innførsel W459F0VHGYT → LJAS, Livid Jeans AS; labelled AI/Customs by the agent, it arrived after the cloud run). 0 forwarded to PowerOffice, 0 to Ole Eivind, 0 to HK. New for the brief: Nilorn East Asia reminder level 3 (SREI028407, Livid Jeans AS; follow-up, not forwarded). Left for the brief, unchanged: Camper/Biniaraix invoices via Ole Eivind (unknown supplier), Wispr Flow receipt (no Organization doc), Diemme reminder with invoice copies, YKK Portugal invoice copies in payment thread, Adobe (link only). 0 Docs threads.
+
 ## 2026-10-26
 
 - **Update** Person `people/vincent-santos.md`: also joins vintage buying trips; History line on the Naples/Caserta hotel booked as travel. Told by Kriss in the Jeans bookkeeping chat.
