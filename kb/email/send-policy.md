@@ -12,17 +12,19 @@ applies_to: all
 verified:
   - by: human:kriss
     at: 2026-10-23T22:30:00+02:00
+  - by: human:kriss
+    at: 2026-10-27T13:00:00+01:00
 stale_after: 2027-01-21
 ---
 
 # Applies to
-Every email the assistant sends, replies to or forwards from Kriss's work Gmail — in the morning brief, the cloud run, the Mac agent or any other chat. Nothing is sent, forwarded or deleted outside this policy. When in doubt: draft, don't send.
+Every email the assistant sends, replies to or forwards from Kriss's work Gmail — in the morning brief, the midday sweep, the cloud run, the Mac agent or any other chat. Nothing is sent, forwarded or deleted outside this policy. When in doubt: draft, don't send.
 
 # Levels
 | Level | Meaning | Disclaimer ([signature](/email/signature.md)) |
 |---|---|---|
-| `draft` | Gmail draft only; Kriss sends it himself from Gmail | reviewed (Kriss, 2026-10-26) |
-| `send-after-approval` | the assistant sends after Kriss approves that specific email in the brief chat or another chat | reviewed |
+| `draft` | Gmail draft only; Kriss sends it himself from Gmail | none |
+| `send-after-approval` | the assistant sends after Kriss approves that specific email in the brief chat or another chat | none |
 | `auto-send` | the assistant sends on its own, within the guardrails below | auto-sent |
 
 # Email classes and maximum level
@@ -80,3 +82,4 @@ Kriss says **"stop sending"** (any chat): the assistant creates a Gmail draft wi
 
 # Source / history
 Build brief "Sending email" + Kriss's answers in step 5b (2026-10-23): sensitive classes draft-only (he sends himself), daily cap 20, invoice forwards and Ole Eivind notices recorded as system auto-sends.
+2026-10-27 (Kriss, second confirmation): no disclaimer on `draft` and `send-after-approval` mail; the auto-sent disclaimer only where Kriss has not reviewed the email.

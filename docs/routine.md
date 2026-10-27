@@ -6,6 +6,7 @@ Daily email run for Kriss (kristoffer@livid.no), weekdays 06:47 Oslo. Repositori
 
 1. Read `kb-kriss/AGENTS.md` and `livid-kb/AGENTS.md`, then do **part A** of `kb-kriss/kb/email/daily-run.md` with the docs it links, **in this order** (cheap and important first):
    1. **Classify, label and archive every new thread** from metadata and snippets (open a thread only when needed). This must always finish — it is what the morning brief is built from.
+   1b. **Task triggers:** match every new thread against `kb-kriss/kb/email/task-triggers.md` and label matches `AI/Task` (on top of other labels). Label only; the brief prepares the proposals.
    2. **Invoices, payments, customs, documents:** label `AI/Invoice` (voucher candidates), `AI/Payments`, `AI/Customs`; and `AI/Docs` on threads whose attachment or link matters for a decision (production, logistics, shipping, proformas, contracts — judge from text and attachment names), so the Mac agent reads it.
    3. **`[KB-inbox]` drafts** from the morning brief: apply them.
    4. **KB sync.** First label everything that needs no KB writing (noise, platform, invoice, customs, HR, FYI without substance) `AI/KB-synced` in bulk. Then the substantive threads: **one subagent per batch of ~10–15 threads**, run in parallel, each given only its threads, the Person notes involved, `AGENTS.md` and `kb/email/kb-sync.md`, returning the exact note edits; you apply and label. Work per thread (all new messages in it at once), newest first.

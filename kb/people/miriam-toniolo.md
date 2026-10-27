@@ -23,6 +23,7 @@ Fabric supplier contact since 2024-03 (fabric requests). Sample and bulk fabric 
 English, "Hello Miriam," short; questions surcharges directly and politely. Copies Christopher and operations@livid.no.
 
 # History
+- 2026-10-27: Sent proforma 8550 for PO-00147 (174.4 m art. 10920, ex mill 10.11, freight DAP Dia on the invoice), to be paid before shipment.
 - 2026-10-22: PO-00147 ready; Miriam asked for Livid's forwarder or freight on the invoice before sending the proforma.
 - 2026-09-16: PO-00147 (SS27, 170 m asked): Tessilbiella accepted 175 m instead of rounding to 200 m; OC 26/1774 at €28.20 +10% surcharge.
 - 2026-06-22: Confirmed SS27 prices for production orders (art. 10920 2RWK €28.20 for 300 m/colour, surcharges below that).
@@ -35,7 +36,7 @@ English, "Hello Miriam," short; questions surcharges directly and politely. Copi
 - 2024-03 to 2024-06: Fabric requests and an urgent sample order (from subjects).
 
 # Open threads
-- Purchase Order — PO-00147 — order ready; Livid owes Miriam an answer: own forwarder or freight added to invoice ([thread](https://mail.google.com/mail/u/0/#all/1a075e5344c1607b))
+- Purchase Order — PO-00147 — proforma 8550 received 2026-10-27 (freight on the invoice); payment before shipment pending ([thread](https://mail.google.com/mail/u/0/#all/1a075e5344c1607b))
 
 # Links
 - Organization: [Tessilbiella](kb://livid/organizations/suppliers/tessilbiella.md)

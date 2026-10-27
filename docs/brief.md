@@ -137,7 +137,7 @@ Write `email/send-policy.md` and `email/signature.md` per "Sending email". All e
 Morning run (`email/daily-run.md`):
 1. Label new mail; route invoices (batch for approval).
 2. Priority list: urgent first, then replies needed, each with one line on why.
-3. Draft replies as **Gmail drafts**, using thread + person note + voice profile + relevant livid-kb docs. Kriss approves in batch ("send 1, 3, 4"); approved drafts are sent with the *reviewed* disclaimer, then archived. No auto-send during the trial.
+3. Draft replies as **Gmail drafts**, using thread + person note + voice profile + relevant livid-kb docs. Kriss approves in batch ("send 1, 3, 4"); approved drafts are sent (no disclaimer since 2026-10-27; only unreviewed auto-sends carry one), then archived. No auto-send during the trial.
 4. After Kriss sends: compare draft vs sent. Meaningful edits → update the voice profile (with confirmation) or person note (automatic).
 5. Update person notes and open threads; daily digest of KB changes.
 Track: share of drafts sent with light edits, urgent items missed, invoice routing errors.

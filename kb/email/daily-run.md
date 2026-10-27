@@ -1,7 +1,7 @@
 ---
 type: Process
 title: Daily email run
-description: The weekday morning run of Kriss's email assistant — label, route invoices, sync the KB, draft replies, follow up, and give Kriss a priority brief to approve from.
+description: The weekday runs of Kriss's email assistant — label, route invoices, prepare email-triggered tasks, sync the KB, draft replies, follow up, a morning brief and a midday task sweep to approve from.
 owner: kriss
 tier: personal
 status: draft
@@ -15,20 +15,22 @@ autonomy: execute-with-approval
 Kriss starts the day with an inbox that holds only what needs him, ready drafts, a brief in a Cowork chat he can work through by voice or typing, and a KB that knows what happened yesterday. Nothing is sent or forwarded without his approval of that item (until [send policy](/email/send-policy.md) says otherwise).
 
 # Trigger
-Three parts:
+Four parts:
 - **A. Processing** — Claude cloud scheduled task (routine) "Daily email run", weekdays **06:47** Oslo. Unattended. Instructions: `docs/routine.md`.
 - **C. Mac attachment agent** — Claude Code on Kriss's Mac, hourly while awake (`docs/mac-agent.md`): reads invoice PDFs, forwards clear cases to PowerOffice (+ Ole Eivind for external brands), files customs documents, and reads documents/links on `AI/Docs` threads into `[Doc]` summary drafts and the KB. The cloud can't read attachments.
 - **B. Morning brief** — Cowork scheduled task, weekdays **07:30** Oslo: opens a **new Cowork chat** with the brief ([brief format](/email/brief.md)); Kriss goes through it by voice or typing and gives instructions.
-Also on request ("morning run", "go through my email").
+- **D. Midday sweep** — Claude cloud scheduled task "Midday task sweep", weekdays **12:00** Oslo: opens a new Cowork chat with tasks from mail since the morning (Steps — D).
+Also on request ("morning run", "go through my email", "midday sweep").
 
 # Inputs
 - Gmail: search (incl. sent and archived), read, label, archive, create drafts; send, reply and forward **only after Kriss's approval in part B**.
 - Both KBs (read; write per AGENTS.md §5): `kb-kriss/AGENTS.md`, `livid-kb/AGENTS.md`, this doc and the docs it links.
 
 # Steps — A. Processing (unattended)
-1. **Load** both AGENTS.md, this doc, [urgency](/email/urgency.md), [labels](/email/labels.md), [actions](/email/actions.md), [KB sync](/email/kb-sync.md), [invoice routing](kb://livid/finance/bookkeeping/processes/invoice-routing.md).
+1. **Load** both AGENTS.md, this doc, [urgency](/email/urgency.md), [labels](/email/labels.md), [actions](/email/actions.md), [task triggers](/email/task-triggers.md), [KB sync](/email/kb-sync.md), [invoice routing](kb://livid/finance/bookkeeping/processes/invoice-routing.md).
 2. **Collect** new mail since the last run (2-day overlap; skip messages already labelled `AI/KB-synced`): inbox, archived, sent, and mail to invoice@.
 3. **Classify and label** each thread per urgency and labels. Remove labels the thread has outgrown.
+3b. **Task triggers:** match every new thread against [task triggers](/email/task-triggers.md); label matches `AI/Task` (on top of any other label). This run has no Loom/Threadflow access: label only.
 4. **Invoices and customs:** label voucher candidates `AI/Invoice` (the **Mac attachment agent**, part C, reads the PDFs, forwards clear cases and notifies Ole Eivind for external brands); ordinary payment reminders → `AI/Payments`; customs documents → `AI/Customs` (the Mac job files them and relabels `AI/Filed`).
 5. **KB sync — every run** (all new messages, incl. Kriss's own sent mail), after classification. Bulk-label messages that need no KB writing; substantive threads in parallel batches (see `docs/routine.md`). If the run must be cut short, stop drafts first, then KB sync — never classification; the backlog carries over via the missing `AI/KB-synced` label.
 6. **Follow-ups:** Kriss's sent questions → `AI/Waiting`; overdue Waiting threads (3 working days; 2 for production/payment) → nudge drafts.
@@ -38,11 +40,19 @@ Also on request ("morning run", "go through my email").
 9. **Close:** short run report as the session's last message (counts, failures); `kb/log.md` entry; `tools/build_index.py`, `tools/validate.py` (0 errors); commit and push to `main` (AGENTS.md §5). No other branches.
 
 # Steps — B. Morning brief (interactive, Cowork)
-1. Read the labels, the `[Doc]` summary drafts from the Mac agent, and the drafts part A left (`AI/Urgent`, `AI/Reply`, `AI/Action`, `AI/Payments`, `AI/Invoice`, `AI/Waiting`, `AI/Customs`, `AI/HR` count), the last run report in `kb/log.md`, and the Person notes involved. If part A did not run today, say so first and offer to run it now.
-2. Present the brief per [brief format](/email/brief.md).
-3. Work through it with Kriss: open threads in full on request, check systems, revise drafts, and do what he approves — send (with the reviewed disclaimer, [signature](/email/signature.md)), forward vouchers (`AI/PO-forwarded`), archive, relabel. Everything sent, forwarded or decided as no-action in the brief is archived and marked read right away. Nothing sent or forwarded without his approval of that item in this chat, and only up to the level the [send policy](/email/send-policy.md) allows (sensitive classes: leave as a draft for him to send himself). Check for a `[STOP-SENDING]` draft first. All email work goes through the Gmail connector, never Superhuman, not even as a fallback; if Gmail cannot do it, leave it as a draft. An instruction like "write to X" means: create a Gmail draft and show its full text in the chat; it is not approval. Send only after Kriss explicitly approves that specific shown draft ("send 1, 3"); when in doubt, ask. (Kriss, 2026-10-26: the brief had sent 4 emails straight from instructions, which he did not count as approval.)
+1. Read the labels, the `[Doc]` summary drafts from the Mac agent, and the drafts part A left (`AI/Urgent`, `AI/Task`, `AI/Reply`, `AI/Action`, `AI/Payments`, `AI/Invoice`, `AI/Waiting`, `AI/Customs`, `AI/HR` count), the last run report in `kb/log.md`, and the Person notes involved. If part A did not run today, say so first and offer to run it now.
+2. **Prepare tasks:** for every `AI/Task` thread, follow the Process its [task trigger](/email/task-triggers.md) row names up to the proposal (read the systems, dry run, read `[Doc]` summaries / documents). Then present the brief per [brief format](/email/brief.md), with the proposals under *Tasks*.
+3. Work through it with Kriss: open threads in full on request, check systems, revise drafts, and do what he approves — execute approved tasks ("do 3") per their Process, then archive the thread and remove `AI/Task`; send (no disclaimer on mail he approved, [signature](/email/signature.md)), forward vouchers (`AI/PO-forwarded`), archive, relabel. Everything sent, forwarded or decided as no-action in the brief is archived and marked read right away. Nothing sent or forwarded without his approval of that item in this chat, and only up to the level the [send policy](/email/send-policy.md) allows (sensitive classes: leave as a draft for him to send himself). Check for a `[STOP-SENDING]` draft first. All email work goes through the Gmail connector, never Superhuman, not even as a fallback; if Gmail cannot do it, leave it as a draft. An instruction like "write to X" means: create a Gmail draft and show its full text in the chat; it is not approval. Send only after Kriss explicitly approves that specific shown draft ("send 1, 3"); when in doubt, ask. (Kriss, 2026-10-26: the brief had sent 4 emails straight from instructions, which he did not count as approval.)
 4. Capture his instructions: new rules (e.g. how to handle an Action kind), corrections to Person notes, things to remember. The brief chat runs in the cloud and cannot write the KB, so it saves each as a **Gmail draft with subject `[KB-inbox] <short title>`**, no recipient, body = the instruction in Kriss's words + "confirmed by Kriss in the morning brief <date>" + the KB doc it concerns. Part A applies them the next morning.
 5. End with what was done and what is still open.
+
+# Steps — D. Midday sweep (Cowork, 12:00)
+1. Load as part B step 1, but only what tasks need: both AGENTS.md, this doc, [task triggers](/email/task-triggers.md), [labels](/email/labels.md), [brief format](/email/brief.md), [send policy](/email/send-policy.md), and the Processes the matches need. Check for `[STOP-SENDING]`.
+2. **Light skim** of mail received today (inbox, archived and spam; `newer_than:1d`) that the morning run has not labelled, plus open `AI/Task` threads. Metadata and snippets only; open a thread only to confirm a match or build a proposal.
+3. Label matches `AI/Task`; anything new that is clearly urgent per [urgency](/email/urgency.md) → `AI/Urgent` (no draft unless Kriss asks). Nothing else is classified here; part A does the rest tomorrow.
+4. Prepare each task to the proposal (as part B step 2) and present: one summary line, *Tasks* table, then *New urgent* if any. Nothing at all → one line "No new tasks since the morning" and stop.
+5. Work through it with Kriss exactly as part B step 3 (approval per task, drafts shown in full, send only after approval). `[KB-inbox]` drafts for new rules as part B step 4.
+6. End with what was done and what is still open.
 
 # Decision rules
 - Gmail is the system of record; archived (and read) = done.
