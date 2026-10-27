@@ -37,6 +37,13 @@ Every incoming message in Kriss's work Gmail handled by the [daily run](/email/d
 
 **Invoice mail** follows [invoice routing](kb://livid/finance/bookkeeping/processes/invoice-routing.md); once forwarded or filed it is archived. Reminders and collection notices are not vouchers: they go through the rules above (usually Urgent 2).
 
+**Confirmed by Kriss in the 2026-10-26 brief:**
+- Replit notifications (e.g. "Republish your projects"): Noise.
+- PowerOffice "Pending Vouchers for Approval" reminders: Noise, archive; no Needs-action row (handled in PowerOffice).
+- Quickship Logistics invoice mail: not a voucher (they send EHF); archive, never forward.
+- Loom "Store stock sync: N problem(s) need attention": FYI and archived, never Urgent, even when unresolved over 24 hours. The brief keeps one open reminder line that the stock sync problem still needs fixing.
+- Samesystem weekly "Ændrede / oprettede ansatte" mail: "Ingen endringer" → Noise, archive. New, starting or departing employees → AI/Action ("handle in PowerOffice"). No names in the KB.
+
 # Exceptions
 - A message that fits Urgent but where Kriss has already acted (his reply is later in the thread) → not urgent.
 - When unsure between two levels, pick the higher and say why in one line.
