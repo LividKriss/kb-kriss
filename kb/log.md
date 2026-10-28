@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-10-28
+
+- **Update** Daily email run (cloud 2026-10-28), partial: classified and labelled ~120 threads in the 2-day window that had no AI label (Urgent 6, Reply 9, Action 9, Payments 3, Invoice 1, Customs 1, Task 1, HR 1, Waiting 2, FYI ~60, Noise ~25); FYI/Noise/Waiting and every thread whose latest message is Kriss's own were archived (INBOX + UNREAD removed). Urgent: SMN betalingsgaranti expiry, Stork overdue invoices, Collectio and Avask inkasso, auditor balance-confirmation reminder, Mill-Tex SS27 pending matters. Task (T1): PrintCollect Eplehuset order 21081. Action: 4 Skatteetaten/Altinn notices for both entities, Digipost, 2 Adobe app requests. Labelled `AI/KB-synced` only for mail needing no KB writing. NOT done this run: the 8 `[KB-inbox]` drafts from 2026-10-27 (left in Gmail; they include a second-confirmed rule change on collection notices in invoice-routing), KB sync of the substantive production threads, drafts, follow-ups; backlog carries over. Nothing sent, forwarded or deleted.
+
 ## 2026-10-27
 
 - **Update** Mac agent run 16:09: forwarded 4 vouchers to PowerOffice (Livid Jeans AS: Afonso FT 2/7260, 2/7264, 2/7265, 2/7268 — sample shirt, fabric transfer to Stork, FedEx transport, DHL customs costs). 0 to Ole Eivind, 0 to HK. 1 customs document filed (UPS Innførsel 03JV48FDNCK → LJAS, Livid Jeans AS). New for the brief (labelled AI/Invoice, not forwarded): Equity Finance collection notice on behalf of Virke, case 31802 (Livid Jeans AS; principal paid, collection costs remain, payment remark registered). Left for the brief, unchanged: Son Venin 10890 (Livid Retail AS), Abel Odor 59014+60292 (Livid Retail AS), Tessilbiella proforma 8550 (Livid Jeans AS). 0 Docs threads.
