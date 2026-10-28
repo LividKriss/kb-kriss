@@ -3,6 +3,7 @@
 ## 2026-10-28
 
 - **Update** Daily email run (cloud 2026-10-28), partial: classified and labelled ~120 threads in the 2-day window that had no AI label (Urgent 6, Reply 9, Action 9, Payments 3, Invoice 1, Customs 1, Task 1, HR 1, Waiting 2, FYI ~60, Noise ~25); FYI/Noise/Waiting and every thread whose latest message is Kriss's own were archived (INBOX + UNREAD removed). Urgent: SMN betalingsgaranti expiry, Stork overdue invoices, Collectio and Avask inkasso, auditor balance-confirmation reminder, Mill-Tex SS27 pending matters. Task (T1): PrintCollect Eplehuset order 21081. Action: 4 Skatteetaten/Altinn notices for both entities, Digipost, 2 Adobe app requests. Labelled `AI/KB-synced` only for mail needing no KB writing. NOT done this run: the 8 `[KB-inbox]` drafts from 2026-10-27 (left in Gmail; they include a second-confirmed rule change on collection notices in invoice-routing), KB sync of the substantive production threads, drafts, follow-ups; backlog carries over. Nothing sent, forwarded or deleted.
+- **Update** Mac agent run 06:59: 1 customs document filed (UPS Innførsel W459F0TSFD3 → LJAS, Livid Jeans AS; goods from Stork Texteis). 0 forwarded to PowerOffice, 0 to Ole Eivind, 0 to HK. Left for the brief, unchanged: Equity Finance collection notice for Virke (Livid Jeans AS), Son Venin 10890 (Livid Retail AS), Abel Odor 59014+60292 (Livid Retail AS), Tessilbiella proforma 8550 (Livid Jeans AS). 0 Docs threads; housekeeping deleted 3 [Doc] drafts for archived threads.
 
 ## 2026-10-27
 
