@@ -2,6 +2,8 @@
 
 ## 2026-10-28
 
+- **Update** Mac agent run 16:11: forwarded 1 voucher to PowerOffice (Livid Retail AS: VWCC INV-0232, vintage stock); thread left in the inbox (open conversation with VWC). 0 to Ole Eivind. 2 to HK Consulting (Klasikinė Tekstilė KT 018053 and KT 018054, PO-00142 linen to Lisama and Stork, Livid Jeans Unipessoal). New for the brief: PowerOffice forward of the two Klasikinė invoices (Livid Jeans AS). They say "Advance (paid)" but show the full amount for payment, and no advance proforma was found at a voucher address. Thread labelled `AI/Task` (T2) and `AI/Docs-read`, [Doc] draft written. 0 customs filed. Person note Donatas Akelis: History, Open threads.
+
 - **Update** Mac agent run 14:07: forwarded 2 vouchers to PowerOffice (Livid Jeans AS: Nilorn East Asia INVP0269278 and INVP0269279, QR labels shipped to Officocta and Mill-Tex). Both threads labelled `AI/Task` (T2 material shipment), [Doc] drafts written. 0 to Ole Eivind, 0 to HK, 0 customs filed. New for the brief: Hestra payment reminder BU115790 (Livid Retail AS; follow-up, not forwarded). Left for the brief, unchanged: TONO via Kredinor and Prinsens Gate 10095 (Livid Retail AS), Tessilbiella proforma 8550 (Livid Jeans AS), Norwegian travel receipts ×2 via Ole Eivind (Livid Jeans AS). Tool gap found: `gmail_tool.py` `KEEP_IN_INBOX` lacks `AI/Task` (docs/mac-agent.md says it keeps it), so `archive` archived both Nilorn task threads and housekeep deleted their [Doc] drafts; the agent put them back in the inbox and rewrote the drafts. Fix for Kriss: add `AI/Task` to `KEEP_IN_INBOX`.
 
 - **Update** Person `people/paulo-teixeira.md`: History line on the forwarded Afonso SS27 production plan (Mac agent run 13:06; [Doc] draft written, thread AI/Docs-read).
