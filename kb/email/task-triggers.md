@@ -28,14 +28,17 @@ Every new thread in Kriss's work Gmail, in every run that reads mail: the 06:47 
 | # | Email kind | Recognise by | Process (does the work) | System | Autonomy |
 |---|---|---|---|---|---|
 | T1 | Eplehuset uniform order | From bestilling@printcollect.no, subject "PrintCollect - Eplehuset - <no>"; one email per order line, group by order number. Check spam too. | [PrintCollect uniform orders](kb://livid/sales/processes/printcollect-uniform-orders.md) | Loom | execute-with-approval |
+| T3 | Modo weekly stock report | From edi@frontsystems.com, subject "Livid lager Moa", received on a **Monday**, CSV attachment `OnHandReportUTC-Livid lager Moa-*.csv` (covers Modo Moa and Modo Sentrum). Not the Sunday "BRAND WEEKLY STOCK REPORT – Modo … – Livid" mails: those are wrong, label `AI/Noise`. | [Modo auto-replenishment](kb://livid/sales/processes/modo-auto-replenishment.md) | Loom | execute-with-approval |
 | T2 | Material shipment | Invoice, packing list or shipping notice from a material supplier (fabric mills, trims, labels; see the Process trigger). Not garments from manufacturers. | [Material shipments from supplier invoices](kb://livid/production/processes/material-shipments-from-invoices.md) | Threadflow | execute-with-approval |
 
 Adding a kind: one row here + a Process in livid-kb (or a link to the existing one). The how-to lives only in the Process.
 
 # Exceptions
+- T3 needs the CSV attachment: the cloud runs label by sender, subject and weekday only. The chat that prepares it (brief or midday sweep) fetches the CSV through the browser (Kriss's Gmail session). Having the Mac agent save it is possible but not set up. The proposal is always shown, also when below the Process threshold.
 - T2 needs the PDFs, which only the Mac agent can read: the cloud runs label by sender/subject/attachment names, the Mac agent writes the `[Doc]` summary, and the chat that executes reads the documents before creating anything.
 
 # Examples
 
 # Source / history
+Kriss, 2026-10-28: T3 added; the Monday Modo report had been labelled `AI/FYI` and archived by the run.
 Kriss, 2026-10-27: tasks triggered by incoming email are to be registered so the morning brief and a 12:00 midday sweep pick them up; more kinds will be added.
