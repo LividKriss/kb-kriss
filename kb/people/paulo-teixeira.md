@@ -23,6 +23,7 @@ Kriss and Paulo work on season production (SS27 now, FW26 deliveries, FW27 sampl
 English. "Hello Paulo," / "Hope you are well.", signed "Best / Kristoffer" or with the signature block only. Direct and short. He chases with one-liners ("Did you see the above…"). He copies Christopher Stangeby, and usually Charlie Selvig and Jens Olav Dankertsen, on production matters.
 
 # History
+- 2026-10-28: Paulo forwarded Livid's Afonso SS27 production plan (batch 1 due 2026-12-04, batch 2 due 2027-01-15) to Kriss and Afonso ([thread](https://mail.google.com/mail/u/0/#all/1a1594006685a74c)).
 - 2026-10-23: Paulo forwarded Dia Exemplar's account statement asking Livid to pay open invoices.
 - 2026-10-23: Dia's FW26 Blake (70 pcs, 9 boxes) left via Cargo Linea on 2026-10-16, invoice 02-002465 (Kriss forwarded it to PowerOffice). Dia also sent proforma 42/2026 with export papers and a UPS label for the balance of style Vinc (10 production pcs + 1 sample). The packing list named in the subject was not attached.
 - 2026-10-22: Stork invoiced the FW26 Extensive Bean silk shirt with the 10% discount Livid asked for (the colour was off). Paulo said the dye house Pizarro will no longer do this silk dyeing, and flagged an overdue Stork invoice.
