@@ -2,6 +2,8 @@
 
 ## 2026-10-28
 
+- **Update** Mac agent run 14:07: forwarded 2 vouchers to PowerOffice (Livid Jeans AS: Nilorn East Asia INVP0269278 and INVP0269279, QR labels shipped to Officocta and Mill-Tex). Both threads labelled `AI/Task` (T2 material shipment), [Doc] drafts written. 0 to Ole Eivind, 0 to HK, 0 customs filed. New for the brief: Hestra payment reminder BU115790 (Livid Retail AS; follow-up, not forwarded). Left for the brief, unchanged: TONO via Kredinor and Prinsens Gate 10095 (Livid Retail AS), Tessilbiella proforma 8550 (Livid Jeans AS), Norwegian travel receipts ×2 via Ole Eivind (Livid Jeans AS). Tool gap found: `gmail_tool.py` `KEEP_IN_INBOX` lacks `AI/Task` (docs/mac-agent.md says it keeps it), so `archive` archived both Nilorn task threads and housekeep deleted their [Doc] drafts; the agent put them back in the inbox and rewrote the drafts. Fix for Kriss: add `AI/Task` to `KEEP_IN_INBOX`.
+
 - **Update** Person `people/paulo-teixeira.md`: History line on the forwarded Afonso SS27 production plan (Mac agent run 13:06; [Doc] draft written, thread AI/Docs-read).
 
 - **Update** `email/task-triggers.md`: new row T3 — Monday "Livid lager Moa" mail from edi@frontsystems.com → `AI/Task`, prepared per `kb://livid/sales/processes/modo-auto-replenishment.md` (Loom, execute-with-approval); Sunday "BRAND WEEKLY STOCK REPORT" mails → `AI/Noise`. CSV fetched by the preparing chat (browser) or the Mac agent. Why: the 2026-10-26 report was labelled `AI/FYI` and archived, so no run would have acted on it. Source: Kriss 2026-10-28.
