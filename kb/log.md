@@ -1,6 +1,7 @@
 # Change log
 
 ## 2026-10-29
+- **Update** Mac agent run 23:55: forwarded 1 voucher to PowerOffice (Livid Jeans AS: Anthropic Ireland receipt 2596-7809, Team plan prepaid extra usage, Amex; receipt only, not the matching Stripe invoice). Identified by name and VAT no. on the PDF, entity by Livid Jeans AS's org.nr. Thread archived. 0 to Ole Eivind, 0 to HK, 0 customs filed. Left for the brief, unchanged: Kravia collection notice for Sameiet Markveien 52 (Livid Retail AS), SAS receipts ×4 from Torunn and Arnt, AutoStore reminder (Livid Jeans AS), Hestra reminder BU115790, TONO via Kredinor and Prinsens Gate 10095 (Livid Retail AS), Tessilbiella proforma 8550 (Livid Jeans AS). 0 Docs threads.
 - **Update** Mac agent run 20:52: forwarded 1 voucher to PowerOffice (Livid Jeans AS: Anthropic Ireland receipt 2698-9914, Claude Team plan change, Amex; receipt only, not the matching Stripe invoice). Anthropic has no Organization doc; identified by name and VAT no. on the PDF, entity by Livid Jeans AS's org.nr and the software-subscriptions coding rule. Thread archived. 0 to Ole Eivind, 0 to HK, 0 customs filed. Left for the brief, unchanged: SAS receipts ×4 from Torunn and Arnt, AutoStore reminder (Livid Jeans AS), Hestra reminder BU115790, TONO via Kredinor and Prinsens Gate 10095 (Livid Retail AS), Tessilbiella proforma 8550 (Livid Jeans AS). 0 Docs threads.
 - **Update** `email/actions.md`: processed emails are marked read and archived in every session, not only the daily run. Source: SAS receipts forwarded to bilagsmottak but left unread (Kriss, 2026-10-29).
 
