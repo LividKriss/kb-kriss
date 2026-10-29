@@ -44,6 +44,12 @@ Every incoming message in Kriss's work Gmail handled by the [daily run](/email/d
 - Loom "Store stock sync: N problem(s) need attention": FYI and archived, never Urgent, even when unresolved over 24 hours. The brief keeps one open reminder line that the stock sync problem still needs fixing.
 - Samesystem weekly "Ændrede / oprettede ansatte" mail: "Ingen endringer" → Noise, archive. New, starting or departing employees → AI/Action ("handle in PowerOffice"). No names in the KB.
 
+**Confirmed by Kriss in the 2026-10-28 brief:**
+- Resend "100% of your daily quota": FYI, archive, no Needs-action row. Keep a count; if it happens often (several times a month), propose upgrading the plan in the brief. (Supersedes Urgent 5 for quota mails.)
+- Adobe "forespørsel om Adobe-applikasjoner som må gjennomgås": Noise, archive, no Needs-action row.
+- PowerOffice "unpaid invoices on your client": archive, no Needs-action row.
+- Altinn/Skatteetaten/Digipost notices: once Kriss has done an Altinn/Digipost round, the notices it covered are archived; only notices that arrived after the last round go under Needs action.
+
 # Exceptions
 - A message that fits Urgent but where Kriss has already acted (his reply is later in the thread) → not urgent.
 - When unsure between two levels, pick the higher and say why in one line.

@@ -16,7 +16,7 @@ Every thread the [daily run](/email/daily-run.md) labels.
 
 # Rules
 - **AI/Urgent, AI/Reply:** stay in the inbox. Draft a reply as a Gmail draft in the thread (thread + Person note + Voice Profile + relevant livid-kb docs), in the thread's language, ending with Kriss's sign-off. Always a reply **inside the thread with the quoted history** (never a new thread without it — Eplehuset complained, 2026-10). No disclaimer: Kriss reviews every draft before it goes out ([signature](/email/signature.md)). No draft when the answer needs a decision only Kriss can make — then the brief says what must be decided.
-- **AI/Waiting:** when Kriss's question has had no answer for **3 working days** (**2** for production and payment threads), draft a short polite nudge for his approval and list it in the brief.
+- **AI/Waiting:** when Kriss's question has had no answer for **3 working days** (**2** for production and payment threads), draft a short polite nudge for his approval and list it in the brief. **Before listing or nudging, read the whole thread up to its latest message** (both sides, incl. Kriss's replies and mail that arrived after the label was set): a thread whose counterpart has replied, or where Kriss has answered that reply, is not overdue, and "asked on" is the date of Kriss's latest question (Kriss, 2026-10-28; the same applies to Urgent and Reply rows in the brief).
 - **Archive** always = remove `INBOX` and `UNREAD` from the whole thread ([labels](/email/labels.md)).
 - **AI/FYI:** archive; one line in the brief.
 - **AI/Noise:** archive; counted in the brief, listed only on request.
