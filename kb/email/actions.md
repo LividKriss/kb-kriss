@@ -25,6 +25,7 @@ Every thread the [daily run](/email/daily-run.md) labels.
 - **AI/HR:** stays in the inbox; count only in the brief.
 - **Invoices and customs documents:** per [invoice routing](kb://livid/finance/bookkeeping/processes/invoice-routing.md) — vouchers in an approval batch, customs documents filed. Kriss's own forwards to a PowerOffice voucher address count as done.
 - **Sending, forwarding, replying:** per the [send policy](/email/send-policy.md): at most `send-after-approval` for most classes (Kriss approves in the brief: "send 1, 3"), `draft` for sensitive ones (he sends himself), system auto-sends only as listed there. After sending, replying or forwarding (by the assistant or by Kriss himself): archive the thread (and mark it read), move the label (Waiting if a question was asked).
+- **Every session, not only the daily run (Kriss, 2026-10-29):** any agent that processes an email in any chat (forwards it to bilagsmottak, files it, or judges it noise or a duplicate) marks it read and archives it right away. Handled email is never left unread in the inbox. Company rule: [invoice routing](kb://livid/finance/bookkeeping/processes/invoice-routing.md).
 - **Never:** delete mail, mark spam, unsubscribe, accept invitations, add recipients, or send attachments with financial or personal data without explicit approval of that item.
 
 # Exceptions
