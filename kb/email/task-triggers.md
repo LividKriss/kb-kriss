@@ -29,7 +29,7 @@ Every new thread in Kriss's work Gmail, in every run that reads mail: the 06:47 
 |---|---|---|---|---|---|
 | T1 | Eplehuset uniform order | From bestilling@printcollect.no, subject "PrintCollect - Eplehuset - <no>"; one email per order line, group by order number. Check spam too. | [PrintCollect uniform orders](kb://livid/sales/processes/printcollect-uniform-orders.md) | Loom | execute-with-approval |
 | T3 | Modo weekly stock report | From edi@frontsystems.com, subject "Livid lager Moa", received on a **Monday**, CSV attachment `OnHandReportUTC-Livid lager Moa-*.csv` (covers Modo Moa and Modo Sentrum). Not the Sunday "BRAND WEEKLY STOCK REPORT – Modo … – Livid" mails: those are wrong, label `AI/Noise`. | [Modo auto-replenishment](kb://livid/sales/processes/modo-auto-replenishment.md) | Loom | execute-with-approval |
-| T2 | Material shipment | Invoice, packing list or shipping notice from a material supplier (fabric mills, trims, labels; see the Process trigger). Not garments from manufacturers. | [Material shipments from supplier invoices](kb://livid/production/processes/material-shipments-from-invoices.md) | Threadflow | execute-with-approval |
+| T2 | Material shipment | Invoice, packing list or shipping notice from a material supplier (fabric mills, trims, labels; see the Process trigger). Not garments from manufacturers. Only items on a Threadflow PO get a shipment; the rest is forwarded and the task closed (see the Process, Decision rules). | [Material shipments from supplier invoices](kb://livid/production/processes/material-shipments-from-invoices.md) | Threadflow | execute-with-approval |
 
 Adding a kind: one row here + a Process in livid-kb (or a link to the existing one). The how-to lives only in the Process.
 

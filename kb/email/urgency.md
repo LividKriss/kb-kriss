@@ -35,7 +35,7 @@ Every incoming message in Kriss's work Gmail handled by the [daily run](/email/d
 
 **HR** (label AI/HR) — payslips, pay errors, expense claims, sick-leave/NAV notices, payroll-budget alerts, employee matters. Shown in the brief as a count only; urgent only for NAV deadlines; never summarised beyond "HR matter", never written to the KB.
 
-**Invoice mail** follows [invoice routing](kb://livid/finance/bookkeeping/processes/invoice-routing.md); once forwarded or filed it is archived. Reminders and collection notices are not vouchers: they go through the rules above (usually Urgent 2).
+**Invoice mail** follows [invoice routing](kb://livid/finance/bookkeeping/processes/invoice-routing.md); once forwarded or filed it is archived. Ordinary payment reminders are not vouchers: they go through the rules above (Payments due). Collection notices from collection agencies are Urgent 2 **and** are forwarded to PowerOffice and handled per [actions](/email/actions.md) (Kriss, 2026-10-28).
 
 **Confirmed by Kriss in the 2026-10-26 brief:**
 - Replit notifications (e.g. "Republish your projects"): Noise.
@@ -48,7 +48,10 @@ Every incoming message in Kriss's work Gmail handled by the [daily run](/email/d
 - Resend "100% of your daily quota": FYI, archive, no Needs-action row. Keep a count; if it happens often (several times a month), propose upgrading the plan in the brief. (Supersedes Urgent 5 for quota mails.)
 - Adobe "forespørsel om Adobe-applikasjoner som må gjennomgås": Noise, archive, no Needs-action row.
 - PowerOffice "unpaid invoices on your client": archive, no Needs-action row.
-- Altinn/Skatteetaten/Digipost notices: once Kriss has done an Altinn/Digipost round, the notices it covered are archived; only notices that arrived after the last round go under Needs action.
+- Altinn/Skatteetaten/Digipost notices: once Kriss has done an Altinn/Digipost round, the notices it covered are archived; only notices that arrived after the last round go under Needs action. The round itself: [actions](/email/actions.md) (Altinn, Skatteetaten and Digipost notices).
+
+**Confirmed by Kriss in the 2026-10-29 brief:**
+- UPS Billing "Invoice Now Available for Account ..." (noreply@upsbilling.ups.com): Noise, archive. Portal notices, not vouchers; never listed under Invoices.
 
 # Exceptions
 - A message that fits Urgent but where Kriss has already acted (his reply is later in the thread) → not urgent.
