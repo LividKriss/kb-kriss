@@ -37,7 +37,7 @@ English. He opens with "Hello Mafalda," and often adds "Hope you are well." He s
 # Open threads
 - Artworks and reference codes for all Livid labels/items — She is still sending artworks in parts (woven and printed labels still to come), and Christopher is importing them into the portal ([thread](https://mail.google.com/mail/u/0/#all/1a11a585f0945682))
 - FW: PEDIDO ACESSÓRIOS PROD LIVID SS27 (PTAC.2026/350) — She owes answers on the new 2-pack band: whether it is feasible, its lead time and whether old bands are in stock. Livid then decides which band to use ([thread](https://mail.google.com/mail/u/0/#all/1a153ba8e2322fb8))
-- Label order TRO-00009 confirmed — She asked how to correct her confirmed quantity (24,000 → 12,000) and where to enter the price. No reply from Livid yet ([thread](https://mail.google.com/mail/u/0/#all/1a1443221d8110ae))
+- Label order TRO-00009 confirmed — She asked how to correct her confirmed quantity (24,000 → 12,000) and where to enter the price. On 2026-10-30 Christopher asked Kriss whether to delete the order and enter a new one; no reply to her yet ([thread](https://mail.google.com/mail/u/0/#all/1a1443221d8110ae))
 
 # Links
 - Organization: [Passamar – Passamanarias Martins, Lda](kb://livid/organizations/suppliers/passamar.md)

@@ -23,6 +23,7 @@ Livid has produced with Octa since at least 2023-11-09 (PO Hume), covering style
 English, short and direct ("Hello Susana" / "Hi", signs "Kristoffer"). He usually copies Paulo Teixeira (tex-challenge.com) and Christopher, and Susana copies Iara and Jose Lima.
 
 # History
+- 2026-10-29: Livid cancelled Bix after delays and failed quality control of the leather. Kriss drafted a claim reply to Octa (Susana, José Lima) and Paulo; Charlie confirmed the facts.
 - 2026-10-19: Portal weekly report: SS27 production plan, sample request SR-SS27-095 and label order TRO-00003 still pending for Octa.
 - 2026-10-16: Bix PPS shipped to Livid on a UPS label from Christopher, together with an invoice for the jackets.
 - 2026-10-13: SS27 production plan sent for approval in the portal (2 styles, delivery 18 Dec 2026).
@@ -35,6 +36,7 @@ English, short and direct ("Hello Susana" / "Hi", signs "Kristoffer"). He usuall
 - 2025-02–03: Octa account statement for old invoices (from subject).
 
 # Open threads
+- Kansellering av Bix — claim reply to Octa drafted and fact-checked by Charlie; not yet seen sent ([thread](https://mail.google.com/mail/u/0/#all/1a17da6ca3296af9))
 - Production plan SS27 for approval: Octa has not yet approved the plan in the portal (still pending on 2026-10-19) ([thread](https://mail.google.com/mail/u/0/#all/1a1348398cb56fac))
 - Pending matters for Octa: sample request SR-SS27-095 and label order TRO-00003 still open in the portal; Octa owes action ([thread](https://mail.google.com/mail/u/0/#all/1a152bbfd4bc3407))
 

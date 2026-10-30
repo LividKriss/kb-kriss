@@ -145,6 +145,7 @@ One note per contact — who they are, relationship, how Kriss communicates with
 - [Patrícia Faísca](patricia-faisca.md) *(draft)* — Accounting contact at HK Consulting in Portugal, who keeps the books, files VAT/tax returns and issues invoices for Livid's Portuguese entity Livid Jeans Unipessoal Lda.
 - [Paulo Teixeira](paulo-teixeira.md) *(draft)* — Production agent at Tex-Challenge in Portugal; he coordinates Livid's Portuguese factories (Stork, Mill-Tex, Lisama, Dia Exemplar, Afonso, Octa, Texgoios), and Kriss deals with him on production plans, prices, invoices and deliveries.
 - [Pernille Rekdal Foss](pernille-rekdal-foss.md) *(draft)* — Trademark adviser at Onsagers AS (now Acapo Onsagers AS), who has handled Livid's trademark registrations in Norway and the EU.
+- [Pia Talmo](pia-talmo.md) *(draft)* — Finance manager (økonomisjef) at Eplehuset; Kriss's counterpart on invoicing and the prepayment for the staff-uniform programme.
 - [Renate Iversen](renate-iversen.md) *(draft)* — Former property manager for Galleriet at DNB Næringseiendom; Livid Bergen's earlier landlord contact, now replaced by Kaviya Elaiyarajah.
 - [Riccardo Galli](riccardo-galli.md) *(draft)* — Sends shipping documents (D.d.T. and packing lists) from Cervotessile's shared mailbox; Kriss receives these with each fabric delivery to Livid Jeans AS.
 - [Riccardo Seaton](riccardo-seaton.md) *(draft)* — Runs The Vintage Wholesale Company (VWCC LTD), a UK vintage-stock wholesaler supplying Livid Retail; Kriss deals with him on invoices, prepayments, reconciliation and shipments.

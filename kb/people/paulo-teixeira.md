@@ -23,6 +23,9 @@ Kriss and Paulo work on season production (SS27 now, FW26 deliveries, FW27 sampl
 English. "Hello Paulo," / "Hope you are well.", signed "Best / Kristoffer" or with the signature block only. Direct and short. He chases with one-liners ("Did you see the above…"). He copies Christopher Stangeby, and usually Charlie Selvig and Jens Olav Dankertsen, on production matters.
 
 # History
+- 2026-10-29: On the SS27 production plan thread, Kriss told Paulo the silks (Fine Silk HY2301096 and New Noil Silk) are slightly delayed: shipped from China this week, due in Portugal early to mid next week.
+- 2026-10-29: Miko claims on batches 00725 and 00778 (raised by Kriss 2026-10-26): Lisama says it knows the wash problem and proposed changes; Japan Indigo Dusk is new to them, Japan New Blue was known.
+- 2026-10-28: Charlie told Paulo that Livid will most likely cancel Bix after the Octa leather claim.
 - 2026-10-28: Paulo forwarded Livid's Afonso SS27 production plan (batch 1 due 2026-12-04, batch 2 due 2027-01-15) to Kriss and Afonso ([thread](https://mail.google.com/mail/u/0/#all/1a1594006685a74c)).
 - 2026-10-23: Paulo forwarded Dia Exemplar's account statement asking Livid to pay open invoices.
 - 2026-10-23: Dia's FW26 Blake (70 pcs, 9 boxes) left via Cargo Linea on 2026-10-16, invoice 02-002465 (Kriss forwarded it to PowerOffice). Dia also sent proforma 42/2026 with export papers and a UPS label for the balance of style Vinc (10 production pcs + 1 sample). The packing list named in the subject was not attached.
@@ -37,6 +40,7 @@ English. "Hello Paulo," / "Hope you are well.", signed "Best / Kristoffer" or wi
 - 2026-02-25: Development of a new 220 g jersey started (from subject, 25 messages).
 
 # Open threads
+- Miko quality claims, batches 00725 and 00778 — Lisama proposed wash changes; Livid owes a response ([thread](https://mail.google.com/mail/u/0/#all/1a17739e265580de))
 - DIA: Account statement: Dia requests payment of open invoices; Kriss to check and pay or reply ([thread](https://mail.google.com/mail/u/0/#all/1a169afb895075b1))
 - STORK: FW26 EXTENSIVE BEAN SILK invoice + pending invoices: Livid owes the waybill for the shipment and payment of an overdue Stork invoice ([thread](https://mail.google.com/mail/u/0/#all/1a163e660141d3cb))
 - SS27 pending matters Mill-Tex: Paulo owes confirmation that the Atohi/Alpha fabric can be cancelled. After that, Kriss sends the updated MO ([thread](https://mail.google.com/mail/u/0/#all/1a13509eaff36b49))

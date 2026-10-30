@@ -23,6 +23,7 @@ Kriss handles Standard's quarterly commission (provisjon) reports and their paym
 Norwegian, "Hei Morten," with short replies, often "Topp, sender ut" plus the OC. Morten writes informally ("Hallais", signs "-M-"). On retailer restocks Kriss replies to the store directly with Morten in copy. He often opens by apologising for slow follow-up.
 
 # History
+- 2026-10-28: After a meeting with Jens on possibly ending the agency agreement, Morten and Tue sent a written case for continuing: a fixed monthly meeting, signing the Texcon agreement draft, better stock and B2B information, and openness to temporary commercial adjustments. Kriss forwarded it to Arnt and Ole Eivind.
 - 2026-10-15: Morten chased a claim, a stock and season update, and the Q3 commission report. Kriss apologised and promised the report and a better process for claims.
 - 2026-08-03 – 08-11: Q2 commission report sent late after several reminders. Standard's invoice was paid on 2026-08-11.
 - 2026-04-30: Q1 report sent late. Kriss asked Standard to chase overdue retailers (NNOR, BJ, Bogart, Phrase) before collection; Morten took Bogart.
@@ -35,6 +36,7 @@ Norwegian, "Hei Morten," with short replies, often "Topp, sender ut" plus the OC
 - 2025-12-23: Agreed to keep Mandy's SS26 order simple and commercial to improve sell-through.
 
 # Open threads
+- Livid x Standard Agency : veien videre — Standard's proposal to continue the agency; Livid owes a decision and a new meeting ([thread](https://mail.google.com/mail/u/0/#all/1a182a7946dfee91))
 - Fwd: Reklamasjon Bukse — Kriss owes the Q3 commission report, a review of the claim, and a stock and season update, especially for Retro ([thread](https://mail.google.com/mail/u/0/#all/1a1101c24741e009))
 - Aw26 ordrer — Tue (Morten in copy) asked which AW26 jeans are still undelivered to BJ and Rolfsen. No reply seen ([thread](https://mail.google.com/mail/u/0/#all/1a0a9cfd7d61ccce))
 

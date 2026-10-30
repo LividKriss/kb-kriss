@@ -23,6 +23,7 @@ Livid buys noil silk (art. HY2301096 and a newer noil silk) from JX Silk for its
 English, "Hello Arthur", short. Copies Christopher Stangeby and Frank Fang. Keeps repeating that the export invoice travelling with the courier must name the Portuguese receiver as bill-to.
 
 # History
+- 2026-10-29: Kriss sent the payment receipt for the PO-00159 bulk and asked that the shipping invoice name the receiver (Stork) as bill-to. Arthur will ship on 2026-10-30.
 - 2026-10-16: Resent the invoice for the PO-00159 bulk (dated 2026-10-10); goods ship after payment.
 - 2026-10-10: Kept DHL for this order; JX's own door-to-door forwarder only pays off at about 1,000 m.
 - 2026-10-08: Sent 10 m of the 140 cm-wide noil silk by DHL to Portugal for sampling and tests.
@@ -35,7 +36,7 @@ English, "Hello Arthur", short. Copies Christopher Stangeby and Frank Fang. Keep
 - 2024-06-06: SS25 sample order (inferred from subject).
 
 # Open threads
-- Small order — Oct-10 invoice for the PO-00159 bulk is unpaid and shipment is on hold; JX also owes Christopher the commercial invoice and freight cost for the 10 m sample ([thread](https://mail.google.com/mail/u/0/#all/19cbe4ee670f32a9))
+- Small order — PO-00159 bulk paid 2026-10-29; JX owes tracking and the shipping invoice billed to Stork ([thread](https://mail.google.com/mail/u/0/#all/19cbe4ee670f32a9))
 
 # Links
 - Organization: [JX Silk](kb://livid/organizations/suppliers/jx-silk.md)

@@ -19,6 +19,7 @@ Daily working contact: about 2,100 threads in 3 years, 117 with Kriss replying i
 # How Kriss communicates with them
 Norwegian, very short and direct ("Fikser", "Skal være fikset nå", "yes"), often with no greeting. Longer mails start "Hei ole," or "Hei dere,". When Kriss writes in English to the wholesale customers and vintage suppliers Ole manages, he copies Ole.
 # History
+- 2026-10-29: Ole passed on a tip from Martin (Wollow) that the webshop's DKK price conversion may be wrong (direction unknown).
 - 2026-10-22: The autosupplering rule (allocation under 5 units → stores get only 1) applied to all brands. Kriss limited it to Livid products.
 - 2026-10-22: Ole confirmed 100 Barbour wax jackets with The Vintage Wholesale Company (prepaid). Kriss to pay this together with the pending handpick invoice.
 - 2026-10-20: Kriss handed distribution to Ole (SS27 orders/OCs, replenishment-portal clean-up, FW26 fulfilments). Production follow-up went to design.
@@ -29,6 +30,7 @@ Norwegian, very short and direct ("Fikser", "Skal være fikset nå", "yes"), oft
 - 2026-09-15: Million Goods asked for DDP or DAP on FW26 (DDP at 2.5 markup). Atohi was swapped for Dyer after a fabric fault.
 - 2026-04-14: Ole set a handling routine for goods after shoots, after a stained silk shirt was sent to Ecru (Seoul).
 # Open threads
+- DKK-priser på nett — the webshop's DKK conversion needs checking (Arnt in copy) ([thread](https://mail.google.com/mail/u/0/#all/1a1871e28e85cab5))
 - Invoice Burberry Scarves - The VWC: Kriss to pay INV-0171 and the Barbour invoice and confirm. VWC waits for Ole on the USA/EU delivery points ([thread](https://mail.google.com/mail/u/0/#all/1a0f65f5f96bd8f6))
 - Fwd: Utestående faktura: a Keen bestseller is held until the invoice is paid. Ole needs an expected payment date from Kriss ([thread](https://mail.google.com/mail/u/0/#all/1a15d8b4dd297554))
 - Fwd: Betalingspåminnelse fra På Stell AS (24599, 24636): two reminders forwarded, Kriss to pay ([thread](https://mail.google.com/mail/u/0/#all/1a16268d80a5103c), [thread](https://mail.google.com/mail/u/0/#all/1a1626910410582e))

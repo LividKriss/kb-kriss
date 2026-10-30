@@ -25,6 +25,8 @@ He is Kriss's main contact at Lisama for production planning and operations. He 
 - He copies Christopher Stangeby, Charlie Selvig and Jens Olav Dankertsen (Livid), plus Paulo Teixeira and Catarina Peixoto.
 
 # History
+- 2026-10-29: Miko claims (batches 00725 and 00778; Japan New Blue and Japan Indigo Dusk): Emanuel needs no returned pieces, knows the cause and proposed wash changes; Indigo Dusk is new to Lisama.
+- 2026-10-28: Christopher sent the FW27 SMS priority list (10 pcs in November, 16 by end December), replacing the dates in the 19 October overviews.
 - 2026-10-20: After the meeting, Kriss sent an updated SS27 plan with the late KA7731 styles moved to batch 5. Emanuel's capacity: about 2,550 pcs by 2026-12-18, 2,780 by 2027-01-31 and 2,950 by 2027-02-19 (or March).
 - 2026-10-20: Lisama can make 26 of the 39 FW27 SMS samples requested: 10 in November and 16 by the end of December.
 - 2026-10-16/19: Emanuel reported KA7731 is 1,700 m short and COD77FD is missing (stuck at DHL customs). Kriss: the 5,000 m KA7731 restock is delayed at Rangel, with arrival estimated for mid to late December. Fuller Japan New Blue moves to a later batch.
@@ -37,10 +39,10 @@ He is Kriss's main contact at Lisama for production planning and operations. He 
 - 2026-05-14: Lisama was invited to Livid's manufacturer portal.
 
 # Open threads
+- Miko quality claims, batches 00725 and 00778 — Lisama proposed wash changes; Livid owes a response ([thread](https://mail.google.com/mail/u/0/#all/1a17739e265580de))
 - Lisama - Updated production plan — Emanuel gave capacity and dates on 2026-10-20. Kriss/Livid owes a revised SS27 batch plan. ([thread](https://mail.google.com/mail/u/0/#all/1a1587987e8a23d6))
 - Lisama - SS27 Production Plan — Kriss owes the confirmed KA7731 arrival date from Rangel so the plan can be finalised. ([thread](https://mail.google.com/mail/u/0/#all/1a0fb82439464d1c))
 - Problems with Deliveries Dates — On 2026-10-22 Kriss chased Catarina to confirm the sticker and label files. Lisama owes a reply. ([thread](https://mail.google.com/mail/u/0/#all/1a134d8077d21926))
-- RE: Livid - FW27 SMS overview — Christopher owes Lisama a prioritised list of which samples go in each batch. ([thread](https://mail.google.com/mail/u/0/#all/1a1599a2ecd822bd))
 
 # Links
 - Organization: [LISAMA – Sociedade de Confecções, Lda.](kb://livid/organizations/manufacturers/lisama.md)

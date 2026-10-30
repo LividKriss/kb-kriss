@@ -23,6 +23,7 @@ Since 2023-10 (wash comments, SS24 PO). One of Livid's main day-to-day contacts 
 English. "Hello Catarina," then clear step-by-step explanations of portal features with files attached; signs "Best / Kristoffer". Replies to all: Emanuel Fertuzinhos, Paulo Teixeira (Tex-Challenge), Christopher Stangeby, Charlie Selvig, Jens Olav Dankertsen, sometimes Hugo. She opens with "Dear Kristoffer, hi" and uses either of her two addresses.
 
 # History
+- 2026-10-28: Christopher sent Catarina the FW27 SMS priority list per batch (10 pcs November, 16 end December).
 - 2026-10-20: FW27 SMS (SR-FW27-003, 39 samples): Lisama can do 26 (10 in Nov, 16 by end Dec); Catarina aligning wash names with Christopher.
 - 2026-10-19: First label order through the portal (TRO-00011, about 63k pcs) placed and confirmed by Passamar; first delivery 2026-11-04.
 - 2026-10-18: Christopher approved using Lisama's leftover QR/Transparency labels (mixing two layouts); new Nilörn labels shipped 2026-10-20.
@@ -37,7 +38,6 @@ English. "Hello Catarina," then clear step-by-step explanations of portal featur
 # Open threads
 - Problems with Deliveries Dates — Kriss asked again 2026-10-22 whether the downloaded MO-SS27-03 file is right for stickers (names, barcodes), labels and care labels; Catarina owes a reply ([thread](https://mail.google.com/mail/u/0/#all/1a134d8077d21926))
 - Livid — FW27 SMS overview — Catarina asked 2026-10-20 which fabrics count as Japan Rinse vs Japan Indigo Rinse (and Black vs Black Rinse); Christopher owes the answer ([thread](https://mail.google.com/mail/u/0/#all/1a15387cfe34d5f8))
-- RE: Livid - FW27 SMS overview — Lisama capacity is 26 samples; Christopher owes the prioritised list per batch ([thread](https://mail.google.com/mail/u/0/#all/1a1599a2ecd822bd))
 - New Sample Request - SR-FW27-003 — Lisama to check stock against the BOM and report shortages; confirm by 2026-11-12 ([thread](https://mail.google.com/mail/u/0/#all/1a15420cd112ac82))
 - Lisama - Updated production plan — Emanuel replied 2026-10-20 with fixed SS27 quantities/dates; Kriss owes a response and the final plan ([thread](https://mail.google.com/mail/u/0/#all/1a1587987e8a23d6))
 

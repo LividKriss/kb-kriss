@@ -23,6 +23,7 @@ Handles every Livid order. For each purchase order from Livid she issues a profo
 English. Very short replies ("Confirmed, please proceed", "Payment slip attached", "Here is our receipt"). Opens with "Hello," or "Hello all,". He stays on the thread Christopher started and copies the Frameless team.
 
 # History
+- 2026-10-28: Kriss paid both PO-00160 PIs (FH-SO2609-N0249 USD 12,574.46, N0250 USD 561.88) and sent the payment slip on 10-29. Christopher set shipping: N0249 on Livid's UPS account, N0250 SF collect.
 - 2026-10-20: PO-00170 (400 pcs, SS27, new 14L size). PI FH-SO2610-N0145 and a quotation; Christopher confirmed. Sample due around 2026-11-17.
 - 2026-10-15: Production of PO-00160 paused for approval of a wider rim on 28L. Christopher approved; on 10-16 Serena confirmed delivery for 10-29.
 - 2026-10-13: PO-00165 (1,500 pcs, SS27). PI FH-SO2610-N0095 confirmed; goods due around 11-10. Christopher said Kriss will follow up on payment.
@@ -35,7 +36,7 @@ English. Very short replies ("Confirmed, please proceed", "Payment slip attached
 
 # Open threads
 - Purchase Order — PO-00165 — Christopher said on 2026-10-13 that Kriss will follow up on payment for PI FH-SO2610-N0095. No payment slip seen; Kriss owes payment and proof. ([thread](https://mail.google.com/mail/u/0/#all/1a1304ae448a1477))
-- Purchase Order — PO-00160 — In production. Serena owes the ready notice for 2026-10-29; payment status for both PIs not visible. ([thread](https://mail.google.com/mail/u/0/#all/1a0c2a05e2b2bc8f))
+- Purchase Order — PO-00160 — Paid, payment slip sent 2026-10-29. Serena owes the tracking numbers ([thread](https://mail.google.com/mail/u/0/#all/1a0c2a05e2b2bc8f))
 - Purchase Order — PO-00170 — Confirmed 2026-10-20. Serena owes the sample (around 11-17) and a delivery update. ([thread](https://mail.google.com/mail/u/0/#all/1a1532655e3c25ca))
 
 # Links

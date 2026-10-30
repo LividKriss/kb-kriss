@@ -23,6 +23,7 @@ Day-to-day contact between the Norwegian retailers and Livid. He forwards restoc
 Norwegian. "Hei Tue," and often a single line ("Sender i morgen", or just the OC attached). He copies Jens Olav or Ole Eivind when a decision is theirs, and when retailers write to him directly he replies to them with Tue in copy.
 
 # History
+- 2026-10-29: Sent restock requests from Rolfsen (marked-up sheet) and Bogart (Kai, Barnes, Miko, Fuller), and asked Livid to credit three sponsor trousers (Rolfsen, Bogart, Walero).
 - 2026-10-08: Asked Livid to credit MAS for an approved Barnes claim that still has no credit note. For a Bogart sponsor trouser, Livid offered a replacement trouser instead of a credit.
 - 2026-09-16: Chased the status of AW26 deliveries (Rolfsen, BJ). Kriss shared a delivery schedule that is updated as things change and said the jeans were delayed by Japanese denim supply.
 - 2026-09-02: Kriss announced the new Loom order system and customer portal to the agents and retailers, and asked each retailer which email should receive invoices.
@@ -35,6 +36,9 @@ Norwegian. "Hei Tue," and often a single line ("Sender i morgen", or just the OC
 - 2026-02-23 – 04-09: Mark & Brandy never clarified its SS26 order (first sent as a Word file on 2025-09-10). Kriss released the reserved stock on 04-09.
 
 # Open threads
+- Fwd: Supplering Livid — Rolfsen restock request; Livid owes the order ([thread](https://mail.google.com/mail/u/0/#all/1a1878970041e006))
+- Bogart supplering — Bogart restock request (Kai, Barnes, Miko, Fuller); Livid owes the order ([thread](https://mail.google.com/mail/u/0/#all/1a1892d187807304))
+- Spons — Tue asked for credits on three sponsor trousers (Rolfsen, Bogart, Walero); Livid owes the credit notes ([thread](https://mail.google.com/mail/u/0/#all/1a1892e4631a7407))
 - Fwd: MD1-000712 — Modo claim, chased 3 times since July. Livid owes an answer or credit ([thread](https://mail.google.com/mail/u/0/#all/1a12f4d63b932903))
 - Reklamasjon — Livid owes MAS a credit note for 1 × Barnes J Fade 33/32 ([thread](https://mail.google.com/mail/u/0/#all/1a11af9b8fbcfcce))
 - Fwd: Spons Livid mm — replacement trouser for Bogart. Waiting for Bogart's size, then Livid ships ([thread](https://mail.google.com/mail/u/0/#all/1a11b08b169d1bde))

@@ -23,6 +23,8 @@ First thread 2023-11-21 (button stock). YKK keeps a stock of Livid's buttons and
 English, "Hello Fernando,", very short (one-line stock request, then a bold list of article codes and quantities). Copies Paulo Teixeira (Tex Challenge), sometimes Christopher.
 
 # History
+- 2026-10-29: YKK confirmed PO-00173 (111 zippers for SS27, to Dia Exemplar) as OR0022423M; Christopher approved on 10-30. It was Livid's first zipper PO from Threadflow.
+- 2026-10-28: YKK finance dispatched the held goods to Dia after Livid paid; the EUR 81.95 difference is invoice HD26/17271, scheduled for its due date (8 Nov).
 - 2026-10-02: Fernando asked how many of each unbranded silver button (14 mm 4192313 / 17 mm 0858957) to add.
 - 2026-10-01: Kriss ordered +10,000 branded buttons (4605839), +20,000 rivets (4587846) and unbranded buttons up to 30,000 in total.
 - 2026-09-18: YKK confirmed SS27 zipper PO-00158 (2,200 pcs); the jeans zipper article for a new manufacturer was confirmed the same week (Christopher).
