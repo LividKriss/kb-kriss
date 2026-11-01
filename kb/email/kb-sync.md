@@ -22,7 +22,7 @@ Every [daily run](/email/daily-run.md) (step 5 of the run). Weekly (Monday run):
 - Both KBs: Person notes (`people/`), Voice Profiles (`voice/`), livid-kb Organizations.
 
 # Steps
-1. **Find:** messages newer than the last run (overlap 2 days) without `AI/KB-synced` — in the inbox, in Sent, and archived mail (Superhuman's auto-archive must not hide anything). Work per **message**, so a new reply in an old thread is picked up.
+1. **Find:** messages since the last successful run (12-hour overlap, see [daily run](/email/daily-run.md) step 2) without `AI/KB-synced` — in the inbox, in Sent, and archived mail (Superhuman's auto-archive must not hide anything). Work per **message**, so a new reply in an old thread is picked up.
 2. **Skip without writing** (label only): noise, platform senders, invoice mail, private contacts, HR and employee matters (AGENTS.md §2.3).
 3. **Per remaining message, update the Person note(s)** of the other party (look up by email):
    - History: one dated line if something mattered (agreement, decision, order, dispute, change). Routine traffic adds nothing.
