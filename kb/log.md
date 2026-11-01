@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-01
+
+- **Update** Mac agent run 10:38: filed 1 customs document for Livid Jeans AS: UPS Innførsel W459F0TFY9X (import from the US, consignor a private person) → `LJAS/2026-10-30_UPS_Innforsel_W459F0TFY9X.pdf`; thread labelled and archived. 0 forwarded to PowerOffice, 0 to Ole Eivind, 0 to HK. Skipped, not forwarded: Elis Norge 6378673 (Livid Retail AS; EHF-only, emailed copy; archived) and Quickship 69772 via Tripletex (Livid Jeans AS; never forwarded, already reaches PowerOffice; left in the inbox for the Excel shipment report 300687). New for the brief (statements, not vouchers): Lisama account statement via Tex-Challenge (Livid Jeans AS; several items past due), Pantherella statement (Livid Retail AS; one invoice past due), Red Wing statement (nothing past due). Left for the brief, unchanged: Frameless finals FH-SI2610-0421/0424 (PO-00160), Mizuno Norge reminder, SAS receipts ×2 from Torunn and Arnt, AutoStore reminder (Livid Jeans AS), Hestra reminder BU115790, TONO via Kredinor and Prinsens Gate 10095 (Livid Retail AS), Tessilbiella proforma 8550 (Livid Jeans AS). 0 Docs threads.
+
 ## 2026-10-30
 
 - **Update** Mac agent run 15:41: forwarded 1 voucher to PowerOffice (Livid Retail AS: Nokas deposit receipt OSLRCP82650, Livid Oslo store 2, deposits of 29.10). Thread archived. 0 to Ole Eivind, 0 to HK, 0 customs filed. Skipped: Eplehuset PF-0047, forwarded back by Eplehuset in the uniforms thread; it is Livid's own prepayment proforma to a customer, not a voucher. Left for the brief, unchanged: Frameless finals FH-SI2610-0421/0424 (PO-00160), Mizuno Norge reminder, SAS receipts ×2 from Torunn and Arnt, AutoStore reminder (Livid Jeans AS), Hestra reminder BU115790, TONO via Kredinor and Prinsens Gate 10095 (Livid Retail AS), Tessilbiella proforma 8550 (Livid Jeans AS). 0 Docs threads.
