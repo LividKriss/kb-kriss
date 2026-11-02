@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02
+
+- **Update** Daily email run (cloud 2026-11-02), partial: classified and labelled the 26 threads since 2026-10-31 (plus inbox) that had no AI class label (Urgent 2: Google Ads payment declined, Svea collection copy of FedEx invoice 520630256 for Livid Retail AS (also Invoice); Action 4: Samesystem departing-employee list, Fazile MVA-erklæring request, 2 delivery failures for the Texgoios origin declaration mail; Invoice 1: Red Wing documents; Payments 1: Pantherella statement; FYI 8; Noise 9). FYI/Noise archived (INBOX + UNREAD removed). No `AI/Task` matches. NOT done (time-boxed): `[KB-inbox]` drafts, KB sync (no `AI/KB-synced` added), drafts, follow-ups, stale sweep. Nothing sent, forwarded or deleted.
+
 ## 2026-11-01
 
 - **Update** `email/daily-run.md` + `email/kb-sync.md`: part A now collects mail since the last successful run (12 h overlap) instead of a fixed 2-day window, and every run also classifies any inbox thread without an AI class label regardless of age; new step 7b lists Reply/Action/Payments threads older than 10 days as *Stale* in the brief. Why: an inbox-zero pass on 2026-11-01 found ~115 pre-23.10 threads never classified and Friday-afternoon/weekend mail missed by Monday's 2-day window. Confirmed by Kriss.
