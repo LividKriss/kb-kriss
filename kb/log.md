@@ -3,6 +3,7 @@
 ## 2026-11-02
 
 - **Update** Daily email run (cloud 2026-11-02), partial: classified and labelled the 26 threads since 2026-10-31 (plus inbox) that had no AI class label (Urgent 2: Google Ads payment declined, Svea collection copy of FedEx invoice 520630256 for Livid Retail AS (also Invoice); Action 4: Samesystem departing-employee list, Fazile MVA-erklæring request, 2 delivery failures for the Texgoios origin declaration mail; Invoice 1: Red Wing documents; Payments 1: Pantherella statement; FYI 8; Noise 9). FYI/Noise archived (INBOX + UNREAD removed). No `AI/Task` matches. NOT done (time-boxed): `[KB-inbox]` drafts, KB sync (no `AI/KB-synced` added), drafts, follow-ups, stale sweep. Nothing sent, forwarded or deleted.
+- **Update** Mac agent run 12:57: forwarded 1 voucher to PowerOffice (Livid Jeans AS: Passamar invoice 2026/7170, addressed to Livid Jeans Unipessoal, request TRP-00007, labels shipped to Siluete; no advance payment and no matching proforma) and the same invoice to HK Consulting with the English note. Thread labelled `AI/PO-forwarded` + `AI/Task` (T2 material shipment), [Doc] draft written, kept in the inbox. 0 to Ole Eivind, 0 customs filed. New for the brief: Oslo Vedhandel invoice via Billie, forwarded by Arnt ("forfaller om 7 dager"); the attachment has no file extension and could not be read, and the sender is a payment platform, so entity and supplier are unconfirmed. Left for the brief, unchanged: earlier `AI/Invoice` items. Person note updated: `people/celeste-castro.md` (History). 0 Docs threads.
 
 ## 2026-11-01
 

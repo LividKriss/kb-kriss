@@ -23,6 +23,7 @@ She sends Kriss invoices and shipping and transfer documents, usually with Chris
 English, very short and practical. He opens with "Hello," or "Hello Celeste," and signs "Kristoffer". His replies are mostly addresses, freight approval and customs requirements. Invoices are forwarded to PowerOffice without a covering note.
 
 # History
+- 2026-11-02: She sent invoice 2026/7170 (request TRP-00007) for labels shipped to Siluete in Romania (GTN 2026/178 + GT 2026/804), addressed to Livid Jeans Unipessoal. Forwarded automatically to Livid Jeans AS's PowerOffice and to HK Consulting.
 - 2026-10-19: She sent GT 2026/753 for labels delivered to Stork. Transfer documents for each delivery keep coming (Lisama, Officocta, Dia Exemplar, Siluete).
 - 2026-05-08: She started sending GT documents for each partner delivery, after Kriss asked to track outbound stock movements. The first batch covered 2026 deliveries since March.
 - 2026-04-27: Envelope shipment to Livid Retail AS (10,145 pcs) with Passamar's DHL Economy. Kriss required an EUR1 certificate (see the organization doc for the rule). Invoice 2026/3084 was sent with the EUR1.
