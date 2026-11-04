@@ -35,6 +35,7 @@ Adding a kind: one row here + a Process in livid-kb (or a link to the existing o
 
 # Exceptions
 - T3 needs the CSV attachment: the cloud runs label by sender, subject and weekday only. The chat that prepares it (brief or midday sweep) fetches the CSV through the browser (Kriss's Gmail session). Having the Mac agent save it is possible but not set up. The proposal is always shown, also when below the Process threshold.
+- T2 never applies to Passamar invoice/shipment mail: Passamar inventory movements run through its supplier portal in Threadflow. After invoice routing, label FYI and archive; no `AI/Task` (Kriss, morning brief 2026-11-03, via `[KB-inbox]`).
 - T2 needs the PDFs, which only the Mac agent can read: the cloud runs label by sender/subject/attachment names, the Mac agent writes the `[Doc]` summary, and the chat that executes reads the documents before creating anything.
 
 # Examples

@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-04
+
+- **Update** Daily email run (cloud), part A partial: classified and labelled all ~80 inbox threads (Urgent 6 new: 4 GitHub livid-kb validate failures, 1 Finexa inkassovarsel, 1 Gorgias refund escalation; Reply 14; FYI 20; Noise 28; Payments 2; HR 1), archived Noise/FYI. KB sync, task-trigger check, Invoice/Customs routing and drafts NOT done this run (time-boxed); no new `AI/KB-synced` labels. Applied `[KB-inbox]` Passamar rule to email/task-triggers.md (T2 exception). Not applied, need Kriss's second confirmation (send policy / livid-kb policies): AI-disclaimer-back draft and full-business QC policy draft; both drafts kept. Nothing sent, forwarded or deleted. The Passamar draft should be deleted (no delete tool in this run; left in Gmail).
+
 ## 2026-11-03
 
 - **Update** Mac agent run 19:11: forwarded 1 voucher to PowerOffice for Livid Jeans AS: Passamar invoice 2026/7235, addressed to Livid Jeans Unipessoal (labels and hangtags; no PO number on the invoice, no advance payment and no matching proforma). Also sent to HK Consulting with the English note. Thread labelled `AI/PO-forwarded` + `AI/Task` (T2 material shipment), [Doc] draft written, kept in the inbox. 0 to Ole Eivind, 0 customs filed. Left for the brief, unchanged: earlier `AI/Invoice` items. Person note updated: `people/celeste-castro.md` (History). 0 Docs threads.
