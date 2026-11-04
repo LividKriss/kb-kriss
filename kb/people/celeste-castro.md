@@ -23,6 +23,7 @@ She sends Kriss invoices and shipping and transfer documents, usually with Chris
 English, very short and practical. He opens with "Hello," or "Hello Celeste," and signs "Kristoffer". His replies are mostly addresses, freight approval and customs requirements. Invoices are forwarded to PowerOffice without a covering note.
 
 # History
+- 2026-11-04: She sent invoice 2026/7284 (request TRO-00013, printed labels plus DHL freight for the Springair label order, shipped to Springair in China), addressed to Livid Jeans Unipessoal. Forwarded automatically to Livid Jeans AS's PowerOffice and to HK Consulting. The customs proforma 2026/1791 for the same shipment (no commercial value) went to Springair.
 - 2026-11-03: She sent invoice 2026/7235 (woven "Made in EU" labels and main hangtags, no PO number on it), addressed to Livid Jeans Unipessoal. Forwarded automatically to Livid Jeans AS's PowerOffice and to HK Consulting.
 - 2026-11-02: She sent invoice 2026/7200 (request PO-00164, printed cotton/linen labels), addressed to Livid Jeans Unipessoal. Forwarded automatically to Livid Jeans AS's PowerOffice and to HK Consulting.
 - 2026-11-02: She sent invoice 2026/7170 (request TRP-00007) for labels shipped to Siluete in Romania (GTN 2026/178 + GT 2026/804), addressed to Livid Jeans Unipessoal. Forwarded automatically to Livid Jeans AS's PowerOffice and to HK Consulting.
