@@ -11,7 +11,7 @@ Email assistant rules and processes — triage, labels, actions, send policy, si
 - [Gmail labels used by the assistant](labels.md) *(draft)* — The small AI/ label set the daily run applies, what each means, and which labels it ignores.
 - [Morning brief format](brief.md) *(draft)* — How the morning brief is laid out in the Cowork chat — short summary, then one table per section, numbered so Kriss can act by number.
 - [Send policy](send-policy.md) — When the assistant may send email for Kriss — email classes, the maximum level per class and contact category, hard blocks, system auto-sends, guardrails, the kill switch, and how autonomy is earned and lost.
-- [Signature and AI disclaimer on mail the assistant sends](signature.md) *(draft)* — How email written by the assistant ends — Kriss's own sign-off, then his Gmail signature; the AI disclaimer only on mail sent without his prior review.
+- [Signature and AI disclaimer on mail the assistant sends](signature.md) *(draft)* — How email written by the assistant ends — Kriss's own sign-off, the AI disclaimer on every email the assistant sends (reviewed or auto-sent), then his Gmail signature.
 - [What the assistant does with each kind of email](actions.md) *(draft)* — Per label — draft, archive, forward, file, follow up — and the limits on each action.
 
 ## Process
