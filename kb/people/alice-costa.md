@@ -23,6 +23,7 @@ Livid buys fabric from Rogna for sampling and production; the goods ship to the 
 English, "Hello Alice", short and polite. Copies Christopher Stangeby and Rogna colleagues (Alice Andreone, Gianluca Carù, Philippe Yasmine).
 
 # History
+- 2026-11-05: Confirmed PO-00176 (FW27 sample meters, 10 m art. 1548F.1003/3) as order ODC 1704: price matches the PO, plus a transport charge; 100% advance payment; delivery to DIA Exemplar from 2026-11-06.
 - 2026-10-01: Kriss queried the 344 m shipped against 300 m ordered on PO-00145; Alice blamed longer rolls and promised to ask before shipping deviations in future.
 - 2026-09-28: PO-00145 (art. 1548.20) dispatched by truck to DIA Exemplar; invoice 1658.
 - 2026-09-11: Kriss paid overdue sample invoice 1248 (PO-00125) and corrected the PO price to EUR 29/m (the PO had the SS27 price including the 30% sampling surcharge).
@@ -35,6 +36,7 @@ English, "Hello Alice", short and polite. Copies Christopher Stangeby and Rogna 
 
 # Open threads
 - Purchase Order — PO-00145 — over-delivery of about 44 m; Livid has not said whether it accepts invoice 1658 as is or wants a credit ([thread](https://mail.google.com/mail/u/0/#all/1a075e3c2fe93764))
+- Purchase Order — PO-00176 — order confirmation ODC 1704 needs 100% advance payment by Livid before dispatch ([thread](https://mail.google.com/mail/u/0/#all/1a1a6c7094f0139e))
 
 # Links
 - Organization: [Lanificio Rogna](kb://livid/organizations/suppliers/lanificio-rogna.md)
