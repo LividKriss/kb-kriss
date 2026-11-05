@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-05
+
+- **Update** Daily email run (cloud 2026-11-05), partial: classified and labelled the ~55 threads that had no AI class label (Urgent 3: UPS export customs info missing for 1ZW459F06795176277, Threadflow TM-00022 failed to send to Loom, livid-kb validate failure on main (3 alerts, latest e6c44d0); Reply 5: Standard Agency white Initial shirts stock, Christopher TM-00021 error, Bube & König missing invoice 0017, Gorgias PostNord portal access request, Thea Lund unpaid invoice forward; HR 1: SameSystem contract question; Action 2: Webshipper W-30879, UPS "Feil toll på retur" C-0394274021; Payments 2: Nisch Management 7648/7654, Kundesjekk reminder for Livid Retail AS (unchecked, may be collection); Customs 1: UPS Innførsel 1Z1JX7866633622367 for the Mac agent; FYI 15; Noise ~24). FYI/Noise archived (INBOX + UNREAD removed). NOT done (time-boxed): task-trigger check, `[KB-inbox]` drafts, KB sync (no `AI/KB-synced` added), drafts, follow-ups, stale sweep. Nothing sent, forwarded or deleted. The Passamar [KB-inbox] draft from 2026-11-04 still needs deleting (no delete is done in this run).
+
 ## 2026-11-04
 
 - **Update** Mac agent run 19:31: forwarded 1 voucher to PowerOffice for Livid Jeans AS: Passamar invoice 2026/7284, addressed to Livid Jeans Unipessoal (request TRO-00013, labels for Springair). Not paid against a proforma: proforma 2026/1791 is a customs-only document with no remittance. The invoice also went to HK Consulting with the English note. Both Passamar threads (the invoice, and the customs proforma + DHL label sent to Springair) were labelled `AI/FYI` and archived; no `AI/Task`, because of the T2 Passamar exception. 0 to Ole Eivind, 0 customs filed. Left for the brief, unchanged: 13 earlier `AI/Invoice` items. 0 Docs threads. Person note updated: `people/celeste-castro.md` (History).
