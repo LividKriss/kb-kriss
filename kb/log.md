@@ -3,6 +3,7 @@
 ## 2026-11-06
 
 - **Update** Daily email run (cloud 2026-11-06), partial: classified and labelled the 40 inbox threads that had no AI class label (Urgent 3: Sitoo "Pending Suspension of Sitoo Account" support ticket, Threadflow TM-00022 and TM-00023 failed to send to Loom; Reply 8: Standard Agency SS27 OC and B2B access, Cathrine Greve size exchange, Quickship customer numbers for Mykle shipments, Denim People sampling, Cadica PO-00153 UPS claim, Ole Eivind FW27 purchasing in the new systems, Christopher Threadflow layout fixes, Japan Blue PO-00150 cancellation refused; Payments 1: DIEMME outstanding payment forwarded by Ole Eivind; HR 1: SameSystem hours question; Waiting 1: Mykle Feilfortollinger; FYI 11; Noise 18). FYI/Noise/Waiting archived (INBOX + UNREAD removed). NOT done (time-boxed): task-trigger check, `[KB-inbox]` drafts, KB sync (no `AI/KB-synced` added), drafts, follow-ups, stale sweep; only the inbox was collected, not sent or archived mail. The Passamar [KB-inbox] draft from 2026-11-04 still needs deleting (no delete in this run). Nothing sent, forwarded or deleted.
+- **Update** `tools/autosync.sh`: with nothing to push, the sync job now fast-forwards from GitHub, so a second Mac stays within a few minutes of the cloud run and the other Mac. AGENTS.md updated. The Mac agent (`no.livid.kb-kriss-mac-agent`) stays on one Mac only. Source: Kriss in chat, 2026-11-06.
 
 ## 2026-11-05
 

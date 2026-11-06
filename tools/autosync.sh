@@ -5,6 +5,8 @@
 #   1. skips if nothing changed, or if a file changed in the last minute (an agent is mid-write);
 #   2. commits everything, using the entries added to kb/log.md as the commit message;
 #   3. pulls (rebase) and pushes to origin.
+# With nothing to push it still fast-forwards from origin, so changes made on other Macs
+# and by the cloud email run arrive within a few minutes.
 # On failure, commits stay local and the next run retries. If it keeps failing for
 # 30 minutes, a macOS notification says so. Log: ~/Library/Logs/kb-kriss-autosync.log
 
@@ -28,7 +30,14 @@ main() {
 
   dirty=$(git status --porcelain)
   ahead=$(git rev-list --count @{u}..HEAD 2>/dev/null || echo 0)
-  [ -z "$dirty" ] && [ "$ahead" = 0 ] && { recovered; exit 0; }
+  if [ -z "$dirty" ] && [ "$ahead" = 0 ]; then
+    # Nothing to push: still fast-forward, so this Mac never works from a stale copy.
+    before=$(git rev-parse HEAD)
+    out=$(git pull --ff-only --quiet 2>&1) || fail "pull failed: $out"
+    [ "$(git rev-parse HEAD)" != "$before" ] && log "pulled $(git log -1 --format='%h %s')"
+    recovered
+    exit 0
+  fi
 
   if [ -n "$dirty" ]; then
     recent=$(find . -path ./.git -prune -o -type f ! -name .DS_Store -mmin -"$QUIET_MINUTES" -print -quit)
