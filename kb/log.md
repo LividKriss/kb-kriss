@@ -2,6 +2,7 @@
 
 ## 2026-11-06
 
+- **Update** `scripts/email/gmail_tool.py`: new `reply-draft` and `forward-draft` (Gmail drafts with attachments from the message or local files) and `send-draft` (sends a draft Kriss approved; refused in unattended runs and while `[STOP-SENDING]` exists), so attachment work no longer needs Chrome. `docs/mac-agent.md` now also says the agent runs on one Mac only. Tested: a forward-draft with a PDF and a local file, then deleted. Source: Kriss in chat, 2026-11-06.
 - **Update** Mac attachment agent (`scripts/email/mac_agent.sh`, `docs/mac-agent.md`): runs on Sonnet instead of the default model; before starting Claude the script checks Gmail and skips the hourly run when there is no new mail with a document and the AI/Invoice, AI/Docs and AI/Customs set is unchanged; housekeeping moved to a once-a-day script call. Why: token use (most hourly runs found nothing, and the 06:47 run hit the weekly limit). Source: Kriss in chat, 2026-11-06.
 - **Update** Mac agent run 12:59: forwarded 0, 0 to Ole Eivind, 0 to HK, filed 0. Metalbottoni sent order confirmation 5/2853 for PO-00174 (Livid Jeans AS). It is not a voucher. The thread is labelled `AI/Docs-read` with a `[Doc]` draft: the confirmation is marked as a sample order, and its total and split differ from the PO. Person note `people/francesca-lettori.md` updated (History, Open threads). Skipped: a Ringstad Transport courier waybill/booking confirmation (Past Løkka → Livid Sentrallager), which is not a voucher or production document. Earlier `AI/Invoice` threads unchanged.
 

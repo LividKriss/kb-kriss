@@ -18,6 +18,16 @@
     gmail_tool.py draft <thread_id> <subject> <body-file>
                                                   [Doc] summary draft, no recipient; the thread link is
                                                   appended; replaces an earlier [Doc] draft for the thread
+    gmail_tool.py reply-draft <msg_id> <body-file> [--all] [--keep NAME ...] [--attach FILE ...]
+                                                  draft a reply in the thread (sender, or everyone with --all),
+                                                  body + signature above the quote; --keep re-attaches named
+                                                  files from the message, --attach adds local files. Not sent.
+    gmail_tool.py forward-draft <msg_id> <body-file> --to ADDR ... [--only NAME ...] [--attach FILE ...]
+                                                  draft a forward to anyone with all attachments (or only the
+                                                  named ones) plus local files. Not sent.
+    gmail_tool.py send-draft <draft_id>           send a draft Kriss approved in the chat; refused in an
+                                                  unattended run (KB_AGENT_UNATTENDED=1) or while [STOP-SENDING]
+                                                  exists
     gmail_tool.py drafts                          list the [Doc] drafts (JSON lines)
     gmail_tool.py delete-draft <draft_id>         delete one [Doc] draft (other drafts are refused)
     gmail_tool.py housekeep [--days 14]           delete docs/<threadId> folders and [Doc] drafts older than
@@ -54,6 +64,7 @@ import html
 import io
 import json
 import ipaddress
+import mimetypes
 import os
 import re
 import shutil
@@ -382,6 +393,126 @@ def cmd_forward(svc, args):
     print(f"SENT {args.msg_id} to {to} as {sent['id']}: {fwd['Subject']} | attachments: {names}")
 
 
+def my_address(svc) -> str:
+    return svc.users().getProfile(userId="me").execute()["emailAddress"].lower()
+
+
+def add_local_files(m: EmailMessage, paths):
+    for f in paths or []:
+        path = Path(f).expanduser()
+        if not path.is_file():
+            sys.exit(f"No such file: {path}")
+        ctype = mimetypes.guess_type(path.name)[0] or "application/octet-stream"
+        maintype, _, subtype = ctype.partition("/")
+        m.add_attachment(path.read_bytes(), maintype=maintype, subtype=subtype, filename=path.name)
+
+
+def add_original_files(svc, m: EmailMessage, msg, names, default_all: bool) -> list:
+    """Attach files from the original message: the named ones, or all (default_all) when none are named."""
+    if names:
+        parts = [p for p in attachments(msg) if p["filename"] in names]
+    else:
+        parts = attachments(msg) if default_all else []
+    missing = set(names or []) - {p["filename"] for p in parts}
+    if missing:
+        sys.exit(f"No such attachment(s) on {msg['id']}: {sorted(missing)}")
+    for p in parts:
+        maintype, _, subtype = (p.get("mimeType") or "application/octet-stream").partition("/")
+        m.add_attachment(part_bytes(svc, msg["id"], p), maintype=maintype,
+                         subtype=subtype or "octet-stream", filename=p["filename"])
+    return [p["filename"] for p in parts]
+
+
+def save_draft(svc, m: EmailMessage, thread_id: str, dry: bool, kind: str):
+    files = [p.get_filename() for p in m.iter_attachments()]
+    summary = (f"{kind} to {m['To'] or '-'}" + (f" cc {m['Cc']}" if m["Cc"] else "") +
+               f": {m['Subject']} | attachments: {', '.join(files) or 'none'}")
+    if dry:
+        print("DRY would create draft " + summary)
+        return
+    raw = base64.urlsafe_b64encode(m.as_bytes()).decode()
+    d = svc.users().drafts().create(userId="me", body={"message": {"raw": raw, "threadId": thread_id}}).execute()
+    print(f"drafted {d['id']}: {summary}")
+
+
+def cmd_reply_draft(svc, args):
+    """Draft a reply in the thread (never sent here): note + signature above the quoted message."""
+    msg = svc.users().messages().get(userId="me", id=args.msg_id).execute()
+    h = headers(msg)
+    me = my_address(svc)
+    sent_by_me = me in {a.lower() for _, a in getaddresses([h.get("from", "")])}
+    primary = h.get("to", "") if sent_by_me else (h.get("reply-to") or h.get("from", ""))
+    to = [(n, a) for n, a in getaddresses([primary]) if a and a.lower() != me]
+    cc = [(n, a) for n, a in getaddresses([h.get("to", ""), h.get("cc", "")])
+          if a and a.lower() != me and a.lower() not in {x.lower() for _, x in to}] if args.all else []
+    if not to:
+        sys.exit(f"No recipient found on {args.msg_id}")
+    subject = h.get("subject", "")
+    m = EmailMessage()
+    m["To"] = ", ".join(f"{n} <{a}>" if n else a for n, a in to)
+    if cc:
+        m["Cc"] = ", ".join(f"{n} <{a}>" if n else a for n, a in cc)
+    m["Subject"] = subject if subject.lower().startswith(("re:", "sv:")) else f"Re: {subject}"
+    if h.get("message-id"):
+        m["In-Reply-To"] = h["message-id"]
+        m["References"] = (h.get("references", "") + " " + h["message-id"]).strip()
+    when, who = h.get("date", ""), h.get("from", "")
+    orig_text = body_text(svc, args.msg_id, msg, "text/plain")
+    orig_html = body_text(svc, args.msg_id, msg, "text/html") or f"<pre>{html.escape(orig_text)}</pre>"
+    top_text = "" if args.body_file.lower().endswith(".html") else Path(args.body_file).read_text().rstrip()
+    m.set_content((top_text + "\n\n" if top_text else "") + f"On {when}, {who} wrote:\n" +
+                  "".join("> " + line + "\n" for line in orig_text.splitlines()))
+    m.add_alternative(note_html(args.body_file) + signature(svc) +
+                      f'<br><div>On {html.escape(when)}, {html.escape(who)} wrote:<br></div>'
+                      f'<blockquote style="margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex">'
+                      f"{orig_html}</blockquote>", subtype="html")
+    add_original_files(svc, m, msg, args.keep, default_all=False)
+    add_local_files(m, args.attach)
+    save_draft(svc, m, msg["threadId"], dry_mode(args), "reply")
+
+
+def cmd_forward_draft(svc, args):
+    """Draft a forward to anyone (never sent here); with --only, just the named attachments."""
+    msg = svc.users().messages().get(userId="me", id=args.msg_id).execute()
+    h = headers(msg)
+    subject = h.get("subject", "")
+    m = EmailMessage()
+    m["To"] = ", ".join(args.to)
+    m["Subject"] = subject if subject.lower().startswith(("fwd:", "fw:", "vs:")) else f"Fwd: {subject}"
+    quote_head = [("From", h.get("from", "")), ("Date", h.get("date", "")),
+                  ("Subject", subject), ("To", h.get("to", ""))]
+    orig_text = body_text(svc, args.msg_id, msg, "text/plain")
+    orig_html = body_text(svc, args.msg_id, msg, "text/html") or f"<pre>{html.escape(orig_text)}</pre>"
+    top_text = "" if args.body_file.lower().endswith(".html") else Path(args.body_file).read_text().rstrip()
+    m.set_content((top_text + "\n\n" if top_text else "") + "---------- Forwarded message ---------\n" +
+                  "".join(f"{k}: {v}\n" for k, v in quote_head) + "\n" + orig_text)
+    m.add_alternative(note_html(args.body_file) + signature(svc) +
+                      "<br><div>---------- Forwarded message ---------<br>" +
+                      "".join(f"{k}: {html.escape(v)}<br>" for k, v in quote_head) + "<br></div>" + orig_html,
+                      subtype="html")
+    add_original_files(svc, m, msg, args.only, default_all=True)
+    add_local_files(m, args.attach)
+    save_draft(svc, m, msg["threadId"], dry_mode(args), "forward")
+
+
+def cmd_send_draft(svc, args):
+    """Send one draft Kriss approved in the chat. Never from an unattended run."""
+    if os.environ.get("KB_AGENT_UNATTENDED") == "1":
+        sys.exit("Refusing: send-draft is never used by an unattended run (kb/email/send-policy.md)")
+    if kill_switch_on(svc):
+        print(f"STOP: a {KILL_SWITCH} draft exists (kb/email/send-policy.md), nothing sent")
+        sys.exit(5)
+    d = svc.users().drafts().get(userId="me", id=args.draft_id, format="metadata").execute()
+    h = headers(d["message"])
+    if not h.get("to"):
+        sys.exit(f"Refusing: draft {args.draft_id} has no recipient")
+    if dry_mode(args):
+        print(f"DRY would send draft {args.draft_id} to {h.get('to')}: {h.get('subject', '')}")
+        return
+    sent = svc.users().drafts().send(userId="me", body={"id": args.draft_id}).execute()
+    print(f"SENT draft {args.draft_id} as {sent['id']} to {h.get('to')}: {h.get('subject', '')}")
+
+
 def archive_thread(svc, thread_id, dry) -> str:
     """Archive a whole thread (remove INBOX and UNREAD from every message) unless it still needs Kriss."""
     names = {v: k for k, v in label_map(svc).items()}
@@ -527,6 +658,13 @@ def main():
     p = sub.add_parser("label"); p.add_argument("msg_id"); p.add_argument("changes", nargs=argparse.REMAINDER)
     p = sub.add_parser("draft"); p.add_argument("thread_id"); p.add_argument("subject"); p.add_argument("body_file")
     p.add_argument("--dry", action="store_true")
+    p = sub.add_parser("reply-draft"); p.add_argument("msg_id"); p.add_argument("body_file")
+    p.add_argument("--all", action="store_true"); p.add_argument("--attach", nargs="+", metavar="FILE")
+    p.add_argument("--keep", nargs="+", metavar="NAME"); p.add_argument("--dry", action="store_true")
+    p = sub.add_parser("forward-draft"); p.add_argument("msg_id"); p.add_argument("body_file")
+    p.add_argument("--to", nargs="+", required=True); p.add_argument("--only", nargs="+", metavar="NAME")
+    p.add_argument("--attach", nargs="+", metavar="FILE"); p.add_argument("--dry", action="store_true")
+    p = sub.add_parser("send-draft"); p.add_argument("draft_id"); p.add_argument("--dry", action="store_true")
     sub.add_parser("drafts")
     p = sub.add_parser("delete-draft"); p.add_argument("draft_id"); p.add_argument("--dry", action="store_true")
     p = sub.add_parser("archive"); p.add_argument("msg_id"); p.add_argument("--dry", action="store_true")
@@ -541,7 +679,9 @@ def main():
     svc = None if args.cmd in ("text", "fetch") else gmail_service()
     {"list": cmd_list, "attachments": cmd_attachments, "pdfs": cmd_attachments, "text": cmd_text,
      "fetch": cmd_fetch, "forward": cmd_forward, "label": cmd_label, "archive": cmd_archive, "draft": cmd_draft,
-     "drafts": cmd_drafts, "delete-draft": cmd_delete_draft, "housekeep": cmd_housekeep}[args.cmd](svc, args)
+     "drafts": cmd_drafts, "delete-draft": cmd_delete_draft, "housekeep": cmd_housekeep,
+     "reply-draft": cmd_reply_draft, "forward-draft": cmd_forward_draft, "send-draft": cmd_send_draft,
+     }[args.cmd](svc, args)
 
 
 if __name__ == "__main__":

@@ -37,6 +37,7 @@ trap 'rm -rf "$RUN" "$LOCK"' EXIT
 
 # `python`/`python3` resolve to the venv (Gmail libs, pypdf), so the allow rules need no quoted path.
 export PATH="$VENV:/usr/bin:/bin:/usr/sbin:/sbin"
+export KB_AGENT_UNATTENDED=1   # gmail_tool.py send-draft refuses in this run
 LAST=$(cat "$STATE" 2>/dev/null || echo $(( $(date +%s) - 86400 )))
 cd "$REPO"
 
