@@ -92,6 +92,7 @@ KEEP_IN_INBOX = {"AI/Urgent", "AI/Reply", "AI/Action", "AI/HR", "AI/Invoice", "A
                  "AI/Docs", "AI/Docs-read"}
 KILL_SWITCH = "[STOP-SENDING]"  # kb/email/send-policy.md: while this draft exists, nothing is forwarded
 MAX_FETCH = 200 * 1024 * 1024
+DISCLAIMER_KEYS = ("AI-assistent", "AI assistent", "AI assistant")  # kb/email/signature.md, all variants
 
 
 def dry_mode(args) -> bool:
@@ -502,10 +503,18 @@ def cmd_send_draft(svc, args):
     if kill_switch_on(svc):
         print(f"STOP: a {KILL_SWITCH} draft exists (kb/email/send-policy.md), nothing sent")
         sys.exit(5)
-    d = svc.users().drafts().get(userId="me", id=args.draft_id, format="metadata").execute()
+    d = svc.users().drafts().get(userId="me", id=args.draft_id, format="full").execute()
     h = headers(d["message"])
     if not h.get("to"):
         sys.exit(f"Refusing: draft {args.draft_id} has no recipient")
+    # kb/email/signature.md rule 2: every email the assistant sends carries the AI disclaimer,
+    # except voucher forwards to PowerOffice system addresses.
+    rcpts = {a.lower() for _, a in getaddresses([h.get("to", ""), h.get("cc", ""), h.get("bcc", "")])}
+    if not rcpts <= VOUCHER_TO:
+        m, mid = d["message"], d["message"]["id"]
+        text = body_text(svc, mid, m, "text/plain") + body_text(svc, mid, m, "text/html")
+        if not any(k in text for k in DISCLAIMER_KEYS):
+            sys.exit(f"Refusing: draft {args.draft_id} has no AI disclaimer (kb/email/signature.md)")
     if dry_mode(args):
         print(f"DRY would send draft {args.draft_id} to {h.get('to')}: {h.get('subject', '')}")
         return

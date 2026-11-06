@@ -26,7 +26,7 @@ Every email the assistant writes for Kriss: emails it sends, replies to or forwa
 
    **Drafts:** a Gmail draft that Kriss will send himself (`draft` level) carries no disclaimer. A draft the assistant will send after his approval gets the reviewed disclaimer before it is sent.
    Exception: voucher forwards to PowerOffice system addresses (`@faktura.poweroffice.net`) need none.
-   Enforced in Cowork by the `email-disclaimer-guard` plugin, which refuses a Gmail send, reply or forward without one of these texts.
+   Enforced in Claude Code by `scripts/email/gmail_tool.py send-draft`, which refuses a draft without one of these texts; the Gmail connector's send, reply and forward are blocked in kb-kriss (`.claude/settings.json`). In Cowork, by the `email-disclaimer-guard` plugin.
 3. Then Kriss's existing Gmail signature, unchanged.
 4. Replies keep the thread's quoted history.
 5. When sending through the Gmail integration, set `includeSignature: true` so the Gmail signature is appended (after the disclaimer, where there is one).

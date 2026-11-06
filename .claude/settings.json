@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "deny": [
+      "mcp__5113e553-a591-4d57-b711-536cec56db5e__send_message",
+      "mcp__5113e553-a591-4d57-b711-536cec56db5e__reply",
+      "mcp__5113e553-a591-4d57-b711-536cec56db5e__forward",
+      "mcp__Gmail__send_message",
+      "mcp__Gmail__reply",
+      "mcp__Gmail__forward"
+    ]
+  }
+}
