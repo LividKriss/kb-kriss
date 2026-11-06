@@ -23,6 +23,7 @@ Day-to-day order contact since 2026-05: Christopher Stangeby and Charlie Selvig 
 English, "Hello Francesca," / "Hello,", one to three lines; signs "Kristoffer". Usually cc's Christopher (and Charlie/Alessandro when they are on the thread).
 
 # History
+- 2026-11-06: Sent order confirmation 5/2853 for PO-00174 (series 16 snaps, hidden and visible head; delivery 23.11) to Christopher. It is marked as a sample order, and its price and split differ from the PO.
 - 2026-09-16: PO-00128 (2,000 snap buttons series 16 + two EURO die sets, FW26) shipped to Dia Exemplar on Livid's UPS account after Kriss confirmed it; delayed from 11 to 16 Sep by a plating problem.
 - 2026-09-03: Livid accepted her and Alessandro's offer of 30-day payment terms instead of prepayment (proposed 2026-07-30).
 - 2026-07-29: Final invoice for the leather buttons sent; shows "all-in" rather than item code (Italian tax rules); Kriss forwarded to PowerOffice.
@@ -33,6 +34,7 @@ English, "Hello Francesca," / "Hello,", one to three lines; signs "Kristoffer". 
 - 2026-06-04: Offered leather buttons at 150 pcs, below the 300 pcs MOQ, as a one-off.
 
 # Open threads
+- Purchase Order — PO-00174: the order confirmation's total and split don't match the PO, and it says sample where the PO says Bulk. Christopher/Kriss to check ([thread](https://mail.google.com/mail/u/0/#all/1a19c6b3d220d27e))
 - Purchase Order — PO-00128 — goods shipped 2026-09-16 on 30-day terms; final invoice and Livid's payment not seen in extract ([thread](https://mail.google.com/mail/u/0/#all/19f5b17431ef6ff2))
 
 # Links
