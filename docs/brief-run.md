@@ -12,11 +12,12 @@ This file only says how the run is set up and in what order. What to do with eac
 - Connector missing after one retry → say so at the top of the brief and carry on without it.
 
 ## 1. Token use
+The general rules are in `kb/notes/model-routing.md`; this section applies them to the brief.
 - This chat runs on **Opus 5.5, medium effort**. It composes the brief, talks with Kriss and executes approved items.
-- Bulk reading goes to **Sonnet subagents** (Agent tool, `model: "sonnet"`, fresh context, never a fork), running in parallel:
-  - **Thread readers** (split by label group, about 10–15 threads each): each reads its threads to the latest message (`kb/email/actions.md`) and returns one line per thread: thread id, Gmail link, who, the ask in 10 words or fewer, its latest state, deadline, and whether a draft exists.
-  - **Task preparers**: one per `AI/Task` thread. Each reads `kb/email/task-triggers.md` and the Process its row names, checks Loom or Threadflow (read and dry run only), reads the `[Doc]` draft or the documents (gmail_tool.py), and returns the proposal row with its flags.
-  - **Payments checker**: one subagent checks every Payments-due row against the supplier ledger in PowerOffice (Chrome) and returns paid or open for each.
+- Bulk reading goes to **Sonnet subagents** defined in `.claude/agents/` (fresh context, never a fork), running in parallel:
+  - **Thread readers** (`thread-reader`; split by label group, about 10–15 threads each): each reads its threads to the latest message (`kb/email/actions.md`) and returns one line per thread: thread id, Gmail link, who, the ask in 10 words or fewer, its latest state, deadline, and whether a draft exists.
+  - **Task preparers** (`task-preparer`): one per `AI/Task` thread. Each reads `kb/email/task-triggers.md` and the Process its row names, checks Loom or Threadflow (read and dry run only), reads the `[Doc]` draft or the documents (gmail_tool.py), and returns the proposal row with its flags.
+  - **Payments checker** (`payments-checker`): one subagent checks every Payments-due row against the supplier ledger in PowerOffice (Chrome) and returns paid or open for each.
 - Give each subagent only what it needs: its thread ids, the one or two KB doc paths, and the return format. Read only the returned lines, never a subagent's transcript.
 - Open a thread in this chat only when Kriss asks about it or before drafting a reply to it.
 
