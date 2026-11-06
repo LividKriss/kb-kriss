@@ -23,6 +23,7 @@ She is Livid's long-standing sales contact at Somelos; the 3-year index has 144 
 English. "Hello Fernanda," and "Hope you are well.", then a short request, signed "Kristoffer" or "Best / Kristoffer". He usually copies Christopher Stangeby, and often Paulo Teixeira (tex-challenge.com) and Jens Olav Dankertsen. He apologises plainly for order mistakes ("Sorry for spam of emails"). She replies "Dear Kristoffer" and is brief.
 
 # History
+- 2026-11-06: She sent Christopher the invoices for the PO-00139 Woolbuylic (FT G0/467434 and 467435). It shipped on 05/11, in week 45 rather than the OC's week 47: 150.70 m went to Afonso and 80.10 m to Stork.
 - 2026-09-29: She confirmed that the Woolbuylic (W252301) was booked on 31/08 and is in production. The OC says week 47; planning will try for week 45.
 - 2026-09-24: She offered 3 m of Lety des.0010/000100 from stock for PPS sampling (PO-00156), which was sent to Stork.
 - 2026-09-04: PO-00139 replaced PO-00129 as the single valid SS27 bulk order (9 styles, about 2,900 m), with delivery split between Afonso, Stork and Siluete. Forsee 8 could not be increased.
@@ -35,7 +36,7 @@ English. "Hello Fernanda," and "Hope you are well.", then a short request, signe
 - 2026-01-21: Bulk lead time was 10–14 weeks; orders placed then would arrive around weeks 17–19.
 
 # Open threads
-- Purchase Order — PO-00139: Somelos planning is trying to move the Woolbuylic from week 47 to week 45. Somelos (Joana) owes confirmation, and must check the delivery address with Christopher before shipping. ([thread](https://mail.google.com/mail/u/0/#all/1a06c9b1faa7b1e4))
+- Purchase Order — PO-00139: the Woolbuylic shipped on 05/11 to Afonso and Stork. Task T2 for its Threadflow shipments was raised on 05/11 and has since been closed. ([thread](https://mail.google.com/mail/u/0/#all/1a06c9b1faa7b1e4))
 - Urgent - cancel: On 2026-09-01 Fernanda asked whether Livid really wants Oxfortor 0032/white cut from 240 m to 180 m (it is already booked and ready). No reply in the thread; PO-00139 may have settled it, so check. ([thread](https://mail.google.com/mail/u/0/#all/19ff5e4e52b9608c))
 
 # Links
