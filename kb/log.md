@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-07
+
+- **Update** Mac agent run 00:00: forwarded 3 to Livid Jeans AS PowerOffice (Passamar label invoice, Lisama invoice, YKK Portugal invoice), 0 to Ole Eivind, 1 to HK Consulting (Passamar, addressed to Livid Jeans Unipessoal, no proforma found). Filed 0 customs documents. 1 Docs thread: YKK shipment (`AI/Task`, `[Doc]` draft). Left for the brief: eight Officocta invoices from 2025 re-sent in the leather-claim thread (at least no. 296 already forwarded earlier, so risk of double booking), plus the earlier `AI/Invoice` threads unchanged. Passamar GT documents and the Lisama UPS label were not vouchers. The YKK forward timed out once; Sent showed it went out once.
+
 ## 2026-11-06
 
 - **Update** Cloud routine "Daily email run": `Agent` added to its allowed tools, so `docs/routine.md` can hand KB sync and drafts to Sonnet subagents. Schedule, repositories and connectors (Gmail, Loom, Threadflow) unchanged. Source: Kriss in chat, 2026-11-06.
