@@ -27,10 +27,12 @@ Part B of the [daily run](/email/daily-run.md), and the midday sweep (part D: su
    | 1 | Lisama (Delfina) | Proforma PO-00141, prepayment to release fabric | Shipment held until paid; ETD Fri | ✓ confirm payment date · [link] |
 
 2b. **Tasks** — email-triggered tasks ([task triggers](/email/task-triggers.md)), one row per task: `# · Trigger (T-no) · Source · Proposal · Flags / waiting for`. Proposal = what will be created, short (e.g. "Loom immediate order, door Tromsø, TEE L 2 · XL 1"; "SH: Kuroki 26-1641 → Lisama, 2 lines, sea, BL …"). Flags = shortfalls, price/qty differences, missing documents or tracking, drafts to third parties. Kriss approves with "do 3"; ask more with "more on 3".
+   - **T4 garment shipments:** under the row, the block from the [Process](kb://livid/production/processes/garment-shipments-from-manufacturers.md): header, *What ships*, *Price control* (MO price vs invoice price per line, difference × qty, proposed accept/reject) and *Decisions needed*, each decision numbered on with the brief ("accept 6, reject 7"). No shipment is created while a price difference is undecided.
+   - **T5 sample shipments:** one row per manufacturer: matched SR lines → in transit with carrier and tracking, plus counts of already-in-transit, unmatched and overdue lines.
 
 3. **Reply** — same columns, minus deadline when there is none; similar emails batched into one row ("3 wholesale restock requests — Retro, Bulifa, Modo").
 4. **Needs action** — notifications that ask for something done: `# · Source · What it asks · Suggested handling`. Ends with the question "How should I handle these kinds going forward?" for any kind without a rule yet.
-5. **Invoices** — first *Forwarded automatically since the last brief* (`Supplier · Doc no · Amount · Entity`, no numbers; for checking), then *Need your OK* (`# · Supplier · Doc no · Amount · Entity · Why not automatic`). Source for the automatic list: the Mac attachment agent's `kb/log.md` entries. One line: customs documents filed / still waiting.
+5. **Invoices** — first *Forwarded automatically since the last brief* (`Supplier · Doc no · Amount · Entity`, no numbers; for checking), then *Need your OK* (`# · Supplier · Doc no · Amount · Entity · Why not automatic`). Source for the automatic list: the Mac attachment agent's `kb/log.md` entries. A manufacturer invoice there without an MO shipment in Threadflow gets ⚠ and a task number ([task triggers](/email/task-triggers.md) rule 8). One line: customs documents filed / still waiting.
 6. **Payments due** — `Supplier · Amount · Due · Reminder no.` (no numbering needed unless an action is proposed). Before a reminder is listed, check the supplier ledger in PowerOffice; if already paid, archive it and leave it out. If PowerOffice can't be reached, mark the row "not checked in PO". VWC (The Vintage Wholesale Company) INV-0200 GBP 4,500 is paid (Kriss, 2026-10-26).
 7. **Waiting** — overdue threads: `# · Who · Asked on · Nudge draft`.
 8. **FYI** — up to 8 one-liners, most relevant first; "+N more" if longer. Noise: count only (list on request).
@@ -50,4 +52,5 @@ Part B of the [daily run](/email/daily-run.md), and the midday sweep (part D: su
 # Examples
 
 # Source / history
+Kriss, 2026-11-09: T4 price-control block and T5 rows in Tasks; ⚠ on forwarded manufacturer invoices without an MO shipment.
 Kriss, 2026-10-23: first test run was plain bullets; wants more structure, tables where useful, still short, and the brief as a new Cowork chat he can work through by voice or typing.

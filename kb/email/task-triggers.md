@@ -22,6 +22,7 @@ Every new thread in Kriss's work Gmail, in every run that reads mail: the 06:47 
 5. **Execute** only up to the Process's `autonomy`. `execute-with-approval` = after Kriss approves that numbered task in the chat ("do 3"). Drafts to third parties the Process asks for follow the [send policy](/email/send-policy.md).
 6. **Close:** when done, archive the thread (remove `INBOX` + `UNREAD`), remove `AI/Task`, and report what was created (order/shipment numbers). This applies whenever a task is executed in Loom, Threadflow or another system, in any chat, and the thread needs no reply: archive right away. Before listing an `AI/Task` thread as a task, check the system first (e.g. a Loom order with the PrintCollect order number as customer reference) and close it if already done (PrintCollect 21081 = LO-0084, fulfilled 27.10, still listed 28.10). Waiting on something (documents, tracking, stock) → keep `AI/Task` and say what it waits for.
 7. **No row matches** but the email clearly asks for something done in a system → `AI/Action` as before, with "how should this be handled?". When Kriss gives the rule, write or update the livid-kb Process (via its feedback protocol) and add a row here.
+8. **Safety net in the brief:** for every manufacturer invoice the Mac agent forwarded since the last brief (its `kb/log.md` entries), check Threadflow for a matching MO shipment. None, and the documents show goods → list it as a T4 task, even if the thread was never labelled (Lisama 1463, 2026-11-06).
 
 # Registry
 
@@ -29,7 +30,9 @@ Every new thread in Kriss's work Gmail, in every run that reads mail: the 06:47 
 |---|---|---|---|---|---|
 | T1 | Eplehuset uniform order | From bestilling@printcollect.no, subject "PrintCollect - Eplehuset - <no>"; one email per order line, group by order number. Check spam too. | [PrintCollect uniform orders](kb://livid/sales/processes/printcollect-uniform-orders.md) | Loom | execute-with-approval |
 | T3 | Modo weekly stock report | From edi@frontsystems.com, subject "Livid lager Moa", received on a **Monday**, CSV attachment `OnHandReportUTC-Livid lager Moa-*.csv` (covers Modo Moa and Modo Sentrum). Not the Sunday "BRAND WEEKLY STOCK REPORT – Modo … – Livid" mails: those are wrong, label `AI/Noise`. | [Modo auto-replenishment](kb://livid/sales/processes/modo-auto-replenishment.md) | Loom | execute-with-approval |
-| T2 | Material shipment | Invoice, packing list or shipping notice from a material supplier (fabric mills, trims, labels; see the Process trigger). Not garments from manufacturers. Only items on a Threadflow PO get a shipment; the rest is forwarded and the task closed (see the Process, Decision rules). | [Material shipments from supplier invoices](kb://livid/production/processes/material-shipments-from-invoices.md) | Threadflow | execute-with-approval |
+| T2 | Material shipment | Invoice, packing list or shipping notice from a material supplier (fabric mills, trims, labels; see the Process trigger). Garments from manufacturers → T4, samples → T5. Only items on a Threadflow PO get a shipment; the rest is forwarded and the task closed (see the Process, Decision rules). | [Material shipments from supplier invoices](kb://livid/production/processes/material-shipments-from-invoices.md) | Threadflow | execute-with-approval |
+| T4 | Garment shipment (finished goods) | Invoice, packing list or shipping notice for finished goods from a manufacturer (`kind: manufacturer` in livid-kb, sender on its `email_domains`) or its agent (Tex-Challenge, Petter Korseth). Not customs or freight re-invoices with no goods, not defects-only invoices with no shipment. | [Garment shipments from manufacturers](kb://livid/production/processes/garment-shipments-from-manufacturers.md) | Threadflow | execute-with-approval |
+| T5 | Sample shipment | Email from a manufacturer or its agent saying samples (proto, SMS, PP/PPS, shipment samples) are sent or will be sent, usually with tracking. | [Sample shipments from manufacturers](kb://livid/production/processes/sample-shipments-from-manufacturers.md) | Threadflow | execute-with-approval |
 
 Adding a kind: one row here + a Process in livid-kb (or a link to the existing one). The how-to lives only in the Process.
 
@@ -38,8 +41,12 @@ Adding a kind: one row here + a Process in livid-kb (or a link to the existing o
 - T2 never applies to Passamar invoice/shipment mail: Passamar inventory movements run through its supplier portal in Threadflow. After invoice routing, label FYI and archive; no `AI/Task` (Kriss, morning brief 2026-11-03, via `[KB-inbox]`).
 - T2 needs the PDFs, which only the Mac agent can read: the cloud runs label by sender/subject/attachment names, the Mac agent writes the `[Doc]` summary, and the chat that executes reads the documents before creating anything.
 
+- One email can match T4 and T5 at once (garments and samples in one parcel): one task row each. Other contents (e.g. threads and trims Lisama sends back with PPS, 1465) are only mentioned in the row.
+- T5 status updates on sample request lines are done in the Threadflow UI until the connector has a write for them.
+
 # Examples
 
 # Source / history
+Kriss, 2026-11-09: T4 and T5 added and rule 8; Lisama 1463 (garments, 06.11) was forwarded and archived as "not T2" with no MO shipment.
 Kriss, 2026-10-28: T3 added; the Monday Modo report had been labelled `AI/FYI` and archived by the run.
 Kriss, 2026-10-27: tasks triggered by incoming email are to be registered so the morning brief and a 12:00 midday sweep pick them up; more kinds will be added.
