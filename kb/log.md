@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-09
+
+- **Update** Daily email run (cloud 2026-11-09, Sonnet), partial: classified and labelled the ~85 inbox threads that had no AI class label (Reply 9: Maria José Vidal non-delivery complaint, Lyse Stavanger lease, Yokie Studio consignment, Officocta leather claim, Christopher Threadflow fixes, VWC updated invoice, Dapper payment plan, Christopher 2-pack prices; Urgent 1: Prinsens Gate AS collection notice 10098 for Livid Retail AS (also Payments); Action 11: PowerOffice approval reminders x3, Fazile MVA request, GitHub Claude permissions, Altinn x2, MO-SS27-07 incorrect prices, Webshipper W-30891, Loom ecom pick and store stock sync alerts, Ole Eivind purchasing sheet; Invoice 2: Tailscale, Anthropic receipts; Payments 1 more: DHL customs charges for Denim People/Japan Blue; HR 2: Nordea Liv pension updates; FYI/Noise archived, INBOX + UNREAD removed). No task-trigger matches. Bulk `AI/KB-synced` only on mail needing no KB writing. NOT done: collection of archived/sent mail beyond the inbox, `[KB-inbox]` drafts, KB sync of substantive threads, drafts, follow-ups, stale sweep (run stopped after classification to save context). Nothing sent, forwarded or deleted.
+
 ## 2026-11-07
 
 - **Update** Mac agent run 00:00: forwarded 3 to Livid Jeans AS PowerOffice (Passamar label invoice, Lisama invoice, YKK Portugal invoice), 0 to Ole Eivind, 1 to HK Consulting (Passamar, addressed to Livid Jeans Unipessoal, no proforma found). Filed 0 customs documents. 1 Docs thread: YKK shipment (`AI/Task`, `[Doc]` draft). Left for the brief: eight Officocta invoices from 2025 re-sent in the leather-claim thread (at least no. 296 already forwarded earlier, so risk of double booking), plus the earlier `AI/Invoice` threads unchanged. Passamar GT documents and the Lisama UPS label were not vouchers. The YKK forward timed out once; Sent showed it went out once.
