@@ -2,6 +2,7 @@
 
 ## 2026-11-09
 
+- **Update** Mac agent run 18:31: forwarded 0 vouchers; 1 customs document filed (UPS Utførsel, Livid Jeans AS, LJAS folder). 1 `[Doc]` draft (Passamar proforma + DHL waybill for label samples to Springair, TRO-00013), thread `AI/Docs-read`. Left for the brief: older `AI/Invoice` threads unchanged.
 - **Update** Mac agent run 17:25: forwarded 1 voucher (Railway, Amex software, receipt only (invoice PDF left out), to Livid Jeans AS PowerOffice; 0 to Ole Eivind, 0 to HK); 0 customs filed. Left for the brief: Upwork billing summary (no PDF, link only), older `AI/Invoice` threads unchanged.
 - **Update** Mac agent run 15:37: forwarded 1 voucher (Gorgias, Amex software invoice, invoice PDF only since the Stripe receipt mail has none, to Livid Jeans AS PowerOffice; 0 to Ole Eivind, 0 to HK); 0 customs filed. Left for the brief: older `AI/Invoice` threads from 2026-10-28…11-06 untouched (reminders, statements, collection notices), unchanged since the last run.
 - **Update** Mac agent run 13:34: forwarded 1 voucher (Dia Exemplar FT 02/2471, Livid Jeans AS; 0 to Ole Eivind, 0 to HK); 0 customs filed. Thread labelled `AI/Task` (T4 garment shipment, Balo via Tex-Challenge) with a `[Doc]` draft; Threadflow check left for the brief. Not forwarded: Ringstad freight booking confirmation (internal transport, no voucher); Ole Eivind's "Utlegg" mail (expense claim, left for the brief).
