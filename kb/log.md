@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-10
+
+- **Update** Daily email run (cloud, Sonnet): classified and labelled the 78 inbox threads that had no AI class label: Urgent 3 (Stork silk in customs, JX Silk customs clearance in Portugal, UPS final reminder exception on a shipment), Reply 6, Action 2 (Loom Webshipper issue W-30914; NAV inntektsmelding), HR 3, FYI 30, Noise 33, Waiting 1. Noise, FYI and Waiting archived (INBOX + UNREAD removed); 29 noise/notification threads labelled `AI/KB-synced`. Task triggers: no new match found in the headers. Not done this run: invoice/payment relabelling beyond what the Mac agent had already done, `[KB-inbox]` drafts, substantive KB sync (Person notes), and reply drafts. No subagents were started and the Gmail connector can only label per thread. All of it stays without `AI/KB-synced` and is picked up next run. Nothing sent, forwarded or deleted. Failure: the `plugin:github:github` MCP server failed to connect (proxy 403); pushing uses plain git.
+
 ## 2026-11-09
 
 - **Update** Mac agent run 19:54: forwarded 2 vouchers (Passamar label invoices: 2026/7402 to Livid Retail AS PowerOffice, 2026/7422 addressed to Livid Jeans Unipessoal to Livid Jeans AS PowerOffice, no proforma paid against it); 0 to Ole Eivind, 1 to HK Consulting (7422); 0 customs filed. Threads labelled `AI/PO-forwarded` and archived. Not vouchers: Upwork payment notice, Adobe request, UPS delivery update. Left for the brief: older `AI/Invoice` threads unchanged.
