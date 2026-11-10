@@ -2,6 +2,8 @@
 
 ## 2026-11-10
 
+- **Update** Morning brief 2026-11-10 (Claude Code, MacBook Air): brief presented; part A was partial (no drafts, KB sync or `[KB-inbox]`). T4 Dia Exemplar FT 02/2471 already Threadflow MOS-0029 (Christopher, 09.11), only the four EUR 450 surcharges are undecided; SH-00167 (YKK) still without documents/tracking; Somelos SH-00161/00162 exist without PDFs. PowerOffice check: Prinsens Gate 10098 (NOK 188,579), Diemme 200654/200655/200779, Pantherella PSI1602807/PSI1572790 open; Hestra BU115998 not booked; VWC INV-0232, Phrase 11302, Past Workshop and Inkmann 20345 not found on a supplier card. No Modo T3 stock report received Monday 09.11. Nothing sent, forwarded, archived or deleted.
+
 - **Update** Daily email run (cloud, Sonnet): classified and labelled the 78 inbox threads that had no AI class label: Urgent 3 (Stork silk in customs, JX Silk customs clearance in Portugal, UPS final reminder exception on a shipment), Reply 6, Action 2 (Loom Webshipper issue W-30914; NAV inntektsmelding), HR 3, FYI 30, Noise 33, Waiting 1. Noise, FYI and Waiting archived (INBOX + UNREAD removed); 29 noise/notification threads labelled `AI/KB-synced`. Task triggers: no new match found in the headers. Not done this run: invoice/payment relabelling beyond what the Mac agent had already done, `[KB-inbox]` drafts, substantive KB sync (Person notes), and reply drafts. No subagents were started and the Gmail connector can only label per thread. All of it stays without `AI/KB-synced` and is picked up next run. Nothing sent, forwarded or deleted. Failure: the `plugin:github:github` MCP server failed to connect (proxy 403); pushing uses plain git.
 
 ## 2026-11-09
