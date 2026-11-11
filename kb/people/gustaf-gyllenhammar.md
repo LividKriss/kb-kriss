@@ -23,6 +23,7 @@ Copied on nearly all of Kriss's production and payment threads with the agent, s
 Norwegian, "Hei!" / "Hei dere," first names, very short (one to three lines), signs "Kristoffer". Usually addresses Maria or Mona with Gustaf and Christopher on cc, and hands production detail to Christopher. Switches to short English ("Hello Angel … Best") only when writing to factory staff on a shared thread.
 
 # History
+- 2026-11-09: On Lora, advised Livid to take the goods and pay when sold (open account) or he tries to have them written off, but a deposit credit would be hard; said both sides made mistakes ([thread](https://mail.google.com/mail/u/0/#all/1a1c54f1d80e6526))
 - 2026-10-20: Kriss explained to the agent that the Monday "pending matters" mails are automatic; there is no new Springair sample order.
 - 2026-10-13: Bellanza MO-SS27-09: delivery end of Dec (30.12 ex factory) accepted, deposit paid; Bellanza ordered bulk yarn on 10-15.
 - 2026-10-06: Gustaf sent Springair's PI for MO-SS27-04, asking for the first payment and the SMS cost.

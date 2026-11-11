@@ -23,6 +23,7 @@ Part of the Million Goods account since 2026-01 (consignment and wholesale custo
 English, short, "Hi there," / "Hey guys,"; cc's Drew, Ole, Nick Minichiello and jenso@livid.no. Matt needs one invoice per payment (goods and consignment separately).
 
 # History
+- 2026-11-11: Accepted the credit for the damaged Barnes jeans. The past-season consignment goods are packed; he asks whether Livid arranges shipping and will send dimensions.
 - 2026-10-13: Reported 2 pairs Barnes arrived oil-soaked and Burleys missing from the FW26 men's order; Ole promised credit and to ship the rest.
 - 2026-10-06: Asked for the consignment invoices to be sent directly to him so he can clear them.
 - 2026-10-02: Paid the two FW26 proformas via Settle; goods shipped 2026-10-06.
@@ -32,7 +33,7 @@ English, short, "Hi there," / "Hey guys,"; cc's Drew, Ole, Nick Minichiello and 
 - 2026-01-22: Agreed DDU shipping for the consignment goods.
 
 # Open threads
-- Re: Million Goods x Livid - FW26 Delivery ETA — Livid owes credit for the damaged Barnes and shipment of missing items; Matt is waiting for the consignment invoices sent directly to him (asked 2026-10-06) ([thread](https://mail.google.com/mail/u/0/#all/1a0a6e07b133b717))
+- Re: Million Goods x Livid - FW26 Delivery ETA — credit for the damaged Barnes agreed 2026-11-11 (Livid still to issue it); Matt asks who arranges return shipping of the consignment goods; waiting for the consignment invoices sent directly to him (asked 2026-10-06) ([thread](https://mail.google.com/mail/u/0/#all/1a0a6e07b133b717))
 
 # Links
 - Organization: [Million Goods](kb://livid/organizations/customers/million-goods.md)

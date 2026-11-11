@@ -23,6 +23,7 @@ Wholesale customer since 2025-07, when Livid delivered the opening order for the
 Norwegian, "Hei Elisha!", friendly and short; signed "Kristoffer". Kriss copies Tue (agent) and often Lars Eriksen on returns and invoice matters. When something went wrong he apologises and offers compensation (free freight, stock pulled from Livid stores).
 
 # History
+- 2026-11-06: Restock order for Jekta confirmed as LO-0093 (63 pieces) via Tue; Hayes Black left out (supplier change), several sizes back in Dec/Jan, Fuller Rinse 29/32 sponsored with a separate credit note, Beth Dive to ship late the following week ([thread](https://mail.google.com/mail/u/0/#all/1a1b1023bdb180d5))
 - 2026-09-21: Beth black 28/34, urgent for a customer complaint, was found in Livid's Bergen store and sent. Livid invoices only what is delivered.
 - 2026-09-18: FW26 master-data files sent. Restocks of Fuller and Miko were expected in 2–3 weeks; more denim stock was secured in Portugal after delays with Japanese denim.
 - 2026-09-07: FW26 order confirmations sent (LO-0050 refill, LO-0051 season order). Invoices to go to their ebilag address from then on.
@@ -34,6 +35,7 @@ Norwegian, "Hei Elisha!", friendly and short; signed "Kristoffer". Kriss copies 
 - 2025-07-24: Opening order for Jekta shipped. Master data with GTIN and prices sent, and JOOR access requested.
 
 # Open threads
+- Fwd: Påfyll — Livid owes a credit note for the sponsored Fuller Rinse 29/32 and the Beth Dive shipment (promised for the end of the week of 2026-11-16) ([thread](https://mail.google.com/mail/u/0/#all/1a1b1023bdb180d5))
 - Tilgang kundeportal — Elisha asked for access to Livid's customer portal on 2026-09-24; no reply in the thread ([thread](https://mail.google.com/mail/u/0/#all/1a0d3154f0506481))
 
 # Links

@@ -19,6 +19,7 @@ Daily working contact: about 2,100 threads in 3 years, 117 with Kriss replying i
 # How Kriss communicates with them
 Norwegian, very short and direct ("Fikser", "Skal være fikset nå", "yes"), often with no greeting. Longer mails start "Hei ole," or "Hei dere,". When Kriss writes in English to the wholesale customers and vintage suppliers Ole manages, he copies Ole.
 # History
+- 2026-11-09/10: Ole told Bube & König that Bix leather jackets are cancelled and Beth Bronzer and the personal suits slip to SS27 (Beth Bronzer then cancelled by the customer); told VWC Livid will not take the Carhartt jackets this season (paused buying).
 - 2026-10-29: Ole passed on a tip from Martin (Wollow) that the webshop's DKK price conversion may be wrong (direction unknown).
 - 2026-10-22: The autosupplering rule (allocation under 5 units → stores get only 1) applied to all brands. Kriss limited it to Livid products.
 - 2026-10-22: Ole confirmed 100 Barbour wax jackets with The Vintage Wholesale Company (prepaid). Kriss to pay this together with the pending handpick invoice.
@@ -30,13 +31,15 @@ Norwegian, very short and direct ("Fikser", "Skal være fikset nå", "yes"), oft
 - 2026-09-15: Million Goods asked for DDP or DAP on FW26 (DDP at 2.5 markup). Atohi was swapped for Dyer after a fabric fault.
 - 2026-04-14: Ole set a handling routine for goods after shoots, after a stained silk shirt was sent to Ecru (Seoul).
 # Open threads
+- Updated invoice (VWC) — Riccardo asks Ole whether to add 100 men's winter coats and 200 Norway jumpers (landing 20 Nov, GBP 4,400) and the 100 Barbour jackets on hold; no answer seen ([thread](https://mail.google.com/mail/u/0/#all/1a1ab1a4f6ac7ca2))
+- Fwd: Swap og supplering — Retro Bergen restock and returns sheet forwarded to Kriss 2026-11-10 ([thread](https://mail.google.com/mail/u/0/#all/1a1c4b52b12fe00b))
 - DKK-priser på nett — the webshop's DKK conversion needs checking (Arnt in copy) ([thread](https://mail.google.com/mail/u/0/#all/1a1871e28e85cab5))
 - Invoice Burberry Scarves - The VWC: Kriss to pay INV-0171 and the Barbour invoice and confirm. VWC waits for Ole on the USA/EU delivery points ([thread](https://mail.google.com/mail/u/0/#all/1a0f65f5f96bd8f6))
 - Fwd: Utestående faktura: a Keen bestseller is held until the invoice is paid. Ole needs an expected payment date from Kriss ([thread](https://mail.google.com/mail/u/0/#all/1a15d8b4dd297554))
 - Fwd: Betalingspåminnelse fra På Stell AS (24599, 24636): two reminders forwarded, Kriss to pay ([thread](https://mail.google.com/mail/u/0/#all/1a16268d80a5103c), [thread](https://mail.google.com/mail/u/0/#all/1a1626910410582e))
 - Fwd: Livid 913116 Proforma 9014168: Paraboot FW26 proforma forwarded for payment, no reply yet ([thread](https://mail.google.com/mail/u/0/#all/1a144c3106f3f0b5))
 - Glass Onion Vintage - Statement and payment links: instalments due from 2026-10-24, Kriss to pay or warn of delay ([thread](https://mail.google.com/mail/u/0/#all/1a15dde9fb991748))
-- Re: Million Goods x Livid - FW26 Delivery ETA: Ole to reship missing items and issue the credit ([thread](https://mail.google.com/mail/u/0/#all/1a0a6e07b133b717))
+- Re: Million Goods x Livid - FW26 Delivery ETA: Million Goods accepted the credit for the damaged jeans on 2026-11-11 and asks who arranges the return shipping of past-season consignment goods; Ole to answer and issue the credit ([thread](https://mail.google.com/mail/u/0/#all/1a0a6e07b133b717))
 - Livid FW26 delivery: Yokie sent its September consignment report. Kriss to invoice ([thread](https://mail.google.com/mail/u/0/#all/1a035ab0345d7fad))
 - Atoho og Alpha SS27: cancellation proposed, waiting for Jens's input and a fabric-cancellation check ([thread](https://mail.google.com/mail/u/0/#all/1a144845603f4de5))
 - Produksjon/Distro: the handover is to be agreed between Ole and design, and weekly production meetings set up ([thread](https://mail.google.com/mail/u/0/#all/1a1598acc82691ec))

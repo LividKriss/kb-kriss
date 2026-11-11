@@ -35,7 +35,7 @@ English, "Hello Drew," / "Hey Drew,", medium length, signs "Best Kristoffer". Al
 - 2026-01-14: Launch event in Greenpoint; Livid covered half the fee via a USD 250 credit note.
 
 # Open threads
-- Re: Million Goods x Livid - FW26 Delivery ETA — Livid owes credit for the damaged Barnes and shipment of missing items; Drew's question whether Livid makes the return UPS label (2026-10-01) has no visible answer ([thread](https://mail.google.com/mail/u/0/#all/1a0a6e07b133b717))
+- Re: Million Goods x Livid - FW26 Delivery ETA — credit for the damaged Barnes agreed 2026-11-11 (Livid still to issue it); Drew's question whether Livid makes the return UPS label (2026-10-01) has no visible answer, and Matt now asks who arranges shipping of the past-season consignment return ([thread](https://mail.google.com/mail/u/0/#all/1a0a6e07b133b717))
 
 # Links
 - Organization: [Million Goods](kb://livid/organizations/customers/million-goods.md)

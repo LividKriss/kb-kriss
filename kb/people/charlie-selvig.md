@@ -22,6 +22,7 @@ A daily working colleague. Kriss copies her on all factory production-plan email
 Internal mail is in Norwegian: "Hei Charlie," or "Hei dere,". It is short and practical, signed "Kristoffer", usually with Jens Olav and Christopher in cc, and often Ole Eivind. Supplier threads with her are in English.
 
 # History
+- 2026-11-10: Charlie looped Kriss into the Springair Lora dispute (style cancelled after ordering; 30% deposit paid). Springair suggests Livid takes the goods and pays when sold or writes them off; Charlie says the skirt is transparent and a lining will not help ([thread](https://mail.google.com/mail/u/0/#all/1a1c54f1d80e6526))
 - 2026-10-21: Charlie sent a list of Threadflow usability problems (navigation, decimals in measurement forms, style history). They agreed on a walkthrough on 2026-10-23, 11–12.
 - 2026-10-20: Kriss handed production follow-up to design and proposed weekly production meetings.
 - 2026-10-20: Atohi/Alpha SS27 cancelled after the velvet price jump (about €35 → €59). Charlie agreed the price would not sell, and noted the style is also planned for FW27.
@@ -34,6 +35,7 @@ Internal mail is in Norwegian: "Hei Charlie," or "Hei dere,". It is short and pr
 - 2026-03-30: Charlie flagged weak women's sales since New Year in the weekly report, which led to a deeper review.
 
 # Open threads
+- Mail correspondence style Lora — Kriss to check the amount paid and agree a settlement with Springair so the case can close ([thread](https://mail.google.com/mail/u/0/#all/1a1c54f1d80e6526))
 - Threaddflow — Kriss owes changes after the Friday 11–12 walkthrough. Jens and Charlie still need to agree how Style Master should work ([thread](https://mail.google.com/mail/u/0/#all/1a15eb75b3369a4d))
 - Retur varer — Charlie asked whether Kriss is creating the return labels; boxes are packed ([thread](https://mail.google.com/mail/u/0/#all/1a1582ba6b00c3b6))
 - Frances - produksjonsplan — Charlie wants the Frances total order reviewed and possibly reduced; no decision yet ([thread](https://mail.google.com/mail/u/0/#all/1a1595abd835dd25))

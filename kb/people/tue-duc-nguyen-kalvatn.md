@@ -23,6 +23,7 @@ Day-to-day contact between the Norwegian retailers and Livid. He forwards restoc
 Norwegian. "Hei Tue," and often a single line ("Sender i morgen", or just the OC attached). He copies Jens Olav or Ole Eivind when a decision is theirs, and when retailers write to him directly he replies to them with Tue in copy.
 
 # History
+- 2026-11-06/10: Forwarded the Brødrene Johannessen Jekta restock; Kriss confirmed LO-0093 (63 pieces, some sizes missing, one pair sponsored). Tue offered to pass the shortfalls on to the customer ([thread](https://mail.google.com/mail/u/0/#all/1a1b1023bdb180d5))
 - 2026-10-29: Sent restock requests from Rolfsen (marked-up sheet) and Bogart (Kai, Barnes, Miko, Fuller), and asked Livid to credit three sponsor trousers (Rolfsen, Bogart, Walero).
 - 2026-10-08: Asked Livid to credit MAS for an approved Barnes claim that still has no credit note. For a Bogart sponsor trouser, Livid offered a replacement trouser instead of a credit.
 - 2026-09-16: Chased the status of AW26 deliveries (Rolfsen, BJ). Kriss shared a delivery schedule that is updated as things change and said the jeans were delayed by Japanese denim supply.

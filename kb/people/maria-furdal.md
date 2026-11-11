@@ -25,6 +25,7 @@ She works with Kriss on payments (deposits, balances, receipts), POs and deliver
 - Product and sample questions go to Christopher. Kriss handles payments, POs and portal questions.
 
 # History
+- 2026-11-10: Asked on Springair's behalf whether the Lora skirt can be altered (length or a lining) to make it sellable; Charlie declined ([thread](https://mail.google.com/mail/u/0/#all/1a1c54f1d80e6526))
 - 2026-10-15: Bellanza confirmed (via Maria) receipt of the SS27 deposit, ordered bulk yarn and approved the SS27 production plan; Kriss paid the deposit 2026-10-13.
 - 2026-10-14: Springair gave the size split for Lora Paper Yarn White, 71 pcs incl. 1 shipping sample.
 - 2026-10-06: Kriss held back Bellanza's 30% deposit for MO-SS27-09 until yarn and delivery dates were confirmed; Bellanza confirmed 30.12 ex factory.
@@ -37,6 +38,7 @@ She works with Kriss on payments (deposits, balances, receipts), POs and deliver
 - 2024-07–08: SS25 pricing and specs (Sweeny/Stack/Carmy) and Petter Korseth AS invoices (from subjects).
 
 # Open threads
+- Mail correspondence style Lora — settlement of the cancelled Lora style (deposit paid) still open; Kriss was added 2026-11-10 to check amounts ([thread](https://mail.google.com/mail/u/0/#all/1a1c54f1d80e6526))
 - Production plan SS27 for approval — Springair has the transparency/QR labels but still lacks hangtags, main labels and size labels; Livid (Christopher) owes delivery and care-label dates ([thread](https://mail.google.com/mail/u/0/#all/1a1348398cb56fac))
 - FW: Production plan SS27 for approval - Livid/Bellanza — Livid owes PPS comments to Bellanza; 2nd PPS is expected around end of November, and they will decide after the comments whether some styles can be approved from photos ([thread](https://mail.google.com/mail/u/0/#all/1a158022b1d97085))
 - New Manufacture Order — MO-SS27-04 — Springair sent the Lora size split (71 pcs) and will send a packing list once it has the stickers; Livid still owes an answer on shipping Lora with MO-SS27-04 ([thread](https://mail.google.com/mail/u/0/#all/1a0e893ccc5fe51f))

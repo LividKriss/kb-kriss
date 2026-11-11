@@ -22,6 +22,7 @@ Kriss is her central contact for store operations: replenishment and deliveries,
 Norwegian: "Hei Torunn,". Short and solution-focused, signed "Kristoffer". Christopher Stangeby goes in cc on delivery and logistics matters, and Jens Olav when it concerns management.
 
 # History
+- 2026-11-10: Trondheim store checked and set aside stock for Retro's restock (LO-0094); part of a B2B order ships from the store, giving the customer two parcels ([thread](https://mail.google.com/mail/u/0/#all/1a1bfc3002dfd7ea))
 - 2026-10-08: For Toilldag week, Kriss agreed to ship almost everything ahead and skip regular replenishment that week. Store supplies (hangers, bags) were added.
 - 2026-10-07: Stores now register repair shipments to customers in Loom.
 - 2026-09-27: Kriss sent the Loom store app guide. Stores handle warehouse requests and B2B picks as Loom orders.

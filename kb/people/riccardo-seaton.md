@@ -23,7 +23,7 @@ VWC has supplied vintage stock to Livid Retail since 2024-06-27. Ole Eivind Sigg
 English, informal and short ("Hello Ricardo", "Hello guys", "Hey Ricardo", signs "Kristoffer"). He copies Ole Eivind, and Christopher when shipping is involved. He is firm on accounting requirements (official invoices, bank-change verification).
 
 # History
-- 2026-11-05: VWC sent two revised versions of INV-0232 (same number and date, larger discount in the second) ([thread](https://mail.google.com/mail/u/0/#all/1a1ab1a4f6ac7ca2)). Kriss had already forwarded an earlier version to PowerOffice on 10-28.
+- Updated invoice INV-0232: Kriss told VWC he will pay the balance of GBP 1,669 (after the INV-0035 prepayment) shortly; the earlier version is already in PowerOffice so the voucher needs replacing; Xero has sent overdue reminders since 10-29. Riccardo awaits Ole's answer on the extra stock ([thread](https://mail.google.com/mail/u/0/#all/1a1ab1a4f6ac7ca2))
 - 2026-10-22: Riccardo summarized a USA pre-order (about £3,800) and offered 100 Barbour wax jackets (prepay). Kriss agreed to pay the Barbour invoice INV-0200 together with the pending handpick invoice INV-0171, Ole confirmed the order, and the EU delivery was set for 25 Nov.
 - 2026-10-21: Kriss said payment of the handpick invoice was delayed to the end of the week because of October production purchases.
 - 2026-10-01/06: 75 Burberry scarves (INV-0109) paid 10-06 and collected on a Livid UPS label.
@@ -38,7 +38,6 @@ English, informal and short ("Hello Ricardo", "Hello guys", "Hey Ricardo", signs
 # Open threads
 - Invoice Burberry Scarves - The VWC: Kriss promised on 2026-10-22 to pay INV-0171 and INV-0200. Livid still owes payment confirmation, and Riccardo asked for answers on the remaining USA-order points ([thread](https://mail.google.com/mail/u/0/#all/1a0f65f5f96bd8f6))
 - Handpick invoice - The VWC: Louie chased payment of INV-0171 on 2026-10-21; it is covered by the payment above ([thread](https://mail.google.com/mail/u/0/#all/1a15d809cd60168d))
-- Updated invoice INV-0232: revised version received 2026-11-05. The earlier version is already in PowerOffice, so the voucher needs replacing; Xero has sent overdue reminders since 10-29 ([thread](https://mail.google.com/mail/u/0/#all/1a1ab1a4f6ac7ca2))
 
 # Links
 - Organization: [The Vintage Wholesale Company](kb://livid/organizations/suppliers/vwcc.md)

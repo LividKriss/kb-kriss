@@ -23,6 +23,7 @@ Kriss handles Standard's quarterly commission (provisjon) reports and their paym
 Norwegian, "Hei Morten," with short replies, often "Topp, sender ut" plus the OC. Morten writes informally ("Hallais", signs "-M-"). On retailer restocks Kriss replies to the store directly with Morten in copy. He often opens by apologising for slow follow-up.
 
 # History
+- 2026-11-09/10: Retro Trondheim sent a restock sheet via Morten; Kriss confirmed it as LO-0094 (37 of 48 pieces), see [Jørgen Rosenlund](/people/jorgen-rosenlund.md) ([thread](https://mail.google.com/mail/u/0/#all/1a1bf02869bc8de9))
 - 2026-10-28: After a meeting with Jens on possibly ending the agency agreement, Morten and Tue sent a written case for continuing: a fixed monthly meeting, signing the Texcon agreement draft, better stock and B2B information, and openness to temporary commercial adjustments. Kriss forwarded it to Arnt and Ole Eivind.
 - 2026-10-15: Morten chased a claim, a stock and season update, and the Q3 commission report. Kriss apologised and promised the report and a better process for claims.
 - 2026-08-03 – 08-11: Q2 commission report sent late after several reminders. Standard's invoice was paid on 2026-08-11.

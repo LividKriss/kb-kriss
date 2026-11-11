@@ -94,6 +94,7 @@ One note per contact — who they are, relationship, how Kriss communicates with
 - [Jonathan Tafjord](jonathan-tafjord.md) *(draft)* — Account manager at Eplehuset business sales; Livid's contact for leased office hardware, the damaged-monitor claim and Eplehuset's invoices to Livid.
 - [João Alves](joao-alves.md) *(draft)* — Operations agent for import sea freight at Rangel Logistics Solutions (Portugal), handling Livid's LCL fabric shipments from Japan to Lisama in Portugal.
 - [Julian Akuffo-Mensah](julian-akuffo-mensah.md) *(draft)* — Livid colleague at the Livid Oslo store; earlier on webshop customer service, bringing Kriss refund, payment and order issues he couldn't solve in Shopify.
+- [Jørgen Rosenlund](jorgen-rosenlund.md) *(draft)* — Store manager at Retro AS (Trondheim), a Livid wholesale customer; sends restock requests through Standard Agency and receives Kriss's order confirmations.
 - [Kaia Grønland](kaia-gronland.md) *(draft)* — Led retail for the Livid stores (Livid Retail AS) in 2026; Kriss worked with her on store operations, stock counts, store fixtures and customer invoicing.
 - [Kaviya Elaiyarajah](kaviya-elaiyarajah.md) *(draft)* — Property manager (eiendomssjef) for Galleriet in Bergen at DNB Næringseiendom, Livid Bergen's landlord; Kriss deals with her on the lease, its extension and rent matters.
 - [Kei Yamanishi](kei-yamanishi.md) *(draft)* — Former sales contact at Japan Blue (Japanese denim mill); gave Livid fabric prices, specs and stock for the 2026 selvage and SS27 sourcing until he left the company.

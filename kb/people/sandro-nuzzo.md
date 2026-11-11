@@ -23,6 +23,7 @@ Since 2023-10 (first order). Wholesale orders with Ole Eivind Siggerud; Kriss se
 English, "Hello Sandro"/"Hey Sandro", warm and informal, short. Cc's Ole Eivind.
 
 # History
+- 2026-11-02/10: AW26 invoices 0017 (EUR 2,163) and 0039 (EUR 913) were overdue; Sandro promised payment, Kriss resent 0017 on 11-06. Ole told him the Bix jackets are cancelled; Sandro cancelled Beth Bronzer (delayed to SS27) ([thread](https://mail.google.com/mail/u/0/#all/1a199abd34475fc1))
 - 2026-05-04: Re-order shipped from the Oslo store got stuck in Livid's system; fixed and sent.
 - 2026-04-21: Kriss sent missing invoice 11266; Sandro paid open invoices 2026-04-10 and 2026-04-24.
 - 2026-04-09: Statement sent; credit for returned linen trousers to follow when received.
@@ -32,7 +33,7 @@ English, "Hello Sandro"/"Hey Sandro", warm and informal, short. Cc's Ole Eivind.
 - 2024-03-25: Final SS delivery (from subject).
 
 # Open threads
-- None.
+- Overdue invoices Livid Jeans AS — payment of 0017 and 0039 promised but not yet confirmed (check the ledger) ([thread](https://mail.google.com/mail/u/0/#all/1a199abd34475fc1))
 
 # Links
 - Organization: [Bube und König](kb://livid/organizations/customers/bube-und-koenig.md)
