@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-11
+
+- **Update** Mac agent run 03:34: forwarded 1 voucher (Vercel receipt, Livid Jeans AS PowerOffice; receipt only, the invoice PDF for the same charge not sent); 0 to Ole Eivind; 0 customs filed. Thread labelled `AI/PO-forwarded` and archived. Older `AI/Invoice` threads (reminders, statements, collection notices) untouched, for the brief.
+
 ## 2026-11-10
 
 - **Update** Mac agent run 18:08: forwarded 0 vouchers; 0 to Ole Eivind; 2 customs documents filed (UPS Innførsel from Lisama, Livid Jeans AS, LJAS folder; UPS Innførsel from Siluete Prod, Livid Retail AS, LRAS folder). The two mails had no `AI/Customs` label, so the agent added it before filing; threads archived. Left for the brief: Jiaxin Silk invoice 2026WGF02094 (Christopher's message in the silk customs thread) is addressed to Stork Texteis, a customs copy, so not forwarded; thread already has a `[Doc]` draft. Older `AI/Invoice` threads unchanged.
