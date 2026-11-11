@@ -41,6 +41,8 @@ Part B of the [daily run](/email/daily-run.md), and the midday sweep (part D: su
 
 **Documents:** when a row's thread has a `[Doc]` draft, add its key facts in the row (e.g. "PL: 3 ctn, ETD 30.10") and offer the full summary on request. "Proposed for Livid KB" lines from `[Doc]` drafts go in the KB section for a yes.
 
+**Drafts for approval:** before Kriss is asked to approve sending, every draft is shown in the chat — its full text where practical, and always at least the Gmail link to the draft (Kriss, morning brief 2026-11-06).
+
 **Rows:** who = person (organization); what = the ask in ≤ 10 words; why = the deadline or consequence; draft = ✓ + its direction in ≤ 8 words, or "decision needed: …". Amounts with currency. No email body text beyond that.
 
 **HR:** count only, never names of the matter beyond "HR matter (n)".

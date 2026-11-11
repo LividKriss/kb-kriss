@@ -2,6 +2,7 @@
 
 ## 2026-11-11
 
+- **Update** `email/brief.md`: drafts for approval are shown in the chat (full text where practical, always at least the Gmail link) before Kriss is asked to approve sending. Source: `[KB-inbox]` draft, Kriss in the morning brief 2026-11-06; applied by the daily email run, draft deleted.
 - **Update** Mac agent run 03:34: forwarded 1 voucher (Vercel receipt, Livid Jeans AS PowerOffice; receipt only, the invoice PDF for the same charge not sent); 0 to Ole Eivind; 0 customs filed. Thread labelled `AI/PO-forwarded` and archived. Older `AI/Invoice` threads (reminders, statements, collection notices) untouched, for the brief.
 
 ## 2026-11-10
