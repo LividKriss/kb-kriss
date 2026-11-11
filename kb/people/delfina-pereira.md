@@ -24,6 +24,8 @@ She is the day-to-day admin and logistics contact for Livid's production at Lisa
 - He copies Paulo Teixeira (Tex-Challenge) on threads with her.
 
 # History
+- 2026-11-10: Kriss (in Portuguese) asked her about invoice 1464 for defect pieces: 83 pcs invoiced vs 70 in the packing list (boxes 100-103), and Keri Japan Kobe Blue at EUR 24 instead of 21. He asked for credit notes for the difference (EUR 320, plus EUR 33). She also corrected the packing list for boxes 17-23 and box 66.
+- 2026-11-06: She sent credit note 108 cancelling invoice 1463 (EUR 1,284, customs value only), the correct invoice 1464 for defects, and the packing list. Boxes 98-99 (returned PPS pieces) were not invoiced.
 - 2026-10-19: She placed Passamar label order TRO-00011 on Livid's platform. Kriss told her to order the Lemmy (shorts) labels in L32, as done before.
 - 2026-10-14: She returned the CMR, signed and stamped, that Rangel needed for Spanish customs on the Kuroki fabric import.
 - 2026-09-29: She arranged a late-afternoon receipt at Lisama of the Kuroki LCL fabric that Rangel delivered.
@@ -36,6 +38,7 @@ She is the day-to-day admin and logistics contact for Livid's production at Lisa
 - 2024-11 to 2024-12: Import documents and customs paperwork for Kowa fabric (inferred from subjects).
 
 # Open threads
+- INVOICES 1463 — Kriss asked 2026-11-10 for confirmation of the 83 vs 70 defect pieces on invoice 1464 and credit notes for the difference; Delfina owes the reply ([thread](https://mail.google.com/mail/u/0/#all/1a1b0728b965ba7c))
 - Stock Transfer Request — ST-00103 — On 2026-09-07 she sent the pallet measurements and is waiting for Livid or Paulo to confirm pickup. No later reply in the thread; it may have been settled elsewhere. ([thread](https://mail.google.com/mail/u/0/#all/19fc93e459272747))
 
 # Links

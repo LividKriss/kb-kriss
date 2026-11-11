@@ -25,6 +25,7 @@ Kriss has worked with Sónia since at least 2025-11 (earliest listed thread 2025
 - Always copies Paulo Teixeira (Tex Challenge) and usually Christopher Stangeby. Charlie Selvig and Jens Olav Dankertsen are added on planning emails.
 
 # History
+- 2026-11-10: Afonso had confirmed batch 1 (1,167 pcs, delivery 4 Dec). Kriss chased batch 1b (4 colourways, 245 pcs, 18 Dec) and batch 3 (3 colourways, 140 pcs, 15 Jan) and asked if Deliberate Cream Crust can go in batch 1b.
 - 2026-10-20: Kriss resent the SS27 production plan, first sent 2026-10-02, now also in Excel, for Afonso to confirm delivery dates. MO-SS27-07 (20 styles, about 1,550 pcs, delivery requested 2026-12-04) was issued 2026-09-28.
 - 2026-10-12: Afonso will charge €50 plus transport for each roll cut or stock transfer to Stork. This follows Sónia's request on 2026-09-23 that such requests be discussed and charged.
 - 2026-10-13: Sónia could not log in to the new portal to order labels; the login link arrived the same day.
@@ -37,7 +38,7 @@ Kriss has worked with Sónia since at least 2025-11 (earliest listed thread 2025
 - 2026-03-13: Kriss asked that all fabric meterage be used up in production, with no leftover stock unless planned. He received an updated stock list.
 
 # Open threads
-- Afonso - SS27 production plan — Afonso (Sónia/Conceição) owes confirmation of the plan's delivery dates. It also shows as pending in the portal. ([thread](https://mail.google.com/mail/u/0/#all/1a1594006685a74c))
+- Afonso - SS27 production plan — Batch 1 confirmed; Afonso (Sónia/Conceição) owes confirmation of batches 1b and 3 and the Deliberate Cream Crust question (asked 2026-11-10). It also shows as pending in the portal. ([thread](https://mail.google.com/mail/u/0/#all/1a1594006685a74c))
 - Livid: SS27 HYDRA — Livid owes Charlie's final decision on the BD collar. The 14L buttons are ordered with ETA 2026-11-17. Christopher is still to return the Tiki Black Stripe SMS. ([thread](https://mail.google.com/mail/u/0/#all/1a1443bdc54024a8))
 - Incoming Shipment for Livid — SH-00128 — Livid has not yet acknowledged Afonso's €50 plus transport charge per roll cut. ([thread](https://mail.google.com/mail/u/0/#all/1a11b2e49cdaf994))
 - AFONSO: Fw26 deliveries — Kriss's own follow-up. He planned to review the UPS bill and decide whether to ask Afonso to cover part of the extra cost against Cargolinnea. ([thread](https://mail.google.com/mail/u/0/#all/1a08670ee23ed9ed))

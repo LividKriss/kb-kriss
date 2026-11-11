@@ -11,6 +11,7 @@ One note per contact — who they are, relationship, how Kriss communicates with
 - [Alice Costa](alice-costa.md) *(draft)* — Sales/customer-service contact at Lanificio Rogna, Italian fabric mill; handles Livid's fabric orders, order confirmations, invoices and payment follow-ups.
 - [Allan Haugrønning](allan-haugronning.md) *(draft)* — Livid store staff (Bergen); Kriss deals with him on store equipment, routines and testing new store processes.
 - [Ana Catarina Rodrigues](ana-catarina-rodrigues.md) *(draft)* — Freight quotations contact at Rangel Logistics Solutions (Portugal); sends rates for Livid's sea-freight fabric imports from Japan to Leixões.
+- [Ana Costa](ana-costa.md) *(draft)* — Dia Exemplar colleague of Luís Sistelo, addressed together with him on SS27 production plans, invoices and the manufacturer portal.
 - [Anders Berg Halvorsen](anders-berg-halvorsen.md) *(draft)* — Markedskoordinator at Eplehuset; follows up the staff-uniform orders that Livid makes, stores and ships to Eplehuset's stores.
 - [Anders Thoresen](anders-thoresen.md) *(draft)* — Corporate-finance advisor at DHT Corporate Finance helping Livid with its growth-capital raise (pitch deck, IM, valuation, investor preparation).
 - [Anette Braathu Haaverstad](anette-braathu-haaverstad.md) *(draft)* — Contact at Spabo Eiendom/Næring AS, landlord of Past Løkka; follows up rent, the bank guarantee and lease matters with Kriss.
@@ -73,6 +74,7 @@ One note per contact — who they are, relationship, how Kriss communicates with
 - [Gustaf Gyllenhammar](gustaf-gyllenhammar.md) *(draft)* — Contact at production agent Petter Korseth AS who passes factory PIs, payment requests and order questions from Springair, Bellanza and Huzhou to Livid.
 - [Hege Ravnås](hege-ravnas.md) *(draft)* — Contact at Onsagers AS (now Acapo Onsagers AS), the IP firm that handles Livid's trademark registrations.
 - [Heidi A. Johnsen](heidi-a-johnsen.md) *(draft)* — Accountant at Haver Regnskap who issues rent invoices on behalf of Kirkegaten 19/21 AS, landlord of Livid's Stavanger store.
+- [Helena Isabel](helena-isabel.md) *(draft)* — Production and client contact at Stork Texteis, Livid's garment manufacturer in Portugal; took over from Carina in October 2026 and handles SS27 plans, fabric receipt and customs follow-up.
 - [Henrik Strand](henrik-strand.md) *(draft)* — Contact at Cargo Linea, the freight forwarder that brings Livid's goods by truck from Portugal and clears them through customs; Kriss chases delivery ETAs with him.
 - [Hyunjoo Park](hyunjoo-park.md) *(draft)* — MD in the Buying Dept. at Nawa International (Seoul), Livid's South Korean wholesale customer; Kriss handles their invoicing, payments and shipments.
 - [Håkon Avseth](hakon-avseth.md) *(draft)* — Buyer at Modo Store, a Norwegian wholesale customer with stores in the Ålesund area; Kriss handles their orders, auto-replenishment, returns and invoicing questions.
