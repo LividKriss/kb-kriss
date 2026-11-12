@@ -2,6 +2,11 @@
 
 ## 2026-11-12
 
+- **Creation** `notes/eplehuset-4xl-origio-sync-check.md`: on 13.11 check that the 4XL sizes from MO-SS27-14 have synced to Origio and Loom (Kriss submits the MO himself).
+- **Update** Morning brief 2026-11-12:
+  - **Sent** (send-after-approval): Marit Soldal reply (gmail.com, after Kriss sent pro forma PF-0050) and Modo credit note reply (modostore.no).
+  - Christopher added on cc to the Passamar label stock draft, which is not sent.
+
 - **Update** Morning brief 2026-11-12, fourth batch:
   - **Marit Soldal, CPO-0003 (Loom UI):** Bix removed; confirmed without notifying her; fulfilment LOOM-20261112-003 on hold awaiting prepayment; pro forma PF-0050 (NOK 1,750) created, not sent.
   - **Eplehuset (Threadflow):** draft MO-SS27-14 for Mill-Tex with the revised size split. SKUs corrected to B2B-EPL-TEE / B2B-EPL-CRDGN, styles added to SS27, sizes 2XS–4XL, Batch #2 for 29.01.2027 locked, Mill-Tex email corrected to .pt. MO not sent: the 4XL barcodes are undecided.
