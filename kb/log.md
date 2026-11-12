@@ -2,6 +2,16 @@
 
 ## 2026-11-12
 
+- **Update** Morning brief 2026-11-12, executed with Kriss's approval:
+  - **Sent** (send-after-approval, reviewed disclaimer): UPS Collection reply (ups.com), Lisama portal feedback reply (lisama.pt), Eplehuset 4XL reply (eplehuset.no), VWC payment apology (thevintagewholesalecompany.com), forward to Arnt for the customer non-delivery case (livid.no).
+  - **Loom:** LO-0097 created and confirmed for PrintCollect 21175, fulfilment LOOM-20261112-001.
+  - **Threadflow:**
+    - SH-00167 got DHL 7185765530, invoice FA HD26/20652 and its documents; PO-00158 closed.
+    - Dia's SR-SS27-088-1/-3 were already in transit (set by Christopher).
+    - Hayes Wide Suitpant price report accepted at EUR 36 on MO-SS27-13, and the MO was resent to Dia.
+  - **Not written (auto-mode classifier blocked it):** Dia surcharge cost updates (Loom inbound #75 and others).
+  - **Archived** the handled threads.
+
 - **Update** Morning brief 2026-11-12, Kriss's instructions: archived the Prinsens Gate 10098 thread, the Dia statement, both silk-in-customs threads, the Threadflow MO-SS27-07 notice, the GitHub request, the paid E C Dahls 23289 reminder, and the Webshipper W-30914/W-30891 alerts (both already resolved). Drafts for approval: UPS Collection, VWC payment apology, Lisama (Catarina) portal feedback, Dia Hayes EUR 36, Eplehuset 4XL, a forward to Arnt for the customer non-delivery case; drafts Kriss sends himself: Dapper payment plan, Steamery refund account. `[KB-inbox]` draft: rule for lump-sum manufacturer surcharges (Dia FT 02/2471). Threadflow portal change requests from Lisama handed to a separate Claude Code session. Digipost, Altinn and Webshipper need Kriss's login (BankID/Quickship). Nothing sent.
 
 - **Update** Morning brief 2026-11-12 (Claude Code, MacBook Air, scheduled): brief presented. No `[STOP-SENDING]`; one `[KB-inbox]` draft (full-business QC policy) still on hold. Tasks: T1 PrintCollect 21175 dry-run OK (Eplehuset Amfi Moa, B2B-EPL-SHRT 3XL ×2); T5 Dia UPS 1Z5F37A00495111207 matched SR-SS27-088-1/-3; T2 YKK SH-00167 waits for a rivets/tacks decision. Already done in Threadflow (rule 6): Dia Balo MOS-0029 (created 09.11, the EUR 1,800 surcharges are still undecided) and the Siluete PPS SR-SS27-087-1/-2/-3; both moved from `AI/Task` to `AI/Reply`, but the auto-mode classifier blocked removing `AI/Task` from the Siluete thread. PowerOffice: E C Dahls 23289 and Prinsens Gate 10095 paid; Tryg, Ulvenveien 101033/101084/101166, E C Dahls 19620, Prinsens Gate 10098, Diemme and VWC INV-0232 open; Hestra BU116199 not found; Glass Onion balance 0. Archiving the paid 23289 reminder was blocked by the classifier. Nothing sent or forwarded.
