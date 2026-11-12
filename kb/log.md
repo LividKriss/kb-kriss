@@ -2,6 +2,11 @@
 
 ## 2026-11-12
 
+- **Update** Morning brief 2026-11-12, last batch:
+  - **Sent** (send-after-approval, Kriss's own corrected text): the two expense-receipt emails for claims 190 and 192.
+  - **PowerOffice:** claim 189 rejected back to the employee (duplicate hotel line); the explainer draft waits for Kriss's OK.
+  - **Threadflow:** the Eplehuset T-shirt colourway changed to Grey Melange (swatch #D3D3D3); the cardigan changed back to Navy (#000080); SKUs unchanged. MO-SS27-14 is still a draft for Kriss to submit.
+
 - **Update** Invoice follow-up 12.11, part 3 (Kriss's answers in chat): Retail travel claim 191 corrected to dept 25 + project 8 Vintageplukk (27843 → correction 27846). Japan Blue revised invoice 0189-00059581 forwarded again to bilagsmottak (Livid Jeans AS, https://mail.google.com/mail/u/0/#all/19fd61072e5f28e9); the remainder posted as 0189-00059581-2, Jeans 15576, no payment queued. Claim 189: duplicate hotel line removed, but the claim total can't be reduced in the approval view, so the claim is still unapproved. Three Gmail drafts written for Kriss to send to the employees on claims 189, 190 and 192.
 
 - **Update** Morning brief 2026-11-12: sent the Japan Blue payment reply (japanblue.co.jp, send-after-approval, with the bank receipt for the 02.11 transfer attached). It confirms 59575 was paid, books 59581-2 for the remaining JPY 15,493, and asks for a copy of 0189-00056463. Original thread archived.
