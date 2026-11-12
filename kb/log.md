@@ -2,6 +2,8 @@
 
 ## 2026-11-12
 
+- **Update** Invoice follow-up 12.11, part 2 (Claude Code subagent, Kriss's approval in chat): Emmetex E-546 checked on 1592 (Jeans 15561) and forwarded to HK Consulting (https://mail.google.com/mail/u/0/#all/1a0a52c890bf0c46). Japan Blue 0189-00057301, 59828, 61608 forwarded to bilagsmottak (Livid Jeans AS; #all/19fef8e092bea137, #all/1a0ada69237773e9, #all/1a153fdf4eb0795f) and posted as Jeans 15563–15565; 0189-00056463 not found in the mailbox. Kirkegt 19/21 rent 100551 posted on supplier 20072 as Retail 27841 (landlord merged into new org.nr 937782713 on 28.09.2026). Retail travel claims 190, 191, 192 corrected and approved (posted 27842–27844); claim 189 corrected but left unapproved (duplicate hotel line). Dia Exemplar 2450 was already posted (Jeans 15509); thread archived.
+
 - **Creation** `notes/eplehuset-4xl-origio-sync-check.md`: on 13.11 check that the 4XL sizes from MO-SS27-14 have synced to Origio and Loom (Kriss submits the MO himself).
 - **Update** Morning brief 2026-11-12:
   - **Sent** (send-after-approval): Marit Soldal reply (gmail.com, after Kriss sent pro forma PF-0050) and Modo credit note reply (modostore.no).
