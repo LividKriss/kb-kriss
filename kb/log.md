@@ -2,6 +2,8 @@
 
 ## 2026-11-12
 
+- **Update** `voice/general.md` (Never): write "orgnr" or "organisasjonsnummer", not "org.nr.", because Gmail turns it into a link; don't mention orgnr for foreign receipts or flights abroad. Kriss, morning brief 2026-11-12, after the expense-claim drafts.
+
 - **Update** Morning brief 2026-11-12, last batch:
   - **Sent** (send-after-approval, Kriss's own corrected text): the two expense-receipt emails for claims 190 and 192.
   - **PowerOffice:** claim 189 rejected back to the employee (duplicate hotel line); the explainer draft waits for Kriss's OK.

@@ -152,6 +152,7 @@ What counts as casual (proposed, to confirm): colleagues; 3PL clients and other 
 - **No threats or ultimatums**, even in escalations or collections. He appeals to the relationship and states consequences calmly.
 - **No vague promises.** He gives a day or a date.
 - **No small-talk preamble** beyond one courtesy line.
+- **No "org.nr." with dots:** Gmail turns "org.nr" into a link (a google.com/url redirect) in the sent mail. Write "orgnr", "org/mva-nummer" or "organisasjonsnummer". Don't mention orgnr on foreign receipts or flights abroad; it doesn't apply there (Kriss, 2026-11-12).
 - **Typos and slips not to copy:**
   - English: "currier", "than you", "cancer" (for cancel), "catched", "woking", "Pallett", "previously advice" (advised), "send" for "sent".
   - Norwegian: "glømt", "fosinkelser", "proivsjonsoppgave", "Tvansmulkt", "nå det kommer" (når), the dialect and spoken forms "såg", "komt", "hvertfall" (use standard bokmål).
