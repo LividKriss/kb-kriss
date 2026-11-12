@@ -22,6 +22,7 @@ Kriss's closest management counterpart. Kriss copies him on factory production p
 Norwegian. One-to-one, Kriss is very short and candid, often with no greeting ("Helt ærlig synes jeg …"). Group mails start "Hei dere," and spell out who does what (e.g. "@Ole"). In English supplier and landlord threads, Kriss leads and Jens is in cc.
 
 # History
+- 2026-11-11: Sent Kriss a budget outline for the coming year (margin targets, payroll and cost reductions, vintage purchasing pause, bank loan terms and meeting dates, capital raise options).
 - 2026-10-21: Copied on Kriss's Stavanger lease talks with the landlord (see the landlord's note).
 - 2026-10-20: Kriss handed production follow-up to design (Charlie, Christopher) and distribution to Ole so he can focus on finance; proposed weekly production meetings.
 - 2026-10-20: Kriss proposed cancelling Atohi/Alpha for SS27 after the cost rose from ~€35 to ~€59. Charlie said it is also planned for FW27, so Jens should weigh in.
@@ -38,6 +39,7 @@ Norwegian. One-to-one, Kriss is very short and candid, often with no greeting ("
 - Threaddflow — Charlie's change list; meeting Friday 11–12. How Style Master should work is for Charlie and Jens to settle ([thread](https://mail.google.com/mail/u/0/#all/1a15eb75b3369a4d))
 - SV: HASTER! Nektelse i Kina — Bryn Aarflot let the 2026-10-21 deadline lapse and offered to look at a new application. Jens/Kriss to reply if they want that ([thread](https://mail.google.com/mail/u/0/#all/1a159d0ae0601e4a))
 - Retur varer — Charlie asked Kriss to create return labels for the reference garments ([thread](https://mail.google.com/mail/u/0/#all/1a1582ba6b00c3b6))
+- Budsjettering — Jens's budget notes; Kriss to review and follow up ([thread](https://mail.google.com/mail/#all/1a1cabfa47f9175a))
 
 # Links
 - Organization: Livid (colleague).

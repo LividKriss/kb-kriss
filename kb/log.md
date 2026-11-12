@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-12
+
+- **Update** KB sync (daily email run 2026-11-12, ops/finance batch): History/Open threads updated in 3 Person notes (Anna Blomqvist: UPS account suspended 11.11, collection after 17.11; Christopher Stangeby: Threadflow change requests; Jens Olav Dankertsen: budget outline, no figures). No notes for Malling, Glass Onion, Eplehuset (Julie), Steamery (step 4 threshold not met).
+
 ## 2026-11-11
 
 - **Update** Mac agent run 22:16: forwarded 1 voucher (DHL Global Forwarding freight invoice, Livid Retail AS PowerOffice; labelled `AI/PO-forwarded`, archived); 0 to Ole Eivind; 1 customs document filed (UPS Innførsel, Afonso, Livid Jeans AS, LJAS folder; `AI/Customs` added first). Dia Exemplar sample shipment (proforma 46/2026, Field Jacket and Kelvin PPS + samples, UPS tracking) read: `[Doc]` draft written, thread labelled `AI/Task` (T5) and `AI/Docs-read`, proforma not forwarded. Left for the brief: Sol Seok #D15 (no PDF) and older `AI/Invoice`/`AI/Docs` threads, unchanged.

@@ -24,6 +24,7 @@ Daily operational partner on production. Kriss issues POs/MOs (from operations@l
 - Christopher chases Kriss on pending supplier payments (short reminders); Kriss replies with the action taken.
 
 # History
+- 2026-11-06–11: Sent Threadflow change requests to Kriss (Bill-to dropdown for Livid Jeans AS / Livid Jeans Unipessoal Lda, delete/archive styles with an archived toggle, BOM hover bug); Kriss said he is redesigning the material-shipment view.
 - 2026-10-15: Approved Stork's off-colour Extensive Bean silk bulk to keep delivery dates and asked for a 10% reduction; Stork applied it on invoice 183 (2026-10-22).
 - 2026-10-08–20: Coordinated SS27 Transparency/QR label shipments from Nilörn to all manufacturers (Huzhou, Afonso, Bellanza, Dia, Mill-tex, Stork, Siluete, Lisama, Springair).
 - 2026-10-12: Klasikine linen ready; Christopher passed advance-payment proformas (for Lisama and Stork) to Kriss; paid 2026-10-22.
@@ -42,6 +43,7 @@ Daily operational partner on production. Kriss issues POs/MOs (from operations@l
 - New Manufacture Order — MO-0019 — Siluete wants production approval on the second wash samples; Livid owes measurement/handfeel comments ([thread](https://mail.google.com/mail/u/0/#all/1a0a02ce2074d1dc))
 - Purchase Order — PO-00147 — Tessilbiella order ready; Kriss owes forwarder name or OK to add freight on invoice ([thread](https://mail.google.com/mail/u/0/#all/1a075e5344c1607b))
 - Prices and lead time Eplehuset — Texgoios gave prices and 2027-01-29 delivery; Kriss owes confirmation (and to Eplehuset) ([thread](https://mail.google.com/mail/u/0/#all/1a13a82ad439361c))
+- Threadflow Fixes — Christopher's open requests: delete/archive styles with archived toggle, BOM list item not clickable on hover (Safari/Firefox), Bill-to dropdown ([thread](https://mail.google.com/mail/#all/1a10bdb9fb8a4dd4))
 
 # Links
 - Organization: Livid (colleague).
