@@ -2,6 +2,15 @@
 
 ## 2026-11-12
 
+- **Creation** `notes/trunks-first-order-reminder.md`: reminder to place the trunks first order via Tex-Challenge. Kriss archived the email thread in the morning brief 2026-11-12.
+- **Update** Morning brief 2026-11-12, second batch, approved by Kriss:
+  - **Sent** (send-after-approval, reviewed disclaimer): Dia Hayes reply (diaexemplar.com), UPS France forward to Arnt (livid.no), VWC returns request (thevintagewholesalecompany.com), CamperLab refund note to support (livid.no).
+  - **Loom:** inbound #75 (Balo) unit cost changed from 1,810 to 1,915 (Dia surcharge rule).
+  - **Archived:** Barbour, 2-pack packaging, Retro swap, FW27 buying, Past Geelus, Tex-Challenge trunks, and Dapper (Kriss sent the reply himself).
+  - **Drafts for approval:** zip-lock bags (Christopher, cc Ole Eivind) and Standard Agency (restock mid-December).
+  - **`[KB-inbox]`:** the approval-queue expense claims are to be handled as part of bilagsmottak.
+  - **Handed to separate sessions:** Threadflow change requests from Christopher, and new Threadflow MCP write tools.
+
 - **Update** Invoice catch-up 12.11 (Claude Code subagent, Kriss's approval in chat): forwarded to bilagsmottak — Livid Jeans AS: Frameless PI FH-SO2610-N0095(1) and N0145(1), Emmetex E-546 (https://mail.google.com/mail/u/0/#all/1a1304ae448a1477, #all/1a1532655e3c25ca, #all/1a0a52c890bf0c46); Livid Retail AS: Glass Onion GO102813/814/880/881/900/901/902/905, Hestra 3279343/3280269/3283064/3285427, Kirkegt 19/21 rent 100551 (#all/1a15dde9fb991748 statement; #all/1a1a5d7ce1e8087a; #all/1a13930680445c99; #all/1a1caf9f62fe4476). Posted in PowerOffice: Jeans 15559, 15560 (payment account corrected to USD), 15561; Retail 27827–27838. Kirkegt 100551 left as a draft (supplier/org.nr question). Not sent: Hestra 3285427 notice to distribution (blocked by permission check).
 
 - **Update** Morning brief 2026-11-12, executed with Kriss's approval:

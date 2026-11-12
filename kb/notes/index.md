@@ -4,6 +4,10 @@ Things to remember (Note) and decisions with their reasoning (Decision).
 
 <!-- generated:start -->
 
+## Note
+
+- [Reminder — trunks first order (Tex-Challenge / Ribeiro & Matos)](trunks-first-order-reminder.md) *(draft)* — The trunks order is still to be placed; the email thread is archived, so this note is the reminder.
+
 ## Decision
 
 - [Email assistant — scope](email-assistant-scope.md) — Which mailbox, how much history and which languages the email assistant and its backfill cover.
