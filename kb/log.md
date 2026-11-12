@@ -2,6 +2,8 @@
 
 ## 2026-11-12
 
+- **Update** Invoice catch-up 12.11 (Claude Code subagent, Kriss's approval in chat): forwarded to bilagsmottak — Livid Jeans AS: Frameless PI FH-SO2610-N0095(1) and N0145(1), Emmetex E-546 (https://mail.google.com/mail/u/0/#all/1a1304ae448a1477, #all/1a1532655e3c25ca, #all/1a0a52c890bf0c46); Livid Retail AS: Glass Onion GO102813/814/880/881/900/901/902/905, Hestra 3279343/3280269/3283064/3285427, Kirkegt 19/21 rent 100551 (#all/1a15dde9fb991748 statement; #all/1a1a5d7ce1e8087a; #all/1a13930680445c99; #all/1a1caf9f62fe4476). Posted in PowerOffice: Jeans 15559, 15560 (payment account corrected to USD), 15561; Retail 27827–27838. Kirkegt 100551 left as a draft (supplier/org.nr question). Not sent: Hestra 3285427 notice to distribution (blocked by permission check).
+
 - **Update** Morning brief 2026-11-12, executed with Kriss's approval:
   - **Sent** (send-after-approval, reviewed disclaimer): UPS Collection reply (ups.com), Lisama portal feedback reply (lisama.pt), Eplehuset 4XL reply (eplehuset.no), VWC payment apology (thevintagewholesalecompany.com), forward to Arnt for the customer non-delivery case (livid.no).
   - **Loom:** LO-0097 created and confirmed for PrintCollect 21175, fulfilment LOOM-20261112-001.
