@@ -2,6 +2,12 @@
 
 ## 2026-11-12
 
+- **Update** Morning brief 2026-11-12, fourth batch:
+  - **Marit Soldal, CPO-0003 (Loom UI):** Bix removed; confirmed without notifying her; fulfilment LOOM-20261112-003 on hold awaiting prepayment; pro forma PF-0050 (NOK 1,750) created, not sent.
+  - **Eplehuset (Threadflow):** draft MO-SS27-14 for Mill-Tex with the revised size split. SKUs corrected to B2B-EPL-TEE / B2B-EPL-CRDGN, styles added to SS27, sizes 2XS–4XL, Batch #2 for 29.01.2027 locked, Mill-Tex email corrected to .pt. MO not sent: the 4XL barcodes are undecided.
+  - **Draft for approval:** Passamar label stock check.
+  - **PowerOffice follow-ups:** stopped by the usage limit, to be resumed.
+
 - **Update** `email/signature.md`: the AI disclaimer must always be small grey HTML, never normal body text. `scripts/email/gmail_tool.py` now styles a disclaimer paragraph in plain-text notes automatically. Cause: two forwards to Arnt on 12.11 went out with the disclaimer as normal text (Kriss, morning brief 2026-11-12).
 - **Update** Morning brief 2026-11-12, third batch:
   - **Sent** (send-after-approval): zip-lock bags (livid.no) and Standard Agency restock (standardagency.no).
