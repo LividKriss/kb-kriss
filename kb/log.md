@@ -2,6 +2,13 @@
 
 ## 2026-11-12
 
+- **Update** `email/signature.md`: the AI disclaimer must always be small grey HTML, never normal body text. `scripts/email/gmail_tool.py` now styles a disclaimer paragraph in plain-text notes automatically. Cause: two forwards to Arnt on 12.11 went out with the disclaimer as normal text (Kriss, morning brief 2026-11-12).
+- **Update** Morning brief 2026-11-12, third batch:
+  - **Sent** (send-after-approval): zip-lock bags (livid.no) and Standard Agency restock (standardagency.no).
+  - **Threadflow pricing** (FW26) and **Loom costs** for the Dia surcharge rule: Blake 2,557, Gillish 2,058, Vinc 1,666 (÷50). Balo 1,915 was already set on inbound #75.
+  - **Loom:** credit note CR-0009 to Modo (NOK 1,056 incl. MVA).
+  - **Eplehuset size split** revised by Kriss.
+
 - **Creation** `notes/trunks-first-order-reminder.md`: reminder to place the trunks first order via Tex-Challenge. Kriss archived the email thread in the morning brief 2026-11-12.
 - **Update** Morning brief 2026-11-12, second batch, approved by Kriss:
   - **Sent** (send-after-approval, reviewed disclaimer): Dia Hayes reply (diaexemplar.com), UPS France forward to Arnt (livid.no), VWC returns request (thevintagewholesalecompany.com), CamperLab refund note to support (livid.no).

@@ -322,7 +322,15 @@ def note_html(path: str) -> str:
     if path.lower().endswith(".html"):
         return text
     paras = [p.strip() for p in text.split("\n\n") if p.strip()]
-    return "".join(f"<p>{html.escape(p).replace(chr(10), '<br>')}</p>" for p in paras)
+
+    def para(p: str) -> str:
+        body = html.escape(p).replace(chr(10), '<br>')
+        # kb/email/signature.md rule 2: the AI disclaimer is always small grey text, never normal formatting
+        if any(k in p for k in DISCLAIMER_KEYS):
+            return f'<p style="font-size:11px;color:#888">{body}</p>'
+        return f"<p>{body}</p>"
+
+    return "".join(para(p) for p in paras)
 
 
 def kill_switch_on(svc) -> bool:
