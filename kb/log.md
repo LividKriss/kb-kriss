@@ -2,6 +2,8 @@
 
 ## 2026-11-12
 
+- **Update** Mac agent run 19:40: forwarded 0 vouchers; 0 to Ole Eivind; 1 customs document filed (UPS Innførsel, Livid Jeans AS, LJAS folder; mail had no `AI/Customs` label, so the agent added it first; thread archived). Older `AI/Invoice` and `AI/Docs` threads untouched, for the brief; Magma Textil invite is a pitch, ignored.
+
 - **Update** Mac agent run 16:36: forwarded 1 invoice (Lisama, Livid Jeans AS voucher address), labelled `AI/Task` (T4/T5 check) with a `[Doc]` summary; 0 customs filed.
 
 - **Update** PowerOffice Livid Retail AS: vintage stock reclassified 31.10.2026, 1470 debit / 1460 credit NOK 2,998,289.18 (voucher 27849), value from Loom (25,630 units incl. online vintage), per vintage-importers rule; approved by Kriss in the morning brief 2026-11-12. Accounts 1470 Innkjøpte varer vintage, utland, 1479 Beholdningsendring vintage and 4311 Varekost vintage fra kasse were created in the Retail chart of accounts by Kriss the same day. The voucher's attached document is an agent-generated one-page PDF stating the posting and approval (no Loom export attached).
