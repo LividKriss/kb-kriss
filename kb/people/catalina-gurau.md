@@ -23,6 +23,7 @@ Production partner for Livid's chinos and trousers (Fuller Chino, Solace Chino, 
 English, "Hello Catalina," signed "Best, Kristoffer". Short, and he hands technical questions to Christopher with Christopher in copy. Catalina writes formally ("Dear Kristoffer", "Kind regards / Cu stima"). Many messages arrive as automated portal emails from operations@livid.no.
 
 # History
+- 2026-11-11: Replied to the plan follow-up: batch confirmation still open (she will try to answer today). Shipping 3 of the 7 first PPS with invoice and AWB (Adrift Shorts, Adrift Trouser, Gardener Pant). Waiting for Livid's comments on the 3rd PPS of Fuller and Solace before starting production. Final production quantities will be reduced because of the shrinkage issues.
 - 2026-11-10: Kriss followed up on the SS27 plan (batch 1: 8 colourways, 521 pcs, 4 Dec; batch 2: 5 colourways, 304 pcs, 15 Jan), asked her to revise given the missing approvals, for new ETDs on seven 1st PPS (confirmed 16/23 Oct, not seen shipped) and whether the shrinkage tests affect start or delivery. Same day she asked about the Transparency/QR labels for Fuller and Solace Chino; Christopher expects them to ship mid to late next week.
 - 2026-10-20: Second washed samples for MO-0019 were sent to Livid with an invoice that includes the light-rinse price. Siluete is asking for production approval.
 - 2026-10-12/20: Kriss sent the draft SS27 production plan (batch 1 in December, the rest in January), first as PDF and then as Excel.
@@ -38,7 +39,7 @@ English, "Hello Catalina," signed "Best, Kristoffer". Short, and he hands techni
 # Open threads
 - Livid — SS27 Production — Transparency/QR Code — Siluete — Fuller Chino and Solace Chino labels not yet shipped; Christopher owes a ship date ([thread](https://mail.google.com/mail/u/0/#all/1a11a963bf61f399))
 - New Manufacture Order — MO-0019 — Livid (Christopher) to check the second wash samples (measurements, look and handfeel) and give production approval ([thread](https://mail.google.com/mail/u/0/#all/1a0a02ce2074d1dc))
-- Production plan SS27 — Catalina owes a revised plan, new PPS ETDs and the shrinkage impact (asked 2026-11-10; meeting offered 11-12) ([thread](https://mail.google.com/mail/u/0/#all/1a12fc6a9456f240))
+- Production plan SS27 — Catalina owes batch confirmation, a revised plan and ETDs for the other four PPS (Leisure x2, Kaylan, Vela); the reduced quantities are not yet specified. Livid owes comments on the 3rd PPS for Fuller and Solace. Meeting offered for 2026-11-12, no answer seen ([thread](https://mail.google.com/mail/#all/1a12fc6a9456f240))
 - Label order TRO-00007 · Siluete — Catalina asked for the invoice for 65.5 m of Somelos fabric received. No reply seen. Fuller buttons (colour 511) also still to be forwarded around end of October ([thread](https://mail.google.com/mail/u/0/#all/1a1396b2b899e507))
 
 # Links

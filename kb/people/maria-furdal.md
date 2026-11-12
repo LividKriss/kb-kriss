@@ -25,6 +25,7 @@ She works with Kriss on payments (deposits, balances, receipts), POs and deliver
 - Product and sample questions go to Christopher. Kriss handles payments, POs and portal questions.
 
 # History
+- 2026-11-11: Chased Charlie on Huzhou's behalf for an answer on the Tompkins price; Charlie confirmed USD 215.55/pc the same day.
 - 2026-11-10: Asked on Springair's behalf whether the Lora skirt can be altered (length or a lining) to make it sellable; Charlie declined ([thread](https://mail.google.com/mail/u/0/#all/1a1c54f1d80e6526))
 - 2026-10-15: Bellanza confirmed (via Maria) receipt of the SS27 deposit, ordered bulk yarn and approved the SS27 production plan; Kriss paid the deposit 2026-10-13.
 - 2026-10-14: Springair gave the size split for Lora Paper Yarn White, 71 pcs incl. 1 shipping sample.
@@ -44,6 +45,7 @@ She works with Kriss on payments (deposits, balances, receipts), POs and deliver
 - New Manufacture Order — MO-SS27-04 — Springair sent the Lora size split (71 pcs) and will send a packing list once it has the stickers; Livid still owes an answer on shipping Lora with MO-SS27-04 ([thread](https://mail.google.com/mail/u/0/#all/1a0e893ccc5fe51f))
 - Pending matters for Springair — Springair wants copies of all TPs and portal requests by email too; Christopher owes an answer ([thread](https://mail.google.com/mail/u/0/#all/1a152bc319a79ca6))
 - FW: 2025.10.27---2026.08.20 SAMPLE COST LIST - Springair — Springair asked for one total payment of the sample costs; there is no reply or receipt in the thread, so check whether it has been paid ([thread](https://mail.google.com/mail/u/0/#all/1a0478d30e4a0e72))
+- Tompkins - PPS comments — price confirmed 2026-11-11; Kriss to send Huzhou the updated PO ([thread](https://mail.google.com/mail/#all/1a1a5a14164e743d))
 
 # Links
 - Organization: [Petter Korseth AS](kb://livid/organizations/manufacturers/petter-korseth.md)

@@ -23,6 +23,7 @@ Handles every Livid order. For each purchase order from Livid she issues a profo
 English. Very short replies ("Confirmed, please proceed", "Payment slip attached", "Here is our receipt"). Opens with "Hello," or "Hello all,". He stays on the thread Christopher started and copies the Frameless team.
 
 # History
+- 2026-11-12: PO-00165 goods (1 carton) are ready; she will ship only once payment is received.
 - 2026-11-11: She reported the 14L shell buttons (colours 511/515) for PO-00170 are ready (1 box, 0.18 kg) and will ship by UPS only after payment. PO-00165 is a few days late, ready in about two days; she asked for payment on both.
 - 2026-10-30: PO-00160 shipped. N0249 by UPS to Livid Jeans AS (AWB 1Z780W0Y0492294637), N0250 by SF Express to Springair. Final sales invoices FH-SI2610-0421/0424 came in the same PDFs as the labels and delivery notes.
 - 2026-10-28: Kriss paid both PO-00160 PIs (FH-SO2609-N0249 USD 12,574.46, N0250 USD 561.88) and sent the payment slip on 10-29. Christopher set shipping: N0249 on Livid's UPS account, N0250 SF collect.
@@ -37,9 +38,9 @@ English. Very short replies ("Confirmed, please proceed", "Payment slip attached
 - 2025-10-09: "Livid - Ordre 09.10.25" order (FH-SO2510-N0091), a long thread with Kriss (from subject).
 
 # Open threads
-- Purchase Order — PO-00165 — Serena asked 2026-11-11 for payment of PI FH-SO2610-N0095; goods ready in about two days. Kriss owes payment and proof. ([thread](https://mail.google.com/mail/u/0/#all/1a1304ae448a1477))
+- Purchase Order — PO-00165 — Goods ready 2026-11-12 (1 carton); Frameless ships once PI FH-SO2610-N0095 is paid. Kriss owes payment and proof. ([thread](https://mail.google.com/mail/#all/1a1304ae448a1477))
 - Purchase Order — PO-00160 — Paid 2026-10-28, shipped 2026-10-30 with tracking numbers. Open: final invoices vs. the PIs already in PowerOffice; UPS delivery to Oslo ([thread](https://mail.google.com/mail/u/0/#all/1a0c2a05e2b2bc8f))
-- Purchase Order — PO-00170 — Goods (14L buttons 511/515) ready 2026-11-11; Serena wants payment first and Livid's confirmation to ship by UPS. Kriss owes payment and confirmation. ([thread](https://mail.google.com/mail/u/0/#all/1a1532655e3c25ca))
+- Purchase Order — PO-00170 — Goods (14L buttons 511/515) ready 2026-11-11; Serena wants payment of PI FH-SO2610-N0145 first and Livid's confirmation to ship by UPS. Christopher said 11-11 that Kriss will follow up. Kriss owes payment and confirmation. ([thread](https://mail.google.com/mail/#all/1a1532655e3c25ca))
 
 # Links
 - Organization: [Frameless Asia Pacific Limited](kb://livid/organizations/suppliers/frameless-asia-pacific.md)

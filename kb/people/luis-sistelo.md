@@ -23,6 +23,7 @@ Kriss deals with him on money (payments, statements, import VAT and clearance co
 English: "Hello Luis," / "Hope you are well." / "Best, Kristoffer". He always copies Paulo Teixeira and Ana Costa. Kriss is brief and firm when disputing costs, e.g. on the point that Norway is outside the EU.
 
 # History
+- 2026-11-11: Dia's account statement was sent to Livid again via Paulo (about EUR 15,000 overdue; he asked Paulo on 11-10 for an update on settlement). Button counts for Field Jacket and Field Coat sent to Christopher; Christopher answered the same day (remaining MOP buttons ship this week or early next; Field Coat uses the horn buttons from the tech pack). Dia shipped the Field Jacket and Kelvin PPS by UPS and asked for urgent feedback and confirmation of the missing trimmings; the Field Jacket sample has dye stains, sent anyway to avoid delaying approval.
 - 2026-11-10: Replied in line to Kriss's follow-up: batch 1 (4 colourways, 125 pcs, 18 Dec) and batch 2 (2 colourways, 206 pcs, 29 Jan) are OK. Kelvin Gray 1st PPS and Field Jacket Japan Glow PP proto ship 11-11; Brink Japan Black Twill and Field Coat Black PPS dates still TBC. Hayes no-pleat price is EUR 36; Dia sent the Hayes PPS on 11-06 and asks whether to wait for comments before making the SS27 PPS.
 - 2026-10-20: Kriss resent the SS27 production plan in Excel and asked for PPS dates. Dia makes several priority SSENSE styles.
 - 2026-10-18: SS27 prices quoted in July were confirmed (Livid had missed that email). Hayes is to be made as regular no-pleat; the price is pending.
@@ -40,6 +41,9 @@ English: "Hello Luis," / "Hope you are well." / "Best, Kristoffer". He always co
 - DIA EXEMPLAR: Prices LIVID SS27 — No-pleat Hayes price given on 2026-11-10 (EUR 36, in the plan thread); Livid to confirm. Livid owes the corrected MO ([thread](https://mail.google.com/mail/u/0/#all/1a143ec04fce6526))
 - Re: INVOICE — Import VAT on the A. Moon fabric is unresolved; Kriss was going to get a corrected invoice from Moon ([thread](https://mail.google.com/mail/u/0/#all/19fc680f10a63023))
 - Livid — Kelvin Gray SS27 — Zipper order & grading confirmation — Dia owes Christopher the zipper lengths and quantities per size ([thread](https://mail.google.com/mail/u/0/#all/1a1598f44541fff4))
+- BUTTONS UPDATE — Christopher to ship the remaining MOP buttons for Field Jacket Japan Black/Glow by early next week; Dia to source the horn buttons for Field Coat ([thread](https://mail.google.com/mail/#all/1a1cb15bc347d4fc))
+- LIVID - UPS - 11/11/2026 — Field Jacket and Kelvin PPS shipped; Livid (Christopher) owes urgent feedback and confirmation of the missing trimmings ([thread](https://mail.google.com/mail/#all/1a1cbbe96b69d473))
+- DIA EXEMPLAR: Account statement — about EUR 15,000 overdue, forwarded by Paulo; Kriss to check and pay or reply ([thread](https://mail.google.com/mail/#all/1a1ca48fe9c87ba9))
 
 # Links
 - Organization: [Dia Exemplar](kb://livid/organizations/manufacturers/dia-exemplar.md)

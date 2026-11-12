@@ -23,6 +23,7 @@ In Japan Blue threads since 2025-05 (SS26 sampling). Has been Livid's main Japan
 English. Kriss writes "Hello Yuhei," (Christopher and Yasu himself use "Yasu"). Short, direct lines, often itemised per article (e.g. "COD7245-SF – Cancelled."). Signs "Kristoffer" or "Best, Kristoffer". Copies Christopher, operations@livid.no, Reiichiro Yoshida and Issei Takahashi.
 
 # History
+- 2026-11-11: Sent a statement of 8 invoices still open or underpaid, balance JPY 1,239,818, and asked for a payment date. Kriss's 11-04 payment for invoice 0189-00059581 was made against the pre-revision amount (JPY 15,493 left; his text says 15,439, the table 15,493).
 - 2026-10-20: Confirmed PO-00171 (FW27 SMS sample meters); Issei shipped it by DHL to Lisama on 2026-10-21.
 - 2026-10-19: Answered the SB2050 shrinkage complaint (Siluete saw ~8%/3%): official test gives warp −0.9% and weft −3.7% (JIS L 1096-103, line dry); the figures on the first tech sheet could not be traced.
 - 2026-10-08: Received the remaining ~1.5M JPY on invoice 0189-00049512; 6 newer invoices (~1.2M JPY) still open.
@@ -35,7 +36,7 @@ English. Kriss writes "Hello Yuhei," (Christopher and Yasu himself use "Yasu"). 
 - 2026-03-30: Gave EXW bulk prices (JPY/m) for the PO-00021 articles.
 
 # Open threads
-- outstanding (unpaid) invoices — Yasu asked on 2026-10-08 when Livid will pay the 6 newer open invoices (~1.2M JPY). Kriss owes a payment date. ([thread](https://mail.google.com/mail/u/0/#all/19fd61072e5f28e9))
+- outstanding (unpaid) invoices — Yasu's 2026-11-11 statement lists 8 invoices with a balance of JPY 1,239,818 (incl. 15,493 short on 0189-00059581). Kriss owes a payment date. ([thread](https://mail.google.com/mail/#all/19fd61072e5f28e9))
 - Purchase Order — PO-00150 — The Lisama sea shipment (FOB via OTEL) left Japan Blue's warehouse in mid-October. Yasu asks Kriss to check its status with the forwarder. ODA25315 and YM1310-2-BK have not shipped yet. ([thread](https://mail.google.com/mail/u/0/#all/1a0813e9ed21694c))
 
 # Links

@@ -23,6 +23,7 @@ Since 2023-10 (wash comments, SS24 PO). One of Livid's main day-to-day contacts 
 English. "Hello Catarina," then clear step-by-step explanations of portal features with files attached; signs "Best / Kristoffer". Replies to all: Emanuel Fertuzinhos, Paulo Teixeira (Tex-Challenge), Christopher Stangeby, Charlie Selvig, Jens Olav Dankertsen, sometimes Hugo. She opens with "Dear Kristoffer, hi" and uses either of her two addresses.
 
 # History
+- 2026-11-11: Christopher sent Livid's comments on all the SS27 shrinkage samples (zip) and asked whether the format works.
 - 2026-11-10: Said the portal's "pending matters" email (Passamar labels, incoming shipment) was unclear. Kriss explained: it asks Lisama to confirm sample ETDs, plans, requested stock moves and receipt of untracked deliveries; email replies are also fine. She then asked for: a Portuguese portal, a fabric column per sample, confirming ETDs for selected samples only, and no stock info under Labels. Same day she sent the SS27 shrinkage-sample measurements (resent as Excel at Christopher's request); Lisama wants to start cutting soon.
 - 2026-10-28: Christopher sent Catarina the FW27 SMS priority list per batch (10 pcs November, 16 end December).
 - 2026-10-20: FW27 SMS (SR-FW27-003, 39 samples): Lisama can do 26 (10 in Nov, 16 by end Dec); Catarina aligning wash names with Christopher.
@@ -37,7 +38,7 @@ English. "Hello Catarina," then clear step-by-step explanations of portal featur
 - 2025-10-23: SS26 Bulk 2 (PO-00795): care label file, S3178/AK1 composition corrected to 99% cotton 1% PU; barcodes sent 2025-11-10.
 
 # Open threads
-- Shrinkage samples measurements - SS27 production — Livid (Christopher/Charlie) to analyse the measurements and answer so Lisama can start cutting ([thread](https://mail.google.com/mail/u/0/#all/1a1c4b218c674919))
+- Shrinkage samples measurements - SS27 production — Livid sent comments on 2026-11-11; Lisama to confirm the format and start cutting ([thread](https://mail.google.com/mail/#all/1a1c4b218c674919))
 - Pending matters for Lisama ?? — Livid owes a reply to her portal requests (Portuguese, fabric column, per-sample ETD confirmation, no stock info under Labels) ([thread](https://mail.google.com/mail/u/0/#all/1a1c5ce8002e75a7))
 - Problems with Deliveries Dates — Kriss asked again 2026-10-22 whether the downloaded MO-SS27-03 file is right for stickers (names, barcodes), labels and care labels; Catarina owes a reply ([thread](https://mail.google.com/mail/u/0/#all/1a134d8077d21926))
 - Livid — FW27 SMS overview — Catarina asked 2026-10-20 which fabrics count as Japan Rinse vs Japan Indigo Rinse (and Black vs Black Rinse); Christopher owes the answer ([thread](https://mail.google.com/mail/u/0/#all/1a15387cfe34d5f8))
