@@ -2,6 +2,8 @@
 
 ## 2026-11-12
 
+- **Update** Invoice follow-up 12.11, part 4 (Kriss's approval in chat): Retail travel claim 189 rejected (Avvis) and returned to the employee. Kirkegt 19/21 rent 100551 moved from supplier 20072 to new supplier 20355 (org.nr 937782713; standard account 6300 set on the card); voucher 27841 corrected as 27848. Glass Onion GO102813–GO102905 (Retail 27827–27834) checked: coded like all earlier Glass Onion invoices (1460, dept 8, supplier 20079), no change. There is no 31.10 vintage reclassification posted on 1470 yet, so nothing was adjusted.
+
 - **Update** `voice/general.md` (Never): write "orgnr" or "organisasjonsnummer", not "org.nr.", because Gmail turns it into a link; don't mention orgnr for foreign receipts or flights abroad. Kriss, morning brief 2026-11-12, after the expense-claim drafts.
 
 - **Update** Morning brief 2026-11-12, last batch:
