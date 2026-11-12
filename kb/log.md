@@ -2,6 +2,8 @@
 
 ## 2026-11-12
 
+- **Update** Invoice follow-up 12.11, part 3 (Kriss's answers in chat): Retail travel claim 191 corrected to dept 25 + project 8 Vintageplukk (27843 → correction 27846). Japan Blue revised invoice 0189-00059581 forwarded again to bilagsmottak (Livid Jeans AS, https://mail.google.com/mail/u/0/#all/19fd61072e5f28e9); the remainder posted as 0189-00059581-2, Jeans 15576, no payment queued. Claim 189: duplicate hotel line removed, but the claim total can't be reduced in the approval view, so the claim is still unapproved. Three Gmail drafts written for Kriss to send to the employees on claims 189, 190 and 192.
+
 - **Update** Morning brief 2026-11-12: sent the Japan Blue payment reply (japanblue.co.jp, send-after-approval, with the bank receipt for the 02.11 transfer attached). It confirms 59575 was paid, books 59581-2 for the remaining JPY 15,493, and asks for a copy of 0189-00056463. Original thread archived.
 
 - **Update** Invoice follow-up 12.11, part 2 (Claude Code subagent, Kriss's approval in chat): Emmetex E-546 checked on 1592 (Jeans 15561) and forwarded to HK Consulting (https://mail.google.com/mail/u/0/#all/1a0a52c890bf0c46). Japan Blue 0189-00057301, 59828, 61608 forwarded to bilagsmottak (Livid Jeans AS; #all/19fef8e092bea137, #all/1a0ada69237773e9, #all/1a153fdf4eb0795f) and posted as Jeans 15563–15565; 0189-00056463 not found in the mailbox. Kirkegt 19/21 rent 100551 posted on supplier 20072 as Retail 27841 (landlord merged into new org.nr 937782713 on 28.09.2026). Retail travel claims 190, 191, 192 corrected and approved (posted 27842–27844); claim 189 corrected but left unapproved (duplicate hotel line). Dia Exemplar 2450 was already posted (Jeans 15509); thread archived.
