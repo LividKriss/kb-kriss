@@ -2,6 +2,8 @@
 
 ## 2026-11-12
 
+- **Update** Mac agent run 16:36: forwarded 1 invoice (Lisama, Livid Jeans AS voucher address), labelled `AI/Task` (T4/T5 check) with a `[Doc]` summary; 0 customs filed.
+
 - **Update** PowerOffice Livid Retail AS: vintage stock reclassified 31.10.2026, 1470 debit / 1460 credit NOK 2,998,289.18 (voucher 27849), value from Loom (25,630 units incl. online vintage), per vintage-importers rule; approved by Kriss in the morning brief 2026-11-12. Accounts 1470 Innkjøpte varer vintage, utland, 1479 Beholdningsendring vintage and 4311 Varekost vintage fra kasse were created in the Retail chart of accounts by Kriss the same day. The voucher's attached document is an agent-generated one-page PDF stating the posting and approval (no Loom export attached).
 
 - **Update** Invoice follow-up 12.11, part 4 (Kriss's approval in chat): Retail travel claim 189 rejected (Avvis) and returned to the employee. Kirkegt 19/21 rent 100551 moved from supplier 20072 to new supplier 20355 (org.nr 937782713; standard account 6300 set on the card); voucher 27841 corrected as 27848. Glass Onion GO102813–GO102905 (Retail 27827–27834) checked: coded like all earlier Glass Onion invoices (1460, dept 8, supplier 20079), no change. There is no 31.10 vintage reclassification posted on 1470 yet, so nothing was adjusted.
