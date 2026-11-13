@@ -27,7 +27,7 @@ English, same as with Luís; Paulo Teixeira (Tex-Challenge) is copied.
 - 2026-10-20: Addressed with Luís when Kriss resent the SS27 plan in Excel.
 
 # Open threads
-- Dia SS27 productio nplan — see Luís; Dia confirmed both batches on 2026-11-10 ([thread](https://mail.google.com/mail/u/0/#all/1a159532a2e94bbc))
+- Dia SS27 productio nplan — see Luís; the Hayes price was set to EUR 36 on 2026-11-12 ([thread](https://mail.google.com/mail/u/0/#all/1a159532a2e94bbc))
 
 # Links
 - Organization: [Dia Exemplar](kb://livid/organizations/manufacturers/dia-exemplar.md)

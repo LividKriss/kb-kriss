@@ -22,6 +22,7 @@ Long-standing and very frequent (680 threads in 3 years, Kriss replied in 53, 29
 Norwegian. Short, often one line ("Tar du denne", "Hei Arnt,") or a forward with no text. Delegates with "@Arnt" inside group threads. With English-speaking vendors, Kriss writes in English and copies Arnt.
 
 # History
+- 2026-11-12: Kriss asked him to handle a UPS parcel to France not collected at the Access Point, and to tell the store and customer about the CamperLab boots refund now that Sitoo till refunds are enabled.
 - 2026-10-06: Kriss handed the Adresseavisen Toilldag ad material to Arnt.
 - 2026-10-01: Kriss dropped Sitoo's Shopify Core setup. Livid keeps its own custom integration (Arnt in cc).
 - 2026-09-28: Loom→Shopify publishing and stock-link problems. Kriss asked Arnt to check the Shopify inventory ID/Sitoo_SKU fields and to build continuous sync from Origo.
@@ -41,6 +42,8 @@ Norwegian. Short, often one line ("Tar du denne", "Hei Arnt,") or a forward with
 - Fwd: Reminder from Blomsterkraft AS — Kriss says it was paid in August. Someone needs to clear the reminder with Blomsterkraft ([thread](https://mail.google.com/mail/u/0/#all/19fcd07641ce6e36))
 - pris-avvik sitoo og catalog — catalog prices aren't syncing to Sitoo. Arnt also owes the inventory-ID/Sitoo_SKU check and continuous Origo sync Kriss asked for on 2026-09-28 in "Produkter som mangler i metafield manager" ([thread](https://mail.google.com/mail/u/0/#all/1a0e872fecdf2aec))
 - Nye produkter som mangler i loom — Ole asked to get Kora products into Loom and the autosupply form. No reply seen ([thread](https://mail.google.com/mail/u/0/#all/1a0dd3a401a4d100))
+- Fwd: UPS Final Reminder, Shopify order W-30595 — Arnt to contact the customer or instruct UPS ([thread](https://mail.google.com/mail/u/0/#all/1a1bf5e452322863))
+- CamperLab-støvler – refusjon av butikkjøp — Arnt to inform the store and answer the customer ([thread](https://mail.google.com/mail/u/0/#all/1a1cefc09fa0376d))
 
 # Links
 - Organization: Livid (colleague).

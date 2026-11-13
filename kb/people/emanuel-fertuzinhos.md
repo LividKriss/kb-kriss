@@ -25,6 +25,7 @@ He is Kriss's main contact at Lisama for production planning and operations. He 
 - He copies Christopher Stangeby, Charlie Selvig and Jens Olav Dankertsen (Livid), plus Paulo Teixeira and Catarina Peixoto.
 
 # History
+- 2026-11-12: Kriss pushed for the three SSENSE styles by early January at the latest. Emanuel: Fealy Twisted PP not approved, sent again today; Solace PP sent last week, awaits Livid's approval; earlier delivery only after final approval.
 - 2026-11-10: Kriss sent the reworked SS27 plan (batch 1: 10 colourways, 2,715 pcs, 18 Dec; batch 2: 15 colourways, 2,965 pcs, 29 Jan; batch 5: 16 colourways, 2,590 pcs, 2 Apr) and asked for confirmation of batches, shipment-sample ETDs and PPS ETDs, with a meeting offered on 11-12. Lisama answered it cannot change the schedule in mid-November and is working the styles of the first requested December plan. The same day Delfina corrected the FW26 packing list (boxes 17-23, box 66).
 - 2026-10-29: Miko claims (batches 00725 and 00778; Japan New Blue and Japan Indigo Dusk): Emanuel needs no returned pieces, knows the cause and proposed wash changes; Indigo Dusk is new to Lisama.
 - 2026-10-28: Christopher sent the FW27 SMS priority list (10 pcs in November, 16 by end December), replacing the dates in the 19 October overviews.
@@ -42,7 +43,7 @@ He is Kriss's main contact at Lisama for production planning and operations. He 
 # Open threads
 - FW26 - remainder delivery plan — Kriss asked 2026-11-09 why Kery Dry Selvage and Tori Twisted Bean are missing from last week's packing list. Delfina corrected other packing errors on 11-10 but did not answer this ([thread](https://mail.google.com/mail/u/0/#all/1a0a3f4aac9d4085))
 - Miko quality claims, batches 00725 and 00778 — Lisama proposed wash changes; Livid owes a response ([thread](https://mail.google.com/mail/u/0/#all/1a17739e265580de))
-- Lisama - Updated production plan — Revised plan sent 2026-11-10; Lisama declined a schedule change and keeps the first December plan. Livid must decide how to proceed (meeting offered 11-12). ([thread](https://mail.google.com/mail/u/0/#all/1a1587987e8a23d6))
+- Lisama - Updated production plan — Kriss asked 2026-11-12 for the 3 SSENSE styles in early January at the latest and for PP ETDs. Lisama needs Livid's approval of the Solace PP and is sending the Fealy Twisted PP ([thread](https://mail.google.com/mail/u/0/#all/1a1587987e8a23d6))
 - Lisama - SS27 Production Plan — Kriss owes the confirmed KA7731 arrival date from Rangel so the plan can be finalised. ([thread](https://mail.google.com/mail/u/0/#all/1a0fb82439464d1c))
 - Problems with Deliveries Dates — On 2026-10-22 Kriss chased Catarina to confirm the sticker and label files. Lisama owes a reply. ([thread](https://mail.google.com/mail/u/0/#all/1a134d8077d21926))
 

@@ -23,6 +23,7 @@ Livid produces, stores and ships Eplehuset's staff uniforms (T-shirts, cardigans
 Norwegian. "Hei Mats" (or "Hei dere" when Anders is included), signs "Kristoffer". Usually copies Anders Berg Halvorsen. Mats has asked that replies keep the quoted thread history. Mats prefers phone for bigger topics, then email follow-up.
 
 # History
+- 2026-11-12: Kriss: uniform restock still estimated end of January, with some 4XL added; cardigan stays Navy.
 - 2026-10-28: Agreed that Eplehuset pays NOK 178,025 on account (current uniform stock value plus 50% of the new production). Kriss sends updated stock lists with value on request, next in the new year. Proforma PF-0047 went to Pia Talmo on 2026-10-29 (first send bounced on wrong addresses).
 - 2026-10-21: Kriss proposed a new production ASAP (200 T-shirts, 100 cardigans; supplier can deliver around end Jan 2027), 2027 prices (T-shirt NOK 410, cardigan NOK 750), shirts possibly phased out, and options to finance a larger buffer stock (e.g. invoicing stored uniforms up front).
 - 2026-10-15: Mats asked that every orderer always gets a confirmation, that sold-out sizes in the profile shop show a restock date, and that order 20985 (T-shirts for the new Hamar store, opening 2026-11-12) ships ASAP.

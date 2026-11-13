@@ -23,6 +23,7 @@ Payment reminders since 2025-02, roughly monthly since late 2025. The pattern: a
 Norwegian, very short ("Hei!" + one or two lines promising payment). Always copies Tonje Johansen (UPS Norway) and upsnocollection@ups.com.
 
 # History
+- 2026-11-12: Kriss replied that the overdue invoices were paid on 11-11.
 - 2026-11-11: Account suspended again over October invoices; debt collection if unpaid by 2026-11-17 (reminder 2026-11-04 had set a 2026-11-10 deadline).
 - 2026-10-20: Account suspended again; debt collection if unpaid by 2026-10-26. Kriss promised payment the same day.
 - 2026-10-02: Account suspended over September invoices; Tonje Johansen asked Kriss to pay ASAP so she could reopen it.
@@ -34,7 +35,7 @@ Norwegian, very short ("Hei!" + one or two lines promising payment). Always copi
 - 2025-12-07: Kriss said the October 2025 invoice was settled using credit notes (matching file sent).
 
 # Open threads
-- UPS 0000W459F0 LIVID JEANS AS — account suspended 2026-11-11; Kriss owes payment or a receipt before the 2026-11-17 debt-collection deadline ([thread](https://mail.google.com/mail/#all/1a1a60f9cf8b915b))
+- UPS 0000W459F0 LIVID JEANS AS — Kriss said payment was made 2026-11-11; no UPS confirmation yet that the account is reopened ([thread](https://mail.google.com/mail/u/0/#all/1a1a60f9cf8b915b))
 
 # Links
 - Organization: [UPS Norway AS](kb://livid/organizations/suppliers/ups.md)

@@ -23,6 +23,7 @@ Supplier contact since 2023-10 (leather patches with the new logo). Since 2026 s
 English, "Hello Letizia," short and direct; escalates with one-line nudges ("Please revert urgently", "Any news please"). Copies Christopher and operations@livid.no.
 
 # History
+- 2026-11-12: Cadica: new production of the missing PO-00153 patches (300 V3 Grey, 600 V2 Havana) ready 2026-11-30. Lisama is waiting for them.
 - 2026-10-27: Lisama received and checked the reshipped PO-00153 goods; all matched the packing list except two lines. Kriss raised it, and Letizia is checking (2026-10-28).
 - 2026-10-19: First batch of PO-00153 had been sent to Livid's accountant office in Lisbon and refused (2026-10-12); Cadica reshipped to Lisama around 2026-10-16, FedEx AWB sent.
 - 2026-09-29: PO-00153 split agreed: first batch ~2026-10-08, remainder ASAP (partial deliveries considered if before 2026-10-29).
@@ -35,7 +36,7 @@ English, "Hello Letizia," short and direct; escalates with one-line nudges ("Ple
 - 2023-10 to 2023-11: New logo leather patches, confirmation for production (from subjects).
 
 # Open threads
-- Request for Quotation — PO-00153 — two lines differ from the packing list; Cadica owes an answer ([thread](https://mail.google.com/mail/u/0/#all/1a090356ec5c0a81))
+- Request for Quotation — PO-00153 — missing patches ready 2026-11-30; the two lines that differed from the packing list are not confirmed resolved ([thread](https://mail.google.com/mail/u/0/#all/1a090356ec5c0a81))
 
 # Links
 - Organization: [CADICAGROUP Srl](kb://livid/organizations/suppliers/cadicagroup.md)

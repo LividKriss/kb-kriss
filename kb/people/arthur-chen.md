@@ -23,6 +23,7 @@ Livid buys noil silk (art. HY2301096 and a newer noil silk) from JX Silk for its
 English, "Hello Arthur", short. Copies Christopher Stangeby and Frank Fang. Keeps repeating that the export invoice travelling with the courier must name the Portuguese receiver as bill-to.
 
 # History
+- 2026-11-12: The JX parcel (noil silk, FedEx 879460090434) reached Portugal 2026-11-05 but was not cleared; FedEx wanted an importer customs authorization letter. Kriss said the receiver is talking to FedEx locally and sent FedEx the invoice.
 - 2026-11-03: Sent invoice 2026WGF02094 for PO-00159 (dated 30 Oct, bill-to Livid Jeans AS, 3 packages by express to Porto). Not the Stork-billed shipping invoice Kriss asked for.
 - 2026-10-29: Kriss sent the payment receipt for the PO-00159 bulk and asked that the shipping invoice name the receiver (Stork) as bill-to. Arthur will ship on 2026-10-30.
 - 2026-10-16: Resent the invoice for the PO-00159 bulk (dated 2026-10-10); goods ship after payment.
@@ -37,7 +38,7 @@ English, "Hello Arthur", short. Copies Christopher Stangeby and Frank Fang. Keep
 - 2024-06-06: SS25 sample order (inferred from subject).
 
 # Open threads
-- Small order — PO-00159 bulk paid 2026-10-29; invoice 2026WGF02094 received 2026-11-03 billed to Livid Jeans AS, with quantities to check against the Excel invoice. JX still owes tracking and the shipping invoice billed to Stork ([thread](https://mail.google.com/mail/u/0/#all/19cbe4ee670f32a9))
+- Small order — PO-00159 parcel stuck in Portuguese customs at FedEx (arrived 2026-11-05); the receiver is sorting it with FedEx. Arthur asked 2026-11-13 how to fill the address field on the FedEx form; Kriss owes an answer (draft ready). Invoice 2026WGF02094 quantities still to check ([thread](https://mail.google.com/mail/u/0/#all/19cbe4ee670f32a9))
 
 # Links
 - Organization: [JX Silk](kb://livid/organizations/suppliers/jx-silk.md)

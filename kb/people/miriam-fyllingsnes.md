@@ -35,6 +35,7 @@ Norwegian. "Hei Miriam," one-to-one, and "Hei dere," / "Hei alle sammen," in sto
 
 # Open threads
 - Tyveri i butikk — Miriam asked whether anything more is needed after the shoe theft; Kriss owes a reply ([thread](https://mail.google.com/mail/u/0/#all/1a120a945906e2a8))
+- Foreldelse. — Miriam asks for product name instead of colour on incoming goods; Kriss owes a reply, draft ready ([thread](https://mail.google.com/mail/u/0/#all/1a1cee457f6096da))
 
 # Links
 - Organization: Livid (colleague).

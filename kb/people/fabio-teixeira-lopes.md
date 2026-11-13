@@ -23,6 +23,7 @@ He has been on Livid's shipment threads since 2023 (copied). He handled occasion
 English. Opens with "Hello," and uses "Hello Fábio," when replying to him personally. Approvals are one word ("approved", "Yes", "Asap please"). Kriss copies the whole Rangel team (Rodrigo, João, Pedro Lerias, Sara, and Ana when she is involved). When shipments slip he is direct and asks for an explanation (e.g. "Can you please break down the delay?"). He looped Lisama (Emanuel, Delfina) in to sort out a delivery time on short notice.
 
 # History
+- 2026-11-12: Kuroki OPOSI2601344 and Japan Blue OPOSI2601362 both on MSC NELA, ETD Singapore 2026-11-25, ETA Barcelona 2026-12-16, then on to Porto (Leixões).
 - 2026-10-21: Draft BL for Japan Blue inv. 0189-00059578 (OPOSI2601362) approved by Kriss. ETD 2026-10-22.
 - 2026-10-19: HBL for Kuroki inv. 26-2400 (OPOSI2601384, 2 pallets) approved.
 - 2026-10-19: Kuroki inv. 26-1641 (OPOSI2601344, 12 pallets) departed Kobe via Singapore, ETA Leixões about 2026-12-15. Kriss challenged the delay (cargo ready early/mid-September, about a month lost, a repeated problem with Rangel's partner). Fábio said co-loader rates only arrived 2026-09-24.
@@ -35,9 +36,9 @@ English. Opens with "Hello," and uses "Hello Fábio," when replying to him perso
 
 # Open threads
 - Japan Blue Shipment — Kriss owes Fábio a reference (invoice/PO) so he can trace a Japan Blue shipment with no pre-alert yet ([thread](https://mail.google.com/mail/u/0/#all/1a152cf03626939d))
-- NEW BK Kuroki inv. 26-1641 / OPOSI2601344 — departed 2026-10-19. Rangel owes the full schedule/ETA ([thread](https://mail.google.com/mail/u/0/#all/1a0edf4ea2167cb1))
+- NEW BK Kuroki inv. 26-1641 / OPOSI2601344 — ETD Singapore 2026-11-25, ETA Barcelona 2026-12-16, final destination Leixões ([thread](https://mail.google.com/mail/u/0/#all/1a0edf4ea2167cb1))
 - NEW BK Kuroki inv. 26-2400 / OPOSI2601384 — HBL approved 2026-10-19. Rangel owes sailing confirmation and schedule ([thread](https://mail.google.com/mail/u/0/#all/1a153de2007d5837))
-- New shipment request Japan Blue 0189-00059578 / OPOSI2601362 — BL approved, ETD 2026-10-22. Rangel owes sailing confirmation ([thread](https://mail.google.com/mail/u/0/#all/1a15dd4e14c3cb32))
+- New shipment request Japan Blue 0189-00059578 / OPOSI2601362 — ETD Singapore 2026-11-25, ETA Barcelona 2026-12-16 ([thread](https://mail.google.com/mail/u/0/#all/1a15dd4e14c3cb32))
 - New shipment request Japan Blue 0189-00059575 / OPOSI2601401 — Rangel (Ana) owes a quote, none seen yet ([thread](https://mail.google.com/mail/u/0/#all/1a13fb347e79f99c))
 
 # Links

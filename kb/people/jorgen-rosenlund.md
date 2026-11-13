@@ -23,6 +23,7 @@ Wholesale customer served through [Morten Solberg Anfinsen](/people/morten-solbe
 Norwegian, "Hei Jørgen,", short and practical, signed "Kristoffer".
 
 # History
+- 2026-11-12: Asked Kriss to send order confirmations to him directly instead of to Jørgen Sagmo (Retro) ([thread](https://mail.google.com/mail/u/0/#all/1a1bf02869bc8de9))
 - 2026-11-10: Kriss confirmed the restock as LO-0094, 37 of 48 pieces. Most ships from the central warehouse and some from the Trondheim store, so two parcels; the missing sizes were listed in the reply ([thread](https://mail.google.com/mail/u/0/#all/1a1bf02869bc8de9)).
 - 2026-10-15: Restock of Fuller, Miko and Fuller Rinse sent after the best sellers came back in stock; Kriss confirmed shipping the next day ([thread](https://mail.google.com/mail/u/0/#all/1a13f316b34ed3c8)).
 
