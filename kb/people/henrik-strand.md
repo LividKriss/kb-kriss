@@ -23,6 +23,7 @@ Since 2024-02 (first thread in index). Regular, short exchanges around inbound d
 Norwegian, very short: "Hei," + one question about when a delivery arrives. Usually writes to the traffic desk (trafikk@cargolinea.no) with Henrik and Christopher Stangeby in to/cc.
 
 # History
+- 2026-11-13: Kriss asked for more time on six outstanding invoices (NOK 37,461.43 in total) and promised payment by end of November.
 - 2026-02-06: Texgoios delivery not in time for the same day; moved to Monday morning.
 - 2026-01-16: Asked for ETA of a Texgoios delivery; delivered 2026-01-19, next Texgoios load announced for the following Monday.
 - 2025-12-11: Portugal truck delayed; delivered Monday 2025-12-15 before noon.
@@ -34,7 +35,7 @@ Norwegian, very short: "Hei," + one question about when a delivery arrives. Usua
 - 2024-02: "Savner eske" — missing box on a delivery (inferred from subject).
 
 # Open threads
-- None.
+- Livid Jeans – utestående fakturaer — payment extension requested 2026-11-13; no reply yet; payment promised by end of November ([thread](https://mail.google.com/mail/u/0/#all/1a1d551d28fc5db7))
 
 # Links
 - Organization: [Cargo Linea AS](kb://livid/organizations/suppliers/cargo-linea.md)

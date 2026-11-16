@@ -34,6 +34,7 @@ One note per contact — who they are, relationship, how Kriss communicates with
 - [Brede Rørstad](brede-rorstad.md) *(draft)* — Runs Myklé / No More Mondays (Mykle AS), a 3PL client whose warehouse fulfilment Livid has handled since 2026; Kriss is his account and setup contact.
 - [Camilla Evensen Eid](camilla-evensen-eid.md) *(draft)* — Chief consultant (Sjefskonsulent) at Innowin AS; Livid Jeans' SkatteFUNN advisor for the approved value-chain transparency project and its reporting.
 - [Carina](carina-stork-texteis.md) *(draft)* — Former production and client contact at Stork Texteis, Livid's garment manufacturer in Portugal, who handled Livid's production, invoices, fabric stock and shipments until she left Stork at the end of September 2026.
+- [Caroline Halmrast](caroline-halmrast.md) *(draft)* — Contact at Spabo Eiendom, landlord of Past Løkka; handles turnover rent and settlements.
 - [Catalina Gurau](catalina-gurau.md) *(draft)* — Assistant manager at Siluete Prod (Romanian trouser manufacturer); Kriss's contact for FW26/SS27 chino production orders, production planning and the manufacturer portal.
 - [Catarina Peixoto](catarina-peixoto.md) *(draft)* — Production/development coordinator at Lisama (Portuguese denim garment manufacturer) who handles Livid's labels, trims, care labels, barcodes, samples and production inputs.
 - [Celeste Castro](celeste-castro.md) *(draft)* — Works in Passamar's billing department; sends Kriss Passamar's invoices, shipping details and goods-transfer documents for label deliveries to Livid's factories.
@@ -101,6 +102,7 @@ One note per contact — who they are, relationship, how Kriss communicates with
 - [Kaviya Elaiyarajah](kaviya-elaiyarajah.md) *(draft)* — Property manager (eiendomssjef) for Galleriet in Bergen at DNB Næringseiendom, Livid Bergen's landlord; Kriss deals with her on the lease, its extension and rent matters.
 - [Kei Yamanishi](kei-yamanishi.md) *(draft)* — Former sales contact at Japan Blue (Japanese denim mill); gave Livid fabric prices, specs and stock for the 2026 selvage and SS27 sourcing until he left the company.
 - [Kenneth Kjos](kenneth-kjos.md) *(draft)* — Works at Innowin AS; took part in the August 2025 introduction meeting between Livid Jeans and Innowin.
+- [Kjersti Frantze](kjersti-frantze.md) *(draft)* — Financial controller at Oxer, landlord side for Kabelgata; follows up outstanding rent and common costs with Kriss.
 - [Kjetil Jardam](kjetil-jardam.md) *(draft)* — Works at Innowin AS; involved in starting Livid Jeans' first SkatteFUNN application in August 2025.
 - [Knut Eirik Leira Hjelle](knut-eirik-leira-hjelle.md) *(draft)* — Board member and shareholder of Livid; Kriss includes him in shareholder meetings and updates.
 - [Kristin Rygh](kristin-rygh.md) *(draft)* — Collects tenants' turnover reports at E C Dahls Eiendom, landlord of Livid Trondheim; asks Kriss for preliminary and auditor-confirmed store turnover.

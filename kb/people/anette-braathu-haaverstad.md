@@ -23,6 +23,7 @@ First thread 2024-04-18 (lease ending 2025-03-31, renewal). Handles rent reminde
 Norwegian, "Hei Anette,", short, apologises when late and says what he has done. Jens Olav in copy on turnover matters.
 
 # History
+- 2026-11-13: Kriss apologised for late rent and said Livid plans to pay the November rent (inv. 140306) and the 2025 turnover-rent settlement (inv. 140366) by end of November (sent to Caroline Halmrast, Anette in copy).
 - 2026-09-10: Kriss received the 2025 turnover-rent settlement invoice and queried an unclear invoice (140304).
 - 2026-09-01: Kriss sent the auditor-confirmed 2025 turnover statement after an urgent reminder; Spabo said extra turnover rent would follow; Kriss asked for generous payment time.
 - 2026-02-26: New bank guarantee for Livid Retail AS (about NOK 346k) issued by SpareBank 1 SMN, after repeated chasing by Anette.
@@ -34,6 +35,7 @@ Norwegian, "Hei Anette,", short, apologises when late and says what he has done.
 
 # Open threads
 - Fwd: Omsetningsoppgaven, Livid — Kriss asked Spabo to explain invoice 140304; no reply seen in the text (a 2026-09-17 message exists) ([thread](https://mail.google.com/mail/u/0/#all/1a0587fd63f21ab8))
+- Betaling november-leie og omsetningsleie 2025 — Kriss proposed payment by end of November (inv. 140306 and 140366); awaiting Spabo's reply ([thread](https://mail.google.com/mail/u/0/#all/1a1d5513cddf8e2e))
 
 # Links
 - Organization: [Spabo Eiendom AS](kb://livid/organizations/suppliers/spabo-eiendom.md)

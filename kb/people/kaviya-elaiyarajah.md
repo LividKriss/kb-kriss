@@ -23,6 +23,7 @@ Since 2025-12, when Kriss's lease-extension request was passed to her. Kriss dea
 Norwegian. "Hei Kaviya," and signs "Kristoffer". Polite, and firm when a matter is urgent. Copies Jens Olav on contract matters.
 
 # History
+- 2026-11-13: Kriss reported the Q4 rent invoice for Galleriet missing (normally EHF) and asked for a copy and for EHF invoicing to be confirmed; added Kaviya on 13 Nov to help.
 - 2026-05-11: Kriss asked for monthly rent invoicing from Q3 to year-end, or 45-day credit on the quarterly invoices (no reply in file).
 - 2026-02-17: Guarantee matter closed. DNB (Janicke Folgerø) confirmed Livid was up to date and that only a notice, not a claim, had gone to the guarantor bank.
 - 2026-02-10: Livid's bank reported a claim on the rent guarantee over an unpaid rent invoice. Kriss paid the same day and asked DNB for written confirmation, and to be copied on future reminders.
@@ -32,7 +33,7 @@ Norwegian. "Hei Kaviya," and signs "Kristoffer". Polite, and firm when a matter 
 - 2025-12-08: Confirmed the contractual right to extend 5 years on the same terms and drafted the addendum.
 
 # Open threads
-- None.
+- Manglende leiefaktura — Q4 rent invoice for Livid Retail AS not received (normally EHF); copy and EHF setup requested; awaiting DNB ([thread](https://mail.google.com/mail/u/0/#all/1a1d03b5813c08c0))
 
 # Links
 - Organization: [Galleriet Kjøpesenter AS](kb://livid/organizations/suppliers/galleriet-kjopesenter.md)

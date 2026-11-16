@@ -23,6 +23,7 @@ Since at least 2024-04 (statements of account). Glass Onion invoices Livid Retai
 English, "Hello Dan"/"Hello Jen", polite and apologetic; explains delays and gives a concrete pay date. Longer, formal note when proposing a payment plan.
 
 # History
+- 2026-11-13: Kriss apologised for being behind again and proposed a payment plan: GBP 16,016.00 by 4 Dec and GBP 12,593.46 by 23 Dec. Glass Onion had chased on 3 and 11 Nov.
 - 2026-10-21: New statement with payment links due 10-24, 10-31, 11-14, 11-18.
 - 2026-09-30: After repeated chasers, Kriss said the Amex card was topped up and open invoices would be paid that evening.
 - 2026-07-29: Overdue invoices paid after card top-up.
@@ -33,7 +34,7 @@ English, "Hello Dan"/"Hello Jen", polite and apologetic; explains delays and giv
 - 2025-03-24: "Credit card payments" thread (from subject).
 
 # Open threads
-- Glass Onion Vintage - Statement and payment links — four payments due 2026-10-24 to 2026-11-18; Livid owes payment or notice of delay ([thread](https://mail.google.com/mail/u/0/#all/1a15dde9fb991748))
+- Glass Onion Vintage - Statement and payment links — Kriss proposed a payment plan on 2026-11-13 (weeks 49 and 52); awaiting acceptance ([thread](https://mail.google.com/mail/u/0/#all/1a15dde9fb991748))
 
 # Links
 - Organization: [Glass Onion Vintage Limited](kb://livid/organizations/suppliers/glass-onion-vintage.md)

@@ -46,6 +46,7 @@ Daily operational partner on production. Kriss issues POs/MOs (from operations@l
 - Prices and lead time Eplehuset — Texgoios gave prices and 2027-01-29 delivery; Kriss owes confirmation (and to Eplehuset) ([thread](https://mail.google.com/mail/u/0/#all/1a13a82ad439361c))
 - Threadflow Fixes — only thread and belt-loop ordering from Lisama to Past and Trondheim remains, on hold ([thread](https://mail.google.com/mail/u/0/#all/1a10bdb9fb8a4dd4))
 - Gorgias "A note to quality control" — how to create customer return labels now; Kriss/Arnt owe the answer (draft to support ready) ([thread](https://mail.google.com/mail/u/0/#all/1a1cf144aa900a5a))
+- Retur av Tarvas — 3 packed boxes of Tarvas shoes to be returned; Christopher asked 11-13 and 11-15 whether this can be done from Loom or via Webshipper the old way; Kriss owes the answer ([thread](https://mail.google.com/mail/u/0/#all/1a1d4721e6f07e8b))
 
 # Links
 - Organization: Livid (colleague).
