@@ -594,8 +594,14 @@ def cmd_send_draft(svc, args):
         sys.exit(f"Refusing: draft {args.draft_id} carries {len(stray)} stray inline image(s) that would go out "
                  f"as attachments ({', '.join(p.get('filename') or '?' for p in stray)}). "
                  f"Run clean-draft {args.draft_id} first.")
+    voucher = bool(rcpts) and rcpts <= VOUCHER_TO
     if dry_mode(args):
         print(f"DRY would send draft {args.draft_id} to {h.get('to')}: {h.get('subject', '')}")
+        if not args.keep_open:
+            waiting = (None if voucher else True if args.waiting else False if args.no_waiting
+                       else asks_question(svc, d["message"]["id"]))
+            print(close_thread(svc, d["message"]["threadId"], waiting=waiting, dry=True, forwarded=voucher,
+                               strip_open=not voucher))
         return
     sent = svc.users().drafts().send(userId="me", body={"id": args.draft_id}).execute()
     print(f"SENT draft {args.draft_id} as {sent['id']} to {h.get('to')}: {h.get('subject', '')}")
@@ -604,11 +610,11 @@ def cmd_send_draft(svc, args):
     if args.keep_open:
         print("close-out skipped (--keep-open): the thread keeps its labels and stays in the inbox")
         return
-    voucher = bool(rcpts) and rcpts <= VOUCHER_TO
-    waiting = (False if voucher else True if args.waiting else False if args.no_waiting
+    waiting = (None if voucher else True if args.waiting else False if args.no_waiting
                else asks_question(svc, sent["id"]))
     try:
-        print(close_thread(svc, sent["threadId"], waiting=waiting, dry=False, forwarded=voucher))
+        print(close_thread(svc, sent["threadId"], waiting=waiting, dry=False, forwarded=voucher,
+                           strip_open=not voucher))
     except Exception as e:  # noqa: BLE001
         print(f"WARNING: sent, but the close-out failed ({e}); run `done {sent['threadId']}` by hand")
 
@@ -753,18 +759,20 @@ def asks_question(svc, msg_id) -> bool:
     return "?" in text or bool(ASK_CUES.search(text)) or starts_thread
 
 
-def close_thread(svc, thread_id, *, waiting, dry, explicit=False, forwarded=False, labels=None) -> str:
+def close_thread(svc, thread_id, *, waiting, dry, explicit=False, forwarded=False, strip_open=True,
+                 labels=None) -> str:
     """Move a handled thread out of the inbox.
     Removes OPEN_LABELS (and WORK_LABELS when `explicit`, i.e. Kriss said it is done). `waiting`
     True adds AI/Waiting, False removes it. `forwarded` (a voucher forward to PowerOffice) also
-    swaps AI/Invoice for AI/PO-forwarded. The thread is archived and marked read unless a
-    WORK_LABEL is left on it; then only the labels change."""
+    swaps AI/Invoice for AI/PO-forwarded; with `strip_open=False` the open labels stay (a voucher
+    forward is not an answer to anyone). The thread is archived and marked read unless an open or
+    work label is left on it; then only the labels change."""
     labels = labels or label_map(svc)
     names = {v: k for k, v in labels.items()}
     t = with_backoff(svc.users().threads().get(userId="me", id=thread_id, format="minimal"))
     msgs = [m for m in t.get("messages", []) if "DRAFT" not in m.get("labelIds", [])]
     on = {names.get(i, i) for m in msgs for i in m.get("labelIds", [])}
-    remove = set(OPEN_LABELS) | (WORK_LABELS if explicit else set())
+    remove = (set(OPEN_LABELS) if strip_open else set()) | (WORK_LABELS if explicit and strip_open else set())
     add = set()
     if forwarded and "AI/Invoice" in on:
         remove.add("AI/Invoice"); add.add(FORWARDED_LABEL)
@@ -775,11 +783,13 @@ def close_thread(svc, thread_id, *, waiting, dry, explicit=False, forwarded=Fals
     remove = (remove & on) - add
     add -= on
     left = (on - remove) & WORK_LABELS
-    archive = not left and bool({"INBOX", "UNREAD"} & on)
+    still_open = (on - remove) & OPEN_LABELS  # only possible with strip_open=False
+    archive = not left and not still_open and bool({"INBOX", "UNREAD"} & on)
     if not (add or remove or archive):
         return f"unchanged {thread_id}" + (f" (stays in the inbox: {', '.join(sorted(left))})" if left else "")
     what = (f"+{','.join(sorted(add))} " if add else "") + (f"-{','.join(sorted(remove))} " if remove else "") + \
-           ("archived+read" if archive else f"stays in the inbox ({', '.join(sorted(left))})" if left else "")
+           ("archived+read" if archive else f"stays in the inbox ({', '.join(sorted(left | still_open))})"
+            if left or still_open else "")
     if dry:
         return f"DRY would close {thread_id}: {what.strip()}"
     ensure_labels(svc, labels, add)
@@ -799,6 +809,8 @@ def thread_id_of(svc, any_id: str) -> str:
 
 def cmd_done(svc, args):
     """Kriss says a thread is handled: remove every open/work label, archive and mark read."""
+    if os.environ.get("KB_AGENT_UNATTENDED") == "1":
+        sys.exit("Refusing: done is only for Kriss's word in a chat, never an unattended run")
     labels = label_map(svc)
     waiting = True if args.waiting else False
     for i in args.ids:
@@ -833,17 +845,30 @@ def cmd_inbox_cleanup(svc, args):
                       key=lambda m: int(m["internalDate"]))
         if not msgs:
             continue
-        last = msgs[-1]
-        last_labels = {names.get(i, i) for i in last.get("labelIds", [])}
         on = {names.get(i, i) for m in msgs for i in m.get("labelIds", [])}
-        h = headers(last)
+
         # By the From address only: mail to invoice@ via the Google group also carries SENT.
-        from_me = any(a.lower() == me for _, a in addresses(h.get("from", "")))
-        if from_me:
-            rcpts = recipients(h) - {me}
-            voucher = bool(rcpts) and rcpts <= VOUCHER_TO
-            waiting = False if voucher or not rcpts else asks_question(svc, last["id"])
-            res = close_thread(svc, tid, waiting=waiting, dry=dry, forwarded=voucher, labels=labels)
+        def mine(m):
+            return any(a.lower() == me for _, a in addresses(headers(m).get("from", "")))
+
+        def voucher_fwd(m):
+            r = recipients(headers(m)) - {me}
+            return mine(m) and bool(r) and r <= VOUCHER_TO
+        # A voucher forward to PowerOffice answers nobody: it only swaps AI/Invoice for AI/PO-forwarded,
+        # and the message before it decides the rest.
+        if voucher_fwd(msgs[-1]) and "AI/Invoice" in on:
+            res = close_thread(svc, tid, waiting=None, dry=dry, forwarded=True, strip_open=False, labels=labels)
+            if not res.startswith("unchanged"):
+                counts["A"] += 1; print(res)
+        real = [m for m in msgs if not voucher_fwd(m)]
+        if not real:
+            continue
+        last = real[-1]
+        last_labels = {names.get(i, i) for i in last.get("labelIds", [])}
+        if mine(last):
+            if not recipients(headers(last)) - {me}:
+                continue  # a note to himself: leave it
+            res = close_thread(svc, tid, waiting=asks_question(svc, last["id"]), dry=dry, labels=labels)
             if not res.startswith("unchanged"):
                 counts["A"] += 1; print(res)
             continue
