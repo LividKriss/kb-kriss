@@ -19,6 +19,7 @@ Daily working contact: about 2,100 threads in 3 years, 117 with Kriss replying i
 # How Kriss communicates with them
 Norwegian, very short and direct ("Fikser", "Skal være fikset nå", "yes"), often with no greeting. Longer mails start "Hei ole," or "Hei dere,". When Kriss writes in English to the wholesale customers and vintage suppliers Ole manages, he copies Ole.
 # History
+- 2026-11-16: Kriss sent Ole and Thea the proposal for new internal shipping rules (1 per size for low sellers, weekly replenishment, limits on store transfers); walkthrough to follow ([thread](https://mail.google.com/mail/u/0/#all/1a1e4a651b522c4c)). Park Mall reported 7 FW26 Alpine Hoodies with a faulty zipper; Ole offered credit against their unpaid second-shipment proforma, the customer asked for a refund instead.
 - 2026-11-09/10: Ole told Bube & König that Bix leather jackets are cancelled and Beth Bronzer and the personal suits slip to SS27 (Beth Bronzer then cancelled by the customer); told VWC Livid will not take the Carhartt jackets this season (paused buying).
 - 2026-10-29: Ole passed on a tip from Martin (Wollow) that the webshop's DKK price conversion may be wrong (direction unknown).
 - 2026-10-22: The autosupplering rule (allocation under 5 units → stores get only 1) applied to all brands. Kriss limited it to Livid products.
@@ -40,9 +41,10 @@ Norwegian, very short and direct ("Fikser", "Skal være fikset nå", "yes"), oft
 - Fwd: Livid 913116 Proforma 9014168: Paraboot FW26 proforma forwarded for payment, no reply yet ([thread](https://mail.google.com/mail/u/0/#all/1a144c3106f3f0b5))
 - Glass Onion Vintage - Statement and payment links: instalments due from 2026-10-24, Kriss to pay or warn of delay ([thread](https://mail.google.com/mail/u/0/#all/1a15dde9fb991748))
 - Re: Million Goods x Livid - FW26 Delivery ETA: Million Goods accepted the credit for the damaged jeans on 2026-11-11 and asks who arranges the return shipping of past-season consignment goods; Ole to answer and issue the credit ([thread](https://mail.google.com/mail/u/0/#all/1a0a6e07b133b717))
-- Livid FW26 delivery: Yokie sent its September consignment report. Kriss to invoice ([thread](https://mail.google.com/mail/u/0/#all/1a035ab0345d7fad))
 - Atoho og Alpha SS27: cancellation proposed, waiting for Jens's input and a fabric-cancellation check ([thread](https://mail.google.com/mail/u/0/#all/1a144845603f4de5))
 - Produksjon/Distro: the handover is to be agreed between Ole and design, and weekly production meetings set up ([thread](https://mail.google.com/mail/u/0/#all/1a1598acc82691ec))
+- Livid x Park Mall SS27 — customer's 7 faulty-zipper hoodies: credit against the unpaid second-shipment proforma (refund asked); Kriss may need to issue the credit note ([thread](https://mail.google.com/mail/u/0/#all/19ff53ca42975db8))
+- Livid FW26 delivery (Yokie) — restock list expected from Shaylan; Ole processes the order ([thread](https://mail.google.com/mail/u/0/#all/1a035ab0345d7fad))
 # Links
 - Organization: Livid (colleague).
 - [Jens Olav Dankertsen](/people/jens-olav-dankertsen.md): managing director/founder, on most wholesale and production threads

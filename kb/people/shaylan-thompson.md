@@ -23,6 +23,8 @@ A new US wholesale account from 2026-03, handled with Ole Eivind (sales). Ole ru
 English. Opens with "Hey Shaylan" / "Hello Shaylan", signs "Best, Kristoffer". Explains terms and pricing in detail with numbered options. Usually copies Ole Eivind, Jens Olav and Sarah at YOKIE.
 
 # History
+- 2026-11-16: Livid is selling well; she will send a short restock list (low items plus extra styles). Ole will process it.
+- 2026-11-06: Confirmed she received the Sept–Oct consignment invoice and sent the payout (asked Kriss to confirm receipt).
 - 2026-10-14: Sent September consignment sales report; Ole replied that Kriss will follow up with invoicing.
 - 2026-09-16: Paid FW26 prepay proforma by card link; consignment sales reporting via customer portal from October.
 - 2026-09-15: Kriss moved her order to the new platform, split into a consignment OC and a prepay OC, and sent a consignment statement. Alpine delayed by a zipper production issue.
@@ -34,7 +36,7 @@ English. Opens with "Hey Shaylan" / "Hello Shaylan", signs "Best, Kristoffer". E
 - 2026-03-06: Ole sent the consignment agreement and the FW26 order confirmation.
 
 # Open threads
-- Livid FW26 delivery — Kriss owes the invoice for September consignment sales (per Ole, 2026-10-19). The FW26 prepay shipment was not confirmed shipped in the thread ([thread](https://mail.google.com/mail/u/0/#all/1a035ab0345d7fad))
+- Livid FW26 delivery — Shaylan will send a restock list; Ole processes it. Kriss to confirm receipt of the Sept–Oct consignment payout (she asked 11-06; check whether done) ([thread](https://mail.google.com/mail/u/0/#all/1a035ab0345d7fad))
 
 # Links
 - Organization: [YOKIE (Thompson Creative Group LLC)](kb://livid/organizations/customers/yokie.md)

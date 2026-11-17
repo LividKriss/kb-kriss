@@ -44,9 +44,11 @@ Daily operational partner on production. Kriss issues POs/MOs (from operations@l
 - New Manufacture Order — MO-0019 — Siluete wants production approval on the second wash samples; Livid owes measurement/handfeel comments ([thread](https://mail.google.com/mail/u/0/#all/1a0a02ce2074d1dc))
 - Purchase Order — PO-00147 — Tessilbiella order ready; Kriss owes forwarder name or OK to add freight on invoice ([thread](https://mail.google.com/mail/u/0/#all/1a075e5344c1607b))
 - Prices and lead time Eplehuset — Texgoios gave prices and 2027-01-29 delivery; Kriss owes confirmation (and to Eplehuset) ([thread](https://mail.google.com/mail/u/0/#all/1a13a82ad439361c))
-- Threadflow Fixes — only thread and belt-loop ordering from Lisama to Past and Trondheim remains, on hold ([thread](https://mail.google.com/mail/u/0/#all/1a10bdb9fb8a4dd4))
 - Gorgias "A note to quality control" — how to create customer return labels now; Kriss/Arnt owe the answer (draft to support ready) ([thread](https://mail.google.com/mail/u/0/#all/1a1cf144aa900a5a))
 - Retur av Tarvas — 3 packed boxes of Tarvas shoes to be returned; Christopher asked 11-13 and 11-15 whether this can be done from Loom or via Webshipper the old way; Kriss owes the answer ([thread](https://mail.google.com/mail/u/0/#all/1a1d4721e6f07e8b))
+- Threadflow Fixes — 11-16 retest: Bill-to still only Livid and the BOM hover popup still unclickable. New requests: manual Received or tolerance on POs, detailed outgoing packing list, tracking from Inventory shipments, label-type change, several Task responsibles, zip details. Kriss owes the next round; thread and belt loops from Lisama on hold ([thread](https://mail.google.com/mail/u/0/#all/1a10bdb9fb8a4dd4))
+- Label order TRO-00007 — Christopher asks Kriss whether Passamar has invoiced TRO-00007 or whether it sits on a collective invoice (PO-00163); Siluete (Catalina) is waiting ([thread](https://mail.google.com/mail/u/0/#all/1a13b69cae495069))
+- Slette frakt RS-1018 / 15691 — repair order charged shipping the customer had already paid; Christopher asks if the invoice can be edited in Loom; Kriss owes the answer ([thread](https://mail.google.com/mail/u/0/#all/1a1e2f189f1b51a7))
 
 # Links
 - Organization: Livid (colleague).

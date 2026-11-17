@@ -23,6 +23,7 @@ Kriss deals with him on money (payments, statements, import VAT and clearance co
 English: "Hello Luis," / "Hope you are well." / "Best, Kristoffer". He always copies Paulo Teixeira and Ana Costa. Kriss is brief and firm when disputing costs, e.g. on the point that Norway is outside the EU.
 
 # History
+- 2026-11-16: Luís acknowledged the payment and sent an updated statement; asked that the rest be paid before 30/11 (double salary month in Portugal). The plan from 11-13 stands.
 - 2026-11-13: Kriss paid FT 02/2450 and 02/2459 (EUR 8,489.58 together) and asked for more time on the rest: EUR 7,793.36 by end of November and EUR 6,338.00 at the beginning of December.
 - 2026-11-12: Hayes Wide Suitpant set to EUR 36 in Threadflow and MO-SS27-13 reissued. Christopher fitted both Hayes PPS; comments due 2026-11-13, also on the Kelvin and Field Jacket PPS. Kelvin snap buttons ready to ship 2026-11-23.
 - 2026-11-11: Dia's account statement was sent to Livid again via Paulo (about EUR 15,000 overdue; he asked Paulo on 11-10 for an update on settlement). Button counts for Field Jacket and Field Coat sent to Christopher; Christopher answered the same day (remaining MOP buttons ship this week or early next; Field Coat uses the horn buttons from the tech pack). Dia shipped the Field Jacket and Kelvin PPS by UPS and asked for urgent feedback and confirmation of the missing trimmings; the Field Jacket sample has dye stains, sent anyway to avoid delaying approval.
@@ -44,7 +45,7 @@ English: "Hello Luis," / "Hope you are well." / "Best, Kristoffer". He always co
 - Livid — Kelvin Gray SS27 — Zipper order & grading confirmation — Dia owes Christopher the zipper lengths and quantities per size ([thread](https://mail.google.com/mail/u/0/#all/1a1598f44541fff4))
 - BUTTONS UPDATE — Christopher to ship the remaining MOP buttons for Field Jacket Japan Black/Glow by early next week; Dia to source the horn buttons for Field Coat ([thread](https://mail.google.com/mail/#all/1a1cb15bc347d4fc))
 - LIVID - UPS - 11/11/2026 — Christopher owes comments on the Field Jacket, Kelvin and Hayes PPS by 2026-11-13; Dia to confirm receipt of the YKK zippers ([thread](https://mail.google.com/mail/u/0/#all/1a1cbbe96b69d473))
-- DIA EXEMPLAR: Account statement — payment plan sent 2026-11-13 (EUR 7,793.36 by end of Nov, EUR 6,338.00 early Dec); Luís has not replied yet. Kriss must pay on those dates ([thread](https://mail.google.com/mail/u/0/#all/1a1ca48fe9c87ba9))
+- DIA EXEMPLAR: Account statement — Luís asked 2026-11-16 for payment before 30/11 (updated statement attached); Kriss must pay EUR 7,793.36 by end of Nov and EUR 6,338.00 early Dec ([thread](https://mail.google.com/mail/u/0/#all/1a1ca48fe9c87ba9))
 
 # Links
 - Organization: [Dia Exemplar](kb://livid/organizations/manufacturers/dia-exemplar.md)

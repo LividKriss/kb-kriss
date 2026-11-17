@@ -24,6 +24,7 @@ Supplier relationship through the agent Petter Korseth AS (on cc). Day to day Ch
 - About Huzhou matters Kriss often answers the agent (Maria Furdal) in Norwegian instead, copying Christopher and Petter Korseth.
 
 # History
+- 2026-11-16: Tompkins PO received. After the deposit, bulk leather takes at least 25 days, then a 2nd PP, then at least 10 days for bulk. Delivery date only after the 2nd PP comments. Horn buttons (3 options, 36L) sent by DHL 11-17; Charlie to choose.
 - 2026-11-11: Tompkins bulk price of USD 215.55/pc excluding lining (she quoted it 11-05 for the fold-edge finish and +6 cm hem) confirmed by Charlie; the updated PO is to follow from Kriss, then she issues the PI for the deposit. Charlie also asked her again to source corozo button options.
 - 2026-10-22: Charlie chose the button for the Tompkins PPS after Angel sourced four options.
 - 2026-10-19: Custom-made leather ready; Angel to send the Tompkins PPS for workmanship, size and leather check.
@@ -40,7 +41,7 @@ Supplier relationship through the agent Petter Korseth AS (on cc). Day to day Ch
 - LIVID-SS27 BULK-New Sample Comments - CB-2026-0066-PP SAMPLE making — button chosen 10-22; Angel owes the Tompkins PPS shipment, then Livid comments ([thread](https://mail.google.com/mail/u/0/#all/1a151c37947a13f5))
 - Pending matters for Huzhou — sample request SR-SS27-077 still waiting for Huzhou in the portal (weekly reminder) ([thread](https://mail.google.com/mail/u/0/#all/1a152bb99300b229))
 - Sourcing FW27 ... SAMPLE INVOICE FOR SS27 — Charlie received FW27 fur quality samples and owes feedback ([thread](https://mail.google.com/mail/u/0/#all/19fb0d580bb81119))
-- Tompkins - PPS comments — Kriss owes the updated PO with the correct price and size breakdown, then Angel sends the PI for the deposit; Angel owes corozo button options ([thread](https://mail.google.com/mail/#all/1a1a5a14164e743d))
+- Tompkins - production — PO and bulk PI 226HZYX2035A issued; Kriss owes the 30% deposit and tells Steven; Charlie to pick the horn button; Livid ships labels next week ([thread](https://mail.google.com/mail/u/0/#all/1a1e3724e8480362))
 
 # Links
 - Organization: [Huzhou Yixu Imp. & Exp. Co., Ltd](kb://livid/organizations/manufacturers/huzhou-yixu.md)

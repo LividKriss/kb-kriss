@@ -22,6 +22,8 @@ A daily working colleague. Kriss copies her on all factory production-plan email
 Internal mail is in Norwegian: "Hei Charlie," or "Hei dere,". It is short and practical, signed "Kristoffer", usually with Jens Olav and Christopher in cc, and often Ole Eivind. Supplier threads with her are in English.
 
 # History
+- 2026-11-16: Charlie asked Kriss to claim the whole Aiden production (all variants, up to +3 cm too big) ([thread](https://mail.google.com/mail/u/0/#all/1a1e4f3862e62ba8))
+- 2026-11-16: Charlie proposed that no bulk is shipped before an approved full size set plus shipment samples (after errors from Stork and Texgoios) and asked Kriss to email Paulo and all suppliers ([thread](https://mail.google.com/mail/u/0/#all/1a1e4fc6544e6e38))
 - 2026-11-10: Charlie looped Kriss into the Springair Lora dispute (style cancelled after ordering; 30% deposit paid). Springair suggests Livid takes the goods and pays when sold or writes them off; Charlie says the skirt is transparent and a lining will not help ([thread](https://mail.google.com/mail/u/0/#all/1a1c54f1d80e6526))
 - 2026-10-21: Charlie sent a list of Threadflow usability problems (navigation, decimals in measurement forms, style history). They agreed on a walkthrough on 2026-10-23, 11–12.
 - 2026-10-20: Kriss handed production follow-up to design and proposed weekly production meetings.
@@ -43,6 +45,8 @@ Internal mail is in Norwegian: "Hei Charlie," or "Hei dere,". It is short and pr
 - Bellanza kommentering — The comments are still pending. Charlie is arranging a fitting with Thea ([thread](https://mail.google.com/mail/u/0/#all/1a15967789e97d54))
 - Buttonholes — Paulo owes feedback from Afonso on buttonholes stitched too tight (customer claim) ([thread](https://mail.google.com/mail/u/0/#all/1a158a891f8d2ef8))
 - Frances — Charlie owes Lisama a confirmation of the highlighted measurements for Blue Graze/Slate ([thread](https://mail.google.com/mail/u/0/#all/1a15469105cc9d28))
+- Ny prosedyre mot feilproduksjon — Kriss to answer the proposal (size set + shipment samples approved before bulk ships) and send the supplier mail ([thread](https://mail.google.com/mail/u/0/#all/1a1e4fc6544e6e38))
+- Aiden - for stor — Kriss to raise a claim on the whole Aiden production; measurements in Threadflow ([thread](https://mail.google.com/mail/u/0/#all/1a1e4f3862e62ba8))
 
 # Links
 - Organization: Livid (colleague).

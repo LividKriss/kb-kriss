@@ -73,6 +73,7 @@ One note per contact — who they are, relationship, how Kriss communicates with
 - [Gjermund Stene](gjermund-stene.md) *(draft)* — Salesperson at Ådalen Truck AS, from whom Livid bought its Hangcha CBD15 electric pallet truck; Kriss deals with him on warehouse equipment and parts.
 - [Goretti Catarino](goretti-catarino.md) *(draft)* — Invoicing and shipping ("Faturação e Expedição") at Texgoios, now Mill-Tex, Livid's garment manufacturer in Portugal; she sends Kriss the invoices and shipping documents for each shipment.
 - [Gustaf Gyllenhammar](gustaf-gyllenhammar.md) *(draft)* — Contact at production agent Petter Korseth AS who passes factory PIs, payment requests and order questions from Springair, Bellanza and Huzhou to Livid.
+- [Hege Flinterud Karlsen](hege-flinterud-karlsen.md) *(draft)* — Accounts contact at Bryn Aarflot (Livid's trademark advisor); Kriss deals with her on invoices and payment dates.
 - [Hege Ravnås](hege-ravnas.md) *(draft)* — Contact at Onsagers AS (now Acapo Onsagers AS), the IP firm that handles Livid's trademark registrations.
 - [Heidi A. Johnsen](heidi-a-johnsen.md) *(draft)* — Accountant at Haver Regnskap who issues rent invoices on behalf of Kirkegaten 19/21 AS, landlord of Livid's Stavanger store.
 - [Helena Isabel](helena-isabel.md) *(draft)* — Production and client contact at Stork Texteis, Livid's garment manufacturer in Portugal; took over from Carina in October 2026 and handles SS27 plans, fabric receipt and customs follow-up.

@@ -25,6 +25,7 @@ He is Kriss's main contact at Lisama for production planning and operations. He 
 - He copies Christopher Stangeby, Charlie Selvig and Jens Olav Dankertsen (Livid), plus Paulo Teixeira and Catarina Peixoto.
 
 # History
+- 2026-11-16: Paulo sent Lisama (Emanuel) Livid's payment plan (weeks 49, 50, 53) and asked for their support, Kriss in cc. Answer pending.
 - 2026-11-12: Kriss pushed for the three SSENSE styles by early January at the latest. Emanuel: Fealy Twisted PP not approved, sent again today; Solace PP sent last week, awaits Livid's approval; earlier delivery only after final approval.
 - 2026-11-10: Kriss sent the reworked SS27 plan (batch 1: 10 colourways, 2,715 pcs, 18 Dec; batch 2: 15 colourways, 2,965 pcs, 29 Jan; batch 5: 16 colourways, 2,590 pcs, 2 Apr) and asked for confirmation of batches, shipment-sample ETDs and PPS ETDs, with a meeting offered on 11-12. Lisama answered it cannot change the schedule in mid-November and is working the styles of the first requested December plan. The same day Delfina corrected the FW26 packing list (boxes 17-23, box 66).
 - 2026-10-29: Miko claims (batches 00725 and 00778; Japan New Blue and Japan Indigo Dusk): Emanuel needs no returned pieces, knows the cause and proposed wash changes; Indigo Dusk is new to Lisama.

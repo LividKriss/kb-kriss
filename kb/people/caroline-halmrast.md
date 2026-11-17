@@ -26,7 +26,6 @@ Norwegian, "Hei Caroline,"; Anette in copy.
 - 2026-11-13: Kriss apologised for late rent payments and said Livid plans to pay the November rent (inv. 140306) and the 2025 turnover-rent settlement (inv. 140366) by end of November.
 
 # Open threads
-- Betaling november-leie og omsetningsleie 2025 — Kriss proposed payment by end of November; awaiting her answer ([thread](https://mail.google.com/mail/u/0/#all/1a1d5513cddf8e2e))
 
 # Links
 - Organization: [Spabo Eiendom AS](kb://livid/organizations/suppliers/spabo-eiendom.md)

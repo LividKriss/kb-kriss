@@ -23,6 +23,7 @@ He has been Livid's account manager since the first freight talks in 2024-10. Li
 Norwegian, informal: "Hei Martin," and signs "Kristoffer" or with his signature only. Short and direct, and open about payment delays and the reasons for them. He sometimes copies support@quickship.no on operational questions. In the 2025-08 billing dispute he was firm and spelled out what he expected as compensation.
 
 # History
+- 2026-11-16: Martin asked Kriss for an example of the wanted layout (the January–March report) before changing the weekly specification.
 - 2026-11-14: Kriss asked for invoice number, sender and recipient (name and postcode) in the weekly invoice specification (300687.xlsx), and a combined report with those columns from 1 April. Martin had asked again on 2026-11-13 about overdue invoices.
 - 2026-10-09: Martin is chasing overdue invoices again and asked on 2026-10-19 for a same-day answer and payment receipts.
 - 2026-08-17: Separate customer numbers set up for the 3PL clients Myklé AS and Lillunn AS (confirmed 2026-08-18). Martin restated the terms: 43% off Parcel/Multiparcel, energy surcharge fixed at 13%, multi-colli surcharge 49 kr.
@@ -40,8 +41,8 @@ Norwegian, informal: "Hei Martin," and signs "Kristoffer" or with his signature 
 - Stykkgods? 8514097883 — Martin asked on 2026-09-28 whether the shipment was really booked as stykkgods or Postnord made an error. Kriss owes the answer. ([thread](https://mail.google.com/mail/u/0/#all/1a0e8ccb6aa6ad18))
 - Porterbuddy — Kriss asked how Porterbuddy orders map correctly in Webshipper. Martin replied on 2026-09-21 that the setup looks fine and orders shipped until 2026-09-08, and asked whether Livid changed something. Kriss probably owes the answer (there is an unseen message on 2026-09-25). ([thread](https://mail.google.com/mail/u/0/#all/1a0c2f7d5b4043d4))
 - VS: Re: 8469158045 — Kriss asked on 2026-08-25 whether the stykkgods credit was issued and what the correct price is. Quickship owes the answer (may have replied on 2026-09-01, see unsure). ([thread](https://mail.google.com/mail/u/0/#all/19ddd75a256e3d17))
-- Fraktrapport 300687 – avsender og mottaker per sending — Kriss asked on 2026-11-14 for extra columns in the weekly specs and a combined report from 1 April; awaiting Martin ([thread](https://mail.google.com/mail/u/0/#all/1a1d977a062a7058))
 - Utestående forfalte fakturaer — Martin asked again on 2026-11-13 whether Kriss has what he needs to process the overdue invoices; Kriss owes the answer ([thread](https://mail.google.com/mail/u/0/#all/1a1d523fb9c2f608))
+- Fraktrapport 300687 – avsender og mottaker per sending — Martin asked 2026-11-16 for an example of the wanted layout (the January–March report); Kriss owes it ([thread](https://mail.google.com/mail/u/0/#all/1a1e36cf81c0990d))
 
 # Links
 - Organization: [Quickship Logistics AS](kb://livid/organizations/suppliers/quickship.md)
