@@ -22,6 +22,7 @@ In contact since 2023-11-03, the first thread in the index. Kriss gave a guest l
 Norwegian. He opens with "Hei Terje," and the tone is warm but businesslike. He usually copies Jens Olav. Board and finance updates are longer and structured: status, liquidity, plan. Quick logistics are one-liners. He uses Terje as a sparring partner and sends drafts for feedback.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-03: Årsregnskap 2025: Kriss wrote about 2026-10-03 and only the out-of-office reply is seen. Check wheth
 - 2026-10-03: Kriss wrote to Terje about the 2025 annual accounts. Only an out-of-office reply is seen; Terje was back 2026-10-12 (inferred from the subject).
 - 2026-07-13: Terje signed the 2025 annual accounts for Livid Retail AS via Signant (EP Regnskap), after a login issue. The Livid Jeans AS accounts followed.
 - 2026-06-01: "Gjenvalg": Terje raised concerns about the board working in practice before re-election. Kriss asked him to stay and committed to regular meetings, minutes and financial follow-up. Kriss also proposed discussing a board fee.
@@ -34,7 +35,7 @@ Norwegian. He opens with "Hei Terje," and the tone is warm but businesslike. He 
 - 2024-01-25: Terje proposed structured board work with 3 fixed meetings a year, and repeated the request 2024-07-04.
 
 # Open threads
-- Årsregnskap 2025: Kriss wrote about 2026-10-03 and only the out-of-office reply is seen. Check whether Terje has replied or still owes a sign-off ([thread](https://mail.google.com/mail/u/0/#all/1a10070656091e0f))
+- None.
 
 # Links
 - Organization: No organization (individual).

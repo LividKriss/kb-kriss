@@ -23,6 +23,12 @@ Copied on nearly all of Kriss's production and payment threads with the agent, s
 Norwegian, "Hei!" / "Hei dere," first names, very short (one to three lines), signs "Kristoffer". Usually addresses Maria or Mona with Gustaf and Christopher on cc, and hands production detail to Christopher. Switches to short English ("Hello Angel … Best") only when writing to factory staff on a shared thread.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-06: FW: Springair SS27 PO Livid
+- 2026-11-17: Closed, no mail since 2026-10-26: FW: Production plan SS27 for approval — Livid/Bellanza
+- 2026-11-17: Closed, no mail since 2026-10-07: Re: Springair delivery Lora — Livid
+- 2026-11-17: Closed, no mail since 2026-10-26: New Manufacture Order — MO-SS27-04
+- 2026-11-17: Closed, no mail since 2026-10-19: Pending matters for Springair
+- 2026-11-17: Closed, no mail since 2026-10-23: LIVID-SS27 BULK … PP SAMPLE making-button
 - 2026-11-09: On Lora, advised Livid to take the goods and pay when sold (open account) or he tries to have them written off, but a deposit credit would be hard; said both sides made mistakes ([thread](https://mail.google.com/mail/u/0/#all/1a1c54f1d80e6526))
 - 2026-10-20: Kriss explained to the agent that the Monday "pending matters" mails are automatic; there is no new Springair sample order.
 - 2026-10-13: Bellanza MO-SS27-09: delivery end of Dec (30.12 ex factory) accepted, deposit paid; Bellanza ordered bulk yarn on 10-15.
@@ -36,13 +42,7 @@ Norwegian, "Hei!" / "Hei dere," first names, very short (one to three lines), si
 - 2025-11-03: "Springair Paper Yarn White HASTER" (from subject).
 
 # Open threads
-- FW: Springair SS27 PO Livid — Springair PI for MO-SS27-04 asks for first payment and SMS cost; the file has no reply from Kriss ([thread](https://mail.google.com/mail/u/0/#all/1a1100202052fea7))
-- FW: Production plan SS27 for approval - Livid/Bellanza — Christopher owes the PPS comments; Bellanza says 2nd PPS by end of Nov and some styles might be approved from photos ([thread](https://mail.google.com/mail/u/0/#all/1a158022b1d97085))
-- Re: Springair delivery Lora - Livid — how to ship Lora (2 cartons, UPS alone or with MO-SS27-04) is still unanswered ([thread](https://mail.google.com/mail/u/0/#all/19ff5b17955f4dd8))
-- New Manufacture Order — MO-SS27-04 — Lora sizes confirmed (71 pcs); packing list waits for stickers, and Livid owes a care-label ETA ([thread](https://mail.google.com/mail/u/0/#all/1a0e893ccc5fe51f))
 - Production plan SS27 for approval — Springair still lacks hangtags, main and size labels; Christopher owes them ([thread](https://mail.google.com/mail/u/0/#all/1a1348398cb56fac))
-- Pending matters for Springair — Springair wants portal requests sent by email too; Christopher owes a reply ([thread](https://mail.google.com/mail/u/0/#all/1a152bc319a79ca6))
-- LIVID-SS27 BULK … PP SAMPLE making-button — Huzhou owes the Tompkins PP sample ([thread](https://mail.google.com/mail/u/0/#all/1a15863ff5c37afc))
 
 # Links
 - Organization: [Petter Korseth AS](kb://livid/organizations/manufacturers/petter-korseth.md)

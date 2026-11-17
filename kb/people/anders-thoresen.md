@@ -23,6 +23,7 @@ DHT was engaged in November 2025 to help with the growth-capital raise. The work
 Norwegian. "Hei Anders," signed "Kristoffer". He writes long, open emails with his reasoning and asks for honest views. Scheduling replies are one-liners. He usually writes to Anders alone and sometimes copies Jens Olav.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-14: Status Livid
 - 2026-10-09: Anders sent "Status Livid" meeting invites (2026-10-09 and 2026-10-14). The process seems to be picking up again (going by the invite titles; the invites have no text).
 - 2026-05-13: Anders proposed a first Teams meeting with Kenneth. Kriss said early June, depending on Jens Olav.
 - 2026-04-30: Agreed a more specific invoice text for DHT's final invoice so the auditor could attest it for the Innovasjon Norge project.
@@ -35,7 +36,7 @@ Norwegian. "Hei Anders," signed "Kristoffer". He writes long, open emails with h
 - 2025-11-24: Engagement started after Kriss sent the capital strategy workbook, budgets and historical figures.
 
 # Open threads
-- Status Livid — calendar invite from Anders with no text. Check that Kriss has accepted it or proposed another time ([thread](https://mail.google.com/mail/u/0/#all/1a1392ec0554c68a))
+- None.
 
 # Links
 - Organization: [DHT Corporate Finance AS](kb://livid/organizations/advisors/dht-corporate-finance.md)

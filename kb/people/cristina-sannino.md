@@ -23,6 +23,7 @@ In contact since 2023-11 (sample orders). Orders several times a year: sample me
 English, very short and direct ("Hello," / "Hello Cristina,"; often one or two lines). Always copies Christopher Stangeby. Repeats the billing-entity instruction (invoice the Portuguese company, no VAT) on each order.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-09-29: Purchase Order — PO-00146
 - 2026-09-28: PO-00146 (SS27, 160 m) proforma paid; Livid chasing shipment to Dia Exemplar.
 - 2026-09-16: Kriss had the PO-00146 proforma reissued to Livid Jeans Unipessoal (no VAT).
 - 2026-06-22: Returned the SS27 price review sheet.
@@ -35,7 +36,7 @@ English, very short and direct ("Hello," / "Hello Cristina,"; often one or two l
 - 2024-11-27: FW25 order, PI 61844 (from subject).
 
 # Open threads
-- Purchase Order — PO-00146 — PI paid 2026-09-28; Olmetex owes payment receipt confirmation, ship date to Dia, tracking and documents (Christopher asked 2026-09-29) ([thread](https://mail.google.com/mail/u/0/#all/1a075e48c967b552))
+- None.
 
 # Links
 - Organization: [Olmetex S.p.A.](kb://livid/organizations/suppliers/olmetex.md)

@@ -23,6 +23,7 @@ Kriss engaged her in Nov 2025 to extend LIVID trademark protection beyond Norway
 Norwegian, "Hei Stine", very short decisions ("Det er ok"). Copies Jens Olav Dankertsen, who signs formal documents.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-20: SV: HASTER! Nektelse i Kina — Livid IR 1904269
 - 2026-10-20: With no instruction received, Bryn Aarflot let the China appeal deadline (2026-10-21) lapse; offered to look at a new filing (e.g. LIVID in Chinese characters or a logo mark).
 - 2026-10-16: Chinese agent rated the chance of registration in classes 18/25/35 at about 30%; Kriss advised Jens Olav internally that it is too costly for the odds and not a priority now.
 - 2026-10-06: Jens Olav instructed her to proceed with the Chinese agent's fuller assessment.
@@ -34,7 +35,7 @@ Norwegian, "Hei Stine", very short decisions ("Det er ok"). Copies Jens Olav Dan
 - 2025-11-19: Kriss asked for options and prices to register LIVID in the US, Japan, South Korea and China.
 
 # Open threads
-- SV: HASTER! Nektelse i Kina - Livid IR 1904269 — China appeal deadline lapsed; Livid owes an answer on whether to explore a new Chinese filing ([thread](https://mail.google.com/mail/u/0/#all/1a159d0ae0601e4a))
+- None.
 
 # Links
 - Organization: [Bryn Aarflot](kb://livid/organizations/advisors/bryn-aarflot.md)

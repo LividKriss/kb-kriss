@@ -23,6 +23,7 @@ Since 2024-09 (SS25 booking). Coat production for Livid (Blythe Coat, Alesis, Po
 English, "Hello Ery", short and direct; clear instructions (e.g. UPS Expedited, send Form A original and scan). Cc's Christopher.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-09-02: Re: parcel sent on 24th & 25th August
 - 2026-08-24: Balance for Polo Coat FW26 paid; bulk shipped via UPS 2026-08-24/25; Form A draft approved 2026-09-01.
 - 2026-05-19: Transparency/QR labels shipped from Nilörn to Forever for FW26.
 - 2026-04-29: 1st PPS comments; 2nd PPS requested (side seam, horn buttons 36L).
@@ -34,7 +35,7 @@ English, "Hello Ery", short and direct; clear instructions (e.g. UPS Expedited, 
 - 2025-02-07: Blythe Coat 3rd PPS comments (from subjects).
 
 # Open threads
-- Re: parcel sent on 24th & 25th August — Ery asked on 2026-09-02 whether to send the original Form A by UPS; no reply visible, Livid owes an answer ([thread](https://mail.google.com/mail/u/0/#all/1a039094935395d8))
+- None.
 
 # Links
 - Organization: [Forever Ind Limited](kb://livid/organizations/manufacturers/forever-ind.md)

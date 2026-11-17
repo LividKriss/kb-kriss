@@ -40,6 +40,7 @@ Every incoming message in Kriss's work Gmail handled by the [daily run](/email/d
 **Confirmed by Kriss in the 2026-10-26 brief:**
 - Replit notifications (e.g. "Republish your projects"): Noise.
 - PowerOffice "Pending Vouchers for Approval" reminders: Noise, archive; no Needs-action row (handled in PowerOffice).
+- Anthropic usage-credit mails ("has used 75 % of", "is approaching", "has reached its usage credits"): Noise, archive (Kriss, 2026-11-17: ten sat unlabelled in the inbox for 12 days).
 - Quickship Logistics invoice mail: not a voucher (they send EHF); archive, never forward.
 - Loom "Store stock sync: N problem(s) need attention": FYI and archived, never Urgent, even when unresolved over 24 hours. The brief keeps one open reminder line that the stock sync problem still needs fixing.
 - Samesystem weekly "Ændrede / oprettede ansatte" mail: "Ingen endringer" → Noise, archive. New, starting or departing employees → AI/Action ("handle in PowerOffice"). No names in the KB.

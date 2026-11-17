@@ -24,6 +24,9 @@ She is a long-running contact on Livid's Chinese knit production: orders, prices
 - She writes very briefly ("Hei … Mvh mona") and pastes the factory's English text.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-05: Invitasjon til portal
+- 2026-11-17: Closed, no mail since 2026-10-26: New Manufacture Order — MO-SS27-04
+- 2026-11-17: Closed, no mail since 2026-10-26: FW: Production plan SS27 for approval — Livid/Bellanza
 - 2026-10-13: Bellanza accepted end-of-December delivery for MO-SS27-09 (after a likely 2nd PPS round) and asked for the deposit; Kriss paid it the same day.
 - 2026-10-11: Mona passed on Bellanza's date of 30.12 ex factory; Livid asked for earlier delivery and she doubted it was possible.
 - 2026-10-08: She chased Livid for care labels, QR labels and stickers, and asked whether Springair's 68 pcs of Lora could ship with MO-SS27-04.
@@ -36,9 +39,7 @@ She is a long-running contact on Livid's Chinese knit production: orders, prices
 - 2025-10-23: Springair and Yinmao POs of 26.09.25; Springair had leftover yarn after a cancellation (subjects only).
 
 # Open threads
-- Invitasjon til portal — Mona did not receive the portal invitation and asked Kriss to resend it; no reply in the thread ([thread](https://mail.google.com/mail/u/0/#all/1a0e95716d213db6))
-- New Manufacture Order — MO-SS27-04 — the Lora size split (71 pcs) is in; Livid owes an answer on shipping it with MO-SS27-04 and on the remaining labels ([thread](https://mail.google.com/mail/u/0/#all/1a0e893ccc5fe51f))
-- FW: Production plan SS27 for approval - Livid/Bellanza — Livid owes Bellanza its PPS comments ([thread](https://mail.google.com/mail/u/0/#all/1a158022b1d97085))
+- None.
 
 # Links
 - Organization: [Petter Korseth AS](kb://livid/organizations/manufacturers/petter-korseth.md)

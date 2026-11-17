@@ -23,6 +23,7 @@ Since 2024-02-13. Ole Eivind Siggerud handles sales (orders, carry-over styles, 
 English, "Hello Marie-Eve,", warm and short. Apologises plainly when Livid is late. Signs "Best, Kristoffer". Copies Ole Eivind Siggerud when the order itself is involved.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-18: Re: Fall order
 - 2026-10-18: Kriss acknowledged her 2026-10-09 payment had been missed, activated the pick and promised shipment the next day.
 - 2026-09-28: Fall order waiting while Hyde tees were collected from the stores. Invoice to follow once quantities were confirmed (Ole).
 - 2026-09-15: Tia Black cancelled from the fall order (carry-over double-up). Hyde tees in white and black added.
@@ -34,7 +35,7 @@ English, "Hello Marie-Eve,", warm and short. Apologises plainly when Livid is la
 - 2024-02-13: FW24 order deadline via JOOR, then substitutions (subjects only).
 
 # Open threads
-- Re: Fall order — Kriss promised shipment for 2026-10-19 after her 2026-10-09 payment. The thread has no shipping confirmation or tracking yet, so Livid owes confirmation ([thread](https://mail.google.com/mail/u/0/#all/1a0854769490e88d))
+- None.
 
 # Links
 - Organization: [Betina Lou](kb://livid/organizations/customers/betina-lou.md)

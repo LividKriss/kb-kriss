@@ -34,9 +34,9 @@ Kriss's work Gmail. Applied by the [daily run](/email/daily-run.md) and [KB sync
 | `AI/Filed` | Customs document saved in the customs folder | message |
 | `AI/KB-synced` | Message processed by [KB sync](/email/kb-sync.md) | message |
 
-- Only one of Urgent / Reply / Waiting / FYI / Noise / Action / HR / Payments per thread at a time; the run moves it as the thread changes. Kriss's reply removes Urgent/Reply (and adds Waiting if he asked something).
+- Only one of Urgent / Reply / Waiting / FYI / Noise / Action / HR / Payments per thread at a time; the run moves it as the thread changes. On a conflict, the first of Urgent, Reply, Action, Waiting, FYI, Noise wins. Kriss's reply (or send by the assistant) removes Urgent/Reply/Action/Payments/HR and adds Waiting if his text asks something, makes a request or starts a new thread. A voucher forward to PowerOffice is not a reply: it only swaps `AI/Invoice` for `AI/PO-forwarded`.
 - **Archived = done.** Archiving always means removing **both `INBOX` and `UNREAD`** from every message in the thread — Gmail's archive alone leaves mail unread. Done = archived **and** read.
-- **Archive everything handled:** FYI, Noise, handled invoice/customs mail, every thread Kriss or the assistant has sent, replied to or forwarded (incl. Kriss's own forwards to PowerOffice), Waiting threads, and anything else that needs no action. Only Urgent, Reply, Action, Task, HR, Invoice, Payments, Docs and Docs-read stay in the inbox (and keep their unread state). The run never deletes, never marks spam, never unsubscribes without asking.
+- **Archive everything handled:** FYI, Noise, handled invoice/customs mail, every thread Kriss or the assistant has sent, replied to or forwarded (incl. Kriss's own forwards to PowerOffice), Waiting threads, and anything else that needs no action. HR is archived once labelled (counted in the next brief; NAV deadlines are Urgent and stay). Only Urgent, Reply, Action, Task, Invoice, Payments, Docs and Docs-read stay in the inbox (and keep their unread state), each until its exit: Reply/Urgent when answered or settled in the brief; Payments when PowerOffice shows the invoice paid or a newer reminder from the same supplier arrives; Action when the system shows it resolved or Kriss settles it; Task when executed (task-triggers rule 6). The run never deletes, never marks spam, never unsubscribes without asking.
 - `AI/Task` comes on top of the single label above (and of `AI/Invoice`/`AI/Customs`); it is removed when the task is done.
 - No per-category labels: the contact category lives in the Person note.
 - Ignore old labels (`[Superhuman]/…`, `Kjell Odne/Done`, `Invoices`, Kriss's manual labels); never remove them.
@@ -46,4 +46,5 @@ Kriss's work Gmail. Applied by the [daily run](/email/daily-run.md) and [KB sync
 # Examples
 
 # Source / history
+Kriss, 2026-11-17: exits for HR, Payments and Action; conflict order; what counts as a reply.
 Kriss chose a new small AI/ set (2026-10-23). `AI/Task` added 2026-10-27.

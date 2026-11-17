@@ -23,6 +23,8 @@ Since at least 2024-01-15. She handles bookkeeping, VAT returns and refund claim
 English. "Hello Patricia/Patrícia," then a short message signed "Kristoffer". Many messages are bare forwards of supplier invoice PDFs with no text. When he asks for invoices he sends structured line items plus EXW/weight/origin-declaration text, and copies Paulo Teixeira (Tex Challenge) on export invoices. He nudges with one-liners ("Any news on this?").
 
 # History
+- 2026-11-17: Closed, no mail since 2026-11-03: Help with opening web bank
+- 2026-11-17: Closed, no mail since 2026-10-12: Order at our office
 - 2026-10-20: Kriss sent the manager and parent-company documents for the Millennium data update. The RCBE was filed by Andrew on 2026-10-14.
 - 2026-10-12: Courier tried to deliver 5 boxes to HK's office; HK refused them (wrong address, courier unknown).
 - 2026-09-03: HK issued invoice no. 13 from Livid Jeans PT to S.C. Siluete Prod (Romania) for woven fabric (~€4.6k).
@@ -35,8 +37,7 @@ English. "Hello Patricia/Patrícia," then a short message signed "Kristoffer". M
 - 2025-05-27: Kriss approved the 2024 accounts and HK filed the corporate tax return.
 
 # Open threads
-- Help with opening web bank — Kriss sent documents on 2026-10-20 and asked whether a credit card statement as proof of address and Norwegian-only certificates are enough; Patrícia owes an answer and then submission to Millennium ([thread](https://mail.google.com/mail/u/0/#all/19d71117bea687e9))
-- Order at our office — 5 boxes refused at HK's office 2026-10-12; Kriss asked which courier, HK doesn't know; shipment not yet identified ([thread](https://mail.google.com/mail/u/0/#all/1a12fae90bf97155))
+- None.
 
 # Links
 - Organization: [HK Consulting Ltd](kb://livid/organizations/advisors/hk-consulting.md)

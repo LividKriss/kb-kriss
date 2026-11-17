@@ -22,6 +22,10 @@ Kriss's closest management counterpart. Kriss copies him on factory production p
 Norwegian. One-to-one, Kriss is very short and candid, often with no greeting ("Helt ærlig synes jeg …"). Group mails start "Hei dere," and spell out who does what (e.g. "@Ole"). In English supplier and landlord threads, Kriss leads and Jens is in cc.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-20: Atoho og Alpha SS27
+- 2026-11-17: Closed, no mail since 2026-10-21: Threaddflow
+- 2026-11-17: Closed, no mail since 2026-10-20: SV: HASTER! Nektelse i Kina
+- 2026-11-17: Closed, no mail since 2026-10-20: Retur varer
 - 2026-11-12: Forwarded Bryn Aarflot's US registration report (LIVID, IR 1904269) and asked Kriss to answer ([thread](https://mail.google.com/mail/u/0/#all/1a1cf471b3385f45))
 - 2026-11-11: Sent Kriss a budget outline for the coming year (margin targets, payroll and cost reductions, vintage purchasing pause, bank loan terms and meeting dates, capital raise options).
 - 2026-10-21: Copied on Kriss's Stavanger lease talks with the landlord (see the landlord's note).
@@ -36,10 +40,6 @@ Norwegian. One-to-one, Kriss is very short and candid, often with no greeting ("
 - 2026-03-30: Jens asked Kriss and Charlie to dig into women's (Femme) sales and asked for the e-com report.
 
 # Open threads
-- Atoho og Alpha SS27 — cancel proposed; Jens's input needed because the style is planned for FW27 ([thread](https://mail.google.com/mail/u/0/#all/1a144845603f4de5))
-- Threaddflow — Charlie's change list; meeting Friday 11–12. How Style Master should work is for Charlie and Jens to settle ([thread](https://mail.google.com/mail/u/0/#all/1a15eb75b3369a4d))
-- SV: HASTER! Nektelse i Kina — Bryn Aarflot let the 2026-10-21 deadline lapse and offered to look at a new application. Jens/Kriss to reply if they want that ([thread](https://mail.google.com/mail/u/0/#all/1a159d0ae0601e4a))
-- Retur varer — Charlie asked Kriss to create return labels for the reference garments ([thread](https://mail.google.com/mail/u/0/#all/1a1582ba6b00c3b6))
 - Budsjettering — Jens's budget notes; Kriss to review and follow up ([thread](https://mail.google.com/mail/#all/1a1cabfa47f9175a))
 - Registreringsrapport USA, Baa ref. 560848US — Jens asked Kriss to reply; draft ready ([thread](https://mail.google.com/mail/u/0/#all/1a1cf471b3385f45))
 

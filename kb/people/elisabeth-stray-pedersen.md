@@ -25,6 +25,8 @@ Livid stores, receives, picks and ships goods for both brands from its warehouse
 - Copies Christopher Stangeby (and help@livid.no) on anything to do with the warehouse. Christopher asked to be copied on all such mail (2026-03-10).
 
 # History
+- 2026-11-17: Closed, no mail since 2026-09-16: Ordre torsdag — ESP butikk haster mest
+- 2026-11-17: Closed, no mail since 2026-09-22: Fwd: [ESP Oslo] Order #1236
 - 2026-09-16: Large wholesale dispatch (Norway Designs, ERA, ESP Atelier, Høyer Strømmen). Two boxes of goods are not in Shopify/Pio, and Kriss is to send her the list.
 - 2026-08-25: Kriss sent the overdue invoices for May–July. They agreed she pays one invoice per month to catch up.
 - 2026-08-17: Kriss gave her guideline freight prices per box by zone, so she can set a standard freight charge for her own customers.
@@ -37,8 +39,7 @@ Livid stores, receives, picks and ships goods for both brands from its warehouse
 - 2025-12-05: Meeting on better logistics for ESP/Lillunn (from the subject "Referat møte").
 
 # Open threads
-- Ordre torsdag - ESP butikk haster mest — goods are stored, but two boxes are missing in Shopify. Kriss promised her a list of what is missing in Pio ([thread](https://mail.google.com/mail/u/0/#all/1a0aae239b22cafe))
-- Fwd: [ESP Oslo] Order #1236 — she asked to collect a store-pickup order at 09:00–09:30. There is no reply in email, so check whether it was handled ([thread](https://mail.google.com/mail/u/0/#all/1a0ca6fe8efd518f))
+- None.
 
 # Links
 - Organization: [ESP Oslo (Elisabeth Stray Pedersen: ESP Oslo, Lillunn, Manufacture Oslo)](kb://livid/organizations/customers/esp-oslo.md)

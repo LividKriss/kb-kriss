@@ -23,6 +23,9 @@ Kriss's main UPS contact for commercial and account matters; she is also copied 
 Norwegian, "Hei Tonje," and often "Håper alt er bra."; short, direct asks; signs "Kristoffer". To UPS's export team (emeaicer@) he writes short English ("Hello, See attached"). He copies Tonje on replies to UPS collections and on urgent Preferred Support requests, and copies Christopher Stangeby on urgent shipments to Paris.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-20: UPS [account] LIVID JEANS AS
+- 2026-11-17: Closed, no mail since 2026-09-15: Ny avtale UPS
+- 2026-11-17: Closed, no mail since 2026-10-07: Forsendelser til Korea B2C
 - 2026-10-20: UPS collections suspended the account over overdue invoices (debt collection if unpaid by 2026-10-26); Kriss replied, copying Tonje, that it would be paid that day.
 - 2026-10-02: Account suspended over late payment; Tonje asked Kriss to pay asap so she could get it reopened. Similar suspensions in 2026-01, 2026-02 and 2026-04.
 - 2026-09-15: Price increase announced 2026-05-05 (meant to start 2026-06-01) not applied yet; existing prices still apply, and Tonje will review in the autumn.
@@ -35,9 +38,7 @@ Norwegian, "Hei Tonje," and often "Håper alt er bra."; short, direct asks; sign
 - 2026-01-14: Tonje connected Kriss with UPS brokerage on hand-carried samples from Portugal; UPS cannot clear at Gardermoen.
 
 # Open threads
-- UPS [account] LIVID JEANS AS — account suspended 2026-10-20; Livid owes payment or a receipt before 2026-10-26 to avoid debt collection; reopening not confirmed ([thread](https://mail.google.com/mail/u/0/#all/1a13470f64e2cb27))
-- Ny avtale UPS — Kriss asked 2026-09-14 for the price list in the old detailed format (to add fuel surcharge); not received; Tonje to revisit prices this autumn ([thread](https://mail.google.com/mail/u/0/#all/19df6bf28fb70651))
-- Forsendelser til Korea B2C — Livid should check whether it ships B2C e-commerce to South Korea (registration needed from 2027-01-01); otherwise no action ([thread](https://mail.google.com/mail/u/0/#all/1a115ce0eb3d58b0))
+- None.
 
 # Links
 - Organization: [UPS Norway AS](kb://livid/organizations/suppliers/ups.md)

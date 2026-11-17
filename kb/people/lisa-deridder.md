@@ -23,6 +23,7 @@ Since 2024-01 (re-order of jeans). Seasonal pre-orders are taken by Ole Eivind S
 English, "Hello Lisa," (sometimes "Hey Lisa,"), also when replying to Mathilde's mails from found@. When problems escalate he apologises, takes responsibility and gives concrete steps (credits, DDP, free shipping, shipping from Portugal). Status updates are short. Copies Ole Eivind Siggerud (earlier also Jens Olav Dankertsen) and often store@lostinpablos.be.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-09-15: FW26
 - 2026-09-15: FW26 (LO-0060) first delivery ships DDP: Fuller Rinse, Miko Black Dusk, teddy; Fuller Indigo Dusk and an added Miko New Blue 33/34 to follow.
 - 2026-06-25: Kriss could not fill the late SS26 items or June re-orders (low end-of-season stock); returned parcel still lost; Fuller Rinse expected early August.
 - 2026-06-25: SS27 showroom meeting with Ole in Paris (Blender 360), agreed 2026-05-19.
@@ -35,7 +36,7 @@ English, "Hello Lisa," (sometimes "Hey Lisa,"), also when replying to Mathilde's
 - 2025-07-17: UPS charged duties on two non-EU-origin items; Kriss agreed to credit those duties (about €30).
 
 # Open threads
-- FW26 — Livid owes the second delivery (Fuller Indigo Dusk, Miko New Blue 33/34) with invoice and tracking; last update 2026-09-15 ([thread](https://mail.google.com/mail/u/0/#all/1a068e3441e3f10a))
+- None.
 
 # Links
 - Organization: [Lost in Pablos](kb://livid/organizations/customers/lost-in-pablos.md)

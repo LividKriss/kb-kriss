@@ -23,6 +23,8 @@ Wholesale customer contact. Kriss runs Modo's auto-replenishment (autosupplering
 Norwegian. "Hei Håkon," usually with "Håper alt er bra.", short and friendly, signed "Kristoffer". Håkon writes very short messages and calls him "Kris". Kriss copies Ole Eivind Siggerud on stock and logistics questions and passes swaps and in-season sourcing to him.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-09-28: Keri Sandbox + Black
+- 2026-11-17: Closed, no mail since 2026-10-28: Autosup / Barnes Porcelain
 - 2026-10-28: Modo cancelled its late Hayes suits (it had a return right). Ole Eivind confirmed, citing the move of suiting to a new factory in Portugal.
 - 2026-10-28: Håkon chased the missing replenishment and the credit note for the returned Barnes Porcelain. Kriss apologised: auto-replenishment goes out from now on, based on Monday's stock list.
 - 2026-09-22: Livid asked Modo to send back one Barnes Faded Porcelain 32/32 needed for another customer. Modo agreed. First test of the new return-label flow with an automatic credit note.
@@ -37,8 +39,7 @@ Norwegian. "Hei Håkon," usually with "Håper alt er bra.", short and friendly, 
 - 2025-06-13: FW25 OC sent. Modo accepted Barnes Rinse in wideloom denim instead of selvage. In spring 2025 a large jeans return was swapped for Beth.
 
 # Open threads
-- Keri Sandbox + Black — Håkon asked whether 33/34 is in stock and can go with the next replenishment. No reply yet, Kriss owes an answer ([thread](https://mail.google.com/mail/u/0/#all/1a0e72e1639028f3))
-- Autosup / Barnes Porcelain — Livid owes the replenishment (promised 2026-10-28) and the credit note for the returned Barnes Porcelain ([thread](https://mail.google.com/mail/u/0/#all/1a0c8babb2866c94))
+- None.
 
 # Links
 - Organization: [Modo Store](kb://livid/organizations/customers/modo-store.md)

@@ -23,6 +23,9 @@ Eplehuset buys staff uniforms (t-shirts, cardigans, shirts) that Livid has made 
 Norwegian, "Hei Anders!", short and friendly. Kriss copies Mats Tranvåg on status and commercial mails.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-21: Uniformer — ny produksjon
+- 2026-11-17: Closed, no mail since 2026-10-15: Svar: Mangler på størrelser
+- 2026-11-17: Closed, no mail since 2026-10-07: FW: Produksjonsvarsel- [20821]
 - 2026-10-21: Kriss proposed a new ASAP production run (200 t-shirts, 100 cardigans; slightly higher 2027 prices). He also offered buffer-stock financing options: invoice the stock Livid holds, or another option (cut off in the extract).
 - 2026-10-14: T-shirt and cardigan stock ran short after large orders for new store openings (Storgata 1, Hamar). Kriss asked how to split order 20985.
 - 2026-10-14: The order backlog from Livid's move to a new order system (late Sep–Oct) was cleared. Orders that day shipped with free freight as compensation; automatic tracking emails were introduced.
@@ -33,9 +36,7 @@ Norwegian, "Hei Anders!", short and friendly. Kriss copies Mats Tranvåg on stat
 - 2026-02-03: Eplehuset changed profile-shop supplier, and the order email to Livid was set up again.
 
 # Open threads
-- Uniformer - ny produksjon — Eplehuset (Mats/Anders) owes a go/no-go on the new production run and the buffer-stock option ([thread](https://mail.google.com/mail/u/0/#all/1a15e958b677969b))
-- Svar: Mangler på størrelser — Kriss owes Mats: contact regional manager Morten Strand about the Hamar opening on 12 Nov, back-in-stock dates in the profile shop, a working stocklist link, and the factory answer ([thread](https://mail.google.com/mail/u/0/#all/1a13e85ef2e20aef))
-- FW: Produksjonsvarsel- [20821] — Anders asked about Moa's order from 16 Sep; no direct reply in the thread, probably covered by the 2026-10-14 backlog fix. Confirm it shipped ([thread](https://mail.google.com/mail/u/0/#all/1a1165dee0998246))
+- None.
 
 # Links
 - Organization: [Eplehuset Norge AS](kb://livid/organizations/customers/eplehuset.md)

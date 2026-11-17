@@ -23,6 +23,7 @@ Founder/lead at Myklé (Mykle AS, also trading as No More Mondays), a Norwegian 
 Norwegian (Brede writes nynorsk). "Hei Brede," signed "Kristoffer"; short and practical. Kriss replies in English when NMM Prod (Ayisha) writes, keeping Brede and Torunn in copy. Kriss forwards labels and packing lists internally to Christopher and the warehouse.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-12: barcode-feil
 - 2026-10-12: Two SKUs (Ropes Damier Plum/Pistache) found with the same barcode. Stock to be pulled and re-registered; Myklé sends new labels.
 - 2026-09-10: Wrong-importer UPS customs entries (cleared on Livid instead of Mykle AS). Re-clearing needs a power of attorney per entry plus a UPS account, so Livid re-invoiced the 3 shipments (~11.4k NOK). Suppliers must bill Mykle from now on.
 - 2026-08-20: First export order (#1305, Belgium). Agreed DDP economy via UPS; HS codes and country of origin to be added in Shopify. In the end Myklé shipped it themselves from Paris.
@@ -33,7 +34,6 @@ Norwegian (Brede writes nynorsk). "Hei Brede," signed "Kristoffer"; short and pr
 - 2026-01-26: 3PL contract signed after a meeting at Livid on 2026-01-19.
 
 # Open threads
-- barcode-feil — Brede asked for the duplicate-barcode SKUs to be fixed in the system the same day; no confirmation from Livid in the thread yet ([thread](https://mail.google.com/mail/u/0/#all/1a11ad75b86e0184))
 - Feilfortollinger — Livid re-invoiced the customs costs; Brede said he would pay soon. Payment still to be confirmed ([thread](https://mail.google.com/mail/u/0/#all/19febb3a4b2ece93))
 
 # Links

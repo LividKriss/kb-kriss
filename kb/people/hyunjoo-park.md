@@ -23,6 +23,7 @@ Wholesale customer contact since 2023-12 (first thread: market dates). Ole Eivin
 English, "Hello Hyunjoo," friendly and short ("Hope you are well", "I wish you a great week ahead"), signs "Kristoffer". Replies to all: Ole Eivind, Jens Olav and the Nawa team stay on copy.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-09-09: Re: Resend: Livid SS26 Nikka peat reorder price inquiry
 - 2026-09-09: Nikka Peat Linen reorder invoiced at €86 vs €83 original; Kriss called it an order-system error; agreed a €9 discount on Nawa's SS27 order instead of a credit note.
 - 2026-06-11: Nawa paid the deferred reorder balance (EUR 271) after Kriss confirmed it.
 - 2026-04-24: Nikka Peat Linen reorder (3 pcs) shipped from Oslo; Kriss agreed payment for in-season reorders could be deferred.
@@ -35,7 +36,7 @@ English, "Hello Hyunjoo," friendly and short ("Hope you are well", "I wish you a
 - 2024-01 to 2025-05: SS24/FW24 orders, defect report and FW24 stock swap; 25 Spring deliveries and Keri Linen reorder (from subjects).
 
 # Open threads
-- Re: Resend: Livid SS26 Nikka peat reorder price inquiry — agreed 2026-09-09; Livid still owes the €9 discount on Nawa's SS27 order ([thread](https://mail.google.com/mail/u/0/#all/1a05a724e56e04e9))
+- None.
 
 # Links
 - Organization: [Nawa International](kb://livid/organizations/customers/nawa-international.md)

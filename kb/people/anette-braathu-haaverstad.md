@@ -23,6 +23,7 @@ First thread 2024-04-18 (lease ending 2025-03-31, renewal). Handles rent reminde
 Norwegian, "Hei Anette,", short, apologises when late and says what he has done. Jens Olav in copy on turnover matters.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-09-17: Fwd: Omsetningsoppgaven, Livid
 - 2026-11-16: Anette noted that Livid pays the outstanding rent before the new invoice falls due on 1 Dec; the reminder (purring) goes out as usual and she cannot stop it.
 - 2026-11-13: Kriss apologised for late rent and said Livid plans to pay the November rent (inv. 140306) and the 2025 turnover-rent settlement (inv. 140366) by end of November (sent to Caroline Halmrast, Anette in copy).
 - 2026-09-10: Kriss received the 2025 turnover-rent settlement invoice and queried an unclear invoice (140304).
@@ -35,7 +36,6 @@ Norwegian, "Hei Anette,", short, apologises when late and says what he has done.
 - 2024-04-18: Lease ending 2025-03-31 discussed (subject only).
 
 # Open threads
-- Fwd: Omsetningsoppgaven, Livid — Kriss asked Spabo to explain invoice 140304; no reply seen in the text (a 2026-09-17 message exists) ([thread](https://mail.google.com/mail/u/0/#all/1a0587fd63f21ab8))
 - Betaling november-leie og omsetningsleie 2025 — Spabo noted the plan 2026-11-16; Kriss to pay inv. 140306 and 140366 by end of November, before the new invoice falls due 1 Dec ([thread](https://mail.google.com/mail/u/0/#all/1a1d5513cddf8e2e))
 
 # Links

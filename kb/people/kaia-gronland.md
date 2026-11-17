@@ -22,6 +22,7 @@ Store operations between Kriss and the stores: she coordinates store managers (s
 Norwegian. "Hei Kaia," friendly and short. She calls him "Kris". She also writes from a private Gmail address; Kriss replies there.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-09-11: Kjøp gjennom faktura
 - 2026-09-02: Asked Kriss to invoice a customer for two Keri jeans at full price (taken from Past and Livid Oslo), billed to Pullman Management; asked how to transfer the stock.
 - 2026-07-15: Forwarded the Tons of Rock settlement for the Livid Vintage popup.
 - 2026-04-27: Forwarded an overdue Input Interior invoice (903383, about 7 000 NOK) for Kriss to look at.
@@ -32,7 +33,7 @@ Norwegian. "Hei Kaia," friendly and short. She calls him "Kris". She also writes
 - 2025-12-04: "Varer mottat-mailer til Kaia": goods-received emails routed to her (from subject only).
 
 # Open threads
-- Kjøp gjennom faktura — Kaia gave the billing details (Pullman Management) on 2026-09-11 and asked how to transfer the goods; Kriss owes the invoice and an answer ([thread](https://mail.google.com/mail/u/0/#all/1a061e90be9161c9))
+- None.
 
 # Links
 - Organization: Livid (colleague).

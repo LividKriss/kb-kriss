@@ -23,6 +23,7 @@ Since 2025-04 (order of 2025-04-14). Christopher Stangeby is her day-to-day cont
 English, very short and to the point ("Tnt please!"), often no greeting. Always cc's Christopher Stangeby.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-09-16: RE: New sales order S208395: Livid
 - 2026-09-04: Christopher confirmed Officocta's delivery address for S208395 after the warehouse reopened.
 - 2026-08-03: Pickup missed the warehouse summer closure (6–31 Aug); shipment postponed to early September, agreed with Officocta.
 - 2026-07-31: Kriss paid the S208395 proforma and asked PrimaLoft to ship by express on their account; chose TNT (about EUR 260) over DHL.
@@ -30,7 +31,7 @@ English, very short and to the point ("Tnt please!"), often no greeting. Always 
 - 2025-05: Order S185617 with freight added (from subjects).
 
 # Open threads
-- RE: New sales order S208395: Livid — Primaloft order → Officocta Trading, Lda — Waiting for PrimaLoft to confirm dispatch to Officocta; status after 2026-09-04 not in the extract ([thread](https://mail.google.com/mail/u/0/#all/19fb7595d6c208d0))
+- None.
 
 # Links
 - Organization: [PrimaLoft](kb://livid/organizations/suppliers/primaloft.md)

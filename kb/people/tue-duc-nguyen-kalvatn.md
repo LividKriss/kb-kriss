@@ -23,6 +23,18 @@ Day-to-day contact between the Norwegian retailers and Livid. He forwards restoc
 Norwegian. "Hei Tue," and often a single line ("Sender i morgen", or just the OC attached). He copies Jens Olav or Ole Eivind when a decision is theirs, and when retailers write to him directly he replies to them with Tue in copy.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-29: Fwd: Supplering Livid
+- 2026-11-17: Closed, no mail since 2026-10-29: Bogart supplering
+- 2026-11-17: Closed, no mail since 2026-11-03: Spons
+- 2026-11-17: Closed, no mail since 2026-11-03: Fwd: MD1-000712
+- 2026-11-17: Closed, no mail since 2026-11-03: Reklamasjon
+- 2026-11-17: Closed, no mail since 2026-10-09: Fwd: Spons Livid mm
+- 2026-11-17: Closed, no mail since 2026-10-06: Fwd: Ny bukse
+- 2026-11-17: Closed, no mail since 2026-10-01: Fwd: NNOR faktura
+- 2026-11-17: Closed, no mail since 2026-09-23: Fwd: Ombytte — Miko
+- 2026-11-17: Closed, no mail since 2026-09-18: Aw26 ordrer
+- 2026-11-17: Closed, no mail since 2026-09-17: Spons
+- 2026-11-17: Closed, no mail since 2026-09-04: Fwd: Feilproduksjon!
 - 2026-11-12: Kriss answered that white Initial shirts are expected back mid-December ([thread](https://mail.google.com/mail/u/0/#all/1a1a81c153cd6310))
 - 2026-11-06/10: Forwarded the Brødrene Johannessen Jekta restock; Kriss confirmed LO-0093 (63 pieces, some sizes missing, one pair sponsored). Tue offered to pass the shortfalls on to the customer ([thread](https://mail.google.com/mail/u/0/#all/1a1b1023bdb180d5))
 - 2026-10-29: Sent restock requests from Rolfsen (marked-up sheet) and Bogart (Kai, Barnes, Miko, Fuller), and asked Livid to credit three sponsor trousers (Rolfsen, Bogart, Walero).
@@ -38,18 +50,7 @@ Norwegian. "Hei Tue," and often a single line ("Sender i morgen", or just the OC
 - 2026-02-23 – 04-09: Mark & Brandy never clarified its SS26 order (first sent as a Word file on 2025-09-10). Kriss released the reserved stock on 04-09.
 
 # Open threads
-- Fwd: Supplering Livid — Rolfsen restock request; Livid owes the order ([thread](https://mail.google.com/mail/u/0/#all/1a1878970041e006))
-- Bogart supplering — Bogart restock request (Kai, Barnes, Miko, Fuller); Livid owes the order ([thread](https://mail.google.com/mail/u/0/#all/1a1892d187807304))
-- Spons — Tue asked for credits on three sponsor trousers (Rolfsen, Bogart, Walero); Livid owes the credit notes ([thread](https://mail.google.com/mail/u/0/#all/1a1892e4631a7407))
-- Fwd: MD1-000712 — Modo claim, chased 3 times since July. Livid owes an answer or credit ([thread](https://mail.google.com/mail/u/0/#all/1a12f4d63b932903))
-- Reklamasjon — Livid owes MAS a credit note for 1 × Barnes J Fade 33/32 ([thread](https://mail.google.com/mail/u/0/#all/1a11af9b8fbcfcce))
-- Fwd: Spons Livid mm — replacement trouser for Bogart. Waiting for Bogart's size, then Livid ships ([thread](https://mail.google.com/mail/u/0/#all/1a11b08b169d1bde))
-- Fwd: Ny bukse — BJ restock request. Tue still waiting for an answer from Kriss (reminded 10-06) ([thread](https://mail.google.com/mail/u/0/#all/1a0d2fb4bbdf885d))
-- Fwd: NNOR faktura — NNOR (Charlotte) needs invoice information from Kriss urgently ([thread](https://mail.google.com/mail/u/0/#all/1a0f2238e1b16697))
-- Fwd: Ombytte - Miko - Barnes — MAS swap. Kriss owes an answer on stock ([thread](https://mail.google.com/mail/u/0/#all/1a0cdcbac12f7fed))
-- Aw26 ordrer — Tue asked for a list of jeans styles not yet delivered to BJ and Rolfsen. No reply seen ([thread](https://mail.google.com/mail/u/0/#all/1a0a9cfd7d61ccce))
-- Spons — sponsor Fealy jeans 33/32 for the Retro Kristiansand manager. No confirmation that it was sent ([thread](https://mail.google.com/mail/u/0/#all/1a0ae4b97ba2174e))
-- Fwd: Feilproduksjon! — NNOR faulty trouser. Livid to decide whether to take it back or credit it ([thread](https://mail.google.com/mail/u/0/#all/1a06bf5ee677911f))
+- None.
 
 # Links
 - Organization: [Standard Agency AS](kb://livid/organizations/suppliers/standard-agency.md)

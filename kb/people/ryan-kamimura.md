@@ -23,6 +23,8 @@ New wholesale account since 2026-08 (SS27 order, delivery expected around Januar
 English, "Hello Ryan,", short, signs "Best Kristoffer". Ole Eivind and Jens Olav in copy, plus SSENSE colleagues already on the thread.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-09-01: Fwd: Livid x SSENSE SS27 Order
+- 2026-11-17: Closed, no mail since 2026-08-27: SSENSE — Livid
 - 2026-09-14: Ryan passed Livid's bank confirmation letter (sent 2026-09-11 after a bank delay) to SSENSE's AP team.
 - 2026-09-01: Ryan accepted the updated OC except that the Solace Chino should be 10 units.
 - 2026-08-27: Kriss sent a corrected OC; the unit × price figures on the printout were a display error, totals were right.
@@ -33,8 +35,7 @@ English, "Hello Ryan,", short, signs "Best Kristoffer". Ole Eivind and Jens Olav
 - 2026-08-01: SS27 order received as a CSV.
 
 # Open threads
-- Fwd: Livid x SSENSE SS27 Order — Ryan asked for the Solace Chino to be cut to 10 units; no updated OC seen ([thread](https://mail.google.com/mail/u/0/#all/19fbed8c1c26377e))
-- SSENSE - Livid - MC + Brand Partnership Team Introduction — Julia Schock offered call slots; no reply from Livid seen (Ole Eivind's) ([thread](https://mail.google.com/mail/u/0/#all/1a03ee61dc5c8ac8))
+- None.
 
 # Links
 - Organization: [SSENSE](kb://livid/organizations/customers/ssense.md)

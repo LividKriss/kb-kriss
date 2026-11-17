@@ -23,6 +23,7 @@ Took over the 2026 SkatteFUNN application from Camilla Evensen Eid in August 202
 Norwegian, "Hei Audun", short. Kriss leaves the research framing to him.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-09-11: Påminnelse om signering av prosjektregnskap
 - 2026-09-11: Reminder to update and sign the Q1–Q3 2026 project accounts and timesheets; offered to check and store them free of charge.
 - 2026-09-01: Sent the finished application for Kriss's approval on deadline day; he will create the project in the Research Council portal, where Kriss must confirm his role.
 - 2026-08-27: Sent the project sketch "Adaptiv og autonom produksjonsstyring for skiftende verdikjeder"; Kriss approved the direction.
@@ -31,7 +32,7 @@ Norwegian, "Hei Audun", short. Kriss leaves the research framing to him.
 - 2026-08-20: Project meeting (invited 2026-08-18).
 
 # Open threads
-- Påminnelse om signering av prosjektregnskap — Livid owes updated and signed Q1–Q3 2026 project accounts and timesheets ([thread](https://mail.google.com/mail/u/0/#all/1a090b7772f746f5))
+- None.
 
 # Links
 - Organization: [Innowin AS](kb://livid/organizations/advisors/innowin.md)

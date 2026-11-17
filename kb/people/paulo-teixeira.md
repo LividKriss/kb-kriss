@@ -23,6 +23,9 @@ Kriss and Paulo work on season production (SS27 now, FW26 deliveries, FW27 sampl
 English. "Hello Paulo," / "Hope you are well.", signed "Best / Kristoffer" or with the signature block only. Direct and short. He chases with one-liners ("Did you see the above…"). He copies Christopher Stangeby, and usually Charlie Selvig and Jens Olav Dankertsen, on production matters.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-26: STORK: FW26 EXTENSIVE BEAN SILK invoice + pending invoices: Livid owes the waybill for the shipment 
+- 2026-11-17: Closed, no mail since 2026-11-02: Buttonholes: Charlie asked Paulo to get Afonso's feedback on buttonholes that tear the placket. Paul
+- 2026-11-17: Closed, no mail since 2026-10-22: Problems with Deliveries Dates: Kriss asked Catarina (Lisama) to confirm the sticker/label files. Ca
 - 2026-11-16: Paulo forwarded Kriss's Lisama payment plan to Emanuel at Lisama with a supporting note (answer pending). Afonso flagged two MOP 511 button articles with different shades; Christopher confirmed both are intended. Christopher approved Aiden Japan Relic for bulk at Stork with a wash sample before full washing; the 1st PPS is cancelled. Paulo chased the Woolbuylic shortage for Deliberate again.
 - 2026-11-13: Kriss sent payment plans for Lisama, Somelos and Dia Exemplar. Same day Paulo reported on the SS27 Stork plan: only 504 of 704 pcs in production for batch 1, dispatch 18 Dec at best. He also reported a Woolbuylic shortage at Afonso on style Deliberate (Sundown Check 140 m of 181.40 m needed; Cream Crust 150 m of 197 m).
 - 2026-11-11: Forwarded Dia Exemplar's account statement (overdue invoices about EUR 15,000) and said Luís is asking because cash flow is low.
@@ -45,12 +48,9 @@ English. "Hello Paulo," / "Hope you are well.", signed "Best / Kristoffer" or wi
 
 # Open threads
 - Miko quality claims, batches 00725 and 00778 — Lisama proposed wash changes; Livid owes a response ([thread](https://mail.google.com/mail/u/0/#all/1a17739e265580de))
-- STORK: FW26 EXTENSIVE BEAN SILK invoice + pending invoices: Livid owes the waybill for the shipment and payment of an overdue Stork invoice ([thread](https://mail.google.com/mail/u/0/#all/1a163e660141d3cb))
 - SS27 pending matters Mill-Tex: Paulo offered lower Atohi/Alpha prices on 2026-11-10; Livid decides whether to reinstate the styles. Mill-Tex also owes confirmation of batch 1 (2,870 pcs, 11 Dec) and PPS ETDs for nine styles ([thread](https://mail.google.com/mail/u/0/#all/1a13509eaff36b49))
 - Prices and lead time Eplehuset: prices and the 2027-01-29 date are in. Kriss owes a lock-in with Eplehuset and the order ([thread](https://mail.google.com/mail/u/0/#all/1a13a82ad439361c))
 - Lisama - Updated production plan: Livid owes a response to Lisama's counter-proposal on quantities and dates ([thread](https://mail.google.com/mail/u/0/#all/1a1587987e8a23d6))
-- Buttonholes: Charlie asked Paulo to get Afonso's feedback on buttonholes that tear the placket. Paulo owes a reply ([thread](https://mail.google.com/mail/u/0/#all/1a158a891f8d2ef8))
-- Problems with Deliveries Dates: Kriss asked Catarina (Lisama) to confirm the sticker/label files. Catarina owes a reply ([thread](https://mail.google.com/mail/u/0/#all/1a134d8077d21926))
 - AFONSO: SS27 missing fabric Woolbuylic (Deliberate) — Paulo asks whether Afonso gets more fabric or a new size breakdown; Kriss owes the answer ([thread](https://mail.google.com/mail/u/0/#all/1a1d4e9f8e03de43))
 - Production plan SS27 for approval (Stork) — Paulo replied 11-13: silks and Centi linen timing put batch 1 at risk, batch 2 depends on fabrics arriving 5 Dec. Kriss has not confirmed the plan; Paulo proposed a meeting Mon 2026-11-16 10:30 ([thread](https://mail.google.com/mail/u/0/#all/1a1348398cb56fac))
 - Lisama payment plan sent 2026-11-13 (weeks 49, 50 and 53); awaiting Lisama's OK via Paulo ([thread](https://mail.google.com/mail/u/0/#all/1a18d47cc38b2b2b))

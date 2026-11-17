@@ -19,6 +19,7 @@ On Kriss's weekly report list. Their work together covers the cost of campaigns 
 # How Kriss communicates with them
 Norwegian, "Hei Thea,", short. Signs "Kristoffer" on longer messages. Copies Arnt Eriksen on marketing topics.
 # History
+- 2026-11-17: Closed, no mail since 2026-09-04: Missing payment invoice 9782: Le Management asked for proof of payment. Thea forwarded it to Kriss o
 - 2026-09-25: Toilldag 17.10: Livid joined the Adresseavisen campaign (quarter page + digital). Kriss confirmed the price first. Arnt took the dialogue over from Thea.
 - 2026-08-24: Kriss had the Oslo and Løkka stores pick jeans urgently for a shoot run by Thea.
 - 2026-07-31: Team Models chased a model-fee invoice for a shoot. Thea passed it to Kriss and replied to the agency.
@@ -28,8 +29,10 @@ Norwegian, "Hei Thea,", short. Signs "Kristoffer" on longer messages. Copies Arn
 - 2026-04-09: The spring Toilldag ad was invoiced at 19,200 (half page + digital) against 15,000 before. Adresseavisen no longer discounts. Thea accepted.
 - 2026-04-08: Kriss gave Thea a Claude account as part of the company switch from ChatGPT.
 - 2026-02-24: Kriss supplied Toilldag sale prices and the sale-goods list for the Adressa ad.
+
 # Open threads
-- Missing payment invoice 9782: Le Management asked for proof of payment. Thea forwarded it to Kriss on 2026-09-04, and no reply is visible ([thread](https://mail.google.com/mail/u/0/#all/1a06b6a4d58ae26c))
+- None.
+
 # Links
 - Organization: Livid (colleague).
 - [Arnt Eriksen](/people/arnt-david-eriksen.md): CDMO, her closest marketing counterpart

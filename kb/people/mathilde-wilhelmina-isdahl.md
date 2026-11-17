@@ -22,6 +22,8 @@ In the mail since 2024-01 (staff mailings), direct work with Kriss since 2026-01
 Norwegian, "Hei Mathilde", short and practical; signs "Kristoffer". Jens Olav Dankertsen is often in the loop (cc) since he gives her the assignments.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-08-24: Jobbsøknad mail
+- 2026-11-17: Closed, no mail since 2026-08-27: Tilbakebetaling til kunde
 - 2026-10-07: Cc'd on Kriss's rollout of repair shipments in Loom (store app guide v2, p. 13–16).
 - 2026-09-09: Kriss sent a shipping label for order W-30067 to Past Workshop/Mathilde when Webshipper printing failed.
 - 2026-08-27: Asked Kriss to refund a customer and create a shipment she couldn't create herself.
@@ -30,8 +32,7 @@ Norwegian, "Hei Mathilde", short and practical; signs "Kristoffer". Jens Olav Da
 - 2026-03-03: Kriss booked flights and hotel for her to work Tolldag in Trondheim (2026-03-13/14).
 
 # Open threads
-- Jobbsøknad mail — Mathilde asked to be re-added to the job-applications list; no reply in the files, Kriss owes it ([thread](https://mail.google.com/mail/u/0/#all/1a0342fdf9c7e47c))
-- Tilbakebetaling til kunde — she sent payment details and asked Kriss to refund and create a shipment for a customer; no reply in the files, Kriss owes action ([thread](https://mail.google.com/mail/u/0/#all/1a041eaccd7f780b))
+- None.
 
 # Links
 - Organization: Livid (colleague).

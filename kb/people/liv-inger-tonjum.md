@@ -23,6 +23,8 @@ Contact since 2024-06-28 (IN visit to Livid and a follow-up on loan options). Wo
 Norwegian. He opens with "Hei Liv Inger," and usually adds "Håper alt er bra!". He signs off with "Høres!" and "Kristoffer". Messages are short to medium and he usually copies Jens Olav. He switched to English when IN's New York office (Sebastian Serafin) was on the thread.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-08-28: Avtale
+- 2026-11-17: Closed, no mail since 2026-10-19: Invitasjon: Handelsteknisk workshop EU/UK (2026-10-29): Ole Eivind forwarded it as an option. If Liv
 - 2026-08-28: IN sent Livid an offer to join "Oppfølging Asia – fokus Japan med Ode Tokyo", with signature due 2026-09-04 (to Jens Olav/Ole Eivind).
 - 2026-08-20: Kriss asked about mentor support for international B2B sales after the SSENSE order. She said the Connect mentor scheme is only for companies under 5 years old, but there may be other options, and suggested a call.
 - 2026-04-13: Kriss asked her to help get a new signing deadline for a lapsed eksportfremstøt grant offer (the portal failed for Jens Olav). She referred him to IN's customer centre.
@@ -35,8 +37,7 @@ Norwegian. He opens with "Hei Liv Inger," and usually adds "Håper alt er bra!".
 - 2024-08-12: Loan meeting. Livid was to apply for a 5 MNOK IN loan, and the case moved to Hanne Beate Stunes on 2024-08-19.
 
 # Open threads
-- Avtale – Deltakelse i Oppfølging Asia – fokus Japan med Ode Tokyo: offer to be signed and returned by Jens Olav/Ole Eivind by 2026-09-04. No signed copy is visible in mail, so check it was done ([thread](https://mail.google.com/mail/u/0/#all/1a048b094a518adf))
-- Invitasjon: Handelsteknisk workshop EU/UK (2026-10-29): Ole Eivind forwarded it as an option. If Livid wants to go, the sign-up deadline is 2026-10-26 ([thread](https://mail.google.com/mail/u/0/#all/1a13babf29d8b492))
+- None.
 
 # Links
 - Organization: [Innovasjon Norge](kb://livid/organizations/suppliers/innovasjon-norge.md)

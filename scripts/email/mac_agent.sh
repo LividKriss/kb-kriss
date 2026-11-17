@@ -62,6 +62,8 @@ if [ $DRY = 0 ]; then
   # Daily housekeeping (docs/mac-agent.md step 5) — a plain script call, once per day.
   if [ "$(cat "$HOUSEKEPT" 2>/dev/null)" != "$(date +%F)" ]; then
     $GT housekeep >> "$LOG" 2>&1 && date +%F > "$HOUSEKEPT"
+    # Quiet open threads in Person notes → History (kb/email/kb-sync.md step 8); auto-sync commits it.
+    python scripts/email/kb_close_threads.py 2>&1 | tail -n 1 | sed "s/^/$(stamp) /" >> "$LOG"
   fi
   if [ $FORCE = 0 ]; then
     NEW=$($GT list "$NEW_Q" --max 20 2>/dev/null); NEW_RC=$?

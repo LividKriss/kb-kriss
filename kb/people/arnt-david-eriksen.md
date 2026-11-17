@@ -22,6 +22,14 @@ Long-standing and very frequent (680 threads in 3 years, Kriss replied in 53, 29
 Norwegian. Short, often one line ("Tar du denne", "Hei Arnt,") or a forward with no text. Delegates with "@Arnt" inside group threads. With English-speaking vendors, Kriss writes in English and copies Arnt.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-11-03: QR SS27
+- 2026-11-17: Closed, no mail since 2026-11-02: Re: FAO ARNT & KRISTOFFER
+- 2026-11-17: Closed, no mail since 2026-09-18: Fwd: Duty Drawback
+- 2026-11-17: Closed, no mail since 2026-10-12: Re: Let us know your thoughts
+- 2026-11-17: Closed, no mail since 2026-09-25: Fwd: Re: Return
+- 2026-11-17: Closed, no mail since 2026-10-13: Fwd: Reminder from Blomsterkraft AS
+- 2026-11-17: Closed, no mail since 2026-09-28: pris-avvik sitoo og catalog
+- 2026-11-17: Closed, no mail since 2026-09-26: Nye produkter som mangler i loom
 - 2026-11-12: Kriss asked him to handle a UPS parcel to France not collected at the Access Point, and to tell the store and customer about the CamperLab boots refund now that Sitoo till refunds are enabled.
 - 2026-10-06: Kriss handed the Adresseavisen Toilldag ad material to Arnt.
 - 2026-10-01: Kriss dropped Sitoo's Shopify Core setup. Livid keeps its own custom integration (Arnt in cc).
@@ -34,14 +42,6 @@ Norwegian. Short, often one line ("Tar du denne", "Hei Arnt,") or a forward with
 - 2025-10-15 onward: Follow-up with Madden Analytics (from subject, 31 messages).
 
 # Open threads
-- QR SS27 — Christopher needs an updated QR list (Hayes renamed to Hayes Wide) for Nilörn. Arnt owes it; reminded 2026-10-20 ([thread](https://mail.google.com/mail/u/0/#all/1a0c43d70d7ab374))
-- Re: FAO ARNT & KRISTOFFER — Swap is chasing a call on its returns portal and an AI-search (GEO) audit. Kriss/Arnt owe a reply ([thread](https://mail.google.com/mail/u/0/#all/1a115fb88f9000ef))
-- Fwd: Duty Drawback — Swap Global contract unsigned. Tara asked 2026-09-18 for a call to finalise. Kriss owes a decision ([thread](https://mail.google.com/mail/u/0/#all/19ed5c6952cab9e8))
-- Re: Let us know your thoughts — several customer replies to the review mail reach Kriss/Arnt and go unanswered, e.g. 2026-10-12, waiting for an exchange a month after returning (also 1a0b3228a2e9dd05, wrong item received) ([thread](https://mail.google.com/mail/u/0/#all/1a131a0c1f95759d))
-- Fwd: Re: Return — Support asked Kriss on 2026-09-25 to process a bank refund for an international return. Check whether it's done ([thread](https://mail.google.com/mail/u/0/#all/1a0d8bb311e73706))
-- Fwd: Reminder from Blomsterkraft AS — Kriss says it was paid in August. Someone needs to clear the reminder with Blomsterkraft ([thread](https://mail.google.com/mail/u/0/#all/19fcd07641ce6e36))
-- pris-avvik sitoo og catalog — catalog prices aren't syncing to Sitoo. Arnt also owes the inventory-ID/Sitoo_SKU check and continuous Origo sync Kriss asked for on 2026-09-28 in "Produkter som mangler i metafield manager" ([thread](https://mail.google.com/mail/u/0/#all/1a0e872fecdf2aec))
-- Nye produkter som mangler i loom — Ole asked to get Kora products into Loom and the autosupply form. No reply seen ([thread](https://mail.google.com/mail/u/0/#all/1a0dd3a401a4d100))
 - Fwd: UPS Final Reminder, Shopify order W-30595 — Arnt to contact the customer or instruct UPS ([thread](https://mail.google.com/mail/u/0/#all/1a1bf5e452322863))
 - CamperLab-støvler – refusjon av butikkjøp — Arnt to inform the store and answer the customer ([thread](https://mail.google.com/mail/u/0/#all/1a1cefc09fa0376d))
 

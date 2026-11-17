@@ -23,6 +23,7 @@ Since 2023-12 (first thread in index), when Livid bought a Hangcha CBD15 electri
 Norwegian, "Hei," short and practical; signs "Kristoffer". Christopher Stangeby steps in on delivery logistics.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-12: Svar: Har dere behov for truck eller utstyr fremover?
 - 2026-10-12: Ådalen proposed a Trondheim store address on file; Christopher Stangeby corrected delivery to Livid Jeans AS warehouse in Oslo.
 - 2026-10-09: Kriss ordered a wet-grip drive wheel for the CBD15, same invoicing as last time.
 - 2026-03-18: Ådalen confirmed the wheel can be swapped in-house and gave instructions.
@@ -32,7 +33,7 @@ Norwegian, "Hei," short and practical; signs "Kristoffer". Christopher Stangeby 
 - 2023-12 – 2024-01: Purchase of Hangcha CBD15 electric pallet jack (inferred from subjects).
 
 # Open threads
-- Svar: Har dere behov for truck eller utstyr fremover? — wet-grip wheel ordered 2026-10-09 and delivery address corrected 2026-10-12; Ådalen owes confirmation/delivery ([thread](https://mail.google.com/mail/u/0/#all/19ce64e83cef6bcb))
+- None.
 
 # Links
 - Organization: [Aadalen](kb://livid/organizations/suppliers/aadalen.md)

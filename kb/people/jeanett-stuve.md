@@ -23,6 +23,7 @@ First thread 2026-07-09. Webshop upkeep for the Eplehuset uniform programme: mar
 Norwegian, "Hei"/"Heisann", very short, direct instructions. Copies Odd Johnny Pettersen (Konsis).
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-15: PrintCollect — Eplehuset
 - 2026-10-20: Kriss declined both automation options if they cost development; orders had come in on sold-out sizes, so he asked for those sizes to be unorderable (T-shirts now out in 2XS–M). Jeanett removed them as options.
 - 2026-10-20: Konsis offered (1) an API link to Livid's order system (stock sync, order transfer; development billed by the hour) or (2) manual per-size stock shown in the shop.
 - 2026-10-15: Kriss asked to mark Cardigan XS and T-shirt S/M sold out, new stock 14 December; asked which platform Konsis uses and whether stock and orders could be automated.
@@ -31,7 +32,7 @@ Norwegian, "Hei"/"Heisann", very short, direct instructions. Copies Odd Johnny P
 - 2026-07-09: T-shirt XS marked sold out but still selectable; Kriss accepted that for now.
 
 # Open threads
-- PrintCollect - Eplehuset - 20821 — Kriss asked Eplehuset (Julie) whether 2XS or S can replace the sold-out XS cardigans; no answer seen ([thread](https://mail.google.com/mail/u/0/#all/1a0aa641087cc3c4))
+- None.
 
 # Links
 - Organization: [Konsis](kb://livid/organizations/suppliers/konsis.md)

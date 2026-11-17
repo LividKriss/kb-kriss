@@ -23,6 +23,8 @@ Since 2026-03 (payment follow-up). Main Oxer contact for the 2026 lease extensio
 Norwegian, "Hei Susann"/"Hei", very short replies; copies Lars-Petter. Brings in Jens Olav Dankertsen as the signatory.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-12: Utestående betaling
+- 2026-11-17: Closed, no mail since 2026-10-05: Signering Leieforlengelse
 - 2026-10-12: Susann chased September rent (due 2026-09-30 under the temporary terms), still unpaid.
 - 2026-10-01: Kriss approved the draft extension; Jens Olav Dankertsen to sign. Susann sent it via Penneo, but delivery to Jens Olav was uncertain.
 - 2026-09-24: Susann sent draft lease extension (from 2027-04-01) for approval.
@@ -31,8 +33,7 @@ Norwegian, "Hei Susann"/"Hei", very short replies; copies Lars-Petter. Brings in
 - 2026-04-10: Susann chased two unpaid quarters; Kriss said on 2026-04-21 they had been paid.
 
 # Open threads
-- Utestående betaling — Susann asked 2026-10-12 for status on unpaid September rent; Kriss owes a reply/payment ([thread](https://mail.google.com/mail/u/0/#all/1a12fa4bee860687))
-- Signering Leieforlengelse — Penneo signing request to Jens Olav unconfirmed; Susann asked 2026-10-05 if he received it ([thread](https://mail.google.com/mail/u/0/#all/1a0d22633aa90710))
+- None.
 
 # Links
 - Organization: [Oxer Eiendom](kb://livid/organizations/suppliers/oxer-eiendom.md)

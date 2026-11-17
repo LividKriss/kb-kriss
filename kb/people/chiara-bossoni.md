@@ -23,6 +23,7 @@ Since 2026-04 (RFQ PO-00026). Fabric orders for Livid production (ART. HELIOS DE
 English, "Hello Chiara"/"Hello all", very short. Cc's operations@livid.no, Christopher and Cervotessile's sales contacts (incl. sophie@kvimantextil.se).
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-28: Purchase Order — PO-00149
 - 2026-10-19: Delivery of HELIOS for PO-00149 postponed from 10-19 to 10-23.
 - 2026-09-17: Order confirmation sent for PO-00149 (HELIOS, Kriss adjusted the quantity to 130 m on 2026-09-08).
 - 2026-09-08: Chiara held PO-00149 until an overdue invoice (~EUR 250, May 2026) was paid; Kriss put it to payment 2026-09-10.
@@ -33,7 +34,7 @@ English, "Hello Chiara"/"Hello all", very short. Cc's operations@livid.no, Chris
 - 2026-04-22: Price offer for PO-00026; all articles in stock.
 
 # Open threads
-- Purchase Order — PO-00149 — goods due 2026-10-23; Christopher asked 2026-10-20 for shipping info/tracking, Cervotessile owes it ([thread](https://mail.google.com/mail/u/0/#all/1a080f739504bec5))
+- None.
 
 # Links
 - Organization: [Cervotessile S.p.A.](kb://livid/organizations/suppliers/cervotessile.md)

@@ -23,6 +23,7 @@ Rangel handles Livid's sea-freight imports of fabric from Japan (Kuroki, Japan B
 English, one-word approvals ("approved", "Yes please"). Copies the wider Rangel team (Rodrigo Fonseca, Fábio Teixeira Lopes, Pedro Lerias, João Alves, Sara Balazeiro).
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-15: New shipment request: Invoice_0189-00059575 — OPOSI2601401
 - 2026-10-21: Kriss approved the draft BL for booking OPOSI2601362 (ETD 2026-10-22).
 - 2026-10-19: Kriss approved the house BL draft for the Kuroki shipment (2 pallets of fabric, Kobe to Leixões).
 - 2026-10-15: New booking request (invoice 0189-00059575, about 440 kg to Leixões CFS); Ana to quote.
@@ -31,7 +32,7 @@ English, one-word approvals ("approved", "Yes please"). Copies the wider Rangel 
 - 2026-10-01: Kriss told Rangel to expect three bookings from Japan (two Kuroki, one Japan Blue).
 
 # Open threads
-- New shipment request: Invoice_0189-00059575 - OPOSI2601401 — Ana owes a quote, then Kriss to confirm the booking ([thread](https://mail.google.com/mail/u/0/#all/1a13fb347e79f99c))
+- None.
 
 # Links
 - Organization: [Rangel Internacional Aérea e Marítima, S.A.](kb://livid/organizations/suppliers/rangel.md)

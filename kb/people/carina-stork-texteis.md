@@ -25,6 +25,9 @@ Carina was Livid's day-to-day contact at Stork for production (SS26, FW26 and SS
 English. "Hello Carina," / "Hello Carina and Helena," / "Hello both," then "Hope you are well." He signs "Kristoffer" or just his signature. Messages are short and direct, and when he disputes something he gives the exact figures and asks her to "Please confirm". He always copies Paulo Teixeira (Tex-Challenge), often copies Helena, and copies Christopher Stangeby on production matters.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-09-25: Leftover stock new noil silk
+- 2026-11-17: Closed, no mail since 2026-09-28: New Manufacture Order — MO-SS27-06
+- 2026-11-17: Closed, no mail since 2026-09-14: New Lab Dip Order — LD-002
 - 2026-09-28: Manufacture order MO-SS27-06 sent to Stork: 19 styles, 987 pcs, requested delivery 2026-12-04.
 - 2026-09-18: Carina announced she would leave Stork on 2026-09-30, with Helena as the new contact.
 - 2026-09-15: Noil silk dispute. Kriss expected about 250 m of new noil silk to be left after FW26, but Stork reported about 20 m, explaining that the old silk was narrower and shrinks a lot. Kriss accepted this and asked for SS27 consumption (APT 2.73 m, Extensive 2.55 m plus 5–8% print waste).
@@ -37,9 +40,7 @@ English. "Hello Carina," / "Hello Carina and Helena," / "Hello both," then "Hope
 - 2025-06 to 2026-02: "PENDING INVOICES FROM SS24" and "STORK: Account statement" threads (inferred from subjects only).
 
 # Open threads
-- Leftover stock new noil silk — Livid (Kriss and Christopher) still has to decide on a 114 cm or 140 cm width for the SS27 noil silk order. Helena gave APT at 2.05 m/pc on 140 cm and a 100 m printing minimum for Extensive ([thread](https://mail.google.com/mail/u/0/#all/1a075dae487ce64e))
-- New Manufacture Order — MO-SS27-06 — Stork (now Helena) still has to confirm the order and the delivery date of 2026-12-04 ([thread](https://mail.google.com/mail/u/0/#all/1a0e95fb7e40fb9a))
-- New Lab Dip Order — LD-002 — Stork was asked to confirm delivery dates (deadline 2026-10-08). The reply is not visible, so status is unclear ([thread](https://mail.google.com/mail/u/0/#all/1a09fc5996e9bcf4))
+- None.
 
 # Links
 - Organization: [Stork Texteis, Lda](kb://livid/organizations/manufacturers/stork-texteis.md)

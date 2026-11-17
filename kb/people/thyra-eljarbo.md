@@ -23,6 +23,9 @@ On Kriss's production/payment threads with the agent since 2025-07-17 (66 thread
 Norwegian, "Hei Thyra," / "Hei dere," first name, one to three lines, signs "Kristoffer". Copies Christopher and the other Petter Korseth people (Mona, Gustaf, often Maria). Direct one-to-one mails are rare.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-19: Pending matters for Springair
+- 2026-11-17: Closed, no mail since 2026-10-26: New Manufacture Order — MO-SS27-04
+- 2026-11-17: Closed, no mail since 2026-10-23: LIVID-SS27 BULK … PP SAMPLE making-button
 - 2026-10-13: SS27 production plans sent via the portal to Springair (first delivery 2026-11-27) and Bellanza (2026-12-25); Bellanza confirmed after deposit was paid.
 - 2026-09-28: Kriss invited Thyra and the Petter Korseth team to Livid's supplier portal.
 - 2026-09-28/29: SS27 orders issued: MO-SS27-04 (Springair, 8 styles, 370 pcs) and MO-SS27-09 (Bellanza, 6 styles, 260 pcs).
@@ -36,9 +39,6 @@ Norwegian, "Hei Thyra," / "Hei dere," first name, one to three lines, signs "Kri
 
 # Open threads
 - Production plan SS27 for approval — Springair has the QR labels but lacks hangtags, main and size labels; Christopher owes those plus a care-label ETA ([thread](https://mail.google.com/mail/u/0/#all/1a1348398cb56fac))
-- Pending matters for Springair — Springair asks for portal TPs and requests to be sent by email as well; Christopher owes a reply ([thread](https://mail.google.com/mail/u/0/#all/1a152bc319a79ca6))
-- New Manufacture Order — MO-SS27-04 — Lora sizes confirmed (71 pcs); packing list waits for stickers, and Livid owes a care-label ETA ([thread](https://mail.google.com/mail/u/0/#all/1a0e893ccc5fe51f))
-- LIVID-SS27 BULK … PP SAMPLE making-button — button chosen 2026-10-22; Huzhou owes the Tompkins PP sample ([thread](https://mail.google.com/mail/u/0/#all/1a15863ff5c37afc))
 
 # Links
 - Organization: [Petter Korseth AS](kb://livid/organizations/manufacturers/petter-korseth.md)

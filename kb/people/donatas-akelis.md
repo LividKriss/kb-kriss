@@ -23,6 +23,7 @@ In contact since 2023-10 (bulk deliveries to Stork and Lisama). Sample and bulk 
 English, "Hello Donatas," and signs "Best, Kristoffer". Apologetic and conciliatory about late payments, and proposes concrete terms. Copies Christopher Stangeby (and Charlie Selvig on older threads).
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-29: Purchase Order — PO-00142
 - 2026-10-28: Final invoices KT 018053 (Lisama) and KT 018054 (Stork) for PO-00142 sent with packing lists; terms "Advance (paid)". Sent to HK Consulting; PowerOffice forward left for Kriss.
 - 2026-10-22: Kriss paid the advance proformas for PO-00142 (Lisama and Stork); Klasikine to ship 2026-10-23, final invoices to follow.
 - 2026-10-08: Christopher approved swatches (Ganache, Stone, Volcanic, Taupe); small surcharge on the small Taupe meterage.
@@ -36,7 +37,7 @@ English, "Hello Donatas," and signs "Best, Kristoffer". Apologetic and conciliat
 - 2024-09-10: Bulk order (from subject "Livid - Bulk order").
 
 # Open threads
-- Purchase Order — PO-00142 — advance paid 2026-10-22; final invoices and packing lists received 2026-10-28; tracking for both shipments still to come ([thread](https://mail.google.com/mail/u/0/#all/1a075de724e6825b))
+- None.
 
 # Links
 - Organization: [KLASIKINE TEKSTILE](kb://livid/organizations/suppliers/klasikine-tekstile.md)

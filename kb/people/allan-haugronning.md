@@ -22,6 +22,7 @@ Store-side contact for equipment and store routines; tests new processes Kriss r
 Norwegian, "Hei Allan,", short; Allan calls him "Kriss".
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-07: Lage reparasjons-sendinger i Loom
 - 2026-10-07: Cc'd on the Loom repair-shipment rollout; said he would test it and report back.
 - 2026-03-18: Asked for the purchase receipt for the Bergen store's steamer (broken head, spare part from Steamery); Kriss found The Steamery invoice from the original delivery.
 - 2025-11-10: Received the autosupplering change broadcast.
@@ -30,7 +31,7 @@ Norwegian, "Hei Allan,", short; Allan calls him "Kriss".
 - 2024-02-10: "Retur RW feil størrelse" (from subject; return of wrong size).
 
 # Open threads
-- Lage reparasjons-sendinger i Loom — Allan to test the new repair-shipment flow and report back; 3rd message in thread not in extract ([thread](https://mail.google.com/mail/u/0/#all/1a1133e85202b595))
+- None.
 
 # Links
 - Organization: Livid (colleague).

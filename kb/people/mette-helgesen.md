@@ -23,6 +23,7 @@ Sends overdue notices for rent and service-charge advances (akonto felleskostnad
 Norwegian, "Hei Mette", short and apologetic when late. Copies Ole Eidem on payment replies. Mette writes briefly with smileys.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-26: Utestående per 23.10.2026 (follows the 16.10 reminder)
 - 2026-10-23: New reminder that September 2026 rent is unpaid ("Utestående per 23.10.2026"); no reply yet.
 - 2026-10-18: Reminder that September 2026 rent is outstanding (no reply yet).
 - 2026-08-31: Kriss reminded her of the 30-day deferral; she confirmed it is tracked manually, so reminders may still arrive.
@@ -33,7 +34,7 @@ Norwegian, "Hei Mette", short and apologetic when late. Copies Ole Eidem on paym
 - 2026-04-17: April rent reminder with warning of collection through Intrum; Kriss promised payment.
 
 # Open threads
-- Utestående per 23.10.2026 (follows the 16.10 reminder) — September rent flagged as outstanding; Kriss to check it against the deferral and pay or reply ([thread](https://mail.google.com/mail/u/0/#all/1a167d9102da4c4f))
+- None.
 
 # Links
 - Organization: [E C Dahls Eiendom AS](kb://livid/organizations/suppliers/ec-dahls-eiendom.md)

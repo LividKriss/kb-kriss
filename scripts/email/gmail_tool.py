@@ -40,7 +40,7 @@
                                                   archive and mark read
     gmail_tool.py inbox-cleanup                   hourly from mac_agent.sh, no Claude: close threads whose
                                                   latest message is Kriss's, fix conflicting class labels,
-                                                  archive threads left with only FYI/Noise/Waiting
+                                                  archive threads left with only FYI/Noise/Waiting/HR
     gmail_tool.py clean-draft <draft_id> ... | --all [--dry]
                                                   remove stray inline images (quoted signature logos/screenshots
                                                   whose cid: is not in the body) that would go out as attachments;
@@ -105,7 +105,8 @@ DOCS_DIR = Path(APP_DIR) / "docs"
 DOC_PREFIX = "[Doc]"
 # Threads with any of these stay in the inbox (kb/email/labels.md); AI/Docs-read too, since housekeep
 # deletes a [Doc] draft as soon as its thread is archived.
-KEEP_IN_INBOX = {"AI/Urgent", "AI/Reply", "AI/Action", "AI/HR", "AI/Invoice", "AI/Payments",
+# AI/HR is archived once labelled (counted in the brief; Kriss, 2026-11-17), so it is not here.
+KEEP_IN_INBOX = {"AI/Urgent", "AI/Reply", "AI/Action", "AI/Invoice", "AI/Payments",
                  "AI/Task", "AI/Docs", "AI/Docs-read"}
 # Close-out (send-draft, done, inbox-cleanup): labels that mean "Kriss still has to act". Removed when
 # the thread is handled. WORK_LABELS are work the assistant still has to do on the thread (a task, a
@@ -823,7 +824,7 @@ def cmd_inbox_cleanup(svc, args):
     A. Kriss's own message is the latest in the thread → closed (AI/Waiting when it asks something,
        not for forwards to PowerOffice); a thread with a work label keeps it and stays.
     B. Two or more of Urgent/Reply/Action/Waiting/FYI/Noise → keep the first in EXCLUSIVE_ORDER.
-    C. Only FYI/Noise/Waiting left (and the latest message carries it) → archived and read.
+    C. Only FYI/Noise/Waiting/HR left (and the latest message carries it) → archived and read.
     B and C act only when the latest message carries an AI/ label (otherwise part A has not
     classified the new mail yet). Nothing is sent or deleted."""
     dry = dry_mode(args)
@@ -885,13 +886,13 @@ def cmd_inbox_cleanup(svc, args):
                     "removeLabelIds": [labels[n] for n in drop]}))
                 print(f"relabelled {tid}: keep {excl[0]}, -{','.join(drop)}")
             on -= set(drop)
-        cls = on & (set(EXCLUSIVE_ORDER) | KEEP_IN_INBOX)
-        if cls and cls <= {"AI/FYI", "AI/Noise", WAITING}:
+        cls = on & (set(EXCLUSIVE_ORDER) | KEEP_IN_INBOX | {"AI/HR"})
+        if cls and cls <= {"AI/FYI", "AI/Noise", WAITING, "AI/HR"}:
             res = archive_thread(svc, tid, dry)
             if "archive" in res and "KEEP" not in res and "already" not in res:
                 counts["C"] += 1; print(res)
     print(f"inbox-cleanup: {len(tids)} inbox threads; closed after Kriss's reply {counts['A']}, "
-          f"label conflicts fixed {counts['B']}, FYI/Noise/Waiting archived {counts['C']}"
+          f"label conflicts fixed {counts['B']}, FYI/Noise/Waiting/HR archived {counts['C']}"
           + (" (dry run)" if dry else ""))
 
 

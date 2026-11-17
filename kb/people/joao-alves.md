@@ -23,6 +23,7 @@ Runs the operations side of Livid's LCL shipments Kobe → Barcelona → Leixõe
 English. Opens with "Hello," or "Hello João,". Replies are very short ("Yes approved!", "Any news please", "Need clarification here guys"). He usually copies the whole Rangel team (Sara, Rodrigo, Fábio, Pedro Lerias), and adds Lisama when delivery or customs paperwork involves them. Chases quickly when updates stop.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-21: Japan Blue Shipment
 - 2026-10-19: Kriss asked all Rangel contacts about a pending Japan Blue shipment; Rangel had no pre-alert from its agent (open).
 - 2026-09-15: After Kriss chased on 09-14 and 09-15, João confirmed Kuroki INV 26-1640 reached Barcelona on 09-10. Delivered to Lisama 2026-09-29.
 - 2026-08-28: Asked for shipping docs for 26-1640. Kriss sent the Livid Jeans invoice on 08-31.
@@ -35,7 +36,6 @@ English. Opens with "Hello," or "Hello João,". Replies are very short ("Yes app
 - 2025-12-09: Japan Blue booking INV 0189-00042721 (from subject).
 
 # Open threads
-- Japan Blue Shipment — Fábio (Rangel) asked Kriss on 2026-10-21 for a reference to trace the shipment with their agent. Kriss owes the reference. ([thread](https://mail.google.com/mail/u/0/#all/1a152cf03626939d))
 - RE: NEW BK: S/KUROKI - C/ LISAMA / INV NO.26-1641 / PO NO.PO-00135 / OPOSI2601344 — Departed 2026-10-19 after a delay of about a month that Kriss raised. Rangel promised the full schedule (ETA Leixões around 12-15) and still owes it. ([thread](https://mail.google.com/mail/u/0/#all/1a0edf4ea2167cb1))
 
 # Links

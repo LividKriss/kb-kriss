@@ -23,6 +23,7 @@ VWC has supplied vintage stock to Livid Retail since 2024-06-27. Ole Eivind Sigg
 English, informal and short ("Hello Ricardo", "Hello guys", "Hey Ricardo", signs "Kristoffer"). He copies Ole Eivind, and Christopher when shipping is involved. He is firm on accounting requirements (official invoices, bank-change verification).
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-21: Handpick invoice
 - 2026-11-12: Kriss said payment of the INV-0232 balance goes out once the bank account reopens (13 Nov). Return VRJ-1001 was refused over GBP 169.62 import charges; Riccardo will accept them before 23 Nov and wants his own couriers to collect future returns. Ole declined the Norway knits, wool coats and Barbour jackets (buying paused) ([thread](https://mail.google.com/mail/u/0/#all/1a0f65f5f96bd8f6))
 - Updated invoice INV-0232: Kriss told VWC he will pay the balance of GBP 1,669 (after the INV-0035 prepayment) shortly; the earlier version is already in PowerOffice so the voucher needs replacing; Xero has sent overdue reminders since 10-29. Riccardo awaits Ole's answer on the extra stock ([thread](https://mail.google.com/mail/u/0/#all/1a1ab1a4f6ac7ca2))
 - 2026-10-22: Riccardo summarized a USA pre-order (about £3,800) and offered 100 Barbour wax jackets (prepay). Kriss agreed to pay the Barbour invoice INV-0200 together with the pending handpick invoice INV-0171, Ole confirmed the order, and the EU delivery was set for 25 Nov.
@@ -38,7 +39,6 @@ English, informal and short ("Hello Ricardo", "Hello guys", "Hey Ricardo", signs
 
 # Open threads
 - Invoice Burberry Scarves - The VWC: Livid owes the INV-0232 balance (GBP 1,669), promised once the bank account reopens on 13 Nov. Ole to agree return handling before the next return or claim ([thread](https://mail.google.com/mail/u/0/#all/1a0f65f5f96bd8f6))
-- Handpick invoice - The VWC: Louie chased payment of INV-0171 on 2026-10-21; it is covered by the payment above ([thread](https://mail.google.com/mail/u/0/#all/1a15d809cd60168d))
 
 # Links
 - Organization: [The Vintage Wholesale Company](kb://livid/organizations/suppliers/vwcc.md)

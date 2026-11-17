@@ -22,6 +22,8 @@ Day-to-day retail operations for the Oslo store: stock corrections and counts, r
 Norwegian. "Hei," and very short, factual replies; most contact is in group mails to all store managers. Ole Eivind Siggerud is usually copied on Hobo and stock matters. Vincent calls him "Kris".
 
 # History
+- 2026-11-17: Closed, no mail since 2026-09-24: Hobo plukk
+- 2026-11-17: Closed, no mail since 2026-10-01: Your Sitoo Phone ticket #36646506
 - 2026-10-26: Hotel on the Naples/Caserta trip (Sept 2026, with Ole Eivind) booked as travel in Livid Jeans AS after Kriss confirmed his role.
 - 2026-10-07: Kriss told stores repair shipments to customers are now registered in Loom (updated store guide).
 - 2026-09-27: Kriss told store managers that stock requests for B2B orders, and some B2B orders, will come as Loom orders.
@@ -35,8 +37,7 @@ Norwegian. "Hei," and very short, factual replies; most contact is in group mail
 - 2026-01-21: "HASTER - SENDE TIL LAGER": urgent goods to send to the warehouse (from subject only).
 
 # Open threads
-- Hobo plukk — Ole Eivind asked Kriss to invoice Hobo for this pick and the previous delivery; no invoice confirmation in the thread ([thread](https://mail.google.com/mail/u/0/#all/1a0d352ac109c0e3))
-- Your Sitoo Phone ticket #36646506 — Sitoo closed the case for lack of Kriss's approval to move the register Trondheim → Oslo; reopen/approve if the move is still needed ([thread](https://mail.google.com/mail/u/0/#all/1a0d2d756683c7f9))
+- None.
 
 # Links
 - Organization: Livid (colleague).

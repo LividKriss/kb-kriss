@@ -15,10 +15,11 @@ applies_to: all
 Part B of the [daily run](/email/daily-run.md), and the midday sweep (part D: summary line, Tasks, new Urgent only).
 
 # Rules
-**Language and length:** English, short. The whole brief fits on about one screen; details come when Kriss asks ("tell me more about 3"). Numbers run through the whole brief (1, 2, 3 … not per section), so "send 2, 5" is unambiguous. Each row links the Gmail thread.
+**Language and length:** English, short. **At most 20 numbered items**; whatever does not fit goes on the *Still open* line. The whole brief fits on about one screen; details come when Kriss asks ("tell me more about 3"). Numbers run through the whole brief (1, 2, 3 … not per section), so "send 2, 5" is unambiguous. Each row links the Gmail thread.
 
 **Layout, in this order (leave out empty sections):**
 
+0. **Closed for you** — one line, before the summary: what the brief closed itself before presenting (paid reminders the PowerOffice check found, tasks already done in Loom or Threadflow, Waiting threads that have been answered, Action alerts the system shows resolved), e.g. "Closed for you: EC Dahls 19620 (paid), Lisama 1463 task (done), 3 Waiting (answered)". Each with a short number so "reopen 5" undoes it.
 1. **Summary** — one line: `Urgent 3 · Tasks 2 · Reply 5 · Action 2 · Invoices 4 · Payments due 3 · Waiting 1 · HR 2 · FYI 18 · Noise 41`, then one sentence on the single most important thing today.
 2. **Urgent** — table:
 
@@ -36,6 +37,8 @@ Part B of the [daily run](/email/daily-run.md), and the midday sweep (part D: su
 6. **Payments due** — `Supplier · Amount · Due · Reminder no.` (no numbering needed unless an action is proposed). Before a reminder is listed, check the supplier ledger in PowerOffice; if already paid, archive it and leave it out. If PowerOffice can't be reached, mark the row "not checked in PO". VWC (The Vintage Wholesale Company) INV-0200 GBP 4,500 is paid (Kriss, 2026-10-26).
 7. **Waiting** — overdue threads: `# · Who · Asked on · Nudge draft`.
 8. **FYI** — up to 8 one-liners, most relevant first; "+N more" if longer. Noise: count only (list on request).
+8b. **Still open** — one line: items already shown in **two** briefs without an answer from Kriss, as `n · who – what` separated by "·" (e.g. "Still open (6): Octa leather claim · Emonkey cost prices · …"). An item comes back as a full row only when new mail arrives in its thread or its deadline is two days or less away. Kriss can still act on them by name or number.
+8c. **Drafts going stale** — drafts in the inbox unsent for more than 5 days: `# · Who · Draft age · send / rewrite / drop`. "drop" deletes the draft and closes the thread.
 9. **KB** — what part A changed (notes created/updated) and proposals waiting for a yes (voice, livid-kb), one line each.
 10. **Close** — "Reply with numbers, e.g. *do 2 · send 1, 4 · forward 7–9 · more on 2*."
 
@@ -45,7 +48,9 @@ Part B of the [daily run](/email/daily-run.md), and the midday sweep (part D: su
 
 **Rows:** who = person (organization); what = the ask in ≤ 10 words; why = the deadline or consequence; draft = ✓ + its direction in ≤ 8 words, or "decision needed: …". Amounts with currency. No email body text beyond that.
 
-**HR:** count only, never names of the matter beyond "HR matter (n)".
+**HR:** count only, never names of the matter beyond "HR matter (n)": the number of threads labelled `AI/HR` since the last brief (they are archived once labelled; NAV deadlines are Urgent and stay in the inbox).
+
+**Decisions are remembered:** "skip", "handled", "no action" → the thread is closed (`gmail_tool.py done`); "later 5 fri" → item 5 is hidden until that date (brief state, `docs/brief-run.md`). The brief never asks about the same thread again unless new mail has arrived in it or a hidden item's date has come.
 
 # Exceptions
 - If part A failed or did not run, say so above the summary and offer to run it now.
@@ -54,5 +59,6 @@ Part B of the [daily run](/email/daily-run.md), and the midday sweep (part D: su
 # Examples
 
 # Source / history
+Kriss, 2026-11-17: the inbox kept building and settled items were asked about again: *Closed for you*, *Still open* after two briefs, at most 20 items, stale drafts, remembered decisions, HR counted then archived.
 Kriss, 2026-11-09: T4 price-control block and T5 rows in Tasks; ⚠ on forwarded manufacturer invoices without an MO shipment.
 Kriss, 2026-10-23: first test run was plain bullets; wants more structure, tables where useful, still short, and the brief as a new Cowork chat he can work through by voice or typing.

@@ -25,6 +25,7 @@ He is Livid's channel for buying Kuroki denim: KB77BK-LD (black), KA7731, KB77TT
 - He is firm when something doesn't fit, but courteous ("Very sorry, but we need this amended").
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-22: FW: LIVID JEANS INV. 26-2400 KB77BK-LD : PO-00140
 - 2026-10-22: PO-00140 (KB77BK-LD) shipped by sea. Kriss questioned the delay since the goods were ready in September and asked for a CIF price on KA7731. The 5,000m of KA7731 for PO-00014 is ready, and Kriss plans to take it mid/end November.
 - 2026-09-30: A prepayment failed because no JPY currency order had been placed. Three invoices were rescheduled for 2026-10-02.
 - 2026-09-25: Livid's sea forwarder refused the PO-00140 booking because it had no nomination from Livid. Kriss sorted it on 2026-09-29.
@@ -37,7 +38,7 @@ He is Livid's channel for buying Kuroki denim: KB77BK-LD (black), KA7731, KB77TT
 - 2026-03-12: PO-00013/PO-00014 reworked once 5,000m of KA7731 turned out to be available for the summer.
 
 # Open threads
-- FW: LIVID JEANS INV. 26-2400 KB77BK-LD : PO-00140 — Walter owes the CIF (sea freight included) price for KA7731. Kriss owes the date for shipping the 5,000m of KA7731 from PO-00014 (expected mid/end November) ([thread](https://mail.google.com/mail/u/0/#all/1a10bd3ee751b272))
+- None.
 
 # Links
 - Organization: [Kuroki Co Ltd](kb://livid/organizations/suppliers/kuroki.md)

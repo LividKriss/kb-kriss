@@ -24,6 +24,10 @@ Daily operational partner on production. Kriss issues POs/MOs (from operations@l
 - Christopher chases Kriss on pending supplier payments (short reminders); Kriss replies with the action taken.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-23: SHIP.LABEL FOR EXTENSIVE
+- 2026-11-17: Closed, no mail since 2026-10-26: STORK: FW26 EXTENSIVE BEAN SILK invoice + pending invoices
+- 2026-11-17: Closed, no mail since 2026-10-26: FW: Production plan SS27 for approval — Livid/Bellanza
+- 2026-11-17: Closed, no mail since 2026-10-26: New Manufacture Order — MO-0019
 - 2026-11-12: Kriss shipped all his Threadflow requests except ordering thread and belt loops from Lisama (on hold). In Gorgias, Christopher sent support to Arnt and Kriss for how customer return labels are made now.
 - 2026-11-06–11: Sent Threadflow change requests to Kriss (Bill-to dropdown for Livid Jeans AS / Livid Jeans Unipessoal Lda, delete/archive styles with an archived toggle, BOM hover bug); Kriss said he is redesigning the material-shipment view.
 - 2026-10-15: Approved Stork's off-colour Extensive Bean silk bulk to keep delivery dates and asked for a 10% reduction; Stork applied it on invoice 183 (2026-10-22).
@@ -37,11 +41,7 @@ Daily operational partner on production. Kriss issues POs/MOs (from operations@l
 - 2025-12-15: Looked for the supplier of the blue jeans repair patches (Oslo Digitaltrykk).
 
 # Open threads
-- SHIP.LABEL FOR EXTENSIVE — Stork has invoice 183 + packing list ready; Christopher owes UPS label and pickup ([thread](https://mail.google.com/mail/u/0/#all/1a11ab8525c78c43))
-- STORK: FW26 EXTENSIVE BEAN SILK invoice + pending invoices — Kriss owes waybill reply and payment of a Stork invoice past due since 2026-10-18 ([thread](https://mail.google.com/mail/u/0/#all/1a163e660141d3cb))
-- FW: Production plan SS27 for approval - Livid/Bellanza — Christopher owes PPS comments (promised end of week 43); Bellanza warns 2nd PPS only end of Nov ([thread](https://mail.google.com/mail/u/0/#all/1a158022b1d97085))
 - Production plan SS27 for approval — Springair received QR labels but misses hangtag, main and size labels; Christopher owes status ([thread](https://mail.google.com/mail/u/0/#all/1a1348398cb56fac))
-- New Manufacture Order — MO-0019 — Siluete wants production approval on the second wash samples; Livid owes measurement/handfeel comments ([thread](https://mail.google.com/mail/u/0/#all/1a0a02ce2074d1dc))
 - Purchase Order — PO-00147 — Tessilbiella order ready; Kriss owes forwarder name or OK to add freight on invoice ([thread](https://mail.google.com/mail/u/0/#all/1a075e5344c1607b))
 - Prices and lead time Eplehuset — Texgoios gave prices and 2027-01-29 delivery; Kriss owes confirmation (and to Eplehuset) ([thread](https://mail.google.com/mail/u/0/#all/1a13a82ad439361c))
 - Gorgias "A note to quality control" — how to create customer return labels now; Kriss/Arnt owe the answer (draft to support ready) ([thread](https://mail.google.com/mail/u/0/#all/1a1cf144aa900a5a))

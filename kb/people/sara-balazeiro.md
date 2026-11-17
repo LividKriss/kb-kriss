@@ -23,6 +23,8 @@ Kriss's commercial contact at Rangel. She sends quotes (QSIOPO…) for each new 
 English. Opens with "Hello,", is short and direct, and questions prices plainly ("This can't be right?"). He copies the whole Rangel team (João, Rodrigo, Fábio, Pedro Lerias).
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-21: Japan Blue Shipment
+- 2026-11-17: Closed, no mail since 2026-10-08: RE: NEW BK: S/KUROKI
 - 2026-10-20: Replied to Kriss's chaser on the pending Japan Blue shipment that Fábio was checking.
 - 2026-09-28: Apologised for slow feedback. Rangel's broker is checking whether future clearance can happen in Portugal (direct to Leixões); this booking went via Barcelona as usual.
 - 2026-09-27: Kriss raised slow response times over recent months and the risk to delivery times.
@@ -34,8 +36,7 @@ English. Opens with "Hello,", is short and direct, and questions prices plainly 
 - 2025-10-02: Japan Blue shipment INV 0189-00038876, OPOSI2501206 (from subject).
 
 # Open threads
-- Japan Blue Shipment — Fábio asked Kriss on 2026-10-21 for a reference to trace the shipment with Rangel's agent. Kriss owes the reference. ([thread](https://mail.google.com/mail/u/0/#all/1a152cf03626939d))
-- RE: NEW BK: S/KUROKI - C/ LISAMA / INV NO.26-1641 / PO NO.PO-00135 / QSIOPO26090088 — As of the last visible message, Rangel owes its broker's answer on clearing in Portugal (direct to Leixões) without unrecoverable VAT for Lisama. ([thread](https://mail.google.com/mail/u/0/#all/1a0afd2b2a55c3d7))
+- None.
 
 # Links
 - Organization: [Rangel Internacional Aérea e Marítima, S.A.](kb://livid/organizations/suppliers/rangel.md)

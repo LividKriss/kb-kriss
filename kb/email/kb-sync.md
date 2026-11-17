@@ -34,6 +34,8 @@ Every [daily run](/email/daily-run.md) (step 5 of the run). Weekly (Monday run):
    - Otherwise: keep the message as a voice sample reference (thread link only, no text) for the monthly voice review.
 6. **Company facts** (payment terms, invoice channel, entity, lead times, a new customer or supplier) → propose for livid-kb in the brief, naming the target doc. Written only after Kriss confirms.
 7. Label each processed message `AI/KB-synced`; add the changes to `kb/log.md` (one entry per run) and to the brief's KB digest.
+8. **Close quiet open threads** (daily, `scripts/email/kb_close_threads.py` on the Mac): an Open threads bullet whose Gmail thread is archived and has had no mail for 14 days moves to History as "Closed, no mail since <date>: <subject>". Bullets without a thread link are left alone. Logged in `kb/log.md`.
+9. **Same day:** whenever a chat closes a thread (a send, `done`, a task executed), it updates that thread's Open threads line in the Person note right away (close it, or say what it now waits for); it does not wait for the next run.
 
 # Decision rules
 - Personal vs company: AGENTS.md §1 test. About an individual → here; about an organization → livid-kb (proposal).

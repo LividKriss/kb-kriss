@@ -23,6 +23,7 @@ ROTOTO (and earlier Ichiko Ichie) goods for Livid's stores, ordered by Livid Jea
 English. Kriss rarely writes to Lilian directly; payment questions go to Shota with Ole Eivind in copy. Follows the category voice.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-01: Fwd: AW2026 Shipping Advice — 1511272 Livid Jeans
 - 2026-10-01: AW26 ROTOTO order (CI 1511272) shipped by FedEx after Livid's 50% prepayment, which had been held up by a missing EUR currency order.
 - 2026-09-12: Sent the JAN code / master data file for the AW26 order to Ole Eivind.
 - 2026-07-24: SS27 ROTOTO order confirmation sent to Ole Eivind (326 pcs, about EUR 5k, 50% before shipment / 50% net 30); size quantities on one style corrected.
@@ -31,7 +32,7 @@ English. Kriss rarely writes to Lilian directly; payment questions go to Shota w
 - 2024-02-10: SS2024 ROTOTO shipping advice (subject only).
 
 # Open threads
-- Fwd: AW2026 Shipping Advice - 1511272 Livid Jeans — goods shipped 2026-10-01; remaining 50% due net 30 (Livid to pay, around end October) ([thread](https://mail.google.com/mail/u/0/#all/1a08cd3163854a78))
+- None.
 
 # Links
 - Organization: [Paddlers](kb://livid/organizations/suppliers/paddlers.md)

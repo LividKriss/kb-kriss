@@ -23,6 +23,7 @@ Account contact for Livid's SameSystem subscription since 2026-01. Kriss escalat
 Norwegian, "Hei!" / "Hei Thor Erik,", friendly and direct; detailed with worked examples when escalating a setup question. Signs "Kristoffer".
 
 # History
+- 2026-11-17: Closed, no mail since 2026-09-17: Påminnelse om utestående faktura
 - 2026-09-10: Kriss replied to an overdue-invoice reminder (two invoices, ~NOK 11k each): asked where SameSystem sends invoices (should be invoice@lividjeans.com, problems before) and promised payment within a few days.
 - 2026-08-27: Thor sent the reminder for the two overdue invoices.
 - 2026-01-21: Kriss asked whether budgets can be entered incl. VAT while the wage % in the roster is still calculated ex VAT; Thor said he would check internally.
@@ -30,7 +31,7 @@ Norwegian, "Hei!" / "Hei Thor Erik,", friendly and direct; detailed with worked 
 - 2026-01-14: Thor introduced himself as new main contact.
 
 # Open threads
-- Påminnelse om utestående faktura — Kriss promised to register and pay the two overdue invoices; check they are paid and that SameSystem has the right invoice address ([thread](https://mail.google.com/mail/u/0/#all/1a043454f6c188fe))
+- None.
 
 # Links
 - Organization: [Samesystem A/S](kb://livid/organizations/suppliers/samesystem.md)

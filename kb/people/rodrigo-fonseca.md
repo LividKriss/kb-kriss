@@ -23,6 +23,8 @@ On Livid's threads since 2023-12 (mostly copied). 54 threads over 3 years; Kriss
 English. Approvals are very short ("Yes proceed", "Yes please"), always with the whole Rangel team copied (Sara, Fábio, João, Pedro Lerias). Kriss sent his escalation about slow responses to Rodrigo (2026-09-27, signed "Best, Kristoffer").
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-06: NEW BK Kuroki inv. 26-1641
+- 2026-11-17: Closed, no mail since 2026-10-19: NEW BK Kuroki inv. 26-2400
 - 2026-10-07: Forwarded Kuroki booking inv. 26-2400 (2 pallets). Kriss approved the same day.
 - 2026-09-27: Kriss escalated to Rodrigo that Rangel's response time had been very slow for months and was risking delivery times.
 - 2026-09-16: Forwarded Kuroki booking inv. 26-1641 (12 pallets). Kriss asked whether it could go direct to Leixões while keeping the VAT-neutral setup (invoice to Livid Jeans AS, no unrecoverable VAT for the Portuguese partner). Rangel's broker review was pending and the shipment went the usual route via Barcelona.
@@ -31,8 +33,7 @@ English. Approvals are very short ("Yes proceed", "Yes please"), always with the
 - 2025-09-10: "Price for grouping shipments" discussion (subject only).
 
 # Open threads
-- NEW BK Kuroki inv. 26-1641 — Rangel's broker still owes feedback on whether future clearance can be done in Portugal without VAT cost for the partner (Sara, 2026-09-28) ([thread](https://mail.google.com/mail/u/0/#all/1a0a9401706ea685))
-- NEW BK Kuroki inv. 26-2400 — Kriss asked Ana/Rodrigo for an update on 2026-10-19. The HBL was approved in a separate thread, and schedule details are still owed (see Fábio's note) ([thread](https://mail.google.com/mail/u/0/#all/1a116d9ec9e30ad2))
+- None.
 
 # Links
 - Organization: [Rangel Internacional Aérea e Marítima, S.A.](kb://livid/organizations/suppliers/rangel.md)

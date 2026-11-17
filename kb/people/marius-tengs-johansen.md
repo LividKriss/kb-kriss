@@ -23,6 +23,7 @@ Season orders (via JOOR, now the new B2B) and delivery corrections for Retro Ber
 Norwegian, "Hei Marius,", short and reassuring ("Dette løser vi"). Hands season-order matters to Ole Eivind.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-09-02: Livid AW26 og SS27.
 - 2026-11-09: Sent a swap-and-restock sheet (one sheet restock, one sheet returns) via Standard Agency; Ole forwarded it to Kriss on 11-10 ([thread](https://mail.google.com/mail/u/0/#all/1a1c4b52b12fe00b))
 - 2026-09-02: Kriss asked Ole Eivind to propose an AW26 package for Retro Bergen (e.g. a Loom walkthrough; order splits are in Drive).
 - 2026-08-27: Ole Eivind told Marius restocks will be in the new B2B in about two weeks; until then, email restocks as before.
@@ -34,7 +35,6 @@ Norwegian, "Hei Marius,", short and reassuring ("Dette løser vi"). Hands season
 
 # Open threads
 - Swap og supplering — Retro Bergen restock plus returns sheet; Kriss owes the order and return handling, no reply seen ([thread](https://mail.google.com/mail/u/0/#all/1a1c4b52b12fe00b))
-- Livid AW26 og SS27. — Ole Eivind to propose an AW26 package for Retro Bergen; no outcome seen ([thread](https://mail.google.com/mail/u/0/#all/1a019283273f4372))
 
 # Links
 - Organization: [Retro](kb://livid/organizations/customers/retro.md)

@@ -22,6 +22,7 @@ Kriss is her go-to for store operations: POS/stock (Sitoo, Cin7), autosupplering
 Norwegian. "Hei Miriam," one-to-one, and "Hei dere," / "Hei alle sammen," in store-wide mails. Replies are short and practical, often one line ("Sjekker med de"). When something is tangled he suggests a phone call ("Bare ring meg", "Vi kan godt hoppe på en call"). On replenishment issues he copies Christopher Stangeby or the Bergen store mailbox. Signs "Kristoffer".
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-09: Tyveri i butikk
 - 2026-10-09: Reported theft of two pairs of Diemme shoes from the Bergen store; removed them from stock and asked if anything more is needed.
 - 2026-09-27: Part of Kriss's Loom store-app rollout: user guide, warehouse/B2B requests as Loom orders, and repair shipments in Loom from 2026-10-07.
 - 2026-07-28: Proposed buying a wall-mounted safe for the store after Nokas moved cash deposits to Tuesdays only (no reply in thread).
@@ -34,7 +35,6 @@ Norwegian. "Hei Miriam," one-to-one, and "Hei dere," / "Hei alle sammen," in sto
 - 2026-02-11: "Endring suppleringsrutiner": change of replenishment routines (6 messages; inferred from subject).
 
 # Open threads
-- Tyveri i butikk — Miriam asked whether anything more is needed after the shoe theft; Kriss owes a reply ([thread](https://mail.google.com/mail/u/0/#all/1a120a945906e2a8))
 - Foreldelse. — Miriam asks for product name instead of colour on incoming goods; Kriss owes a reply, draft ready ([thread](https://mail.google.com/mail/u/0/#all/1a1cee457f6096da))
 
 # Links

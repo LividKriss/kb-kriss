@@ -23,6 +23,7 @@ First thread 2024-02-12 (JOOR). Since 2025-10 Livid has supplied Dapper on a com
 Norwegian, "Hei Erlend,". Polite but firm on money: gives clear deadlines and concrete plans with dates. Copies Jens Olav, often Andreas at Dapper and sometimes Ole Eivind.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-09-24: OC aw26
 - 2026-11-12: Dapper paid the old FW25 invoice on 11-06 and asked to split the rest in four. Kriss proposed three instalments for invoices 0022, 0038 and 0079 (NOK 126,321): 18.11 NOK 37,896; 02.12 NOK 50,529; 16.12 NOK 37,896 ([thread](https://mail.google.com/mail/u/0/#all/1a199abd0ed1a607))
 - 2026-09-16: AW26 OC sent (orders are also in the B2B portal); asked Dapper for an invoice email address because EHF is temporarily unsupported.
 - 2026-06-15: Kriss chased a payment plan for open items (about NOK 165k: ~70k FW25 commission balance, ~95k SS26).
@@ -36,7 +37,6 @@ Norwegian, "Hei Erlend,". Polite but firm on money: gives clear deadlines and co
 - 2025-10-23: FW25 shipped on a commission agreement (monthly size-level sales reports, Livid invoices what is sold).
 
 # Open threads
-- OC aw26 — Kriss asked for an email address for invoices (EHF temporarily unsupported); Dapper has not given one ([thread](https://mail.google.com/mail/u/0/#all/1a0aa3ebb6d96b71))
 - Forfalte fakturaer Livid — Kriss proposed a three-instalment plan on 2026-11-12; waiting for Erlend to confirm ([thread](https://mail.google.com/mail/u/0/#all/1a199abd0ed1a607))
 
 # Links

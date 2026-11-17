@@ -23,6 +23,8 @@ Kriss and Christopher Stangeby work with her on all label and trims orders. Chri
 English. He opens with "Hello Mafalda," and often adds "Hope you are well." He signs "Kristoffer", sometimes "Best / Kristoffer". His messages are short and direct, usually with Christopher in cc and sometimes Paulo Teixeira (Tex-Challenge). On portal issues he is patient and explains things step by step, and he invites feedback on the portal.
 
 # History
+- 2026-11-17: Closed, no mail since 2026-10-20: Artworks and reference codes for all Livid labels/items
+- 2026-11-17: Closed, no mail since 2026-10-20: FW: PEDIDO ACESSÓRIOS PROD LIVID SS27 (PTAC.2026/350)
 - 2026-11-13: She sent Passamar's stock for the Eplehuset order: care label S3178/AE1 445 pcs, Eplehuset woven label 102238 895 pcs, size label 91523 in all eight sizes (L 218 up to XS 931).
 - 2026-10-20: Kriss confirmed that P12041/CP1 replaces the out-of-stock S3178/I1 100% cotton care label for Texgoios's SS27 order. She confirmed that the 110257 quantity is 3,570, not 357,000.
 - 2026-10-16: On TRO-00009 (C19499 vintage hangtags to the Oslo office), she flagged that she had confirmed the wrong quantity (12,000 is correct, not 24,000) and supplied the price (see the organization doc).
@@ -36,8 +38,6 @@ English. He opens with "Hello Mafalda," and often adds "Hope you are well." He s
 - 2025-10-08: Kriss placed a stock order of about 42,000 labels. The new "Made in EU" label 117220 was sampled and approved on 2025-10-24.
 
 # Open threads
-- Artworks and reference codes for all Livid labels/items — She is still sending artworks in parts (woven and printed labels still to come), and Christopher is importing them into the portal ([thread](https://mail.google.com/mail/u/0/#all/1a11a585f0945682))
-- FW: PEDIDO ACESSÓRIOS PROD LIVID SS27 (PTAC.2026/350) — She owes answers on the new 2-pack band: whether it is feasible, its lead time and whether old bands are in stock. Livid then decides which band to use ([thread](https://mail.google.com/mail/u/0/#all/1a153ba8e2322fb8))
 - Label order TRO-00009 confirmed — She asked how to correct her confirmed quantity (24,000 → 12,000) and where to enter the price. On 2026-10-30 Christopher asked Kriss whether to delete the order and enter a new one; no reply to her yet ([thread](https://mail.google.com/mail/u/0/#all/1a1443221d8110ae))
 
 # Links
