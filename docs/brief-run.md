@@ -27,7 +27,7 @@ The general rules are in `kb/notes/model-routing.md`; this section applies them 
 3. Start the subagents from section 1 in parallel. Close tasks that are already done (`task-triggers.md` rule 6).
 4. Present the brief exactly as `kb/email/brief.md` lays it out.
 5. Wait for Kriss and work through his replies per `daily-run.md` part B steps 3–4. Mechanics:
-   - Drafts: plain replies through the Gmail connector. With attachments, use `gmail_tool.py reply-draft` or `forward-draft`. Show the full text in the chat.
+   - Drafts: replies through `gmail_tool.py reply-draft` (attaches nothing unless `--keep`/`--attach`); forwards through `forward-draft` (real files only, never inline signature images). If a draft was made with the Gmail connector instead, run `gmail_tool.py clean-draft <draft_id>` right after: the connector copies the quoted message's inline images (logos, screenshots) as attachments. `send-draft` refuses a draft that still has them. Show the full text in the chat.
    - Disclaimer and sign-off per `kb/email/signature.md`. A draft the assistant will send carries the **reviewed** disclaimer; a draft Kriss sends himself carries none.
    - Sending: only after Kriss approves that shown draft, and only with `gmail_tool.py send-draft <draft_id>`. The connector's send, reply and forward are blocked in this repo.
    - Approved tasks ("do 3"): execute here (Opus) per the Process. Dry run first, then the real write.

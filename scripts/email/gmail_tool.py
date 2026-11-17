@@ -26,8 +26,12 @@
                                                   draft a forward to anyone with all attachments (or only the
                                                   named ones) plus local files. Not sent.
     gmail_tool.py send-draft <draft_id>           send a draft Kriss approved in the chat; refused in an
-                                                  unattended run (KB_AGENT_UNATTENDED=1) or while [STOP-SENDING]
-                                                  exists
+                                                  unattended run (KB_AGENT_UNATTENDED=1), while [STOP-SENDING]
+                                                  exists, or while the draft has stray inline images
+    gmail_tool.py clean-draft <draft_id> ... | --all [--dry]
+                                                  remove stray inline images (quoted signature logos/screenshots
+                                                  whose cid: is not in the body) that would go out as attachments;
+                                                  real attachments are kept
     gmail_tool.py drafts                          list the [Doc] drafts (JSON lines)
     gmail_tool.py delete-draft <draft_id>         delete one [Doc] draft (other drafts are refused)
     gmail_tool.py housekeep [--days 14]           delete docs/<threadId> folders and [Doc] drafts older than
@@ -125,6 +129,29 @@ def walk(payload):
 def attachments(msg):
     """Parts that are files (have a file name), in message order."""
     return [p for p in walk(msg["payload"]) if p.get("filename")]
+
+
+def part_headers(part) -> dict:
+    return {h["name"].lower(): h["value"] for h in part.get("headers", [])}
+
+
+def content_id(part) -> str:
+    return part_headers(part).get("content-id", "").strip().strip("<>")
+
+
+def is_inline(part) -> bool:
+    """An embedded body image (signature logo, pasted screenshot): has a Content-ID and is not
+    explicitly a file attachment. These are never real attachments to pass on."""
+    disp = part_headers(part).get("content-disposition", "").lower()
+    return bool(content_id(part)) and not disp.startswith("attachment")
+
+
+CID_IMG = re.compile(r"<img\b[^>]*\bsrc\s*=\s*[\"']?cid:[^>]*>", re.I)
+
+
+def strip_cid_images(html_text: str) -> str:
+    """Drop <img src="cid:..."> from a quoted body: the images are not carried over, so they'd show broken."""
+    return CID_IMG.sub("", html_text)
 
 
 def is_pdf(part) -> bool:
@@ -428,11 +455,12 @@ def add_local_files(m: EmailMessage, paths):
 
 
 def add_original_files(svc, m: EmailMessage, msg, names, default_all: bool) -> list:
-    """Attach files from the original message: the named ones, or all (default_all) when none are named."""
+    """Attach files from the original message: the named ones, or all real files (default_all) when none
+    are named. Inline body images (signature logos, pasted screenshots) only when named explicitly."""
     if names:
         parts = [p for p in attachments(msg) if p["filename"] in names]
     else:
-        parts = attachments(msg) if default_all else []
+        parts = [p for p in attachments(msg) if not is_inline(p)] if default_all else []
     missing = set(names or []) - {p["filename"] for p in parts}
     if missing:
         sys.exit(f"No such attachment(s) on {msg['id']}: {sorted(missing)}")
@@ -482,6 +510,7 @@ def cmd_reply_draft(svc, args):
     top_text = "" if args.body_file.lower().endswith(".html") else Path(args.body_file).read_text().rstrip()
     m.set_content((top_text + "\n\n" if top_text else "") + f"On {when}, {who} wrote:\n" +
                   "".join("> " + line + "\n" for line in orig_text.splitlines()))
+    orig_html = strip_cid_images(orig_html)
     m.add_alternative(note_html(args.body_file) + signature(svc) +
                       f'<br><div>On {html.escape(when)}, {html.escape(who)} wrote:<br></div>'
                       f'<blockquote style="margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex">'
@@ -508,7 +537,8 @@ def cmd_forward_draft(svc, args):
                   "".join(f"{k}: {v}\n" for k, v in quote_head) + "\n" + orig_text)
     m.add_alternative(note_html(args.body_file) + signature(svc) +
                       "<br><div>---------- Forwarded message ---------<br>" +
-                      "".join(f"{k}: {html.escape(v)}<br>" for k, v in quote_head) + "<br></div>" + orig_html,
+                      "".join(f"{k}: {html.escape(v)}<br>" for k, v in quote_head) + "<br></div>" +
+                      strip_cid_images(orig_html),
                       subtype="html")
     add_original_files(svc, m, msg, args.only, default_all=True)
     add_local_files(m, args.attach)
@@ -535,11 +565,79 @@ def cmd_send_draft(svc, args):
         text = body_text(svc, mid, m, "text/plain") + body_text(svc, mid, m, "text/html")
         if not any(k in text for k in DISCLAIMER_KEYS):
             sys.exit(f"Refusing: draft {args.draft_id} has no AI disclaimer (kb/email/signature.md)")
+    stray = stray_inline_parts(d["message"])
+    if stray:
+        sys.exit(f"Refusing: draft {args.draft_id} carries {len(stray)} stray inline image(s) that would go out "
+                 f"as attachments ({', '.join(p.get('filename') or '?' for p in stray)}). "
+                 f"Run clean-draft {args.draft_id} first.")
     if dry_mode(args):
         print(f"DRY would send draft {args.draft_id} to {h.get('to')}: {h.get('subject', '')}")
         return
     sent = svc.users().drafts().send(userId="me", body={"id": args.draft_id}).execute()
     print(f"SENT draft {args.draft_id} as {sent['id']} to {h.get('to')}: {h.get('subject', '')}")
+
+
+def stray_inline_parts(msg, html_text=None) -> list:
+    """Inline image parts whose Content-ID the HTML body never references. The Gmail connector's
+    create_draft with replyToMessageId copies the quoted message's inline images (signature logos,
+    screenshots) and drops the cid: references, so recipients get them as attachments (2026-11-17)."""
+    if html_text is None:
+        html_text = ""
+        for p in walk(msg["payload"]):
+            if p.get("mimeType") == "text/html" and not p.get("filename") and p.get("body", {}).get("data"):
+                html_text = base64.urlsafe_b64decode(p["body"]["data"]).decode("utf-8", errors="replace")
+                break
+    refs = {r.lower() for r in re.findall(r"cid:([^\"'\s>)]+)", html_text, re.I)}
+    return [p for p in attachments(msg) if is_inline(p) and content_id(p).lower() not in refs]
+
+
+def cmd_clean_draft(svc, args):
+    """Remove stray inline images from drafts (all drafts with --all). Real attachments are kept."""
+    from email import policy
+    from email.parser import BytesParser
+    ids = args.draft_ids
+    if args.all:
+        ids, token = [], None
+        while True:
+            resp = svc.users().drafts().list(userId="me", maxResults=100, pageToken=token).execute()
+            ids += [d["id"] for d in resp.get("drafts", [])]
+            token = resp.get("nextPageToken")
+            if not token:
+                break
+    if not ids:
+        sys.exit("Give one or more draft ids, or --all")
+    for did in ids:
+        d = svc.users().drafts().get(userId="me", id=did, format="full").execute()
+        msg = d["message"]
+        stray = stray_inline_parts(msg)
+        subject = headers(msg).get("subject", "")
+        if not stray:
+            if not args.all:
+                print(f"clean {did}: {subject}")
+            continue
+        names = ", ".join(p.get("filename") or "?" for p in stray)
+        if dry_mode(args):
+            print(f"DRY would remove from {did} ({subject}): {names}")
+            continue
+        raw = svc.users().drafts().get(userId="me", id=did, format="raw").execute()["message"]["raw"]
+        em = BytesParser(policy=policy.default).parsebytes(base64.urlsafe_b64decode(raw))
+        drop = {content_id(p).lower() for p in stray}
+
+        def prune(part):
+            if not part.is_multipart():
+                return
+            kept = [c for c in part.iter_parts()
+                    if (c.get("Content-ID") or "").strip().strip("<>").lower() not in drop
+                    or (c.get("Content-Disposition") or "").lower().startswith("attachment")]
+            part.set_payload(kept)
+            for c in kept:
+                prune(c)
+
+        prune(em)
+        body = {"id": did, "message": {"raw": base64.urlsafe_b64encode(em.as_bytes()).decode(),
+                                       "threadId": msg["threadId"]}}
+        svc.users().drafts().update(userId="me", id=did, body=body).execute()
+        print(f"cleaned {did} ({subject}): removed {names}")
 
 
 def archive_thread(svc, thread_id, dry) -> str:
@@ -694,6 +792,8 @@ def main():
     p.add_argument("--to", nargs="+", required=True); p.add_argument("--only", nargs="+", metavar="NAME")
     p.add_argument("--attach", nargs="+", metavar="FILE"); p.add_argument("--dry", action="store_true")
     p = sub.add_parser("send-draft"); p.add_argument("draft_id"); p.add_argument("--dry", action="store_true")
+    p = sub.add_parser("clean-draft"); p.add_argument("draft_ids", nargs="*")
+    p.add_argument("--all", action="store_true"); p.add_argument("--dry", action="store_true")
     sub.add_parser("drafts")
     p = sub.add_parser("delete-draft"); p.add_argument("draft_id"); p.add_argument("--dry", action="store_true")
     p = sub.add_parser("archive"); p.add_argument("msg_id"); p.add_argument("--dry", action="store_true")
@@ -710,7 +810,7 @@ def main():
      "fetch": cmd_fetch, "forward": cmd_forward, "label": cmd_label, "archive": cmd_archive, "draft": cmd_draft,
      "drafts": cmd_drafts, "delete-draft": cmd_delete_draft, "housekeep": cmd_housekeep,
      "reply-draft": cmd_reply_draft, "forward-draft": cmd_forward_draft, "send-draft": cmd_send_draft,
-     }[args.cmd](svc, args)
+     "clean-draft": cmd_clean_draft}[args.cmd](svc, args)
 
 
 if __name__ == "__main__":
