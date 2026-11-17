@@ -103,6 +103,17 @@ def headers(msg) -> dict:
     return {h["name"].lower(): h["value"] for h in msg["payload"].get("headers", [])}
 
 
+def addresses(*values) -> list:
+    """(name, address) pairs from header values. Empty values are left out before parsing: on
+    patched Pythons (3.9.6 here) getaddresses(["x@y", "", ""]) rejects the whole input and returns
+    [('', '')], which broke the voucher exemption in send-draft (2026-11-17)."""
+    return [(n, a) for n, a in getaddresses([v for v in values if v]) if a]
+
+
+def recipients(h) -> set:
+    return {a.lower() for _, a in addresses(h.get("to", ""), h.get("cc", ""), h.get("bcc", ""))}
+
+
 def walk(payload):
     stack = [payload]
     while stack:
@@ -300,7 +311,7 @@ def already_sent(svc, msg, to, files) -> str:
     for m in thread["messages"]:
         if "SENT" in m.get("labelIds", []):
             h = headers(m)
-            rcpts = {a.lower() for _, a in getaddresses([h.get("to", ""), h.get("cc", ""), h.get("bcc", "")])}
+            rcpts = recipients(h)
             if to in rcpts:
                 return f"a sent message to {to} is already in this thread"
     for p in files:
@@ -452,8 +463,8 @@ def cmd_reply_draft(svc, args):
     sent_by_me = me in {a.lower() for _, a in getaddresses([h.get("from", "")])}
     primary = h.get("to", "") if sent_by_me else (h.get("reply-to") or h.get("from", ""))
     to = [(n, a) for n, a in getaddresses([primary]) if a and a.lower() != me]
-    cc = [(n, a) for n, a in getaddresses([h.get("to", ""), h.get("cc", "")])
-          if a and a.lower() != me and a.lower() not in {x.lower() for _, x in to}] if args.all else []
+    cc = [(n, a) for n, a in addresses(h.get("to", ""), h.get("cc", ""))
+          if a.lower() != me and a.lower() not in {x.lower() for _, x in to}] if args.all else []
     if not to:
         sys.exit(f"No recipient found on {args.msg_id}")
     subject = h.get("subject", "")
@@ -516,9 +527,10 @@ def cmd_send_draft(svc, args):
     if not h.get("to"):
         sys.exit(f"Refusing: draft {args.draft_id} has no recipient")
     # kb/email/signature.md rule 2: every email the assistant sends carries the AI disclaimer,
-    # except voucher forwards to PowerOffice system addresses.
-    rcpts = {a.lower() for _, a in getaddresses([h.get("to", ""), h.get("cc", ""), h.get("bcc", "")])}
-    if not rcpts <= VOUCHER_TO:
+    # except voucher forwards to PowerOffice system addresses (only when every recipient parsed
+    # and is one of them; an unparsable header never counts as exempt).
+    rcpts = recipients(h)
+    if not rcpts or not rcpts <= VOUCHER_TO:
         m, mid = d["message"], d["message"]["id"]
         text = body_text(svc, mid, m, "text/plain") + body_text(svc, mid, m, "text/html")
         if not any(k in text for k in DISCLAIMER_KEYS):
