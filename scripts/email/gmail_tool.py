@@ -591,6 +591,19 @@ def stray_inline_parts(msg, html_text=None) -> list:
     return [p for p in attachments(msg) if is_inline(p) and content_id(p).lower() not in refs]
 
 
+def with_backoff(request, tries: int = 6):
+    """Execute a Gmail request, waiting and retrying on the per-minute quota (403/429 rateLimitExceeded)."""
+    for i in range(tries):
+        try:
+            return request.execute()
+        except Exception as e:  # googleapiclient.errors.HttpError
+            status = getattr(getattr(e, "resp", None), "status", None)
+            if status in (403, 429) and "ratelimit" in str(e).lower().replace(" ", "") and i < tries - 1:
+                time.sleep(min(70, 10 * 2 ** i))
+                continue
+            raise
+
+
 def cmd_clean_draft(svc, args):
     """Remove stray inline images from drafts (all drafts with --all). Real attachments are kept."""
     from email import policy
@@ -599,7 +612,7 @@ def cmd_clean_draft(svc, args):
     if args.all:
         ids, token = [], None
         while True:
-            resp = svc.users().drafts().list(userId="me", maxResults=100, pageToken=token).execute()
+            resp = with_backoff(svc.users().drafts().list(userId="me", maxResults=100, pageToken=token))
             ids += [d["id"] for d in resp.get("drafts", [])]
             token = resp.get("nextPageToken")
             if not token:
@@ -607,7 +620,7 @@ def cmd_clean_draft(svc, args):
     if not ids:
         sys.exit("Give one or more draft ids, or --all")
     for did in ids:
-        d = svc.users().drafts().get(userId="me", id=did, format="full").execute()
+        d = with_backoff(svc.users().drafts().get(userId="me", id=did, format="full"))
         msg = d["message"]
         stray = stray_inline_parts(msg)
         subject = headers(msg).get("subject", "")
@@ -619,7 +632,7 @@ def cmd_clean_draft(svc, args):
         if dry_mode(args):
             print(f"DRY would remove from {did} ({subject}): {names}")
             continue
-        raw = svc.users().drafts().get(userId="me", id=did, format="raw").execute()["message"]["raw"]
+        raw = with_backoff(svc.users().drafts().get(userId="me", id=did, format="raw"))["message"]["raw"]
         em = BytesParser(policy=policy.default).parsebytes(base64.urlsafe_b64decode(raw))
         drop = {content_id(p).lower() for p in stray}
 
@@ -636,7 +649,7 @@ def cmd_clean_draft(svc, args):
         prune(em)
         body = {"id": did, "message": {"raw": base64.urlsafe_b64encode(em.as_bytes()).decode(),
                                        "threadId": msg["threadId"]}}
-        svc.users().drafts().update(userId="me", id=did, body=body).execute()
+        with_backoff(svc.users().drafts().update(userId="me", id=did, body=body))
         print(f"cleaned {did} ({subject}): removed {names}")
 
 
