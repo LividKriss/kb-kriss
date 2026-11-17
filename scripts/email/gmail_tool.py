@@ -27,7 +27,20 @@
                                                   named ones) plus local files. Not sent.
     gmail_tool.py send-draft <draft_id>           send a draft Kriss approved in the chat; refused in an
                                                   unattended run (KB_AGENT_UNATTENDED=1), while [STOP-SENDING]
-                                                  exists, or while the draft has stray inline images
+                                                  exists, or while the draft has stray inline images.
+                                                  Then closes the thread: removes Urgent/Reply/Action/
+                                                  Payments/HR/FYI/Noise, adds AI/Waiting if the new text asks
+                                                  something (override: --waiting / --no-waiting), archives
+                                                  and marks read unless AI/Task, AI/Invoice or AI/Docs is
+                                                  left; a voucher forward swaps AI/Invoice for AI/PO-forwarded.
+                                                  --keep-open skips this.
+    gmail_tool.py done <thread_or_msg_id> ... [--waiting]
+                                                  Kriss says it is handled: remove every open and work label
+                                                  (incl. Task/Invoice/Docs and Waiting unless --waiting),
+                                                  archive and mark read
+    gmail_tool.py inbox-cleanup                   hourly from mac_agent.sh, no Claude: close threads whose
+                                                  latest message is Kriss's, fix conflicting class labels,
+                                                  archive threads left with only FYI/Noise/Waiting
     gmail_tool.py clean-draft <draft_id> ... | --all [--dry]
                                                   remove stray inline images (quoted signature logos/screenshots
                                                   whose cid: is not in the body) that would go out as attachments;
@@ -93,7 +106,18 @@ DOC_PREFIX = "[Doc]"
 # Threads with any of these stay in the inbox (kb/email/labels.md); AI/Docs-read too, since housekeep
 # deletes a [Doc] draft as soon as its thread is archived.
 KEEP_IN_INBOX = {"AI/Urgent", "AI/Reply", "AI/Action", "AI/HR", "AI/Invoice", "AI/Payments",
-                 "AI/Docs", "AI/Docs-read"}
+                 "AI/Task", "AI/Docs", "AI/Docs-read"}
+# Close-out (send-draft, done, inbox-cleanup): labels that mean "Kriss still has to act". Removed when
+# the thread is handled. WORK_LABELS are work the assistant still has to do on the thread (a task, a
+# voucher not yet forwarded, a document not yet read): a reply alone does not end them, so a thread
+# carrying one stays in the inbox; `done` (Kriss's explicit word) removes them too.
+OPEN_LABELS = {"AI/Urgent", "AI/Reply", "AI/Action", "AI/Payments", "AI/HR", "AI/FYI", "AI/Noise"}
+WORK_LABELS = {"AI/Task", "AI/Invoice", "AI/Docs"}
+WAITING = "AI/Waiting"
+# One of these per thread (kb/email/labels.md); on a conflict the first in this order wins.
+EXCLUSIVE_ORDER = ["AI/Urgent", "AI/Reply", "AI/Action", "AI/Waiting", "AI/FYI", "AI/Noise"]
+QUOTE_START = re.compile(r"^\s*(>|On .{0,200}wrote:|.{0,120}\bskrev\b.{0,200}:\s*$|-{2,} ?(Original|Opprinnelig|"
+                         r"Forwarded|Videresendt)|(From|Fra|Sent|Sendt|De|Von):\s)", re.I)
 KILL_SWITCH = "[STOP-SENDING]"  # kb/email/send-policy.md: while this draft exists, nothing is forwarded
 MAX_FETCH = 200 * 1024 * 1024
 DISCLAIMER_KEYS = ("AI-assistent", "AI assistent", "AI assistant")  # kb/email/signature.md, all variants
@@ -575,6 +599,18 @@ def cmd_send_draft(svc, args):
         return
     sent = svc.users().drafts().send(userId="me", body={"id": args.draft_id}).execute()
     print(f"SENT draft {args.draft_id} as {sent['id']} to {h.get('to')}: {h.get('subject', '')}")
+    # Close-out (kb/email/actions.md: after sending, archive and move the label; Waiting if a question
+    # was asked). A failure here never undoes the send; it is reported for the chat to fix by hand.
+    if args.keep_open:
+        print("close-out skipped (--keep-open): the thread keeps its labels and stays in the inbox")
+        return
+    voucher = bool(rcpts) and rcpts <= VOUCHER_TO
+    waiting = (False if voucher else True if args.waiting else False if args.no_waiting
+               else asks_question(svc, sent["id"]))
+    try:
+        print(close_thread(svc, sent["threadId"], waiting=waiting, dry=False, forwarded=voucher))
+    except Exception as e:  # noqa: BLE001
+        print(f"WARNING: sent, but the close-out failed ({e}); run `done {sent['threadId']}` by hand")
 
 
 def stray_inline_parts(msg, html_text=None) -> list:
@@ -673,6 +709,165 @@ def archive_thread(svc, thread_id, dry) -> str:
 def cmd_archive(svc, args):
     msg = svc.users().messages().get(userId="me", id=args.msg_id, format="minimal").execute()
     print(archive_thread(svc, msg["threadId"], dry_mode(args)))
+
+
+# --- Close-out: a handled thread leaves the inbox with its labels moved (kb/email/labels.md, actions.md) ---
+
+def ensure_labels(svc, labels: dict, names) -> dict:
+    for name in names:
+        if name not in labels:
+            labels[name] = svc.users().labels().create(userId="me", body={"name": name}).execute()["id"]
+    return labels
+
+
+def new_text(full: str) -> str:
+    """The part of a sent message above the quoted history (plain text)."""
+    out = []
+    for line in full.splitlines():
+        if QUOTE_START.match(line):
+            break
+        out.append(line)
+    return "\n".join(out)
+
+
+def html_to_text(h: str) -> str:
+    h = re.split(r'<div[^>]+class="?(gmail_quote|gmail_attr)|<blockquote', h, maxsplit=1, flags=re.I)[0]
+    h = re.sub(r"<(br|/p|/div)[^>]*>", "\n", h, flags=re.I)
+    return html.unescape(re.sub(r"<[^>]+>", "", h))
+
+
+ASK_CUES = re.compile(r"\b(please (confirm|send|advise|check|let|revert|update|share|provide)|let me know|"
+                      r"could you|can you|would you|kindly|we (expect|await|look forward)|look forward to (your|hearing)|"
+                      r"gi (meg )?beskjed|kan du|kan dere|vennligst|ber (om|deg|dere)|venter på|si fra|"
+                      r"hører fra (deg|dere))\b", re.I)
+
+
+def asks_question(svc, msg_id) -> bool:
+    """Does Kriss's message wait for an answer? A '?' or a request phrase in his own text (not the
+    quote), or a message that starts a new thread to someone else."""
+    msg = with_backoff(svc.users().messages().get(userId="me", id=msg_id, format="full"))
+    full = body_text(svc, msg_id, msg, "text/plain") or html_to_text(body_text(svc, msg_id, msg, "text/html"))
+    text = new_text(full)
+    h = headers(msg)
+    starts_thread = not h.get("in-reply-to") and not h.get("subject", "").lower().startswith(("fwd", "fw:", "vs:"))
+    return "?" in text or bool(ASK_CUES.search(text)) or starts_thread
+
+
+def close_thread(svc, thread_id, *, waiting, dry, explicit=False, forwarded=False, labels=None) -> str:
+    """Move a handled thread out of the inbox.
+    Removes OPEN_LABELS (and WORK_LABELS when `explicit`, i.e. Kriss said it is done). `waiting`
+    True adds AI/Waiting, False removes it. `forwarded` (a voucher forward to PowerOffice) also
+    swaps AI/Invoice for AI/PO-forwarded. The thread is archived and marked read unless a
+    WORK_LABEL is left on it; then only the labels change."""
+    labels = labels or label_map(svc)
+    names = {v: k for k, v in labels.items()}
+    t = with_backoff(svc.users().threads().get(userId="me", id=thread_id, format="minimal"))
+    msgs = [m for m in t.get("messages", []) if "DRAFT" not in m.get("labelIds", [])]
+    on = {names.get(i, i) for m in msgs for i in m.get("labelIds", [])}
+    remove = set(OPEN_LABELS) | (WORK_LABELS if explicit else set())
+    add = set()
+    if forwarded and "AI/Invoice" in on:
+        remove.add("AI/Invoice"); add.add(FORWARDED_LABEL)
+    if waiting:
+        add.add(WAITING)
+    elif waiting is False:
+        remove.add(WAITING)
+    remove = (remove & on) - add
+    add -= on
+    left = (on - remove) & WORK_LABELS
+    archive = not left and bool({"INBOX", "UNREAD"} & on)
+    if not (add or remove or archive):
+        return f"unchanged {thread_id}" + (f" (stays in the inbox: {', '.join(sorted(left))})" if left else "")
+    what = (f"+{','.join(sorted(add))} " if add else "") + (f"-{','.join(sorted(remove))} " if remove else "") + \
+           ("archived+read" if archive else f"stays in the inbox ({', '.join(sorted(left))})" if left else "")
+    if dry:
+        return f"DRY would close {thread_id}: {what.strip()}"
+    ensure_labels(svc, labels, add)
+    body = {"addLabelIds": [labels[n] for n in add],
+            "removeLabelIds": [labels[n] for n in remove] + (["INBOX", "UNREAD"] if archive else [])}
+    with_backoff(svc.users().threads().modify(userId="me", id=thread_id, body=body))
+    return f"closed {thread_id}: {what.strip()}"
+
+
+def thread_id_of(svc, any_id: str) -> str:
+    """Accept a thread id or a message id."""
+    try:
+        return with_backoff(svc.users().messages().get(userId="me", id=any_id, format="minimal"))["threadId"]
+    except Exception:  # noqa: BLE001 - not a message id: treat it as a thread id
+        return any_id
+
+
+def cmd_done(svc, args):
+    """Kriss says a thread is handled: remove every open/work label, archive and mark read."""
+    labels = label_map(svc)
+    waiting = True if args.waiting else False
+    for i in args.ids:
+        print(close_thread(svc, thread_id_of(svc, i), waiting=waiting, dry=dry_mode(args), explicit=True,
+                           labels=labels))
+
+
+def cmd_inbox_cleanup(svc, args):
+    """Hourly, no Claude (docs/mac-agent.md): bring inbox labels in line with what has happened.
+    A. Kriss's own message is the latest in the thread → closed (AI/Waiting when it asks something,
+       not for forwards to PowerOffice); a thread with a work label keeps it and stays.
+    B. Two or more of Urgent/Reply/Action/Waiting/FYI/Noise → keep the first in EXCLUSIVE_ORDER.
+    C. Only FYI/Noise/Waiting left (and the latest message carries it) → archived and read.
+    B and C act only when the latest message carries an AI/ label (otherwise part A has not
+    classified the new mail yet). Nothing is sent or deleted."""
+    dry = dry_mode(args)
+    labels = label_map(svc)
+    names = {v: k for k, v in labels.items()}
+    me = my_address(svc)
+    tids, token = [], None
+    while True:
+        r = with_backoff(svc.users().threads().list(userId="me", q="in:inbox", maxResults=500, pageToken=token))
+        tids += [t["id"] for t in r.get("threads", [])]
+        token = r.get("nextPageToken")
+        if not token:
+            break
+    counts = {"A": 0, "B": 0, "C": 0}
+    for tid in tids:
+        t = with_backoff(svc.users().threads().get(userId="me", id=tid, format="metadata",
+                                                   metadataHeaders=["From", "To", "Cc", "Bcc"]))
+        msgs = sorted((m for m in t.get("messages", []) if "DRAFT" not in m.get("labelIds", [])),
+                      key=lambda m: int(m["internalDate"]))
+        if not msgs:
+            continue
+        last = msgs[-1]
+        last_labels = {names.get(i, i) for i in last.get("labelIds", [])}
+        on = {names.get(i, i) for m in msgs for i in m.get("labelIds", [])}
+        h = headers(last)
+        # By the From address only: mail to invoice@ via the Google group also carries SENT.
+        from_me = any(a.lower() == me for _, a in addresses(h.get("from", "")))
+        if from_me:
+            rcpts = recipients(h) - {me}
+            voucher = bool(rcpts) and rcpts <= VOUCHER_TO
+            waiting = False if voucher or not rcpts else asks_question(svc, last["id"])
+            res = close_thread(svc, tid, waiting=waiting, dry=dry, forwarded=voucher, labels=labels)
+            if not res.startswith("unchanged"):
+                counts["A"] += 1; print(res)
+            continue
+        if not any(l.startswith("AI/") and l != "AI/KB-synced" for l in last_labels):
+            continue  # new mail not classified yet: part A's job
+        excl = [l for l in EXCLUSIVE_ORDER if l in on]
+        if len(excl) > 1:
+            drop = excl[1:]
+            counts["B"] += 1
+            if dry:
+                print(f"DRY would relabel {tid}: keep {excl[0]}, -{','.join(drop)}")
+            else:
+                with_backoff(svc.users().threads().modify(userId="me", id=tid, body={
+                    "removeLabelIds": [labels[n] for n in drop]}))
+                print(f"relabelled {tid}: keep {excl[0]}, -{','.join(drop)}")
+            on -= set(drop)
+        cls = on & (set(EXCLUSIVE_ORDER) | KEEP_IN_INBOX)
+        if cls and cls <= {"AI/FYI", "AI/Noise", WAITING}:
+            res = archive_thread(svc, tid, dry)
+            if "archive" in res and "KEEP" not in res and "already" not in res:
+                counts["C"] += 1; print(res)
+    print(f"inbox-cleanup: {len(tids)} inbox threads; closed after Kriss's reply {counts['A']}, "
+          f"label conflicts fixed {counts['B']}, FYI/Noise/Waiting archived {counts['C']}"
+          + (" (dry run)" if dry else ""))
 
 
 def cmd_label(svc, args):
@@ -805,6 +1000,11 @@ def main():
     p.add_argument("--to", nargs="+", required=True); p.add_argument("--only", nargs="+", metavar="NAME")
     p.add_argument("--attach", nargs="+", metavar="FILE"); p.add_argument("--dry", action="store_true")
     p = sub.add_parser("send-draft"); p.add_argument("draft_id"); p.add_argument("--dry", action="store_true")
+    p.add_argument("--keep-open", action="store_true"); g = p.add_mutually_exclusive_group()
+    g.add_argument("--waiting", action="store_true"); g.add_argument("--no-waiting", action="store_true")
+    p = sub.add_parser("done"); p.add_argument("ids", nargs="+"); p.add_argument("--waiting", action="store_true")
+    p.add_argument("--dry", action="store_true")
+    p = sub.add_parser("inbox-cleanup"); p.add_argument("--dry", action="store_true")
     p = sub.add_parser("clean-draft"); p.add_argument("draft_ids", nargs="*")
     p.add_argument("--all", action="store_true"); p.add_argument("--dry", action="store_true")
     sub.add_parser("drafts")
@@ -823,7 +1023,7 @@ def main():
      "fetch": cmd_fetch, "forward": cmd_forward, "label": cmd_label, "archive": cmd_archive, "draft": cmd_draft,
      "drafts": cmd_drafts, "delete-draft": cmd_delete_draft, "housekeep": cmd_housekeep,
      "reply-draft": cmd_reply_draft, "forward-draft": cmd_forward_draft, "send-draft": cmd_send_draft,
-     "clean-draft": cmd_clean_draft}[args.cmd](svc, args)
+     "clean-draft": cmd_clean_draft, "done": cmd_done, "inbox-cleanup": cmd_inbox_cleanup}[args.cmd](svc, args)
 
 
 if __name__ == "__main__":

@@ -7,7 +7,8 @@
 # Token use: runs on Sonnet (MODEL below). A real run first checks Gmail without Claude and
 # skips (logs SKIP) when nothing the agent handles has changed since the last finished run:
 # no new mail with a document (PDF/Excel/CSV/Word or a transfer link) and the same set of
-# AI/Invoice, AI/Docs and AI/Customs messages. Housekeeping runs once a day from this script.
+# AI/Invoice, AI/Docs and AI/Customs messages. Housekeeping runs once a day from this script;
+# the inbox clean-up (gmail_tool.py inbox-cleanup) runs every time, before the gate.
 # Invoice PDFs and notes go in a per-run folder under the cache (outside the repo), removed at the end;
 # AI/Docs documents go in docs/<threadId>/ and stay 14 days (gmail_tool.py housekeep).
 set -u
@@ -46,6 +47,16 @@ GT="python scripts/email/gmail_tool.py"
 NEW_Q="after:$LAST -in:sent -in:drafts {filename:pdf filename:xlsx filename:xls filename:csv filename:docx filename:doc wetransfer dropbox drive.google.com}"
 LABEL_Q="label:ai-invoice OR label:ai-docs OR label:ai-customs"
 fingerprint() ( set -o pipefail; $GT list "$LABEL_Q" --max 500 2>/dev/null | python -c 'import sys,json,hashlib; print(hashlib.sha1(" ".join(sorted(json.loads(l)["id"] for l in sys.stdin if l.strip())).encode()).hexdigest())' )
+
+# Inbox clean-up every run (docs/mac-agent.md step 0b) — a plain script call, no Claude: closes threads
+# whose latest message is Kriss's, fixes conflicting class labels, archives FYI/Noise/Waiting leftovers.
+if [ $DRY = 1 ]; then
+  $GT inbox-cleanup --dry 2>&1 | tail -n 40
+else
+  CLEAN=$($GT inbox-cleanup 2>&1); CLEAN_RC=$?
+  printf '%s\n' "$CLEAN" | grep -v '^inbox-cleanup:' | sed 's/^/    /' >> "$LOG"
+  echo "$(stamp) CLEANUP rc=$CLEAN_RC $(printf '%s\n' "$CLEAN" | tail -n 1)" >> "$LOG"
+fi
 
 if [ $DRY = 0 ]; then
   # Daily housekeeping (docs/mac-agent.md step 5) — a plain script call, once per day.
