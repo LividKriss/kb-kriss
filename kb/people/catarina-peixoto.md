@@ -45,7 +45,7 @@ English. "Hello Catarina," then clear step-by-step explanations of portal featur
 # Open threads
 - Shrinkage samples measurements - SS27 production — Livid sent comments on 2026-11-11; Lisama to confirm the format and start cutting ([thread](https://mail.google.com/mail/#all/1a1c4b218c674919))
 - Pending matters for Lisama ?? — Most portal requests fixed 2026-11-12 (Portuguese language, etc.); Catarina to review and report odd translations ([thread](https://mail.google.com/mail/u/0/#all/1a1c5ce8002e75a7))
-- Lisama - Updated production plan — Catarina replied 2026-11-17 to Kriss's status and ETD list (Solace not approved, no ETDs before KA7731/COD77 MD-SO fabric, Tori/Lemmy Japan Moon cut, no fabric for Kaylan Japan Moon); Livid owes a reply and the Solace/Fealy/Oak Sandbox PP comments ([thread](https://mail.google.com/mail/u/0/#all/1a1587987e8a23d6))
+- Lisama - Updated production plan — Catarina replied 2026-11-17 to Kriss's status and ETD list (Solace not approved, no ETDs before KA7731/COD77 MD-SO fabric, Tori/Lemmy Japan Moon cut, no fabric for Kaylan Japan Moon); Reply on hold per Kriss (11-18). Kaylan Japan Moon fabric is KB77BK-LD on Kuroki PO-00140 (not yet shipped, ETA about 27.01.2027). Livid owes a reply and the Solace/Fealy/Oak Sandbox PP comments ([thread](https://mail.google.com/mail/u/0/#all/1a1587987e8a23d6))
 
 # Links
 - Organization: [LISAMA – Sociedade de Confecções, Lda.](kb://livid/organizations/manufacturers/lisama.md)

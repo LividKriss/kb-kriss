@@ -33,7 +33,7 @@ English, "Hello Shota," + "Hope you are well.", two to four lines, signs "Best K
 - 2026-01-14: Shota confirmed terms: 50% before shipment, 50% 30 days after shipment; one invoice only, can't be split into two.
 
 # Open threads
-- AW26 shipment FedEx duties and taxes — FedEx wants payment for the ROTOTO and ICHIKO-ICHIE shipments (invoice INV520660939, asked 2026-11-18 by Reika Yamazaki, Northern Sky); Kriss to check and pay ([thread](https://mail.google.com/mail/u/0/#all/1a08cd3163854a78))
+- AW26 shipment FedEx duties and taxes — FedEx wants payment for the ROTOTO and ICHIKO-ICHIE shipments (invoice INV520660939, asked 2026-11-18 by Reika Yamazaki, Northern Sky); Kriss (11-18): Livid has had no notification from FedEx; reply drafted asking Reika to have FedEx send any claim to Kriss, awaiting his OK to send ([thread](https://mail.google.com/mail/u/0/#all/1a08cd3163854a78))
 - Livid – invoice 1511272, remaining payment — Kriss asked on 2026-11-13 for time, remaining EUR 7,642.00 to be paid by end of November; awaiting Shota's reply ([thread](https://mail.google.com/mail/u/0/#all/1a1d551cf45a9f77))
 
 # Links

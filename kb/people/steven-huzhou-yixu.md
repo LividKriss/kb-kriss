@@ -37,7 +37,7 @@ Kriss does not write to Steven directly. He answers through the Petter Korseth a
 - 2026-01-04–02-03: FW26 sample shipment and follow-up (from subject; Kriss replied).
 
 # Open threads
-- Tompkins bulk PI 226HZYX2035A — Kriss promised the 30% deposit shortly (11-17); Steven (11-18) waits for the TT copy and the PI signed and stamped. Kriss owes both ([thread](https://mail.google.com/mail/u/0/#all/1a1e3724e8480362))
+- Tompkins bulk PI 226HZYX2035A — Kriss promised the 30% deposit shortly (11-17); Steven (11-18) waits for the TT copy and the PI signed and stamped. On hold per Kriss (11-18) until the deposit is paid ([thread](https://mail.google.com/mail/u/0/#all/1a1e3724e8480362))
 
 # Links
 - Organization: [Huzhou Yixu Imp. & Exp. Co., Ltd](kb://livid/organizations/manufacturers/huzhou-yixu.md)

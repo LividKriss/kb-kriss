@@ -22,6 +22,7 @@ A daily working colleague. Kriss copies her on all factory production-plan email
 Internal mail is in Norwegian: "Hei Charlie," or "Hei dere,". It is short and practical, signed "Kristoffer", usually with Jens Olav and Christopher in cc, and often Ole Eivind. Supplier threads with her are in English.
 
 # History
+- 2026-11-18 — Aiden claim thread closed: Kriss says the claim on the whole Aiden production has already been made to Stork.
 - 2026-11-17: Kriss agreed to tighten QC but countered Charlie's proposal: no shipment samples where PPS is approved (factory QC report instead); size set as shipment samples where there was no PPS; tolerances in Threadflow measurement charts; bulk ships only after the QC report is approved. Charlie accepted and asked Kriss to implement it with Paulo ([thread](https://mail.google.com/mail/u/0/#all/1a1e4fc6544e6e38))
 - 2026-11-16/17: Denim People (new jeans supplier candidate): Charlie accepted their tolerance standard and asked for a designated pattern maker. Denim People agreed and wants alignment on fabric FOB prices, approximate quantities per style and payment terms, proposing advance payment because the credit insurance has not approved yet. Charlie to answer; Kriss only sees the Superhuman share ([thread](https://mail.google.com/mail/u/0/#all/1a1bfd7523a8fec8))
 - 2026-11-17: Kriss sent the Aiden FW26 claim to Stork as Charlie asked (50% discount, EUR 2,838) ([thread](https://mail.google.com/mail/u/0/#all/1a1e975b284d7461))
@@ -49,7 +50,6 @@ Internal mail is in Norwegian: "Hei Charlie," or "Hei dere,". It is short and pr
 # Open threads
 - Mail correspondence style Lora — Kriss to check the amount paid and agree a settlement with Springair so the case can close ([thread](https://mail.google.com/mail/u/0/#all/1a1c54f1d80e6526))
 - Ny prosedyre mot feilproduksjon — agreed 2026-11-17 (QC report where PPS approved, size set where not, tolerances in Threadflow); Kriss to take it up with Paulo and send the supplier mail ([thread](https://mail.google.com/mail/u/0/#all/1a1e4fc6544e6e38))
-- Aiden - for stor — Kriss to raise a claim on the whole Aiden production; measurements in Threadflow ([thread](https://mail.google.com/mail/u/0/#all/1a1e4f3862e62ba8))
 
 # Links
 - Organization: Livid (colleague).

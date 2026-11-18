@@ -41,7 +41,7 @@ English. Very short replies ("Confirmed, please proceed", "Payment slip attached
 - 2025-10-09: "Livid - Ordre 09.10.25" order (FH-SO2510-N0091), a long thread with Kriss (from subject).
 
 # Open threads
-- Purchase Order — PO-00165 — Paid 2026-11-13 (USD 784.05). Serena (11-18) wants the payment slip and Livid's confirmation to ship via UPS on Livid's account; then she ships and sends tracking. Kriss owes the slip and the confirmation. ([thread](https://mail.google.com/mail/u/0/#all/1a1304ae448a1477))
+- Purchase Order — PO-00165 — Paid 2026-11-13 (USD 784.05). Serena (11-18) wants the payment slip and Livid's confirmation to ship via UPS on Livid's account; then she ships and sends tracking. Kriss says (brief 11-18) she has replied and he has told her where to ship; closed on our side, awaiting tracking. ([thread](https://mail.google.com/mail/u/0/#all/1a1304ae448a1477))
 - Purchase Order — PO-00170 — Paid 2026-11-13 (USD 235.94, same transfer as PO-00165). Kriss asked on 11-17 to ship the 14L buttons with the PO-00165 parcel; awaiting shipping confirmation request and tracking from Serena (covered by her 11-18 mail on the PO-00165 thread). ([thread](https://mail.google.com/mail/u/0/#all/1a1532655e3c25ca))
 
 # Links

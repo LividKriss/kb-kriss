@@ -33,7 +33,7 @@ Norwegian, "Hei Line!", short. Owns the error, says what was fixed ("har sendt k
 - 2024-06-05 to 2025-03-11: Missing invoice, price differences, delivery vs invoice (subjects only).
 
 # Open threads
-- None.
+- Credit note for 1 missing Fuller Japan Indigo Dusk 32/34 "on invoice 0112" (asked 2026-11-18). Loom: 0112 (LO-0094, Trondheim) has no Fuller Dusk 32/34; the only one is on 0111 (LO-0095, Bergen). Livid owes a reply asking which invoice/door ([thread](https://mail.google.com/mail/u/0/#all/1a1ed67f37350e1a))
 
 # Links
 - Organization: [Retro](kb://livid/organizations/customers/retro.md)
