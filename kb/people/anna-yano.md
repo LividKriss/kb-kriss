@@ -23,6 +23,7 @@ Kowa supplies fabrics (stock-service articles) for Livid's samples and bulk. The
 English. Opens with "Hello Annie," and signs "Best, Kristoffer" or with his signature only. Short and practical. He usually copies Christopher Stangeby, operations@livid.no and Omori. When a payment is late he apologises briefly and gives the payment date.
 
 # History
+- 2026-11-18: Omori chased again (A1929/A1930, due 2026-11-09) and asked when payment will be made.
 - 2026-11-16: Omori chased payment of the Nego Docs A1929 and A1930 (due 2026-11-09, still unpaid) and asked for a settlement ASAP and a reply.
 - 2026-10-13: Omori sent the half-yearly account confirmation. Kriss asked for the real invoices, since Livid only ever got courier invoices. Kowa sent Nego Docs A1929/A1930 for PO-00144, and Christopher confirmed the balance was correct on 2026-10-15.
 - 2026-09-16: Kriss paid A1887 (PO-00121) after Kowa's overdue reminders. It was due 2026-09-06.
@@ -36,6 +37,7 @@ English. Opens with "Hello Annie," and signs "Best, Kristoffer" or with his sign
 - 2025-09-01: Kowa warned that its 60-day payment terms could lapse because Livid had used the credit guarantee too little.
 
 # Open threads
+- Nego Docs A1929 and A1930 (PO-00144) — overdue since 2026-11-09; Omori chased 11-16 and 11-18 and wants the payment date. Kriss owes payment and reply ([thread](https://mail.google.com/mail/u/0/#all/1a133e520d5eea01))
 - Confirmation of Account — Christopher confirmed the balance is correct; Omori asked on 2026-10-16 for the signed letter as a PDF plus the original by post. Livid owes this. ([thread](https://mail.google.com/mail/u/0/#all/1a133e520d5eea01))
 
 # Links

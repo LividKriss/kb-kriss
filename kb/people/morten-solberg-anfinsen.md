@@ -23,6 +23,8 @@ Kriss handles Standard's quarterly commission (provisjon) reports and their paym
 Norwegian, "Hei Morten," with short replies, often "Topp, sender ut" plus the OC. Morten writes informally ("Hallais", signs "-M-"). On retailer restocks Kriss replies to the store directly with Morten in copy. He often opens by apologising for slow follow-up.
 
 # History
+- 2026-11-17: Kriss asked Retro (Sylli, Morten cc) for a sales report for September and October on the consignment goods delivered mid-September (Barnes Japan Indigo Rinse, Miko Japan Indigo Rinse, Brass Grey Seersucker) to update the consignment stock ([thread](https://mail.google.com/mail/u/0/#all/1a1d91b8f4ebbf1e))
+- 2026-11-17: Kriss asked Morten for Standard's view on NNor: Livid is sceptical of credit terms (hard collection last season, no group guarantee any more) but open to returns/swaps; no FW goods delivered yet (Hayes trousers postponed to spring). Morten looped in Tue, who has had most of the dialogue ([thread](https://mail.google.com/mail/u/0/#all/1a1e8a1a98d9029d))
 - 2026-11-17: Closed, no mail since 2026-10-29: Livid x Standard Agency : veien videre
 - 2026-11-17: Closed, no mail since 2026-10-15: Fwd: Reklamasjon Bukse
 - 2026-11-17: Closed, no mail since 2026-09-18: Aw26 ordrer
@@ -40,7 +42,7 @@ Norwegian, "Hei Morten," with short replies, often "Topp, sender ut" plus the OC
 - 2025-12-23: Agreed to keep Mandy's SS26 order simple and commercial to improve sell-through.
 
 # Open threads
-- None.
+- NNor — Kriss waits for Standard (Tue) on credit terms and the FW order changes/returns ([thread](https://mail.google.com/mail/u/0/#all/1a1e8a1a98d9029d)); Retro consignment sales report for Sept/Oct requested from Sylli, still awaited ([thread](https://mail.google.com/mail/u/0/#all/1a1d91b8f4ebbf1e))
 
 # Links
 - Organization: [Standard Agency AS](kb://livid/organizations/suppliers/standard-agency.md)

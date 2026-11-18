@@ -23,6 +23,7 @@ Since 2023-10 (wash comments, SS24 PO). One of Livid's main day-to-day contacts 
 English. "Hello Catarina," then clear step-by-step explanations of portal features with files attached; signs "Best / Kristoffer". Replies to all: Emanuel Fertuzinhos, Paulo Teixeira (Tex-Challenge), Christopher Stangeby, Charlie Selvig, Jens Olav Dankertsen, sometimes Hugo. She opens with "Dear Kristoffer, hi" and uses either of her two addresses.
 
 # History
+- 2026-11-17: Answered Kriss's status and ETD list inline: Solace Japan Moon is not approved on Lisama's side (a problem with the fly, raised with Christopher the day before); ETDs only once KA7731 and COD77 MD-SO fabric is received; Lean and Lane Japan Dawn PP protos and Anson Version 2 are not a priority; Heave and Heave Version 2 PP protos are being made with changed fabric and wash; Tori Twisted and Lemmy Japan Moon are cut, new ETD to be discussed with Emanuel; no fabric for Kaylan Japan Moon.
 - 2026-11-17: Closed, no mail since 2026-10-22: Problems with Deliveries Dates
 - 2026-11-17: Closed, no mail since 2026-10-20: Livid — FW27 SMS overview
 - 2026-11-17: Closed, no mail since 2026-10-21: New Sample Request — SR-FW27-003
@@ -44,7 +45,7 @@ English. "Hello Catarina," then clear step-by-step explanations of portal featur
 # Open threads
 - Shrinkage samples measurements - SS27 production — Livid sent comments on 2026-11-11; Lisama to confirm the format and start cutting ([thread](https://mail.google.com/mail/#all/1a1c4b218c674919))
 - Pending matters for Lisama ?? — Most portal requests fixed 2026-11-12 (Portuguese language, etc.); Catarina to review and report odd translations ([thread](https://mail.google.com/mail/u/0/#all/1a1c5ce8002e75a7))
-- Lisama - Updated production plan — Emanuel replied 2026-10-20 with fixed SS27 quantities/dates; Kriss owes a response and the final plan ([thread](https://mail.google.com/mail/u/0/#all/1a1587987e8a23d6))
+- Lisama - Updated production plan — Catarina replied 2026-11-17 to Kriss's status and ETD list (Solace not approved, no ETDs before KA7731/COD77 MD-SO fabric, Tori/Lemmy Japan Moon cut, no fabric for Kaylan Japan Moon); Livid owes a reply and the Solace/Fealy/Oak Sandbox PP comments ([thread](https://mail.google.com/mail/u/0/#all/1a1587987e8a23d6))
 
 # Links
 - Organization: [LISAMA – Sociedade de Confecções, Lda.](kb://livid/organizations/manufacturers/lisama.md)

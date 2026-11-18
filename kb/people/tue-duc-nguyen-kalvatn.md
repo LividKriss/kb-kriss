@@ -50,7 +50,7 @@ Norwegian. "Hei Tue," and often a single line ("Sender i morgen", or just the OC
 - 2026-02-23 – 04-09: Mark & Brandy never clarified its SS26 order (first sent as a Word file on 2025-09-10). Kriss released the reserved stock on 04-09.
 
 # Open threads
-- None.
+- NNor — Morten looped Tue in 2026-11-17 to answer Kriss on NNor's credit terms and FW order changes/returns; awaiting his reply ([thread](https://mail.google.com/mail/u/0/#all/1a1e8a1a98d9029d))
 
 # Links
 - Organization: [Standard Agency AS](kb://livid/organizations/suppliers/standard-agency.md)

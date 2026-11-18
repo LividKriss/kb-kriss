@@ -23,6 +23,7 @@ Kriss engaged her in Nov 2025 to extend LIVID trademark protection beyond Norway
 Norwegian, "Hei Stine", very short decisions ("Det er ok"). Copies Jens Olav Dankertsen, who signs formal documents.
 
 # History
+- 2026-11-12: Bryn Aarflot (Inger Viig, cc Stine) reported the US registration of LIVID (IR 1904269, US reg. 8537777, classes 25 and 35) granted 2026-11-10; proof of use due 2031-11-10. Kriss informed Jens Olav on 11-17; no action ([thread](https://mail.google.com/mail/u/0/#all/1a1cf471b3385f45))
 - 2026-11-17: Closed, no mail since 2026-10-20: SV: HASTER! Nektelse i Kina — Livid IR 1904269
 - 2026-10-20: With no instruction received, Bryn Aarflot let the China appeal deadline (2026-10-21) lapse; offered to look at a new filing (e.g. LIVID in Chinese characters or a logo mark).
 - 2026-10-16: Chinese agent rated the chance of registration in classes 18/25/35 at about 30%; Kriss advised Jens Olav internally that it is too costly for the odds and not a priority now.

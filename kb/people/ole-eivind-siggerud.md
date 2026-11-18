@@ -19,6 +19,7 @@ Daily working contact: about 2,100 threads in 3 years, 117 with Kriss replying i
 # How Kriss communicates with them
 Norwegian, very short and direct ("Fikser", "Skal være fikset nå", "yes"), often with no greeting. Longer mails start "Hei ole," or "Hei dere,". When Kriss writes in English to the wholesale customers and vintage suppliers Ole manages, he copies Ole.
 # History
+- 2026-11-17: Forwarded Welcome's chase of three overdue Camper invoices (44865, 45516, 45944) and asked Kriss whether he had contacted them; also forwarded a payment reminder from Telemark Ullfilt AS (invoice 1877). Kriss issued the Million Goods credit note and return label himself.
 - 2026-11-17: Closed, no mail since 2026-10-29: DKK-priser på nett
 - 2026-11-17: Closed, no mail since 2026-10-21: Fwd: Utestående faktura: a Keen bestseller is held until the invoice is paid. Ole needs an expected 
 - 2026-11-17: Closed, no mail since 2026-10-22: Fwd: Betalingspåminnelse fra På Stell AS (24599, 24636): two reminders forwarded, Kriss to pay (, )
@@ -39,11 +40,12 @@ Norwegian, very short and direct ("Fikser", "Skal være fikset nå", "yes"), oft
 - 2026-04-14: Ole set a handling routine for goods after shoots, after a stained silk shirt was sent to Ecru (Seoul).
 
 # Open threads
+- Fwd: Betalingspåminnelse fra Telemark Ullfilt AS, faktura 1877 — reminder forwarded 2026-11-17 to Kriss and the invoice mailbox; Kriss to check and pay ([thread](https://mail.google.com/mail/u/0/#all/1a1e9720a23232b3))
+- Fwd: Förfallen Faktura Welcome — Welcome (Jonathan Werner, Operations; agent Martin at be-bold in cc) demands immediate payment of Camper invoices 44865, 45516 and 45944 and a payment confirmation; Ole asks Kriss whether he has made contact ([thread](https://mail.google.com/mail/u/0/#all/1a110a50976a1919))
 - Updated invoice (VWC) — Riccardo asks Ole whether to add 100 men's winter coats and 200 Norway jumpers (landing 20 Nov, GBP 4,400) and the 100 Barbour jackets on hold; no answer seen ([thread](https://mail.google.com/mail/u/0/#all/1a1ab1a4f6ac7ca2))
 - Fwd: Swap og supplering — Retro Bergen restock and returns sheet forwarded to Kriss 2026-11-10 ([thread](https://mail.google.com/mail/u/0/#all/1a1c4b52b12fe00b))
 - Invoice Burberry Scarves - The VWC: Kriss to pay INV-0171 and the Barbour invoice and confirm. VWC waits for Ole on the USA/EU delivery points ([thread](https://mail.google.com/mail/u/0/#all/1a0f65f5f96bd8f6))
 - Glass Onion Vintage - Statement and payment links: instalments due from 2026-10-24, Kriss to pay or warn of delay ([thread](https://mail.google.com/mail/u/0/#all/1a15dde9fb991748))
-- Re: Million Goods x Livid - FW26 Delivery ETA: Million Goods accepted the credit for the damaged jeans on 2026-11-11 and asks who arranges the return shipping of past-season consignment goods; Ole to answer and issue the credit ([thread](https://mail.google.com/mail/u/0/#all/1a0a6e07b133b717))
 - Livid x Park Mall SS27 — customer's 7 faulty-zipper hoodies: credit against the unpaid second-shipment proforma (refund asked); Kriss may need to issue the credit note ([thread](https://mail.google.com/mail/u/0/#all/19ff53ca42975db8))
 - Livid FW26 delivery (Yokie) — restock list expected from Shaylan; Ole processes the order ([thread](https://mail.google.com/mail/u/0/#all/1a035ab0345d7fad))
 

@@ -23,6 +23,7 @@ Since 2025-10-01. Fabric (S7/PAROG, babycord and others) bought from stock for s
 English, "Hello," or "Hello Daniel,", a few lines, signs "Kristoffer" (sometimes lowercase "kristoffer"). Usually copies Christopher Stangeby and operations@livid.no.
 
 # History
+- 2026-11-17: Daniel asked which email address Troficolor should use to log in to Livid's Supply Chain Transparency Platform. Kriss forwarded it to Arnt (Livid) to handle the invitation.
 - 2026-09-30: PO-00148 (SS27, 150 m) shipped to Siluete. Ashley sent the final invoice.
 - 2026-09-27: Kriss paid PO-00148 after Daniel chased on 09-22. Export docs to be in the Romanian manufacturer's name.
 - 2026-09-16: Kriss asked whether Troficolor can bill Livid without VAT and ship to Siluete. Daniel reissued the proforma (wrong price on the first one).
@@ -35,7 +36,7 @@ English, "Hello," or "Hello Daniel,", a few lines, signs "Kristoffer" (sometimes
 - 2025-10-23: Kriss paid the sample order for Stork Têxteis. Samples delivered the same day.
 
 # Open threads
-- None.
+- Transparency Platform login email — Daniel asked 2026-11-17; Kriss forwarded to Arnt, who handles the invitation. No reply to Daniel seen yet ([thread](https://mail.google.com/mail/u/0/#all/1a1e97171f382504))
 
 # Links
 - Organization: [TROFICOLOR TEXTEIS, S.A.](kb://livid/organizations/suppliers/troficolor.md)

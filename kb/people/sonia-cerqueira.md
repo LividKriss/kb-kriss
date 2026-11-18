@@ -25,6 +25,7 @@ Kriss has worked with Sónia since at least 2025-11 (earliest listed thread 2025
 - Always copies Paulo Teixeira (Tex Challenge) and usually Christopher Stangeby. Charlie Selvig and Jens Olav Dankertsen are added on planning emails.
 
 # History
+- 2026-11-17: Deliberate (SS27): fabric short at Afonso, so Kriss issued MO-SS27-16 replacing MO-SS27-07 (cancelled) with the reduced quantities; Afonso to report final quantities if the fabric yields extra pieces.
 - 2026-11-17: Closed, no mail since 2026-10-20: Livid: SS27 HYDRA
 - 2026-11-17: Closed, no mail since 2026-10-12: Incoming Shipment for Livid — SH-00128
 - 2026-11-17: Closed, no mail since 2026-09-11: AFONSO: Fw26 deliveries

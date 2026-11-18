@@ -24,6 +24,7 @@ Supplier relationship through the agent Petter Korseth AS (on cc). Day to day Ch
 - About Huzhou matters Kriss often answers the agent (Maria Furdal) in Norwegian instead, copying Christopher and Petter Korseth.
 
 # History
+- 2026-11-18: Angel confirmed she will arrange the custom-made bulk leather production as soon as possible (after Kriss said the 30% deposit for PI 226HZYX2035A is coming).
 - 2026-11-17: Closed, no mail since 2026-10-19: LIVID-SS27 BULK-New Sample Comments
 - 2026-11-17: Closed, no mail since 2026-10-19: Pending matters for Huzhou
 - 2026-11-17: Closed, no mail since 2026-09-11: Sourcing FW27 ... SAMPLE INVOICE FOR SS27
@@ -41,7 +42,7 @@ Supplier relationship through the agent Petter Korseth AS (on cc). Day to day Ch
 - 2026-01-04: FW26 samples sent by DHL (inferred from subject).
 
 # Open threads
-- Tompkins - production — PO and bulk PI 226HZYX2035A issued; Kriss owes the 30% deposit and tells Steven; Charlie to pick the horn button; Livid ships labels next week ([thread](https://mail.google.com/mail/u/0/#all/1a1e3724e8480362))
+- Tompkins - production — Bulk PI 226HZYX2035A issued; Kriss owes the 30% deposit and signed PI (Angel starts custom leather, bulk takes 25+ days after deposit); Charlie to pick the horn button; Livid ships labels this week or next ([thread](https://mail.google.com/mail/u/0/#all/1a1e3724e8480362))
 
 # Links
 - Organization: [Huzhou Yixu Imp. & Exp. Co., Ltd](kb://livid/organizations/manufacturers/huzhou-yixu.md)

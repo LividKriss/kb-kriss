@@ -23,6 +23,7 @@ Seasonal ROTOTO orders for Livid's stores (Livid Jeans Retail AS). First thread 
 English, "Hello Shota," + "Hope you are well.", two to four lines, signs "Best Kristoffer". Ole Eivind in copy.
 
 # History
+- 2026-11-18: Reika Yamazaki (Northern Sky, for Paddlers; no own note) said FedEx contacted them about unpaid duties and taxes on the ROTOTO and ICHIKO-ICHIE shipments (AWB 878016365287, FedEx invoice INV520660939 attached) and asked Kriss to arrange payment.
 - 2026-11-13: Kriss asked for more time on the remaining 50% of invoice 1511272 (EUR 7,642.00); plans to pay by end of November.
 - 2026-10-01: AW26 order shipped by FedEx once funds arrived.
 - 2026-09-30: Kriss apologised: the 50% prepayment had stalled because the EUR currency order was never placed; paid the same day.
@@ -32,6 +33,7 @@ English, "Hello Shota," + "Hope you are well.", two to four lines, signs "Best K
 - 2026-01-14: Shota confirmed terms: 50% before shipment, 50% 30 days after shipment; one invoice only, can't be split into two.
 
 # Open threads
+- AW26 shipment FedEx duties and taxes — FedEx wants payment for the ROTOTO and ICHIKO-ICHIE shipments (invoice INV520660939, asked 2026-11-18 by Reika Yamazaki, Northern Sky); Kriss to check and pay ([thread](https://mail.google.com/mail/u/0/#all/1a08cd3163854a78))
 - Livid – invoice 1511272, remaining payment — Kriss asked on 2026-11-13 for time, remaining EUR 7,642.00 to be paid by end of November; awaiting Shota's reply ([thread](https://mail.google.com/mail/u/0/#all/1a1d551cf45a9f77))
 
 # Links

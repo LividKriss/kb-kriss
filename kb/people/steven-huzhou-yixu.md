@@ -23,6 +23,7 @@ The relationship started 2026-01-04 (FW26 samples) through agent Petter Korseth 
 Kriss does not write to Steven directly. He answers through the Petter Korseth agent Maria Furdal in short Norwegian ("Hei Maria" / "Hei", signs "Kristoffer"), copying Christopher, Mona, Gustaf and Thyra. Christopher handles the English production correspondence with Angel.
 
 # History
+- 2026-11-18: Kriss said (11-17) the 30% deposit for PI 226HZYX2035A will be paid shortly. Steven acknowledged and waits for the TT payment copy; he also asked for the bulk PI signed and stamped, as his accounting needs it for the record.
 - 2026-11-17: Closed, no mail since 2026-10-23: LIVID-SS27 BULK
 - 2026-11-16: Steven sent bulk PI 226HZYX2035A (Tompkins) and asked for the 30% deposit ASAP and a signed, stamped copy. Charlie said Kriss will notify when paid.
 - 2026-10-20/22: SS27 PP sample: Angel offered button options and Charlie picked one after the agent chased for an answer.
@@ -36,7 +37,7 @@ Kriss does not write to Steven directly. He answers through the Petter Korseth a
 - 2026-01-04–02-03: FW26 sample shipment and follow-up (from subject; Kriss replied).
 
 # Open threads
-- Tompkins bulk PI 226HZYX2035A — Kriss to pay the 30% deposit, return the PI signed and stamped, and notify Steven ([thread](https://mail.google.com/mail/u/0/#all/1a1e3724e8480362))
+- Tompkins bulk PI 226HZYX2035A — Kriss promised the 30% deposit shortly (11-17); Steven (11-18) waits for the TT copy and the PI signed and stamped. Kriss owes both ([thread](https://mail.google.com/mail/u/0/#all/1a1e3724e8480362))
 
 # Links
 - Organization: [Huzhou Yixu Imp. & Exp. Co., Ltd](kb://livid/organizations/manufacturers/huzhou-yixu.md)

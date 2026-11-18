@@ -23,6 +23,7 @@ Fabric supplier contact since 2024-03 (fabric requests). Sample and bulk fabric 
 English, "Hello Miriam," short; questions surcharges directly and politely. Copies Christopher and operations@livid.no.
 
 # History
+- 2026-11-17: Kriss told her proforma 8550 (PO-00147, EUR 5,539.89) was paid on 13 November and asked her to release the shipment to Dia. She sent shipment document no. 2260 (the invoice follows) and said there is no tracking because the shipment goes with Alpi.
 - 2026-11-12: Miriam asked Christopher to confirm payment of proforma 8550 (PO-00147) so the shipment can be released.
 - 2026-10-27: Sent proforma 8550 for PO-00147 (174.4 m art. 10920, ex mill 10.11, freight DAP Dia on the invoice), to be paid before shipment.
 - 2026-10-22: PO-00147 ready; Miriam asked for Livid's forwarder or freight on the invoice before sending the proforma.
@@ -37,7 +38,7 @@ English, "Hello Miriam," short; questions surcharges directly and politely. Copi
 - 2024-03 to 2024-06: Fabric requests and an urgent sample order (from subjects).
 
 # Open threads
-- Purchase Order — PO-00147 — proforma 8550 not paid as far as Tessilbiella knows; Miriam asked 2026-11-12 for payment confirmation to release the shipment. Livid owes a reply ([thread](https://mail.google.com/mail/u/0/#all/1a075e5344c1607b))
+- Purchase Order — PO-00147 — Proforma 8550 paid 2026-11-13, shipment released via Alpi (no tracking) to Dia; Miriam still to send the final invoice ([thread](https://mail.google.com/mail/u/0/#all/1a075e5344c1607b))
 
 # Links
 - Organization: [Tessilbiella](kb://livid/organizations/suppliers/tessilbiella.md)

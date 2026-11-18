@@ -22,6 +22,7 @@ Kriss's closest management counterpart. Kriss copies him on factory production p
 Norwegian. One-to-one, Kriss is very short and candid, often with no greeting ("Helt ærlig synes jeg …"). Group mails start "Hei dere," and spell out who does what (e.g. "@Ole"). In English supplier and landlord threads, Kriss leads and Jens is in cc.
 
 # History
+- 2026-11-17: Kriss told Jens Olav that the US registration of LIVID (US reg. 8537777) was granted 2026-11-10 and that nothing needs doing now ([thread](https://mail.google.com/mail/u/0/#all/1a1cf471b3385f45))
 - 2026-11-17: Closed, no mail since 2026-10-20: Atoho og Alpha SS27
 - 2026-11-17: Closed, no mail since 2026-10-21: Threaddflow
 - 2026-11-17: Closed, no mail since 2026-10-20: SV: HASTER! Nektelse i Kina
@@ -41,7 +42,6 @@ Norwegian. One-to-one, Kriss is very short and candid, often with no greeting ("
 
 # Open threads
 - Budsjettering — Jens's budget notes; Kriss to review and follow up ([thread](https://mail.google.com/mail/#all/1a1cabfa47f9175a))
-- Registreringsrapport USA, Baa ref. 560848US — Jens asked Kriss to reply; draft ready ([thread](https://mail.google.com/mail/u/0/#all/1a1cf471b3385f45))
 
 # Links
 - Organization: Livid (colleague).

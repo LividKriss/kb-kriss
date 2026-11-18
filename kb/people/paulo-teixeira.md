@@ -23,6 +23,8 @@ Kriss and Paulo work on season production (SS27 now, FW26 deliveries, FW27 sampl
 English. "Hello Paulo," / "Hope you are well.", signed "Best / Kristoffer" or with the signature block only. Direct and short. He chases with one-liners ("Did you see the above…"). He copies Christopher Stangeby, and usually Charlie Selvig and Jens Olav Dankertsen, on production matters.
 
 # History
+- 2026-11-17: Afonso Deliberate fabric shortage: Kriss said no more fabric is coming, use the 140 m Sundown Check and 150 m Cream Crust, and sent MO-SS27-16 (replaces MO-SS27-07, cancelled; Sundown Check 66, Cream Crust 72). Paulo had proposed 67 and 73; Kriss asked Afonso to follow the MO and report any extra pieces in M and L. Kriss also asked for a flow where fabric is ordered on confirmed consumption.
+- 2026-11-17: Chased Kriss on the Mill-Tex revised Atohi/Alpha prices ("any news?"); no answer yet.
 - 2026-11-17: Closed, no mail since 2026-10-26: STORK: FW26 EXTENSIVE BEAN SILK invoice + pending invoices: Livid owes the waybill for the shipment 
 - 2026-11-17: Closed, no mail since 2026-11-02: Buttonholes: Charlie asked Paulo to get Afonso's feedback on buttonholes that tear the placket. Paul
 - 2026-11-17: Closed, no mail since 2026-10-22: Problems with Deliveries Dates: Kriss asked Catarina (Lisama) to confirm the sticker/label files. Ca
@@ -48,10 +50,10 @@ English. "Hello Paulo," / "Hope you are well.", signed "Best / Kristoffer" or wi
 
 # Open threads
 - Miko quality claims, batches 00725 and 00778 — Lisama proposed wash changes; Livid owes a response ([thread](https://mail.google.com/mail/u/0/#all/1a17739e265580de))
-- SS27 pending matters Mill-Tex: Paulo offered lower Atohi/Alpha prices on 2026-11-10; Livid decides whether to reinstate the styles. Mill-Tex also owes confirmation of batch 1 (2,870 pcs, 11 Dec) and PPS ETDs for nine styles ([thread](https://mail.google.com/mail/u/0/#all/1a13509eaff36b49))
+- SS27 pending matters Mill-Tex: Paulo offered lower Atohi/Alpha prices on 2026-11-10 and chased on 2026-11-17; Livid decides whether to reinstate the styles. Mill-Tex also owes confirmation of batch 1 (2,870 pcs, 11 Dec) and PPS ETDs for nine styles ([thread](https://mail.google.com/mail/u/0/#all/1a13509eaff36b49))
 - Prices and lead time Eplehuset: prices and the 2027-01-29 date are in. Kriss owes a lock-in with Eplehuset and the order ([thread](https://mail.google.com/mail/u/0/#all/1a13a82ad439361c))
 - Lisama - Updated production plan: Livid owes a response to Lisama's counter-proposal on quantities and dates ([thread](https://mail.google.com/mail/u/0/#all/1a1587987e8a23d6))
-- AFONSO: SS27 missing fabric Woolbuylic (Deliberate) — Paulo asks whether Afonso gets more fabric or a new size breakdown; Kriss owes the answer ([thread](https://mail.google.com/mail/u/0/#all/1a1d4e9f8e03de43))
+- AFONSO: SS27 missing fabric Woolbuylic (Deliberate) — Kriss answered 2026-11-17 (reduced quantities, MO-SS27-16 sent); Afonso to follow the MO breakdown and report final quantities ([thread](https://mail.google.com/mail/u/0/#all/1a1d4e9f8e03de43))
 - Production plan SS27 for approval (Stork) — Paulo replied 11-13: silks and Centi linen timing put batch 1 at risk, batch 2 depends on fabrics arriving 5 Dec. Kriss has not confirmed the plan; Paulo proposed a meeting Mon 2026-11-16 10:30 ([thread](https://mail.google.com/mail/u/0/#all/1a1348398cb56fac))
 - Lisama payment plan sent 2026-11-13 (weeks 49, 50 and 53); awaiting Lisama's OK via Paulo ([thread](https://mail.google.com/mail/u/0/#all/1a18d47cc38b2b2b))
 

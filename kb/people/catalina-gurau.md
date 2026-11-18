@@ -23,6 +23,9 @@ Production partner for Livid's chinos and trousers (Fuller Chino, Solace Chino, 
 English, "Hello Catalina," signed "Best, Kristoffer". Short, and he hands technical questions to Christopher with Christopher in copy. Catalina writes formally ("Dear Kristoffer", "Kind regards / Cu stima"). Many messages arrive as automated portal emails from operations@livid.no.
 
 # History
+- 2026-11-17: Christopher said the approved PPS go back today in two parcels: TM-00038 (Adrift Shorts and Adrift Trouser, Japan Chime Linen) and TM-00040 (Fuller Chino Navy, marked Khaki). The Solace Chino is held for the e-commerce shoot and follows at the end of the week or early next week.
+- 2026-11-17: Catalina said the fabric for Fuller Chino SB2050 only covers 200 pcs of C/#13 (Navy) and 230 pcs of C/#15 (Khaki), and that the order quantities are reversed; she asked Christopher to restate the Navy/Khaki split.
+- 2026-11-17: Kriss answered the MO-SS27-10 price corrections: he sees them as above the agreed surcharge structure (+EUR 12,807, +79%) and counter-proposed 764 pcs at EUR 21,276 in total (priority items at EUR 20/22, others +50% or x2), asking her to confirm so the order can be locked.
 - 2026-11-17: Closed, no mail since 2026-10-26: New Manufacture Order — MO-0019
 - 2026-11-16: Catalina asked Livid to send the production approvals for Fuller Chino, Solace Chino, Adrift Trouser and Adrift Shorts. The portal mail of 11-13 had Adrift Trouser and Shorts approved for production and Gardener Pant Black Stripe needing new PPs.
 - 2026-11-13: Catalina asked for the invoice for label order TRO-00007. Christopher sent Passamar invoice 2026/7170, but she says that one belongs to TRP-00007 and asks again for the TRO-00007 invoice.
@@ -40,10 +43,12 @@ English, "Hello Catalina," signed "Best, Kristoffer". Short, and he hands techni
 - 2024-06-17 – 2025-03: First contact about shirt production, then chino production discussions (from subjects).
 
 # Open threads
+- FW26 Production Booking — Fuller Chino fabric limits (Navy 200 pcs, Khaki 230 pcs by her count); Catalina asked 2026-11-17 for the Navy/Khaki split to be restated; Livid owes the answer ([thread](https://mail.google.com/mail/u/0/#all/19f4728d6467edf1))
+- MO-SS27-10 prices — Kriss counter-proposed 2026-11-17 (764 pcs, EUR 21,276 total); awaiting Catalina's confirmation to lock the order ([thread](https://mail.google.com/mail/u/0/#all/1a0ee4cffb383fc5))
 - Livid — SS27 Production — Transparency/QR Code — Siluete — Fuller Chino and Solace Chino labels not yet shipped; Christopher owes a ship date ([thread](https://mail.google.com/mail/u/0/#all/1a11a963bf61f399))
 - Production plan SS27 — Catalina owes batch confirmation, a revised plan and ETDs for the other four PPS (Leisure x2, Kaylan, Vela); the reduced quantities are not yet specified. Livid owes comments on the 3rd PPS for Fuller and Solace. Meeting offered for 2026-11-12, no answer seen ([thread](https://mail.google.com/mail/#all/1a12fc6a9456f240))
 - Label order TRO-00007 · Siluete — Catalina asks for the invoice for TRO-00007 (2026/7170 sent by Christopher is for TRP-00007); Livid owes the right invoice. Her earlier request for the invoice for 65.5 m of Somelos fabric may also still be open ([thread](https://mail.google.com/mail/u/0/#all/1a13b69cae495069))
-- New comments from Livid! — Siluete awaits production approval for Fuller and Solace Chino (Adrift Trouser/Shorts approved in the portal 11-13); Livid owes it ([thread](https://mail.google.com/mail/u/0/#all/1a1e483e791bb147))
+- New comments from Livid! — Approved PPS sent 2026-11-17 (TM-00038 Adrift, TM-00040 Fuller Chino); Solace Chino PPS follows end of week or early next week after the e-commerce shoot, Christopher to tell her when it ships ([thread](https://mail.google.com/mail/u/0/#all/1a1e483e791bb147))
 
 # Links
 - Organization: [Siluete Prod](kb://livid/organizations/manufacturers/siluete-prod.md)

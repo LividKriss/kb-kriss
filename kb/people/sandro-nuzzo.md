@@ -23,6 +23,7 @@ Since 2023-10 (first order). Wholesale orders with Ole Eivind Siggerud; Kriss se
 English, "Hello Sandro"/"Hey Sandro", warm and informal, short. Cc's Ole Eivind.
 
 # History
+- 2026-11-17: Ole will ship the items missing from the last fulfilment and an unfulfilled 2XL; the SS27 work shirt is produced in indigo only (other colourways cancelled). No payment news for 0017 and 0039 in the thread.
 - 2026-11-02/10: AW26 invoices 0017 (EUR 2,163) and 0039 (EUR 913) were overdue; Sandro promised payment, Kriss resent 0017 on 11-06. Ole told him the Bix jackets are cancelled; Sandro cancelled Beth Bronzer (delayed to SS27) ([thread](https://mail.google.com/mail/u/0/#all/1a199abd34475fc1))
 - 2026-05-04: Re-order shipped from the Oslo store got stuck in Livid's system; fixed and sent.
 - 2026-04-21: Kriss sent missing invoice 11266; Sandro paid open invoices 2026-04-10 and 2026-04-24.

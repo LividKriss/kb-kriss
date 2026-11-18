@@ -23,6 +23,8 @@ Handles every Livid order. For each purchase order from Livid she issues a profo
 English. Very short replies ("Confirmed, please proceed", "Payment slip attached", "Here is our receipt"). Opens with "Hello," or "Hello all,". He stays on the thread Christopher started and copies the Frameless team.
 
 # History
+- 2026-11-17: Kriss told her PI FH-SO2610-N0095 (PO-00165, USD 784.05) and PI FH-SO2610-N0145 (PO-00170, USD 235.94) were paid together on 13 November, and asked her to ship both, with the 14L shell buttons on the PO-00165 parcel if possible, and send tracking.
+- 2026-11-18: Thanked Kriss for the payment of both PIs and asked for the payment slip for tracking. Once she confirms receipt she wants Livid to confirm that FH-SO2610-N0095 and FH-SO2610-N0145 both go by UPS on Livid's account to the address she listed.
 - 2026-11-17: Closed, no mail since 2026-10-30: Purchase Order — PO-00160
 - 2026-11-12: PO-00165 goods (1 carton) are ready; she will ship only once payment is received.
 - 2026-11-11: She reported the 14L shell buttons (colours 511/515) for PO-00170 are ready (1 box, 0.18 kg) and will ship by UPS only after payment. PO-00165 is a few days late, ready in about two days; she asked for payment on both.
@@ -39,8 +41,8 @@ English. Very short replies ("Confirmed, please proceed", "Payment slip attached
 - 2025-10-09: "Livid - Ordre 09.10.25" order (FH-SO2510-N0091), a long thread with Kriss (from subject).
 
 # Open threads
-- Purchase Order — PO-00165 — Goods ready 2026-11-12 (1 carton); Frameless ships once PI FH-SO2610-N0095 is paid. Kriss owes payment and proof. ([thread](https://mail.google.com/mail/#all/1a1304ae448a1477))
-- Purchase Order — PO-00170 — Goods (14L buttons 511/515) ready 2026-11-11; Serena wants payment of PI FH-SO2610-N0145 first and Livid's confirmation to ship by UPS. Christopher said 11-11 that Kriss will follow up. Kriss owes payment and confirmation. ([thread](https://mail.google.com/mail/#all/1a1532655e3c25ca))
+- Purchase Order — PO-00165 — Paid 2026-11-13 (USD 784.05). Serena (11-18) wants the payment slip and Livid's confirmation to ship via UPS on Livid's account; then she ships and sends tracking. Kriss owes the slip and the confirmation. ([thread](https://mail.google.com/mail/u/0/#all/1a1304ae448a1477))
+- Purchase Order — PO-00170 — Paid 2026-11-13 (USD 235.94, same transfer as PO-00165). Kriss asked on 11-17 to ship the 14L buttons with the PO-00165 parcel; awaiting shipping confirmation request and tracking from Serena (covered by her 11-18 mail on the PO-00165 thread). ([thread](https://mail.google.com/mail/u/0/#all/1a1532655e3c25ca))
 
 # Links
 - Organization: [Frameless Asia Pacific Limited](kb://livid/organizations/suppliers/frameless-asia-pacific.md)
