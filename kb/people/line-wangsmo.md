@@ -23,6 +23,7 @@ Billing on Livid's wholesale deliveries to Retro: invoices that don't match deli
 Norwegian, "Hei Line!", short. Owns the error, says what was fixed ("har sendt kreditnota nå"). Usually no one in copy.
 
 # History
+- 2026-11-18: Line asked for a credit note for 1 Fuller Japan Indigo Dusk 32/34 missing against invoice 0112; Kriss asked which store lacks it (Dusk is on 0111, Bergen); Line corrected herself: it is Fuller Japan Indigo Rinse 32/34 ([thread](https://mail.google.com/mail/u/0/#all/1a1ed67f37350e1a))
 - 2026-09-07: Line asked for EHF invoices; Kriss: the new order system doesn't support EHF yet (target before New Year), so invoices now go to each Retro company's own e-invoice email address.
 - 2026-06-09: Two credit notes (11360/11362) issued for one Miko claim; Line approved 11362 and Kriss issued an invoice to offset 11360.
 - 2026-05-25: Credit note issued for 11 Fuller Japan Faded Blue returned by Retro Nordre (received 2026-03-30); it had been delayed after other Livid people were chased.
@@ -33,7 +34,7 @@ Norwegian, "Hei Line!", short. Owns the error, says what was fixed ("har sendt k
 - 2024-06-05 to 2025-03-11: Missing invoice, price differences, delivery vs invoice (subjects only).
 
 # Open threads
-- Credit note for 1 missing Fuller Japan Indigo Dusk 32/34 "on invoice 0112" (asked 2026-11-18). Loom: 0112 (LO-0094, Trondheim) has no Fuller Dusk 32/34; the only one is on 0111 (LO-0095, Bergen). Reply drafted 11-18 asking which store is short, awaiting Kriss's OK ([thread](https://mail.google.com/mail/u/0/#all/1a1ed67f37350e1a))
+- Credit note for 1 missing Fuller Japan Indigo Rinse 32/34 on invoice 0112 (corrected by Line 2026-11-18, first said Dusk). Kriss to check in Loom that 0112 (LO-0094, Trondheim) includes it, then issue the credit note or ask which store is short ([thread](https://mail.google.com/mail/u/0/#all/1a1ed67f37350e1a))
 
 # Links
 - Organization: [Retro](kb://livid/organizations/customers/retro.md)

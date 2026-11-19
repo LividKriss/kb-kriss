@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-19
+
+- **Update** KB sync (cloud daily run 2026-11-19, batch B, Sonnet subagent), Person notes, History and Open threads: christopher-stangeby (Threadflow status sent 18.11; All Season removed, Eplehuset styles in SS27; Solace zip fly at Lisama; RS-1018 credited; Geelus done; Tarvas), ole-eivind-siggerud (Park Mall takes replacement hoodies; Norda misdelivery via Blender; shipping-routine input; Tarvas; Camperlab reminder), thea-martine-jacobsen (shipping routines: round with stores first), tue-duc-nguyen-kalvatn and morten-solberg-anfinsen (NNor: Tue will phone them), line-wangsmo (missing item is Fuller Japan Indigo Rinse 32/34), dan-green (plan thanks), margit-woldseth (meeting Fri 20.11 09:00 proposed).
+
 ## 2026-11-18
 
 - **Update** Mac agent run 22:35: forwarded 1 voucher to PowerOffice (Passamar 2026/7687, hangtags, addressed to Livid Jeans Unipessoal, so Livid Jeans AS; paid-proforma check done: no Passamar proforma for it, invoice shows 0 advance payments, 30-day terms); 0 to Ole Eivind; HK Consulting already had it from Kriss (11:28), not sent again; 0 customs documents filed. Thread labelled `AI/Task` (T2 candidate: hangtags, check Threadflow PO) with a `[Doc]` summary draft, kept in the inbox for the brief. Feel.no order confirmation (webshop, not a voucher) and SAS/Feel automatic mails left alone. Gmail hit its per-minute quota; retried.

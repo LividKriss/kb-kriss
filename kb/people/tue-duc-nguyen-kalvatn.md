@@ -23,6 +23,7 @@ Day-to-day contact between the Norwegian retailers and Livid. He forwards restoc
 Norwegian. "Hei Tue," and often a single line ("Sender i morgen", or just the OC attached). He copies Jens Olav or Ole Eivind when a decision is theirs, and when retailers write to him directly he replies to them with Tue in copy.
 
 # History
+- 2026-11-18: Tue answered on NNor: no talks since the last meeting about returns/changes to their AW order; in August (with Ole Eivind) it was agreed NNor would send an overview of what to return and change, to him and Ole Eivind, and it has not arrived. He did not know the AW order is undelivered. He proposes being open with NNor about payment terms and will phone them himself ([thread](https://mail.google.com/mail/u/0/#all/1a1e8a1a98d9029d))
 - 2026-11-17: Closed, no mail since 2026-10-29: Fwd: Supplering Livid
 - 2026-11-17: Closed, no mail since 2026-10-29: Bogart supplering
 - 2026-11-17: Closed, no mail since 2026-11-03: Spons
@@ -50,7 +51,7 @@ Norwegian. "Hei Tue," and often a single line ("Sender i morgen", or just the OC
 - 2026-02-23 – 04-09: Mark & Brandy never clarified its SS26 order (first sent as a Word file on 2025-09-10). Kriss released the reserved stock on 04-09.
 
 # Open threads
-- NNor — Morten looped Tue in 2026-11-17 to answer Kriss on NNor's credit terms and FW order changes/returns; awaiting his reply ([thread](https://mail.google.com/mail/u/0/#all/1a1e8a1a98d9029d))
+- NNor — Tue will phone NNor about payment terms; NNor's overview of returns/changes to the AW order is still outstanding; Kriss may answer Tue ([thread](https://mail.google.com/mail/u/0/#all/1a1e8a1a98d9029d))
 
 # Links
 - Organization: [Standard Agency AS](kb://livid/organizations/suppliers/standard-agency.md)

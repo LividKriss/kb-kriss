@@ -42,7 +42,7 @@ Norwegian, "Hei Morten," with short replies, often "Topp, sender ut" plus the OC
 - 2025-12-23: Agreed to keep Mandy's SS26 order simple and commercial to improve sell-through.
 
 # Open threads
-- NNor — Kriss waits for Standard (Tue) on credit terms and the FW order changes/returns ([thread](https://mail.google.com/mail/u/0/#all/1a1e8a1a98d9029d)); Retro consignment sales report for Sept/Oct requested from Sylli, still awaited ([thread](https://mail.google.com/mail/u/0/#all/1a1d91b8f4ebbf1e))
+- NNor — Tue replied 11-18 (see his note): he will phone NNor; Kriss may reply ([thread](https://mail.google.com/mail/u/0/#all/1a1e8a1a98d9029d)); Retro consignment sales report for Sept/Oct requested from Sylli, still awaited ([thread](https://mail.google.com/mail/u/0/#all/1a1d91b8f4ebbf1e))
 
 # Links
 - Organization: [Standard Agency AS](kb://livid/organizations/suppliers/standard-agency.md)
