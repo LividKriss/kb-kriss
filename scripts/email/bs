@@ -1,0 +1,3 @@
+#!/bin/sh
+# Short form of brief_state.py with the venv python.
+exec "$HOME/Library/Application Support/kb-kriss/venv/bin/python" "$(dirname "$0")/brief_state.py" "$@"

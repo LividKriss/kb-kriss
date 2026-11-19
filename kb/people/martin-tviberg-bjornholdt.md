@@ -23,6 +23,7 @@ He has been Livid's account manager since the first freight talks in 2024-10. Li
 Norwegian, informal: "Hei Martin," and signs "Kristoffer" or with his signature only. Short and direct, and open about payment delays and the reasons for them. He sometimes copies support@quickship.no on operational questions. In the 2025-08 billing dispute he was firm and spelled out what he expected as compensation.
 
 # History
+- 2026-11-19: Overdue invoices 69570 (NOK 23,310) and 69772 (NOK 15,302.50) found paid 13.11 in PowerOffice; his 13.11 chase closed in the morning brief.
 - 2026-11-17: Closed, no mail since 2026-10-27: Utestående forfalte fakturaer — "Livid Jeans AS"
 - 2026-11-17: Closed, no mail since 2026-09-28: Stykkgods? 8514097883
 - 2026-11-17: Closed, no mail since 2026-09-21: Porterbuddy
@@ -41,7 +42,6 @@ Norwegian, informal: "Hei Martin," and signs "Kristoffer" or with his signature 
 - 2025-03-26: Quickship sent its offer to Livid Jeans AS (subject only), followed by Webshipper/DEAR setup.
 
 # Open threads
-- Utestående forfalte fakturaer — Martin asked again on 2026-11-13 whether Kriss has what he needs to process the overdue invoices; Kriss owes the answer ([thread](https://mail.google.com/mail/u/0/#all/1a1d523fb9c2f608))
 - Fraktrapport 300687 – avsender og mottaker per sending — Martin asked 2026-11-16 for an example of the wanted layout (the January–March report); Kriss owes it ([thread](https://mail.google.com/mail/u/0/#all/1a1e36cf81c0990d))
 
 # Links

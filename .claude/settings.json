@@ -1,5 +1,21 @@
 {
   "permissions": {
+    "allow": [
+      "Bash(scripts/email/gt done:*)",
+      "Bash(scripts/email/gt label:*)",
+      "Bash(scripts/email/gt archive:*)",
+      "Bash(scripts/email/gt clean-draft:*)",
+      "Bash(scripts/email/gt list:*)",
+      "Bash(scripts/email/gt drafts)",
+      "Bash(scripts/email/gt attachments:*)",
+      "Bash(scripts/email/gt pdfs:*)",
+      "Bash(scripts/email/gt text:*)",
+      "Bash(scripts/email/bs:*)",
+      "Bash(python3 scripts/email/ledger.py:*)",
+      "Bash(python3 ../livid-kb/tools/kb_find.py:*)",
+      "Bash(python3 tools/build_index.py)",
+      "Bash(python3 tools/validate.py)"
+    ],
     "deny": [
       "mcp__5113e553-a591-4d57-b711-536cec56db5e__send_message",
       "mcp__5113e553-a591-4d57-b711-536cec56db5e__reply",

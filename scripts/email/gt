@@ -1,0 +1,3 @@
+#!/bin/sh
+# Short form of gmail_tool.py with the venv python; allowlisted per subcommand in .claude/settings.json.
+exec "$HOME/Library/Application Support/kb-kriss/venv/bin/python" "$(dirname "$0")/gmail_tool.py" "$@"

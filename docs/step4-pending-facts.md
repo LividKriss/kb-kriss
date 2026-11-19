@@ -1,5 +1,7 @@
 # Step 4 — company facts and ideas not yet in livid-kb
 
+Applied to livid-kb 2026-11-19 (knowledge flows, AGENTS.md §5a). Items still open are listed in the 2026-11-19 log entry; the Ideas section is input for the weekly KB review.
+
 Written 2026-10-23 at the end of step 4, so they survive the cache deletion. These came from reading Kriss's mail but have no governing livid-kb doc yet (Livid-internal processes, a few organizations without a doc). Use as input for step 5 (triage/urgency rules) and for later livid-kb processes; each fact still needs the owner's confirmation before it goes into livid-kb.
 
 ## Ideas, grouped (106 raw ideas from the readers; full list below)

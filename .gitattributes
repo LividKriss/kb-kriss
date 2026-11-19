@@ -1,2 +1,5 @@
 # Several writers (Mac auto-sync, cloud email run) append to the change log; keep both sides on merge.
 kb/log.md merge=union
+# Append-only data files written by several runs (Mac brief, cloud email run); keep both sides on merge.
+data/decisions.jsonl merge=union
+data/threads.jsonl merge=union

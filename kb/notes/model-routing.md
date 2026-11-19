@@ -18,9 +18,10 @@ In early November 2026 the weekly usage limit was being reached: the 06:47 email
 
 | Work | Model | How |
 |---|---|---|
-| 06:47 email run (part A, cloud) | Sonnet | Default model in the cloud; KB sync and drafts in Sonnet subagents (`docs/routine.md`) |
+| 06:47 email run (part A, cloud) | Sonnet | Set as the routine's model on 2026-11-19 (it had no model set and ran on Opus); KB sync and drafts in Sonnet subagents (`docs/routine.md`) |
 | Mac attachment agent (part C) | Sonnet | `--model sonnet` in `scripts/email/mac_agent.sh`; skipped when Gmail shows nothing new |
-| Morning brief (part B) | Opus, medium | Sonnet subagents read threads, prepare tasks, check payments (`docs/brief-run.md`) |
+| Morning brief (part B) | Opus, medium | Re-reads only threads with new mail since part A's state line (`data/threads.jsonl`); Sonnet subagents read threads, investigate items, prepare tasks, check payments (`docs/brief-run.md`) |
+| Weekly KB review (Fri 13:00) | Opus, medium | Sonnet subagents gather log, ledger, stale docs and TODOs (`docs/kb-review-run.md`) |
 | Midday sweep (part D) | Sonnet | Kriss switches the chat to Opus before a task that needs judgment (`docs/midday-run.md`) |
 | Bilagsmottak: refresh, triage, buckets with **stable** rules, the text-only check | Sonnet | Subagents `bilag-worker` and `bilag-checker` in livid-kb |
 | Bilagsmottak: Q bucket, **draft**-rule buckets, first-use verification, review, posting | Opus, medium | The orchestrating chat |

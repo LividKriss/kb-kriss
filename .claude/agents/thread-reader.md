@@ -11,6 +11,7 @@ Input from the caller: the thread ids (or a Gmail query), and the return columns
 For each thread:
 1. Read it through the Gmail connector to its **latest message** (both sides, including Kriss's own replies and mail that arrived after any label was set). Look outside the thread too when the caller asks about a reply (rule in `kb/email/actions.md`, AI/Waiting).
 2. Check for an existing draft in the thread, and a `[Doc]` summary draft.
-3. Write one line: `thread_id · Gmail link · who (organization) · the ask in ≤10 words · latest state (e.g. "Kriss replied 05.11", "they answered, not overdue") · deadline or – · draft: yes/no/[Doc]`.
+3. Check whether Kriss already handled it: his sent mail to that counterpart or on that subject in **any** thread since the ask (`from:me` search), and the Person note's History.
+4. Write one line: `thread_id · Gmail link · who (organization) · the ask in ≤10 words · latest state (e.g. "Kriss replied 05.11", "they answered, not overdue") · deadline or – · draft: yes/no/[Doc] · handled: <evidence> or no · needs check: <system and what> or – · kind: <short slug>`.
 
 Rules: no email body text beyond those few words; HR threads as "HR matter" only; nothing about third parties beyond the work ask. Return only the lines, plus one line per thread you could not read and why.
