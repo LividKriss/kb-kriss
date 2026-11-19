@@ -23,6 +23,8 @@ Handles every Livid order. For each purchase order from Livid she issues a profo
 English. Very short replies ("Confirmed, please proceed", "Payment slip attached", "Here is our receipt"). Opens with "Hello," or "Hello all,". He stays on the thread Christopher started and copies the Frameless team.
 
 # History
+- 2026-11-19: Serena shipped both orders (PO-00165 and PO-00170) by UPS, tracking 1Z780W0Y0493822680.
+- 2026-11-18: Serena confirmed receipt of the payment for both PIs. Kriss told her to go ahead and ship both orders by UPS on Livid's account.
 - 2026-11-17: Kriss told her PI FH-SO2610-N0095 (PO-00165, USD 784.05) and PI FH-SO2610-N0145 (PO-00170, USD 235.94) were paid together on 13 November, and asked her to ship both, with the 14L shell buttons on the PO-00165 parcel if possible, and send tracking.
 - 2026-11-18: Thanked Kriss for the payment of both PIs and asked for the payment slip for tracking. Once she confirms receipt she wants Livid to confirm that FH-SO2610-N0095 and FH-SO2610-N0145 both go by UPS on Livid's account to the address she listed.
 - 2026-11-17: Closed, no mail since 2026-10-30: Purchase Order — PO-00160
@@ -41,8 +43,7 @@ English. Very short replies ("Confirmed, please proceed", "Payment slip attached
 - 2025-10-09: "Livid - Ordre 09.10.25" order (FH-SO2510-N0091), a long thread with Kriss (from subject).
 
 # Open threads
-- Purchase Order — PO-00165 — Paid 2026-11-13 (USD 784.05). Serena (11-18) wants the payment slip and Livid's confirmation to ship via UPS on Livid's account; then she ships and sends tracking. Kriss says (brief 11-18) she has replied and he has told her where to ship; closed on our side, awaiting tracking. ([thread](https://mail.google.com/mail/u/0/#all/1a1304ae448a1477))
-- Purchase Order — PO-00170 — Paid 2026-11-13 (USD 235.94, same transfer as PO-00165). Kriss asked on 11-17 to ship the 14L buttons with the PO-00165 parcel; awaiting shipping confirmation request and tracking from Serena (covered by her 11-18 mail on the PO-00165 thread). ([thread](https://mail.google.com/mail/u/0/#all/1a1532655e3c25ca))
+- Purchase Order — PO-00165 and PO-00170 — Both shipped by UPS on 2026-11-19 (1Z780W0Y0493822680); awaiting delivery ([thread](https://mail.google.com/mail/u/0/#all/1a1304ae448a1477), [PO-00170 thread](https://mail.google.com/mail/u/0/#all/1a1532655e3c25ca))
 
 # Links
 - Organization: [Frameless Asia Pacific Limited](kb://livid/organizations/suppliers/frameless-asia-pacific.md)

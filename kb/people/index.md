@@ -121,6 +121,7 @@ One note per contact — who they are, relationship, how Kriss communicates with
 - [Lisa Johansen](lisa-johansen.md) *(draft)* — Handles building and technical matters at E C Dahls Eiendom for Livid Trondheim (heating, air curtain, electrical installations).
 - [Liv Grethe Holten](liv-grethe-holten.md) *(draft)* — Corporate banking contact at SpareBank 1 SMN (Livid's bank) who covers for account manager Margit Woldseth and is copied on credit matters.
 - [Liv Inger Tønjum](liv-inger-tonjum.md) *(draft)* — Innovasjon Norge adviser for the government export programme for fashion and lifestyle, and Livid's main contact there for export programmes, grants and capital-raising support.
+- [Lorenzo Franchi](lorenzo-franchi.md) *(draft)* — Area sales manager at Emmetex (fabric supplier, Italy); Kriss and Christopher deal with him on fabric orders such as PO-00155 and its invoices.
 - [Lovisa Birkenstedt](lovisa-birkenstedt.md) *(draft)* — Customer Success Manager at Sitoo (Livid's POS platform); Kriss deals with her on POS licences, Tap to Pay and API/sandbox provisioning.
 - [Luís Sistelo](luis-sistelo.md) *(draft)* — Commercial/administrative contact at Dia Exemplar (garment manufacturer, Portugal); Kriss deals with him on invoices, payments, import VAT, prices and SS27 production planning.
 - [Madelén Enger](madelen-enger.md) *(draft)* — Sales contact at DHL Express Norway who in 2026 is offering Livid B2C, B2B and import freight as an alternative to UPS.

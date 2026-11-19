@@ -23,6 +23,7 @@ Kriss deals with him on money (payments, statements, import VAT and clearance co
 English: "Hello Luis," / "Hope you are well." / "Best, Kristoffer". He always copies Paulo Teixeira and Ana Costa. Kriss is brief and firm when disputing costs, e.g. on the point that Norway is outside the EU.
 
 # History
+- 2026-11-18: Livid cancelled 6 FW26 suiting lines on MO-0011 (200 pcs: Hayes Double Breasted Jacket Black Cady and Brown, Hayes Single Breasted Jacket Grey, Hayes Wide Suitpant Brown and Grey, Hayes Straight Suitpant Black) and moved them to SS27; Hayes Wide Suitpant Black (80 pcs) and Fir Black Cady (100 pcs) stay on MO-0011. Luís replied that Dia had planned all trousers together (310 units) because of the small quantity per style, that two production moments is a real problem, and asked Livid to confirm they can be made together as production is about to start.
 - 2026-11-17: Closed, no mail since 2026-10-26: Re: INVOICE
 - 2026-11-17: Closed, no mail since 2026-10-27: Livid — Kelvin Gray SS27
 - 2026-11-16: Luís acknowledged the payment and sent an updated statement; asked that the rest be paid before 30/11 (double salary month in Portugal). The plan from 11-13 stands.
@@ -42,8 +43,9 @@ English: "Hello Luis," / "Hope you are well." / "Best, Kristoffer". He always co
 - 2025-09/10: SS26 production booking and PO (inferred from the subjects).
 
 # Open threads
+- Styles cancelled · MO-0011 — Luís asked 2026-11-18 to confirm that all 310 trousers can be made together; production about to start; Livid owes an answer ([thread](https://mail.google.com/mail/u/0/#all/1a1ef19933ceccfd))
 - Dia SS27 productio nplan — Both batches confirmed; Hayes price EUR 36 now in MO-SS27-13 ([thread](https://mail.google.com/mail/u/0/#all/1a159532a2e94bbc))
-- BUTTONS UPDATE — Christopher to ship the remaining MOP buttons for Field Jacket Japan Black/Glow by early next week; Dia to source the horn buttons for Field Coat ([thread](https://mail.google.com/mail/#all/1a1cb15bc347d4fc))
+- BUTTONS UPDATE — Christopher to ship the remaining MOP buttons for Field Jacket Japan Black/Glow by early next week; Dia to source the horn buttons for Field Coat ([thread](https://mail.google.com/mail/u/0/#all/1a1cb15bc347d4fc))
 - LIVID - UPS - 11/11/2026 — Christopher owes comments on the Field Jacket, Kelvin and Hayes PPS by 2026-11-13; Dia to confirm receipt of the YKK zippers ([thread](https://mail.google.com/mail/u/0/#all/1a1cbbe96b69d473))
 - DIA EXEMPLAR: Account statement — Luís asked 2026-11-16 for payment before 30/11 (updated statement attached); Kriss must pay EUR 7,793.36 by end of Nov and EUR 6,338.00 early Dec ([thread](https://mail.google.com/mail/u/0/#all/1a1ca48fe9c87ba9))
 

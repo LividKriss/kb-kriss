@@ -23,13 +23,14 @@ Day-to-day contact for manufacture orders, the SS27 production plan, pattern fil
 English. "Hello Helena," then "Hope you are well." Short and direct; she writes "Dear Kristoffer" and signs "Best Regards, Helena Isabel".
 
 # History
+- 2026-11-18: Helena (for Luis Fernandes) answered the Aiden claim: she objects to how the claim was raised, sent Stork's own QC measurement record, does not agree with Livid's figures, and asked for one intact piece per fabric to evaluate and possibly rewash. She said 8 invoices (about EUR 3,600) are overdue, that Stork may not proceed with Livid's order, and that Stork will ask for payment before shipment from now on. Kriss replied the same day: apologised for the tone, said the QC report shows many points at +2 cm (close to a full size), agreed to send a few shirts, said he will schedule the open invoices and report when they can be paid, and asked that any payment-term change not start mid-season.
 - 2026-11-17: Kriss sent Stork a claim on the FW26 Aiden production (MO-0007, 234 pcs, delivered value EUR 5,675): all colourways measure too big against the chart (up to +4.5 cm on neck, +3 cm shoulder and back length). Production was approved 2026-07-15 without PPS on the SS27 sample. Kriss asks for a 50% discount (EUR 2,838) and a root-cause explanation; Paulo, Charlie, Christopher and Jens Olav in cc.
 - 2026-11-10: FedEx (not DHL) holds the silk shipment (3 rolls) in Portuguese customs and needs a full invoice; she asked Kriss to send it to her or directly to FedEx's clearance team. Kriss had attached the Jiaxin Silk invoice to his first mail.
 - 2026-11-10: Kriss sent the SS27 plan again (batch 1: 13 colourways, 704 pcs, 11 Dec; batch 2: 4 colourways, 183 pcs, 29 Jan; batch 3: 2 colourways, 100 pcs, 26 Feb) and asked her to confirm it plus ETDs for three 1st PPS. Batch 2 depends on the silks arriving in week 49.
 - 2026-11-09: Kriss asked her to chase the silks stuck in customs. She had been told the 3 rolls were on the way, due that week.
 
 # Open threads
-- Claim: Aiden FW26 (MO-0007), measurements over spec — Kriss asked 2026-11-17 for a 50% discount (EUR 2,838) and an explanation; Stork to answer ([thread](https://mail.google.com/mail/u/0/#all/1a1e975b284d7461))
+- Claim: Aiden FW26 (MO-0007), measurements over spec — Stork disputes the figures (2026-11-18); Kriss to send a few shirts for inspection; discount request (50%, EUR 2,838) still open. Kriss owes Stork a date for the 8 overdue invoices (about EUR 3,600); Stork has threatened prepayment before shipment and may not proceed with the SS27 order ([thread](https://mail.google.com/mail/u/0/#all/1a1e975b284d7461))
 - Silk fabric in customs — Kriss (or Christopher) to send the full silk invoice to Helena and FedEx clearance; rolls delayed until customs clear ([thread](https://mail.google.com/mail/u/0/#all/1a1bfdbec1bf75f8))
 - Production plan SS27 for approval — Stork owes confirmation of the three batches and PPS ETDs (APT Shortsleeve Coral Overdye Sack, Aiden Japan Relic, Robin Slosh Linen Flax); meeting offered 2026-11-12 ([thread](https://mail.google.com/mail/u/0/#all/1a1348398cb56fac))
 

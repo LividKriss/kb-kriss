@@ -38,6 +38,7 @@ English. He opens with "Hello Mafalda," and often adds "Hope you are well." He s
 - 2025-10-08: Kriss placed a stock order of about 42,000 labels. The new "Made in EU" label 117220 was sampled and approved on 2025-10-24.
 
 # Open threads
+- Label order TRO-00007 (Siluete) invoice — Kriss asked 2026-11-18 for an invoice or proforma for the shipment (received by Siluete 2026-11-09, 123 lines, 10,295 pcs); awaiting her answer ([thread](https://mail.google.com/mail/u/0/#all/1a1ee8302d6cd935))
 - Label order TRO-00009 confirmed — She asked how to correct her confirmed quantity (24,000 → 12,000) and where to enter the price. On 2026-10-30 Christopher asked Kriss whether to delete the order and enter a new one; no reply to her yet ([thread](https://mail.google.com/mail/u/0/#all/1a1443221d8110ae))
 
 # Links
