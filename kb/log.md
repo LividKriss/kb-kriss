@@ -2,6 +2,7 @@
 
 ## 2026-11-19
 
+- **Update** Morning brief 2026-11-19, second run (~10:00): 9 new threads since the 08:17 brief. Closed on Kriss's word ("ok high"): Rambler Walnut swap and Norda misdelivery (Ole Eivind handling), RTM bookings, Loom stock-sync alert, Margit meeting (already in KB), 2 Feel.no order mails; 1 HR matter labelled and archived; Nordea Liv Nettpost notice archived, not routed (invoice comes by EHF; livid-kb nordea-liv.md). Nothing sent.
 - **Approval** `.claude/settings.json` allowlist (`scripts/email/gt` done, label, archive, clean-draft and read commands; `scripts/email/bs`; `ledger.py`; `kb_find.py`; build and validate): second confirmation given by Kriss in chat, 2026-11-19. **Update** approval mode made standing (Kriss, 2026-11-19: "I do still want to give approvals for actions and emails"). In `email/brief.md`, `email/daily-run.md`, `docs/brief-run.md` and `docs/kb-review-run.md` the "shadow period" is now *approval mode*: every action and email waits for his word, and it changes only per kind of decision, through a weekly-review proposal with ledger numbers and his second confirmation. `kb-router` re-uploaded to the Claude account (v6).
 - **Update** `people/margit-woldseth.md`: meeting 2026-11-20 09:00 confirmed (in person if possible, Teams backup). Source: Margit's invitation 2026-11-19.
 - **Update** 1 Person notes: moved 1 quiet open threads to History (thread archived, no mail for 14+ days; `scripts/email/kb_close_threads.py`).

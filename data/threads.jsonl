@@ -7,3 +7,12 @@
 {"ask": "packing slip order 1737285", "at": "2026-11-19T09:59:31+01:00", "by": "brief-2", "conf": "H", "grounds": "source: webshop order mail, not a voucher (Mac agent 18.11)", "kind": "archive-fyi", "label": "Noise", "last_msg_at": "2026-11-19T06:31:28Z", "rec": "archive", "thread": "1a1f280cc74c85fb", "who": "Feel.no"}
 {"ask": "order 1737285 shipped", "at": "2026-11-19T09:59:31+01:00", "by": "brief-2", "conf": "H", "grounds": "source: shipping notice", "kind": "archive-fyi", "label": "Noise", "last_msg_at": "2026-11-19T06:31:27Z", "rec": "archive", "thread": "1a1f280c9001f1f9", "who": "Feel.no"}
 {"ask": "Livid Retail pension invoice doc Oct 2026 in Nettpost", "at": "2026-11-19T09:59:31+01:00", "by": "brief-2", "conf": "M", "grounds": "source: notice; attachment not read; first time", "kind": "invoice-route", "last_msg_at": "2026-11-19T06:06:10Z", "rec": "label AI/Invoice for the Mac agent", "thread": "1a1f269b60fd84e7", "who": "Nordea Liv"}
+{"at": "2026-11-19T10:08:22+01:00", "closed": true, "thread": "1a1f2cc7737ec458"}
+{"at": "2026-11-19T10:08:22+01:00", "closed": true, "thread": "1a1eec908dbb79ef"}
+{"at": "2026-11-19T10:08:22+01:00", "closed": true, "thread": "1a1f2b6575a4aac3"}
+{"at": "2026-11-19T10:08:22+01:00", "closed": true, "thread": "1a1f1f71bec0597d"}
+{"at": "2026-11-19T10:08:22+01:00", "closed": true, "thread": "1a1f2b6b766042d9"}
+{"at": "2026-11-19T10:08:22+01:00", "closed": true, "thread": "1a1f280cc74c85fb"}
+{"at": "2026-11-19T10:08:22+01:00", "closed": true, "thread": "1a1f280c9001f1f9"}
+{"at": "2026-11-19T10:08:22+01:00", "closed": true, "thread": "1a1f269b60fd84e7"}
+{"at": "2026-11-19T10:08:22+01:00", "closed": true, "thread": "1a1f2db2293eb0cb"}
