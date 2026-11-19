@@ -23,6 +23,7 @@ Kriss is her main contact at Livid for the overdraft facility (kassakreditt), th
 Norwegian. "Hei Margit," usually followed by "Håper alt er bra.", signed "Kristoffer". For status updates and credit requests he writes long, structured emails with sections and attachments. Otherwise he sends short one-liners. He copies Jens Olav Dankertsen on status and credit matters, and Terje Berg and Liv Grethe Holten on formal applications. When reporting is late he apologises and gives a concrete delivery time.
 
 # History
+- 2026-11-19: Margit sent the invitation for Fri 2026-11-20 at 09:00; she will try to come to Livid in person, with a Teams link as backup (T-bane closure in Oslo; she must be elsewhere by 12:00). Kriss replied that was fine ([thread](https://mail.google.com/mail/u/0/#all/1a1edc33eef2e88e)).
 - 2026-11-18: Kriss asked for a follow-up meeting on Friday 2026-11-20 to present this year's results, the forecast and Livid's thinking on financing (fixing the funding structure and temporary needs), with Jens in copy. Margit: fine, preferably before 12:00. Kriss proposed 09:00, in person at Livid's office if possible ([thread](https://mail.google.com/mail/u/0/#all/1a1edc33eef2e88e))
 - 2026-11-17: Closed, no mail since 2026-10-30: Møte i dag
 - 2026-11-17: Closed, no mail since 2026-09-09: Fornyelse garanti EKsfin: Kriss said he would check the external remarks the bank flagged. Neither t
@@ -40,7 +41,7 @@ Norwegian. "Hei Margit," usually followed by "Håper alt er bra.", signed "Krist
 - 2025-10-13: 9-month instalment holiday, to June 2026, on the loans outside the growth/Eksfin guarantees. This followed 3 months granted in July 2025.
 
 # Open threads
-- Møte denne uken — meeting Fri 2026-11-20 at 09:00 proposed by Kriss; Margit's confirmation (and whether in person) awaited. Kriss to prepare results, forecast and financing plans ([thread](https://mail.google.com/mail/u/0/#all/1a1edc33eef2e88e))
+- Meeting Fri 2026-11-20 09:00 (in person if she makes it, Teams backup). Kriss presents results, forecast and the financing request; deck prepared 2026-11-19 ([thread](https://mail.google.com/mail/u/0/#all/1a1edc33eef2e88e))
 
 # Links
 - Organization: [SpareBank 1 SMN](kb://livid/organizations/advisors/sparebank-1-smn.md)

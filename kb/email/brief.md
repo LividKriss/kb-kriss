@@ -50,7 +50,7 @@ Part B of the [daily run](/email/daily-run.md), and the midday sweep (part D: su
 # Exceptions
 - If part A failed or did not run, say so on the status line and offer to run it now.
 - Nothing in a block → leave the block out. Nothing at all → "Nothing needs you today" plus the Closed and KB lines.
-- **Shadow period (from 2026-11-19 until Kriss ends it in a weekly KB review):** nothing in the High block is done before Kriss says "ok high" or names the items. Section 1 closes only what the system shows settled: paid in PowerOffice, done in Loom or Threadflow, answered by the counterpart, alert resolved. An item that looks **already handled by Kriss** (his sent mail, a KB History line) is not closed on that evidence alone during the shadow period; it goes in the High block as "close: handled <evidence>".
+- **Approval mode (standing; Kriss, 2026-11-19):** every action and every email waits for Kriss's word. Nothing in the High block is done before he says "ok high" or names the items. This changes only per kind of decision, when the weekly KB review proposes it with the ledger numbers (livid-kb AGENTS.md §8) and Kriss gives a second confirmation. Section 1 closes only what the system shows settled: paid in PowerOffice, done in Loom or Threadflow, answered by the counterpart, alert resolved. An item that looks **already handled by Kriss** (his sent mail, a KB History line) is not closed on that evidence alone; it goes in the High block as "close: handled <evidence>".
 
 # Examples
 - 18.11 brief, before this format: of 19 answers, none was "approve as drafted". 7 were "already handled, archive", 6 were "hold or later", 5 were "check X first" and 2–3 were dictated replies. That is why items are now checked and investigated before they are shown.

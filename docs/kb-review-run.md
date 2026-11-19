@@ -24,6 +24,6 @@ The scheduled task's prompt only says: *"Follow docs/kb-review-run.md in /Users/
    5. *Gaps that blocked decisions*, ranked: each with the doc it belongs in and the question that would close it. Kriss answers here, or says "interview" to save it for the next interview session.
    6. *Stale and conflicts:* re-verify (yes / update / retire) per doc.
    7. *Friction and fixes:* each with a proposed fix (a doc change, a permission, a script); permissions need a second confirmation.
-   8. *Shadow period* (while it lasts): whether to end it for the High block, based on the week's High agreement rate.
+   8. *Approval mode:* stays the default. Only list it here when a kind of decision meets §8's thresholds; that proposal goes under item 4 and needs Kriss's second confirmation.
 5. Work through Kriss's answers: write what he approves (log each: **Update** or **Approval**), answer facts straight into the KB, and record each answer in the ledger (`kind: kb-review`).
 6. After writing: `python3 tools/build_index.py` and `python3 tools/validate.py` in each repo changed (0 errors). Finish with one log entry in `kb/log.md`: **Update** Weekly KB review <date>, with what was approved, what was deferred, and the agreement rate.

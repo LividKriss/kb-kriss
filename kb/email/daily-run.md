@@ -48,7 +48,7 @@ Also on request ("morning run", "go through my email", "midday sweep").
    - an `AI/Task` thread already done in the system (task-triggers rule 6);
    - an `AI/Waiting` thread whose counterpart has answered (in the thread or another one, [actions](/email/actions.md));
    - an `AI/Action` alert the system shows resolved (e.g. a Loom Webshipper issue now shipped);
-   - an item Kriss has already dealt with: his own sent mail in any thread, or a KB History line, shows it done (e.g. the claim already made to the supplier). During the shadow period ([brief format](/email/brief.md), Exceptions) these are **not** closed before presenting; they are listed as High "close" items for his word.
+   - an item Kriss has already dealt with: his own sent mail in any thread, or a KB History line, shows it done (e.g. the claim already made to the supplier). In approval mode ([brief format](/email/brief.md), Exceptions) these are **not** closed before presenting; they are listed as High "close" items for his word.
 
    Close = `scripts/email/gt done <thread>`, then `ledger.py thread-close`. Apply the brief state: leave out hidden ("later") items until their date, and move items shown twice without an answer to *Still open*.
 2. **Investigate and recommend** (livid-kb AGENTS.md §7a; Kriss, 2026-11-19): every remaining item is checked before it is shown, not after Kriss asks.
