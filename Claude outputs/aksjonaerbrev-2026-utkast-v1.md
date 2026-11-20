@@ -10,6 +10,8 @@ Hei alle,
 
 Håper alt er bra.
 
+Det ble vanskelig å få avtalt en tid som passet mange nå i høst, jeg fikk meg en hyggelig prat med Espen nylig om ikke annet, så skal jeg sørge for å være tidlig ute neste gang med
+
 Beklager at det har vært lite oppfølging fra vår side i år, og at aksjonærmøtet blir sent. Vi har prioritert å få snudd driften og ønsket å komme til dere med et helhetlig bilde. Her er en oppsummering av året, hvor vi står nå og planene fremover, med regnskap og prognoser vedlagt. [Aksjonærmøtet holdes <dato/sted>.]
 
 *Kursendring: lønnsomhet foran vekst*
