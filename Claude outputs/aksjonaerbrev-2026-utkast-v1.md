@@ -12,11 +12,11 @@ Håper alt er bra.
 
 Det ble vanskelig å få avtalt en tid som passet mange nå i høst, jeg fikk meg en hyggelig prat med Espen nylig om ikke annet, så skal jeg sørge for å være tidlig ute neste gang med
 
-Beklager at det har vært lite oppfølging fra vår side i år, og at aksjonærmøtet blir sent. Vi har prioritert å få snudd driften og ønsket å komme til dere med et helhetlig bilde. Her er en oppsummering av året, hvor vi står nå og planene fremover, med regnskap og prognoser vedlagt. [Aksjonærmøtet holdes <dato/sted>.]
+Jeg ønsket å gi dere alle en status på året, hvor vi står og planer fremover. Samtidig er vi i ulike årsaker i en posisjon der vi må finansiere litt opp igjen, og vi ønsker derfor å undersøke interesse og intensjoner med dette for alle nedenfor. Som vi går mer i detalj om nedenfor er vi nå i en utrolig nærme posisjon å bevise lønnsomhet på driften, og føler oss veldig trygge på at vi kommer oss dit neste år. Samtidig er finansieringssituasjonen vår med høy gjeld som betjenes svært krevende frem til lønnsomheten er på plass, så dette er noe vi er avhengig av å få løst på denne siden av året.
 
 *Kursendring: lønnsomhet foran vekst*
 
-Vi gikk inn i 2026 etter flere år med fokus på vekst: flere butikker, infrastruktur og et team som kunne bære videre ekspansjon. Omsetningen ligger nå på nærmere 60 millioner, og bruttomarginen vår på rundt 67 % er høy sammenlignet med bransjen.
+Vi gikk inn i 2026 etter flere år med fokus på vekst: flere butikker, infrastruktur og et team som kunne bære videre ekspansjon. Omsetningen ligger nå på oppunder 60 millioner, og bruttomarginen vår på rundt 67 % er høy sammenlignet med bransjen for øvrig.
 
 Med lav egenkapital og høy gjeldsgrad bestemte vi oss tidlig i år for å skifte fokus fra vekst til soliditet og lønnsomhet. Målet er at riggen og omsetningsnivået vi har i dag skal gi god lønnsomhet, uten at vi er avhengige av sterk vekst.
 
@@ -26,15 +26,15 @@ Fra februar til mai satte vi i gang en rekke tiltak for å dimensjonere kostnads
 * Juli–oktober ligger kostnadsbasen 3 % under samme periode i fjor.
 * Med dagens bruttomargin går kostnadsbasen i null ved om lag 52 MNOK i omsetning. Alt vi selger utover det, går i stor grad rett til resultatet.
 
-[Til info: I fjor sommer skrev vi at vi planla en emisjonsrunde på 10–20 MNOK i høst/vinter. <Én setning om hva som skjedde, f.eks. at vi valgte å prioritere lønnsomhet før vi henter kapital.>]
+I fjor høst snakket vi om å bygge en case for å hente inn 10-20 millioner egenkapital, for å få orden på finansieringssituasjonen. Vi deltok på et kapitalprogram v/ Innovasjon Norge som var svært givende. Samtidig ble det klart på starten av året at å hente en større mengde egenkapital til en god prising av selskapet er krevende før vi kan bevise lønnsomhet. Dette var med på å dra kursen i retning bort fra vekstcase for topplinje, over til å sikre lønnsomhet.
 
 *Effektivisering og AI*
 
-Vi har vært svært fremoverlent i bruken av AI. Vi har erstattet en rekke forretningssystemer med løsninger tilpasset våre egne prosesser, strømlinjeformet arbeidsflyten og automatisert mye manuelt arbeid. Systemkostnaden var i oktober 21 % lavere enn i oktober i fjor.
+Vi har vært svært fremoverlent i bruken av AI. Vi har erstattet en rekke forretningssystemer med løsninger tilpasset våre egne prosesser, strømlinjeformet arbeidsflyten og automatisert mye manuelt arbeid. Systemkostnaden var i oktober 21 % lavere enn i oktober i fjor, samtidig som vi får effektivisert og tilpasset prosessene våre på en bedre måte.
 
 Vi har nå også løpende regnskap og et budsjetteringssystem som henter inn alle data vi har. Det gir oss full kontroll på kostnader og resultat fremover. Det er en spennende tid med alle mulighetene rundt AI, og vi følger utviklingen tett.
 
-Vi har i tillegg fått innvilget SkatteFUNN på 1,8 MNOK over en treårsperiode. Første utbetaling på 400 000 kom nå i november.
+Vi har i tillegg fått innvilget to SkatteFUNN-prosjekter på 1,8 MNOK over en treårsperiode. Første utbetaling på ca 422,000kr var nå i November, ca 800K kommer neste høst, og siste 500K i 2028. Så dette hjelper også bra på finansieringsposisjonen vår!
 
 *Høsten: varene kom for sent*
 
@@ -46,7 +46,7 @@ Selv om kostnadene nå er på et nivå der vi kan drive lønnsomt, hadde vi rett
 * EBITDA: 3,1 MNOK mot 2,9 MNOK
 * Resultat før skatt: −0,6 MNOK, på nivå med fjoråret
 
-Juni–oktober er likevel bedre enn i fjor, med EBITDA på 2,2 MNOK mot 1,6 MNOK, midt i leveransesvikten. [Prognosen forutsetter budsjettert salg i november og desember. Blir julehandelen svakere, lander vi lavere, se vedlegg.]
+Juni–oktober er likevel bedre enn i fjor, med EBITDA på 2,2 MNOK mot 1,6 MNOK, midt i leveransesvikten.
 
 *Neste sesong kommer tidligere*
 
