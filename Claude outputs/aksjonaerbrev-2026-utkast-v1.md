@@ -87,24 +87,23 @@ Vi ønsker derfor å ta en runde med dere og høre hva vi kan få til fra eiersi
 Vi foreslår at dette gjøres som et konvertibelt lån:
 
 * Løpetid to år, til Desember 2028.
-* Rente på [x] % per år. Renten utbetales ikke løpende, men påløper og gjøres opp når lånet tilbakebetales.
-* Dere kan når som helst i løpetiden, ved en ny emisjon eller ved forfall, velge å konvertere lånet til aksjer til en fast verdsettelse av selskapet på 35 MNOK [tilsvarer kr <x> per aksje].
+* Rente på norges banks styringsrente + 2%. Renten utbetales ikke løpende, men påløper og gjøres opp når lånet tilbakebetales.
+* Dere kan når som helst i løpetiden, ved en ny emisjon eller ved forfall, velge å konvertere lånet til aksjer til en fast verdsettelse av selskapet på 35 MNOK
 
-Fordelen er fleksibilitet. Dere kan få pengene tilbake med en god rente, eller, dersom selskapet utvikler seg slik vi tror, velge å konvertere til en kurs som er satt i dag. Dere kan se an utviklingen før dere bestemmer dere.
+Fordelen er fleksibilitet. Dere kan få pengene tilbake med bedre rente enn dere får i bank, eller, dersom selskapet utvikler seg slik vi tror, velge å konvertere til en kurs som er satt i dag. Fordelen med konvertible lån er at dere som lånegivere får fleksibiliteten til å se ann utviklingen før dere tar et valg, og risikoen er lavere enn ved en direkte emisjon.
 
-Et eksempel: Slår prognosene til, vil vi om ett til to år drive svært lønnsomt med betydelig lavere gjeld. Da mener vi det er realistisk å forsvare en verdsettelse på 80–100 MNOK. Et lån på 100 000 kr konvertert til en verdsettelse på 35 MNOK vil da være verdt rundt 230 000–285 000 kr (før eventuell utvanning). Dette er en illustrasjon, ikke et løfte.
+Et eksempel: Slår prognosene til, vil vi om ett til to år drive svært lønnsomt med betydelig lavere gjeld. Da mener vi det er realistisk å forsvare en verdsettelse på rundt 100 MNOK. Et lån på 100 000 kr konvertert til en verdsettelse på 35 MNOK vil da være verdt rundt 230 000–285 000 kr (før eventuell utvanning).
 
 Det er også viktig å være klar over risikoen:
 
-* Lånet står bak banken. Med dagens gjeldssituasjon vil banken kreve å godkjenne tilbakebetaling, så selskapet må være i en rimelig grei finansiell posisjon før lånet kan betales tilbake.
-* Tidligere tilbakebetaling kan avtales ved behov, og så lenge selskapet utvikler seg som forventet, skal det gå fint. Men det er ingen garanti.
-* Lånet er usikret. Går det dårlig med selskapet, kan dere tape hele beløpet.
+* Lånet står bak banken. Med dagens gjeldssituasjon vil banken kreve å godkjenne tilbakebetaling av eierlån, så selskapet må være i en rimelig grei finansiell posisjon før lånet kan betales tilbake.
+* Tidligere tilbakebetaling kan avtales ved behov, og så lenge selskapet utvikler seg som forventet, skal det gå fint. Men det er ingen garantier.
 
 Vilkårene settes opp i en egen låneavtale, og konverteringsretten krever vedtak i generalforsamlingen. Vi sender formelle dokumenter til dem som ønsker å delta.
 
 *Videre muligheter for kapital*
 
-Jens Olav og jeg ønsker også å hente mer kapital eksternt hvis muligheten og behovet er der, og prisingen er god for oss som eiere i dag. Vi er i dialog med enkelte bemidlede personer i bransjen som lettere ser potensialet og forstår casen.
+Jens Olav og jeg ønsker også å hente mer kapital eksternt hvis muligheten og behovet er der, og prisingen er god for oss som eiere i dag. Vi har noen aktuelle enkeltpersoner i bransjen hvor vi har en inngang, som vi tenker å utforske. Det vil være lettere for personer som er i bransjen og forstår den godt, til å se potensialet og verdien av merkevaveposisjonen, i stedet for å kun se på dagens lønnsomhet og gjeldsgrad.
 
 Vi har også sett på folkefinansiering. Flere norske merkevarer har hentet betydelige beløp på denne måten [Kriss: f.eks. Northern Playground, som hentet rundt 10 MNOK fra over 300 investorer i februar. Verdsettelsene vi har hørt for disse er ikke bekreftet ennå]. Vi mener Livid har en god case for dette: et kjent varemerke med mange lojale kunder, og en case som bygger på moderat vekst og en kostnadsbase som allerede er justert, ikke på ekstrem vekst. Har vi penger i potten fra start, er det lettere å få med flere investorer, og de som har konvertible lån kan eventuelt bli med i en slik kampanje.
 
