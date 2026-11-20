@@ -20,7 +20,7 @@ Kort fortalt: Driften går nå med overskudd, og vi er trygge på at vi viser l�
 
 Vi gikk inn i 2026 etter flere år med fokus på vekst: flere butikker, infrastruktur og et team som kunne bære videre ekspansjon. Omsetningen ligger nå på nærmere 60 millioner, og bruttomarginen på rundt 67 % er høy sammenlignet med bransjen ellers.
 
-I fjor høst snakket vi om å hente 10–20 millioner i egenkapital for å få orden på finansieringen. Vi deltok på et kapitalprogram i regi av Innovasjon Norge, som var svært nyttig. Tidlig i år ble det likevel klart at det er krevende å hente en større sum til en god prising før vi har bevist lønnsomhet. Det, sammen med lav egenkapital og høy gjeldsgrad, gjorde at vi la om kursen fra vekst til soliditet og lønnsomhet. Målet er at riggen og omsetningsnivået vi har i dag skal gi et godt resultat, uten at vi er avhengige av sterk vekst.
+I fjor høst snakket vi om å hente 10–20 millioner i egenkapital for å få orden på finansieringen. Vi deltok på et kapitalprogram i regi av Innovasjon Norge, som var svært nyttig. Tidlig i år ble det likevel klart at det er krevende å hente en større sum til en god prising før vi har bevist lønnsomhet. Det, sammen med lav egenkapital og høy gjeldsgrad, gjorde at vi la om kursen fra vekst til soliditet og lønnsomhet. Målet er at riggen og omsetningsnivået vi har i dag skal gi et godt resultat, uten at vi er avhengige av høy inntektsvekst.
 
 Fra februar til mai satte vi i gang en rekke tiltak for å tilpasse kostnadsbasen til en omsetning rundt 60 millioner. Effekten har kommet fra juni, og blir tydeligere for hver måned:
 
@@ -32,9 +32,11 @@ Fra februar til mai satte vi i gang en rekke tiltak for å tilpasse kostnadsbase
 
 Vi har vært svært fremoverlent i bruken av AI. Vi har erstattet en rekke forretningssystemer med løsninger tilpasset våre egne prosesser, og automatisert mye manuelt arbeid. Systemkostnaden var i oktober 21 % lavere enn i oktober i fjor, samtidig som prosessene fungerer bedre.
 
-Vi har nå også løpende regnskap og et budsjetteringssystem som henter inn alle data vi har. Det gir oss full kontroll på kostnader og resultat fremover. Det er en spennende tid med alle mulighetene rundt AI, og vi følger utviklingen tett.
+Vi får nå også kraftig effektivisert regnskaps- og budsjetteringsprosesser, og koblet sammen alle relevante datapunkter for kontroll og prognosering. Dette gir oss en helt annen løpende kontroll enn vi har hatt tidligere, som gir meg økt trygghet at vi får styrt selskapet tilstrekkelig for å sikre god lønnsomhet neste år. 
 
-Vi har i tillegg fått innvilget to SkatteFUNN-prosjekter på til sammen ca. 1,8 MNOK over tre år. Første utbetaling på ca. 422 000 kr kom i november, ca. 800 000 kr kommer neste høst og de siste ca. 500 000 kr i 2028. Det hjelper godt på likviditeten.
+Det er en spennende tid med alle mulighetene rundt AI, og vi følger utviklingen tett.
+
+Vi har i tillegg fått innvilget to SkatteFUNN-prosjekter på til sammen ca. 1,8 MNOK over tre år. Første utbetaling på ca. 422 000 kr kom i november, ca. 800 000 kr kommer neste høst og de siste ca. 500 000 kr i 2028. Det hjelper godt på likviditeten og bunnlinjen.
 
 *Høsten: varene kom for sent*
 
