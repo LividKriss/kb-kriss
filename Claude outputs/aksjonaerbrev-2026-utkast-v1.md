@@ -105,15 +105,17 @@ Vilkårene settes opp i en egen låneavtale, og konverteringsretten krever vedta
 
 Jens Olav og jeg ønsker også å hente mer kapital eksternt hvis muligheten og behovet er der, og prisingen er god for oss som eiere i dag. Vi har noen aktuelle enkeltpersoner i bransjen hvor vi har en inngang, som vi tenker å utforske. Det vil være lettere for personer som er i bransjen og forstår den godt, til å se potensialet og verdien av merkevaveposisjonen, i stedet for å kun se på dagens lønnsomhet og gjeldsgrad.
 
-Vi har også sett på folkefinansiering. Flere norske merkevarer har hentet betydelige beløp på denne måten [Kriss: f.eks. Northern Playground, som hentet rundt 10 MNOK fra over 300 investorer i februar. Verdsettelsene vi har hørt for disse er ikke bekreftet ennå]. Vi mener Livid har en god case for dette: et kjent varemerke med mange lojale kunder, og en case som bygger på moderat vekst og en kostnadsbase som allerede er justert, ikke på ekstrem vekst. Har vi penger i potten fra start, er det lettere å få med flere investorer, og de som har konvertible lån kan eventuelt bli med i en slik kampanje.
+Vi har også sett på folkefinansiering. Flere norske merkevarer har hentet betydelige beløp på denne måten, eksempelvis Norwegian Rain og Northern Playground, som har hentet penger på nivået rundt 60-75 MNOK i verdsettelse, til tross for betydelig lavere inntekter enn Livid og mangel på lønnsomhet. 
 
-Alt dette er til vurdering. Hvilke valg vi tar utover det konvertible lånet, vil avhenge av starten på neste år og samtalene med mulige investorer. Vi holder dere løpende oppdatert.
+Vi mener Livid har en god case for dette: et kjent varemerke med mange lojale kunder, og en case som bygger på moderat vekst og en kostnadsbase som allerede er justert, ikke på ekstrem vekst. Vi er allerede lønnsomme over drift. Med penger allerede i potten er det lettere å få momentum på slike kampanjer, og nettopp derfor 
+
+Alt dette er til vurdering. Hvilke valg vi tar utover det konvertible lånet, vil avhenge av starten på neste år og samtalene med mulige investorer. Vi tar gjerne innspill på dette, og holder dere oppdatert på begge prosesser. Det som er sikkert er at å rydde opp i finansieringsstrukturen i Livid ville gjort svært mye for selskapet, da det er en faktor som gjør det krevende å optimalisere i dag. Vi har som nevnt et godt scenerio for å løse dette uten ytterligere ekstern finansiering, men vi er svært sårbare for kortsiktige variasjoner og avvik.
 
 *Oppsummert*
 
 Vi er operasjonelt lønnsomme med en kostnadsbase som tåler mer omsetning, varene kommer tidligere enn noen gang, og vi har spennende muligheter foran oss. Det som tynger, er gjelden. Vi er opptatt av å få ryddet opp i finansieringen, og trygge på at vi har det som skal til for å bevise lønnsomheten i 2027.
 
-Gi oss gjerne en tilbakemelding innen [dato] på om dere ønsker å delta i det konvertible lånet, og med omtrent hvilket beløp. Har dere spørsmål, er det bare å ringe meg.
+Ønsker gjerne en tilbakemelding fra de som kan være interessert i å 
 
 Vedlagt:
 * Regnskap per oktober 2026, konsern (resultat og balanse)
@@ -123,22 +125,3 @@ Vedlagt:
 
 Vennlig hilsen,
 Kristoffer
-
----
-
-## Tallgrunnlag (Runway, hovedbudsjett, regnskap t.o.m. okt 2026)
-
-| MNOK | 2025 regnskap | 2026 prognose | 2027 budsjett | 2028 | 2029 |
-|---|---|---|---|---|---|
-| Omsetning | 54,6 | 57,7 | 64,9 | 72,8 | 79,9 |
-| Bruttofortjeneste | 36,7 | 38,6 | 43,6 | 48,7 | 53,2 |
-| EBITDA | 2,9 | 3,1 | 8,6 | 10,8 | 13,5 |
-| Resultat før skatt | −0,6 | −0,6 | 5,5 | 9,3 | 12,9 |
-| Egenkapital 31.12 | | 2,9* | 8,3 | 15,5 | 25,6 |
-| EK-andel 31.12 | | 13 % | 35 % | 52 % | 67 % |
-| Langsiktig gjeld 31.12 | | 10,9 | 9,3 | 5,9 | 2,8 |
-| Kassakreditt trukket 31.12 | | 7,4 | 1,9 | 0 | 0 |
-
-\* Runway bokfører 0,5 MNOK fra eierne som egenkapitalinnskudd i desember. Et konvertibelt lån er gjeld til det konverteres, så balansevedlegget trenger en fotnote (eller justering).
-
-Svak-vinter-case (case 288: −30 % nov, −10 % des–mar, −5 % apr–des 2027 på butikk og nett): 2026 omsetning 55,7, EBITDA 1,8, resultat før skatt −1,9. Merk: case-budsjettet viste 2027 helt likt Base (omsetning 64,9) selv om navnet sier −5 % apr–des 2027. Enten er ikke 2027-justeringene bygd inn ennå, eller så er case-budsjettet utdatert.
