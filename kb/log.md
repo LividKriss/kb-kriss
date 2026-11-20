@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-20
+
+- **Update** Daily email run (cloud 2026-11-20), PARTIAL: only classification (step 1) and thread state (2b) were done; KB sync, drafts, task-trigger check, the second inbox page (inbox estimate 108, only the first ~50 listed and the 47 unlabelled-looking threads processed) and `[KB-inbox]` drafts were not run (context spent on oversized thread reads). Session ran on Sonnet. Labelled: Urgent 5 (Manteco PO-00168 payment reminders; Stork Aiden claim reply; Huzhou Yixu asks TT copy of 30% deposit PI 226HZYX2035A; Innowin SkatteFUNN skattemelding copy; GlobalConnect outage at Markveien 54, case CS7902040), Reply 2 (Svea case 14376197 offer; Welcome asks if the plan went to his colleague), Invoice 1 (Passamar TRO-00007), Payments 2 (Diemme via Blender; Nilorn statement EUC108908). Archived FYI 8 and Noise 19 (INBOX + UNREAD removed, `AI/KB-synced` added). Thread state: 10 lines. Nothing was sent, forwarded or deleted. No drafts made. Backlog: everything without `AI/KB-synced`, and inbox threads beyond the first page, is picked up next run.
+
 ## 2026-11-19
 
 - **Update** Mac agent run 21:40: forwarded 2 Emmetex invoices (PO-00152, PO-00141, Livid Jeans AS) to PowerOffice; labelled `AI/Task` (T2) with a `[Doc]` summary; nothing filed.
