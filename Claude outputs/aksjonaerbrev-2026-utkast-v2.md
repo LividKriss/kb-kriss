@@ -54,7 +54,7 @@ Til tross for varemangelen ble EBITDA i juni–oktober 0,6 MNOK bedre enn i fjor
 
 Vi har tatt store grep i produksjonen. Tyngden av vårvarene for 2027 kommer i januar, med en del allerede i desember. Tidligere år har tyngden kommet i februar, med deler i mars og helt ut i april.
 
-Det betyr at vi går fra et svakt salg inn i nye sesonger til lengre tid med fullprissalg og kortere rabattperioder. Det løfter både omsetningen og bruttomarginen. Denne effekten ligger ikke inne i prognosene, og vi ser den som en ekstra oppside.
+Det betyr at vi går fra et svakt salg inn i nye sesonger til lengre tid med fullprissalg og kortere rabattperioder. Det løfter både omsetningen og bruttomarginen. Grunnet dette mener vi at inntektsbudsjettene vi legger opp til for neste år er konservative, og at det heller skal ligge mye oppside der.
 
 *SSENSE*
 
@@ -70,7 +70,7 @@ Budsjettet for 2027–2029 er en nøktern case uten ny kapital: samme kostnadsba
 
 Veksten i 2027 handler i stor grad om å hente inn det vi tapte på varemangelen i år: butikkene +7 %, nett +20 %, og B2B bygger på ordreboken og muligheter vi anser som trygge. Selv om butikk og nett skulle selge 10 % under budsjett, gir 2027 en EBITDA på 4,9 MNOK.
 
-I samme case går rentebærende gjeld ned fra rundt 18 MNOK ved årsskiftet til rundt 11 MNOK ved utgangen av 2027, og egenkapitalandelen passerer 50 % i løpet av 2028. Vi mener dette er en svært realistisk case, gitt at finansieringen er på plass.
+I samme case går rentebærende gjeld ned fra rundt 18 MNOK ved årsskiftet til rundt 11 MNOK ved utgangen av 2027, og egenkapitalandelen passerer 50 % i løpet av 2028. Vi mener dette er en realistisk case, gitt at finansieringen er på plass.
 
 Med bedre finansiering ser vi også muligheter til å styrke casen ytterligere. En butikk til i Oslo vil gi mer volum, bedre fordeling av kostnadene og mer stordriftsfordeler, og vi mener det er god plass til den i markedet. Vi mener også at oppsiden i distribusjon er klart underbudsjettert. Den kan ta fart raskt hvis vi treffer riktig.
 
@@ -80,11 +80,11 @@ Den store utfordringen er fortsatt likviditet og gjeld. Mye av kontantstrømmen 
 
 Etter varemangelen i høst må vi hente inn mer likviditet for å betale varekjøpene til sommer 2027 i tide, slik at vi ikke havner i samme leveransesituasjon neste høst.
 
-Vi hadde møte med SpareBank 1 SMN 20. november. Der ba vi om å få låne oss opp til nivået vi hadde ved inngangen til 2026, med et nytt lån på 1,5 MNOK og avdragsfrihet ut juni 2027. Samlet rentebærende gjeld blir da rundt 19 MNOK med fullt trukket kassakreditt. Banken er positiv til utviklingen og fokuset på lønnsomhet, men er tydelig på at det også må komme kapital fra eiersiden.
+Vi hadde møte med SpareBank 1 SMN i dag. Der ba vi om å få låne oss opp til nivået vi hadde ved inngangen til 2026, med et nytt lån på 1,5 MNOK og avdragsfrihet ut juni 2027. Samlet rentebærende gjeld blir da rundt 19 MNOK med fullt trukket kassakreditt. Banken er positiv til utviklingen og fokuset på lønnsomhet, men er tydelig på at det også må komme kapital fra eiersiden for at de skal komme med noe, utifra gjeldsposisjonen i dag.
 
 *Forslag: konvertibelt lån fra eierne*
 
-Overfor banken har vi skissert 500 000 kr fra eiersiden. Vi ønsker likevel å hente en større sum gjennom konvertibelt lån, for å få mer handlingsrom i starten av året. Derfor vil vi først kartlegge hvordan dere stiller dere til dette. Jens Olav og jeg er selv positive til å gå inn med noen hundre tusen, og dette konkretiserer vi snart.
+Overfor banken har vi skissert 500 000 kr fra eiersiden. Vi ønsker likevel å potensielt hente en større sum gjennom konvertibelt lån, for å få mer handlingsrom i starten av året. Derfor vil vi først kartlegge hvordan dere stiller dere til dette. Jens Olav og jeg er selv positive til å gå inn med noen hundre tusen, og dette konkretiserer vi snart.
 
 Vi foreslår følgende vilkår:
 
