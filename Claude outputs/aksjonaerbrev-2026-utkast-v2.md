@@ -92,9 +92,9 @@ Vi foreslår følgende vilkår:
 * Rente lik Norges Banks styringsrente + 2 prosentpoeng. Renten utbetales ikke løpende, men påløper og gjøres opp når lånet betales tilbake.
 * Dere kan når som helst i løpetiden, ved en ny emisjon eller ved forfall, velge å gjøre om lånet til aksjer til en fast verdsettelse av selskapet på 35 MNOK.
 
-Konverteringen er en rett, ikke en plikt. Dere bestemmer selv om og når dere vil bruke den, og kan først se om selskapet utvikler seg slik at det gir mening for dere. Velger dere å ikke konvertere, får dere pengene tilbake med bedre rente enn i banken. Som långiver står dere også foran aksjonærene om det skulle gå dårlig.
+Konverteringen er en rett, ikke en plikt. Dere bestemmer selv om og når dere vil bruke den, og kan først se om selskapet utvikler seg slik at det gir mening for dere. Velger dere å ikke konvertere, får dere pengene tilbake med bedre rente enn i banken. Som långiver står dere også foran aksjonærene mtp risiko.
 
-Henter vi senere kapital til en høyere verdsettelse, for eksempel gjennom folkefinansiering eller fra nye investorer, kan dere gjøre om lånet til aksjer til 35 MNOK. Det vil være en betydelig rabatt sammenlignet med prisen vi da selger nye aksjer for.
+Henter vi senere kapital til en høyere verdsettelse, for eksempel gjennom folkefinansiering (se lenger ned) eller fra nye investorer, kan dere gjøre om lånet til aksjer til 35 MNOK verdsettelse. Det vil være en betydelig rabatt sammenlignet med prisen vi da selger nye aksjer for.
 
 Et eksempel: Slår prognosene til, vil vi om ett til to år drive svært lønnsomt med betydelig lavere gjeld. Da mener vi det er realistisk å forsvare en verdsettelse på rundt 100 MNOK. Et lån på 100 000 kr gjort om til aksjer ved en verdsettelse på 35 MNOK vil da være verdt rundt 285 000 kr, før eventuell utvanning.
 
@@ -102,7 +102,7 @@ Det er også viktig å være klar over risikoen:
 
 * Lånet står bak banken. Med dagens gjeldssituasjon vil banken kreve å godkjenne tilbakebetaling av eierlån, så selskapet må være i en rimelig god finansiell posisjon før lånet kan betales tilbake.
 * Tidligere tilbakebetaling kan avtales ved behov, og så lenge selskapet utvikler seg som forventet, skal det gå fint. Men det er ingen garanti.
-* Lånet er uten sikkerhet. Skulle selskapet gå konkurs, vil banken få dekning først.
+* Lånet er uten sikkerhet
 
 Vilkårene settes opp i en egen låneavtale, og konverteringsretten krever vedtak i generalforsamlingen. Vi sender formelle dokumenter til dem som ønsker å delta.
 
@@ -110,21 +110,25 @@ Vilkårene settes opp i en egen låneavtale, og konverteringsretten krever vedta
 
 Jens Olav og jeg vil også hente mer kapital eksternt dersom behovet er der og prisingen er god for oss som eiere i dag. Vi har inngang til noen aktuelle personer i bransjen som vi vil snakke med. Folk som kjenner bransjen, vil lettere se potensialet og verdien i merkevaren, og ikke bare dagens resultat og gjeldsgrad.
 
-Vi har også sett på folkefinansiering. Flere norske merkevarer har hentet betydelige beløp på denne måten, for eksempel Norwegian Rain og Northern Playground. Etter det vi kjenner til, har de hentet penger til verdsettelser rundt 60–75 MNOK, til tross for betydelig lavere inntekter enn Livid og uten lønnsomhet. Vi mener Livid har en god case for dette: et kjent varemerke med mange lojale kunder, et overskudd i driften allerede, og en plan som bygger på moderat vekst og en justert kostnadsbase, ikke på ekstrem vekst. Slike kampanjer får lettere momentum når det allerede er penger i potten, og de som har gitt konvertibelt lån, kan da eventuelt velge å gjøre det om til aksjer som en del av kampanjen.
+Vi har også sett på folkefinansiering. Flere norske merkevarer har hentet betydelige beløp på denne måten, for eksempel Norwegian Rain og Northern Playground, som har hentet penger til en verdsettelse rundt 60–75 MNOK, til tross for betydelig lavere inntekter enn Livid og uten lønnsomhet over drift. Vi mener Livid har en god case for en slik finansieringsrunde: et kjent varemerke med mange lojale kunder, et overskudd i driften allerede, og en plan som bygger på moderat vekst og en justert kostnadsbase, ikke på ekstrem vekst. Slike kampanjer får lettere momentum når det allerede er penger i potten, og de som har gitt konvertibelt lån, kan da eventuelt velge å gjøre det om til aksjer som en del av kampanjen.
 
 Alt dette er til vurdering. Hvilke valg vi tar utover det konvertible lånet, avhenger av starten på neste år og samtalene med mulige investorer. Vi tar gjerne imot innspill, og holder dere oppdatert. Vi har en realistisk plan for å klare oss uten mer ekstern kapital, men vi er sårbare for kortsiktige avvik. Å rydde opp i finansieringen vil gjøre svært mye for selskapet.
 
 *Oppsummert*
 
-Driften går med overskudd, kostnadsbasen tåler mer omsetning, varene kommer tidligere enn noen gang, og vi har spennende muligheter foran oss. Det som tynger, er gjelden. Den vil vi få ryddet opp i, og vi er trygge på at vi har det som skal til for å vise lønnsomhet i 2027.
+Driften går med overskudd, kostnadsbasen tåler mer omsetning, varene ligger ann til å komme tidligere enn noen gang neste sesong, og vi har spennende muligheter foran oss. Det som tynger, er gjelden. Den vil vi få ryddet opp i, og vi er trygge på at vi har det som skal til for å vise lønnsomhet i 2027.
 
-Gi gjerne en tilbakemelding innen [dato] på om dere kan være interessert i å delta i det konvertible lånet, og omtrent med hvilket beløp. Det er ikke bindende på dette stadiet. Har dere spørsmål, er det bare å ringe meg.
+Gi gjerne en tilbakemelding innen neste fredag på om dere kan være interessert i å delta i det konvertible lånet, og omtrent med hvilket beløp. Det er ikke bindende på dette stadiet. 
+
+Dere må bare slå på tråden om dere har noen spørsmål og ønsker med detaljer.
+
+Høres, og ha en god helg!
+
+Vennlig hilsen,
+Kristoffer
 
 Vedlagt:
 * Regnskap per oktober 2026, konsern (resultat og balanse)
 * Prognose 2026 og budsjett 2027–2029, med balanseprognose
 * Presentasjonen vi brukte i banken 20. november
 * Kort beskrivelse av det konvertible lånet
-
-Vennlig hilsen,
-Kristoffer
