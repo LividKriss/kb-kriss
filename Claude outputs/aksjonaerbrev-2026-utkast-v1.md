@@ -46,11 +46,11 @@ Selv om kostnadene nå er på et nivå der vi kan drive lønnsomt, hadde vi rett
 * EBITDA: 3,1 MNOK mot 2,9 MNOK
 * Resultat før skatt: −0,6 MNOK, på nivå med fjoråret
 
-Juni–oktober er likevel bedre enn i fjor, med EBITDA på 2,2 MNOK mot 1,6 MNOK, midt i leveransesvikten.
+Till tross for utfordringene, leverer vi en bedre EBITDA i Juni–oktober mot fjorår, opp +0,6MNOK. Dette viser at vi virkelig har fått skrudd om riggen til å kunne drifte lønnsomt.
 
 *Neste sesong kommer tidligere*
 
-Vi har tatt store grep i produksjonen. Tyngden av vårvarene for 2027 kommer i januar, med noe allerede i desember. Tidligere år har tyngden kommet i februar, med deler i mars og helt ut i april. [Kriss: du sa opptil to måneder tidligere, presentasjonen sier en måned. Velg formulering.]
+Vi har tatt store grep i produksjonen. Tyngden av vårvarene for 2027 kommer i januar, med en del allerede i desember. Tidligere år har tyngden kommet i februar, med deler i mars og helt ut i april.
 
 Det betyr at vi går fra et slunkent salg inn i nye sesonger til lengre tid med fullprissalg og kortere rabattperioder. Det løfter både topplinjen og bruttomarginen. Denne effekten ligger ikke i prognosene, og vi ser den som en ekstra oppside.
 
@@ -66,11 +66,11 @@ Budsjettet for 2027–2029 er en nøktern case uten ny kapital: samme kostnadsba
 * 2028: omsetning 72,8 MNOK, EBITDA 10,8 MNOK, resultat før skatt 9,3 MNOK
 * 2029: omsetning 79,9 MNOK, EBITDA 13,5 MNOK, resultat før skatt 12,9 MNOK
 
-Veksten i 2027 er i stor grad å hente inn det vi tapte på varemangelen i år: butikkene +7 %, nett +20 % og B2B bygger på ordreboken. Selv om butikk og nett skulle selge 10 % under budsjett, gir 2027 en EBITDA på 4,9 MNOK.
+Veksten i 2027 er i stor grad å hente inn det vi tapte på varemangelen i år: butikkene +7 %, nett +20 % og B2B bygger på ordreboken og muligheter som føles trygge. Selv om butikk og nett skulle selge 10 % under budsjett, gir 2027 en EBITDA på 4,9 MNOK.
 
 I samme case går rentebærende gjeld ned fra rundt 18 MNOK ved årsskiftet til rundt 11 MNOK ved utgangen av 2027, og egenkapitalandelen passerer 50 % i løpet av 2028. Vi mener dette er en svært realistisk case med riktig finansiering.
 
-Avhengig av hvordan finansieringen ser ut de neste årene, ser vi også muligheter til å styrke casen ytterligere. En butikk til i Oslo vil gi mer volum, bedre fordeling av kostnader og mer stordriftsfordeler, og det er absolutt rom for det. Vi mener også at oppsiden i distribusjon er kraftig underbudsjettert. Den kan ta fart fort hvis vi treffer riktig.
+Avhengig av hvordan finansieringen ser ut de neste årene, ser vi også muligheter til å styrke casen ytterligere. En butikk til i Oslo vil gi mer volum, bedre fordeling av kostnader og mer stordriftsfordeler, og det er absolutt rom for det i markedet. Vi mener også at oppsiden i distribusjon er kraftig underbudsjettert. Den kan ta fart fort hvis vi treffer riktig.
 
 *Likviditet og gjeld*
 
@@ -82,11 +82,11 @@ Vi hadde møte med SpareBank 1 SMN i dag. Vi har bedt om å få låne oss opp ti
 
 *Forslag: konvertibelt lån fra eierne*
 
-Vi ønsker derfor å ta en runde med dere og høre hva vi kan få til fra eiersiden. Jens Olav og jeg går selv inn med [200 000–300 000 kr samlet / hver]. [Målet er minst 0,5 MNOK samlet fra eiersiden i desember.]
+Vi ønsker derfor å ta en runde med dere og høre hva vi kan få til fra eiersiden. Jeg og Jens Olav er positive til å gå inn med noen hundre tusen selv, dette skal konkretiseres snarlig.
 
 Vi foreslår at dette gjøres som et konvertibelt lån:
 
-* Løpetid to år, til [desember 2028].
+* Løpetid to år, til Desember 2028.
 * Rente på [x] % per år. Renten utbetales ikke løpende, men påløper og gjøres opp når lånet tilbakebetales.
 * Dere kan når som helst i løpetiden, ved en ny emisjon eller ved forfall, velge å konvertere lånet til aksjer til en fast verdsettelse av selskapet på 35 MNOK [tilsvarer kr <x> per aksje].
 
