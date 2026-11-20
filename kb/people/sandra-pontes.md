@@ -20,6 +20,7 @@ Since 2023-10 (first thread in the index); 62 threads, heaviest around season or
 # How Kriss communicates with them
 English, "Hello Sandra," + "Hope you are well.", short, signs "Kristoffer". Usually copies Paulo Teixeira and Christopher Stangeby. Chases with one-line follow-ups ("Could you please advice?"). In disputes he writes to Paulo, firm and formal, with Sandra on cc.
 # History
+- 2026-11-20: Closed, no mail since 2026-11-06: Prices and lead time Eplehuset: Paulo quoted on 2026-10-21. Kriss owes a go-ahead after checking wit
 - 2026-11-17: Closed, no mail since 2026-10-08: FW: RECLAMAÇÕES PROD LIVID AW26
 - 2026-10-21: Eplehuset uniform restock (100 tees + 100 zip cardigans). Paulo quoted prices and a best delivery date of 2027-01-29 (see the organization doc).
 - 2026-10-08: AW26 quality claim (zippers on Noya/Atohi/Alpine, Atohi measurements). Texgoios offered 20% on Atohi and zip replacement on Alpine. Kriss demanded new zips on all styles and 40% off Atohi.
@@ -33,7 +34,7 @@ English, "Hello Sandra," + "Hope you are well.", short, signs "Kristoffer". Usua
 - 2026-02-16: Kriss sent adjusted FW26 quantities. Fleece for the second Noya colour was already knitted, so that colour was kept.
 
 # Open threads
-- Prices and lead time Eplehuset: Paulo quoted on 2026-10-21. Kriss owes a go-ahead after checking with Eplehuset ([thread](https://mail.google.com/mail/u/0/#all/1a13a82ad439361c))
+- None.
 
 # Links
 - Organization: [Texgoios S.A.](kb://livid/organizations/manufacturers/mill-tex.md)

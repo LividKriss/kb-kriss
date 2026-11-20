@@ -23,6 +23,7 @@ Fabric orders for Livid's SS27 production, since 2026-06 in this file. POs are s
 English. "Hello Joana," / "Hello Fernanda,", short and direct, signs "Best, Kristoffer". Copies Christopher Stangeby and Fernanda, and sometimes Jens Olav and Paulo Teixeira (Tex-Challenge).
 
 # History
+- 2026-11-20: Closed, no mail since 2026-11-06: Purchase Order — PO-00139
 - 2026-10-06: Woolbuylic (OC 66248) confirmed for week 47; planning will try for week 45.
 - 2026-10-02: Applied Kriss's updated delivery split for Forsee 8 and Canico (PO-00139 revised).
 - 2026-09-27: Kriss reallocated Forsee 8: 70 m to Siluete, 170 m to Afonso, none to Stork (Forsee 8 could not be increased).
@@ -33,7 +34,7 @@ English. "Hello Joana," / "Hello Fernanda,", short and direct, signs "Best, Kris
 - 2026-06-24: Confirmed Somelos's SS27 prices in Livid's price review.
 
 # Open threads
-- Purchase Order — PO-00139 — Somelos owes a final ETD for Woolbuylic (week 45 vs 47). Deliveries to Afonso, Stork and Siluete are pending ([thread](https://mail.google.com/mail/u/0/#all/1a06c9b1faa7b1e4))
+- None.
 
 # Links
 - Organization: [Somelos Tecidos SA](kb://livid/organizations/suppliers/somelos.md)

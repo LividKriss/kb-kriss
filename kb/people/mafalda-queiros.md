@@ -23,6 +23,7 @@ Kriss and Christopher Stangeby work with her on all label and trims orders. Chri
 English. He opens with "Hello Mafalda," and often adds "Hope you are well." He signs "Kristoffer", sometimes "Best / Kristoffer". His messages are short and direct, usually with Christopher in cc and sometimes Paulo Teixeira (Tex-Challenge). On portal issues he is patient and explains things step by step, and he invites feedback on the portal.
 
 # History
+- 2026-11-20: Closed, no mail since 2026-11-06: Label order TRO-00009 confirmed
 - 2026-11-17: Closed, no mail since 2026-10-20: Artworks and reference codes for all Livid labels/items
 - 2026-11-17: Closed, no mail since 2026-10-20: FW: PEDIDO ACESSÓRIOS PROD LIVID SS27 (PTAC.2026/350)
 - 2026-11-13: She sent Passamar's stock for the Eplehuset order: care label S3178/AE1 445 pcs, Eplehuset woven label 102238 895 pcs, size label 91523 in all eight sizes (L 218 up to XS 931).
@@ -39,7 +40,6 @@ English. He opens with "Hello Mafalda," and often adds "Hope you are well." He s
 
 # Open threads
 - Label order TRO-00007 (Siluete) invoice — Kriss asked 2026-11-18 for an invoice or proforma for the shipment (received by Siluete 2026-11-09, 123 lines, 10,295 pcs); awaiting her answer ([thread](https://mail.google.com/mail/u/0/#all/1a1ee8302d6cd935))
-- Label order TRO-00009 confirmed — She asked how to correct her confirmed quantity (24,000 → 12,000) and where to enter the price. On 2026-10-30 Christopher asked Kriss whether to delete the order and enter a new one; no reply to her yet ([thread](https://mail.google.com/mail/u/0/#all/1a1443221d8110ae))
 
 # Links
 - Organization: [Passamar – Passamanarias Martins, Lda](kb://livid/organizations/suppliers/passamar.md)

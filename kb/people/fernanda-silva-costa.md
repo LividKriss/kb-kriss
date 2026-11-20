@@ -23,6 +23,7 @@ She is Livid's long-standing sales contact at Somelos; the 3-year index has 144 
 English. "Hello Fernanda," and "Hope you are well.", then a short request, signed "Kristoffer" or "Best / Kristoffer". He usually copies Christopher Stangeby, and often Paulo Teixeira (tex-challenge.com) and Jens Olav Dankertsen. He apologises plainly for order mistakes ("Sorry for spam of emails"). She replies "Dear Kristoffer" and is brief.
 
 # History
+- 2026-11-20: Closed, no mail since 2026-11-06: Purchase Order
 - 2026-11-17: Closed, no mail since 2026-09-01: Urgent
 - 2026-11-13: Kriss asked Somelos for extra time on open invoices and sent a payment plan (weeks 48, 50 and 53). She confirmed the same day that she has informed Somelos accounting.
 - 2026-11-06: She sent Christopher the invoices for the PO-00139 Woolbuylic (FT G0/467434 and 467435). It shipped on 05/11, in week 45 rather than the OC's week 47: 150.70 m went to Afonso and 80.10 m to Stork.
@@ -38,7 +39,6 @@ English. "Hello Fernanda," and "Hope you are well.", then a short request, signe
 - 2026-01-21: Bulk lead time was 10–14 weeks; orders placed then would arrive around weeks 17–19.
 
 # Open threads
-- Purchase Order — PO-00139: the Woolbuylic shipped on 05/11 to Afonso and Stork. Task T2 for its Threadflow shipments was raised on 05/11 and has since been closed. ([thread](https://mail.google.com/mail/u/0/#all/1a06c9b1faa7b1e4))
 - Livid Jeans – payment plan for open invoices — plan accepted by Fernanda 2026-11-13; first payment EUR 5,772.33 in week 48 (23–27 Nov) ([thread](https://mail.google.com/mail/u/0/#all/1a1d551442b09e4c))
 
 # Links

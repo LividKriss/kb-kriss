@@ -24,6 +24,7 @@ Daily operational partner on production. Kriss issues POs/MOs (from operations@l
 - Christopher chases Kriss on pending supplier payments (short reminders); Kriss replies with the action taken.
 
 # History
+- 2026-11-20: Closed, no mail since 2026-11-06: Prices and lead time Eplehuset
 - 2026-11-18: Kriss answered the Threadflow test round: "Close short" on PO lines with 8 % tolerance (PO-00159 and PO-00139 now Received), duplicate shipments of automatic TMs hidden, label-type change, zip details editable on the BOM line, bill-to Livid Jeans Unipessoal Lda switched on, samples from several seasons on one shipment. Not now: several Responsibles per task, Inventory on the same shipment as samples (needs a Loom change); thread and belt loops from Lisama still on hold ([thread](https://mail.google.com/mail/u/0/#all/1a10bdb9fb8a4dd4))
 - 2026-11-18: The "All Season" season is removed; the Eplehuset cardigan, T-shirt and shirt are in SS27 (the shirt still lacks SS27 prices). From now on every style goes in a regular season because prices are stored per season. Christopher had hit an error deleting All Season while styles were still on it ([thread](https://mail.google.com/mail/u/0/#all/1a1b03a46503312e))
 - 2026-11-18: Solace was not approved by Lisama because of the zip-fly construction (Lisama removed one layer of the fly, so it bulges and gapes). Christopher clarified it with Jens and will include it in his sample comment ([thread](https://mail.google.com/mail/u/0/#all/1a1ee5a534af0540))
@@ -51,7 +52,6 @@ Daily operational partner on production. Kriss issues POs/MOs (from operations@l
 # Open threads
 - Production plan SS27 for approval — Springair received QR labels but misses hangtag, main and size labels; Christopher owes status ([thread](https://mail.google.com/mail/u/0/#all/1a1348398cb56fac))
 - Purchase Order — PO-00147 — Tessilbiella order ready; Kriss owes forwarder name or OK to add freight on invoice ([thread](https://mail.google.com/mail/u/0/#all/1a075e5344c1607b))
-- Prices and lead time Eplehuset — Texgoios gave prices and 2027-01-29 delivery; Kriss owes confirmation (and to Eplehuset) ([thread](https://mail.google.com/mail/u/0/#all/1a13a82ad439361c))
 - Gorgias "A note to quality control" — how to create customer return labels now; Kriss/Arnt owe the answer (draft to support ready) ([thread](https://mail.google.com/mail/u/0/#all/1a1cf144aa900a5a))
 - Retur av Tarvas — 3 packed boxes of Tarvas shoes to be returned; Ole Eivind answered 11-18 what was agreed on return freight; Kriss still owes Christopher how to ship (Loom or Webshipper the old way) and a view on his Loom-return idea ([thread](https://mail.google.com/mail/u/0/#all/1a1d4721e6f07e8b))
 - Threadflow Fixes — Kriss's 11-18 status sent (see History). Still open: Eplehuset shirt needs SS27 prices; thread and belt loops from Lisama on hold; Inventory on the same shipment as samples waits for a Loom change; Threadflow2 planning session proposed to Kriss ([thread](https://mail.google.com/mail/u/0/#all/1a10bdb9fb8a4dd4))
