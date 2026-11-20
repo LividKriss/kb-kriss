@@ -90,7 +90,9 @@ Vi foreslår følgende vilkår:
 * Rente lik Norges Banks styringsrente + 2 prosentpoeng. Renten utbetales ikke løpende, men påløper og gjøres opp når lånet betales tilbake.
 * Dere kan når som helst i løpetiden, ved en ny emisjon eller ved forfall, velge å gjøre om lånet til aksjer til en fast verdsettelse av selskapet på 35 MNOK.
 
-Fordelen er fleksibilitet. Dere kan få pengene tilbake med bedre rente enn i banken, eller, dersom selskapet utvikler seg slik vi tror, gjøre om lånet til aksjer til en pris som er satt i dag. Dere kan altså se an utviklingen før dere bestemmer dere, og som långiver står dere foran aksjonærene om det skulle gå dårlig.
+Konverteringen er en rett, ikke en plikt. Dere bestemmer selv om og når dere vil bruke den, og kan først se om selskapet utvikler seg slik at det gir mening for dere. Velger dere å ikke konvertere, får dere pengene tilbake med bedre rente enn i banken. Som långiver står dere også foran aksjonærene om det skulle gå dårlig.
+
+Henter vi senere kapital til en høyere verdsettelse, for eksempel gjennom folkefinansiering eller fra nye investorer, kan dere gjøre om lånet til aksjer til 35 MNOK. Det vil være en betydelig rabatt sammenlignet med prisen vi da selger nye aksjer for.
 
 Et eksempel: Slår prognosene til, vil vi om ett til to år drive svært lønnsomt med betydelig lavere gjeld. Da mener vi det er realistisk å forsvare en verdsettelse på rundt 100 MNOK. Et lån på 100 000 kr gjort om til aksjer ved en verdsettelse på 35 MNOK vil da være verdt rundt 285 000 kr, før eventuell utvanning.
 
