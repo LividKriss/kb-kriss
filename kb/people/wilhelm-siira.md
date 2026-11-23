@@ -23,6 +23,10 @@ Since at least 2024-03 (Livid asked for a rent reduction). Rent payments, remind
 Norwegian, "Hei Wilhelm", formal and well-argued in the renegotiation (figures, market comparisons); short and apologetic on late payments. Copies Jens Olav.
 
 # History
+- 2026-11-20: Reminder that October rent (invoice 100546) is unpaid; asked for payment over the weekend.
+- 2026-11-20: Chased Livid's decision on the renewal again (first chaser 2026-11-08).
+- 2026-11-06: Kriss: will look at it properly and come back.
+- 2026-11-02: Offer: rolling 3–4-month contracts at NOK 530k/yr + VAT, indexed yearly, with the 2026-10-07 carve-outs.
 - 2026-10-21: Kriss: Livid can't go above ~NOK 500k/yr; otherwise a controlled exit from Stavanger, or a short-term contract at the offered level with 4 months' notice until a new tenant is found (asked for discretion).
 - 2026-10-07: Landlord offer: storage and staff rooms out of the lease, rent at least NOK 630k + VAT and common costs, plus a turnover-based %. 2026 rent is ~NOK 758k.
 - 2026-09-07: Kriss named ~NOK 500k/yr as the ceiling.
@@ -34,7 +38,8 @@ Norwegian, "Hei Wilhelm", formal and well-argued in the renegotiation (figures, 
 - 2024-03-13: Livid asked for a rent reduction (from subject).
 
 # Open threads
-- Reforhandling leiekontrakt Stavanger — Kriss sent Livid's position 2026-10-21; Wilhelm owes a reply ([thread](https://mail.google.com/mail/u/0/#all/19ea0c1bcc51548f))
+- Ubetalt husleie okt. — October rent reminder 2026-11-20 ([thread](https://mail.google.com/mail/u/0/#all/1a1f98d571e1b720))
+- Reforhandling leiekontrakt Stavanger — Wilhelm offered 530k on rolling 3–4-month contracts 2026-11-02 and is waiting for Livid's decision (chased 08.11 and 20.11) ([thread](https://mail.google.com/mail/u/0/#all/19ea0c1bcc51548f))
 
 # Links
 - Organization: [Kirkegaten 19/21 AS](kb://livid/organizations/suppliers/kirkegaten-19-21.md)
