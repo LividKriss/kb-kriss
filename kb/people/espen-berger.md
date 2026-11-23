@@ -22,6 +22,7 @@ Shareholder context. On Kriss's shareholder mailing (as espenberger@me.com) sinc
 Norwegian, "Hei!" / "Hei Espen," warm and informal; signs "Kristoffer".
 
 # History
+- 2026-11-21: Replied to the 20.11 shareholder letter: interested in the convertible loan with more than his pro-rata share ("600K++") and a larger position over time, but wants conversion at about NOK 20 M (the level of the previous issue) instead of 35 M, and a higher margin than 2 pp for an unsecured loan; would also subscribe shares at the same price if the bank prefers equity. Source: his reply to the shareholder letter, 2026-11-21.
 - 2026-05-21: Kriss fixed his webshop discount code (it skipped products with compare-at price "0" instead of blank).
 - 2025-12: Invited to the shareholder gathering scheduled for 2025-12-12 (as espenberger@me.com).
 
