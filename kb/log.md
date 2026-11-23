@@ -1,6 +1,7 @@
 # Change log
 
 ## 2026-11-23
+- **Update** Inbox-zero pass 23.11 (Claude Code, Opus 5.5): ~40 threads closed (noise, FYI, settled by colleagues, duplicates); Ulvenveien purring 101084 (fee 215 + interest 1,152.61, Livid Jeans AS) and Passamar invoices 2026/6359 and 2026/6650 (never forwarded) sent to livid@faktura.poweroffice.net; Passamar week-50 payment reply drafted; `people/cristiana-silva.md` updated. Source: CFO chat 2026-11-23.
 - **Update** `people/charlie-selvig.md`: Lora open thread, decided to cancel; reply drafted. Source: CFO chat 2026-11-23.
 
 - **Update** Brief 23.11, round 4: Altinn, PowerOffice and Klarna read in parallel (read-only); 7 Skatteetaten/Innkrevingsmyndigheten documents forwarded to the voucher inboxes (Jeans 5, Retail 2); 5 Altinn notice threads closed; Welcome, Hestra, Retro, Bon Parfumeur, Northern Sky threads closed.

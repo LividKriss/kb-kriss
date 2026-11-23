@@ -23,6 +23,7 @@ Accounts-receivable contact since 2024-03 (first thread: payment clarification).
 English, "Hello Cristina," (her name is Cristiana: use the correct spelling), very short replies that apologise for the delay and promise a date. Usually no cc; Mafalda added when orders are blocked.
 
 # History
+- 2026-11-23: She chased again ("any update?"). Reply drafted for Kriss: delayed production deliveries caused a temporary cash flow issue; open amounts paid from week 50 onward; on time going forward. Invoices 6359 and 6650 had never reached PowerOffice and were forwarded the same day.
 - 2026-11-17: Closed, no mail since 2026-09-29: RE: Cheking account Livid Jeans Unipessoal, Lda.
 - 2026-11-16: New statement of 10 overdue Unipessoal invoices (23,206.50 in total, oldest due 10-31); she asked when payment will be made.
 - 2026-09-02 to 2026-09-29: Reminders for three overdue Unipessoal invoices (~EUR 2.4k); Kriss promised payment on 2026-09-29.
@@ -35,7 +36,7 @@ English, "Hello Cristina," (her name is Cristiana: use the correct spelling), ve
 - 2024-03 to 2025-08: Recurring checking-account reminders for both entities and payment clarifications (from subjects).
 
 # Open threads
-- Cheking account Livid Jeans Unipessoal, Lda. — statement of 2026-11-16 (10 invoices, 23,206.50 in total); she asks for the transfer date; Kriss owes the answer ([thread](https://mail.google.com/mail/u/0/#all/1a1e40fed9fa07ae))
+- Cheking account Livid Jeans Unipessoal, Lda. — statement of 2026-11-16 (10 invoices, EUR 23,206.50 in total); reply with the week-50 plan drafted 2026-11-23, not yet sent ([thread](https://mail.google.com/mail/u/0/#all/1a208449472c46a1))
 
 # Links
 - Organization: [Passamar – Passamanarias Martins, Lda](kb://livid/organizations/suppliers/passamar.md)
