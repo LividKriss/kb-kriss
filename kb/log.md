@@ -1,6 +1,7 @@
 # Change log
 
 ## 2026-11-23
+- **Update** `people/charlie-selvig.md`: Lora open thread, decided to cancel; reply drafted. Source: CFO chat 2026-11-23.
 
 - **Update** Brief 23.11, round 4: Altinn, PowerOffice and Klarna read in parallel (read-only); 7 Skatteetaten/Innkrevingsmyndigheten documents forwarded to the voucher inboxes (Jeans 5, Retail 2); 5 Altinn notice threads closed; Welcome, Hestra, Retro, Bon Parfumeur, Northern Sky threads closed.
 - **Update** Brief 23.11, round 3: sent 4 approved emails (Welcome 08.12, Hestra 4 Dec, Christopher Manteco hold, Camper Customer Operations plan forward); Retro credit note CR-0013 issued in Loom; PO-00150 ODA25315 ETD set to 15.12 in Threadflow; drafts to Line (Retro), Freja (Bon Parfumeur agent) and FedEx Norway; old Retro and Northern Sky drafts deleted; 3 decisions recorded.
