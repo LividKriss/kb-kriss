@@ -2,6 +2,7 @@
 
 ## 2026-11-23
 
+- **Update** Brief 23.11, round 4: Altinn, PowerOffice and Klarna read in parallel (read-only); 7 Skatteetaten/Innkrevingsmyndigheten documents forwarded to the voucher inboxes (Jeans 5, Retail 2); 5 Altinn notice threads closed; Welcome, Hestra, Retro, Bon Parfumeur, Northern Sky threads closed.
 - **Update** Brief 23.11, round 3: sent 4 approved emails (Welcome 08.12, Hestra 4 Dec, Christopher Manteco hold, Camper Customer Operations plan forward); Retro credit note CR-0013 issued in Loom; PO-00150 ODA25315 ETD set to 15.12 in Threadflow; drafts to Line (Retro), Freja (Bon Parfumeur agent) and FedEx Norway; old Retro and Northern Sky drafts deleted; 3 decisions recorded.
 - **Update** Brief 23.11, round 2: MO-SS27-06 (3 lines) and MO-0001 SS27 price reports accepted and resent; M.A.S supplement LO-0104 created and confirmed (12 units, NOK 10,098, fulfilment LOOM-20261123-001, customer not emailed); 7 threads Kriss replied to closed; 4 drafts (Welcome, Hestra, Christopher/Manteco, Camper Customer Operations); old Camper draft deleted; 7 decisions recorded. Nothing sent by the assistant.
 - **Update** Morning brief 23.11, Kriss's answers: High items closed; 12 threads archived (NAV, help@ refunds, ESP, Kowa, Spabo, SameSystem); Svea 15562134, Svea 14376197 and Finexa P1826860 forwarded to PowerOffice; Emmetex invoice numbers set on SH-00182/183 in Threadflow; 6 drafts made (Lyse lease, Lyse alarm, Tom Wood, Cofacredit, Christopher, freight walkthrough); Huzhou hidden to 30.11; 19 decisions recorded. Nothing sent.
