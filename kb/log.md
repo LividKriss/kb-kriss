@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-23
+
+- **Update** Daily email run (cloud 2026-11-23), PARTIAL: classification (step 1) and thread state (2b) only; task-trigger check beyond Emmetex, KB sync, drafts, `[KB-inbox]` and follow-ups were not run (heavy thread reads used the context). Session ran on Sonnet. The run covered the weekend since the 20.11 run; both inbox searches paged until the unlabelled query came back empty. Labelled: Urgent 4 (Lyse unpaid October rent; Svea 15562134 and the Logistikkgruppen cases; Finexa Restkrav for Ådalen Truck AS), Reply 14 (Be Bold/Camper invoices and payment plan, Hestra, Standard Agency MAS, ESP Oslo Studio Sisko, Christopher on PO-00155, Lyse lease and alarm, Ole Eivind follow-up letter, shareholders on financing, Siluete FW26 booking, two help@ forwards), Action 4 (SameSystem new employee, Fazile MVA request, two Skatteetaten letter reminders), Invoice 3 (Emmetex E/1271 and E/1272 also `AI/Task` T2; Adobe monthly), Waiting 1 (Siluete MO-SS27-10, answer promised Monday). Archived with `AI/KB-synced`: HR 7, FYI 12, Noise 22 (INBOX + UNREAD removed). Thread state: 24 lines. Nothing was sent, forwarded or deleted. No drafts made. Backlog: older messages without `AI/KB-synced` and all drafts are picked up next run.
+
 ## 2026-11-20
 
 - **Update** Morning brief 2026-11-20 (Claude Code), presented: part A was partial (classification + 10 state lines only), so 5 Sonnet investigators read and checked ~60 inbox threads; the PowerOffice payments check could not run (Claude in Chrome not connected). Closed before presenting: GlobalConnect CS7902040 alarm and its resolution (resolved by GlobalConnect), superseded Diemme 05.11 and Nilorn 16.11 statements. 37 thread-state lines written. Person note christopher-stangeby: correction (All Season season could not be deleted). livid-kb: Ringstad energy surcharge 13.1 %, Diemme W49 accepted by Blender, Bon Parfumeur paid/unpaid conflict TODO. Nothing sent.
