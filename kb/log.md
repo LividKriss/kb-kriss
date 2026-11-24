@@ -1,5 +1,8 @@
 # Change log
 
+## 2026-11-24
+- **Update** Daily email run (cloud 2026-11-24), PARTIAL: classification (step 1) and thread state (2b) only; task-trigger check beyond sender/subject, KB sync, drafts, follow-ups and `[KB-inbox]` were not run (kept short; no thread bodies read). Session ran on Sonnet. 28 unlabelled inbox threads processed (one search page; none left). Labelled: Urgent 1 (Resend daily quota 100%), Reply 9 (Bogart, Denim People wash references, Rangel Japan shipments, Lanificio Rogna PO-00145, FedEx open claims/invoice address, Lisama cadica-faltas, Bon Parfumeur invoices, Ole Eivind 'Foreløpige tiltak', Standard Agency Burley), Action 1 (Vegvesen notice), Invoice 1 (GlobalConnect 4556814), Payments 1 (Nilorn SREI028657). Archived with `AI/KB-synced`: HR 1, FYI 5, Noise 9 (INBOX + UNREAD removed). Thread state: 13 lines. Nothing sent, forwarded or deleted. No drafts. Backlog: KB sync, drafts and Reply/Urgent threads' content picked up next run.
+
 ## 2026-11-23
 - **Update** Inbox-zero pass 23.11 (Claude Code, Opus 5.5): ~40 threads closed (noise, FYI, settled by colleagues, duplicates); Ulvenveien purring 101084 (fee 215 + interest 1,152.61, Livid Jeans AS) and Passamar invoices 2026/6359 and 2026/6650 (never forwarded) sent to livid@faktura.poweroffice.net; Passamar week-50 payment reply drafted; `people/cristiana-silva.md` updated. Source: CFO chat 2026-11-23.
 - **Update** `people/charlie-selvig.md`: Lora open thread, decided to cancel; reply drafted. Source: CFO chat 2026-11-23.
