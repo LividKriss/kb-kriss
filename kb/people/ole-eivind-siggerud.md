@@ -19,6 +19,8 @@ Daily working contact: about 2,100 threads in 3 years, 117 with Kriss replying i
 # How Kriss communicates with them
 Norwegian, very short and direct ("Fikser", "Skal være fikset nå", "yes"), often with no greeting. Longer mails start "Hei ole," or "Hei dere,". When Kriss writes in English to the wholesale customers and vintage suppliers Ole manages, he copies Ole.
 # History
+- 2026-11-24: Closed, no mail since 2026-11-10: Updated invoice (VWC)
+- 2026-11-24: Closed, no mail since 2026-11-10: Fwd: Swap og supplering
 - 2026-11-18: Park Mall accepted replacement of the 7 faulty-zipper Alpine Butternut hoodies (Ole replaced all zippers on a new delivery; the store returns the faulty ones once the new ones arrive) and cancelled the Deka knits that were ready since August; the earlier wish for a refund is dropped ([thread](https://mail.google.com/mail/u/0/#all/19ff53ca42975db8))
 - 2026-11-18: Ole told Blender Agency that Norda delivery had 2 pairs 005 Neve (11.5) instead of 001A Scoria and asked for a return and a credit note for the 2 missing 001A. Sebastian pointed him to Tobias Andersson for Norda and invited him to a showroom day next week for Mizuno, Norda and Keen. Kriss in copy ([thread](https://mail.google.com/mail/u/0/#all/1a1eec908dbb79ef))
 - 2026-11-18: On Kriss's shipping-routine proposal Ole suggested Oslo replenishment on Wednesdays (deliveries can arrive late in the day) and best-seller stock to last the whole week; Past may need two replenishments in high season, delivered early after the weekend ([thread](https://mail.google.com/mail/u/0/#all/1a1e4a651b522c4c))
@@ -46,8 +48,6 @@ Norwegian, very short and direct ("Fikser", "Skal være fikset nå", "yes"), oft
 # Open threads
 - Fwd: Betalingspåminnelse fra Telemark Ullfilt AS, faktura 1877 — reminder forwarded 2026-11-17 to Kriss and the invoice mailbox; Kriss to check and pay ([thread](https://mail.google.com/mail/u/0/#all/1a1e9720a23232b3))
 - Fwd: Förfallen Faktura Welcome — Welcome (Jonathan Werner, Operations; agent Martin at be-bold in cc) demands immediate payment of Camper invoices 44865, 45516 and 45944 and a payment confirmation; Ole asks Kriss whether he has made contact ([thread](https://mail.google.com/mail/u/0/#all/1a110a50976a1919))
-- Updated invoice (VWC) — Riccardo asks Ole whether to add 100 men's winter coats and 200 Norway jumpers (landing 20 Nov, GBP 4,400) and the 100 Barbour jackets on hold; no answer seen ([thread](https://mail.google.com/mail/u/0/#all/1a1ab1a4f6ac7ca2))
-- Fwd: Swap og supplering — Retro Bergen restock and returns sheet forwarded to Kriss 2026-11-10 ([thread](https://mail.google.com/mail/u/0/#all/1a1c4b52b12fe00b))
 - Invoice Burberry Scarves - The VWC: Kriss to pay INV-0171 and the Barbour invoice and confirm. VWC waits for Ole on the USA/EU delivery points ([thread](https://mail.google.com/mail/u/0/#all/1a0f65f5f96bd8f6))
 - Glass Onion Vintage - Statement and payment links: plan accepted by Dan 2026-11-16; Kriss pays per plan, earlier if possible, see [Dan Green](/people/dan-green.md) ([thread](https://mail.google.com/mail/u/0/#all/1a15dde9fb991748))
 - Livid x Park Mall SS27 — customer takes replacement hoodies and cancels the Deka knits (11-19); Kriss may need to cancel/adjust the Deka order and the open second-shipment proforma ([thread](https://mail.google.com/mail/u/0/#all/19ff53ca42975db8))

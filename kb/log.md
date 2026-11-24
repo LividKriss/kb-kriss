@@ -1,6 +1,10 @@
 # Change log
 
 ## 2026-11-24
+
+- **Update** 5 Person notes: moved 6 quiet open threads to History (thread archived, no mail for 14+ days; `scripts/email/kb_close_threads.py`).
+
+## 2026-11-24
 - **Update** Morning brief 24.11 (Claude Code scheduled run, Opus 5.5), presented: part A was partial, so 7 investigators, 1 thread reader and the PowerOffice payments checker (Sonnet) checked ~45 threads. Closed before presenting: Emmetex E-1271/E-1272 duplicate mails (forwarded 20.11, numbers on SH-00183/182) and VWC INV-0232 (GBP 1,669 paid 13.11, PowerOffice voucher 27900). 7 stale ledger lines for archived threads closed; 44 thread-state lines written; no task-trigger rows matched beyond a T2 gap (PO-00140 has no Threadflow shipment). Nothing sent, no drafts made.
 - **Update** Daily email run (cloud 2026-11-24), PARTIAL: classification (step 1) and thread state (2b) only; task-trigger check beyond sender/subject, KB sync, drafts, follow-ups and `[KB-inbox]` were not run (kept short; no thread bodies read). Session ran on Sonnet. 28 unlabelled inbox threads processed (one search page; none left). Labelled: Urgent 1 (Resend daily quota 100%), Reply 9 (Bogart, Denim People wash references, Rangel Japan shipments, Lanificio Rogna PO-00145, FedEx open claims/invoice address, Lisama cadica-faltas, Bon Parfumeur invoices, Ole Eivind 'Foreløpige tiltak', Standard Agency Burley), Action 1 (Vegvesen notice), Invoice 1 (GlobalConnect 4556814), Payments 1 (Nilorn SREI028657). Archived with `AI/KB-synced`: HR 1, FYI 5, Noise 9 (INBOX + UNREAD removed). Thread state: 13 lines. Nothing sent, forwarded or deleted. No drafts. Backlog: KB sync, drafts and Reply/Urgent threads' content picked up next run.
 
