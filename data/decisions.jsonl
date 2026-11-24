@@ -52,3 +52,6 @@
 {"answer": "agree", "at": "2026-11-24T09:30:00+01:00", "by": "chat", "conf": "H", "decision": "FW26", "decision_key": "cargo-linea-ref", "kind": "bilagsmottak", "rec": "Bestillingsnr FW26"}
 {"answer": "agree", "at": "2026-11-24T09:30:00+01:00", "by": "chat", "conf": "H", "decision": "EUR", "decision_key": "payment-account-eur", "kind": "bilagsmottak", "rec": "EUR currency account on Emmetex/Afonso"}
 {"answer": "agree", "at": "2026-11-24T09:30:00+01:00", "by": "chat", "conf": "M", "decision": "dept 20; description with shoot + model name", "decision_key": "model-dept", "kind": "bilagsmottak", "rec": "dept 20 on Third Management"}
+{"answer": "agree", "at": "2026-11-24T12:00:00+01:00", "by": "chat", "conf": "M", "decision": "accepted, 8170 2 299,76", "decision_key": "svea-reduction-offer", "kind": "bilagsmottak", "rec": "accept Svea 20% reduction offer (principal paid)"}
+{"answer": "agree", "at": "2026-11-24T12:00:00+01:00", "by": "chat", "conf": "M", "decision": "approved as proposed", "decision_key": "ups-coding", "kind": "bilagsmottak", "rec": "UPS 3 invoices + 3 credit notes per rule; partner sample parcels as 6105"}
+{"answer": "agree", "at": "2026-11-24T12:00:00+01:00", "by": "chat", "conf": "M", "decision": "delete", "decision_key": "reminder-delete", "kind": "bilagsmottak", "rec": "delete Ulvenveien reminder and crossing Svea notice"}
