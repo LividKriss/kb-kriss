@@ -188,3 +188,10 @@
 {"ask": "Invoice 4556814", "at": "2026-11-24T05:49:07+00:00", "conf": "L", "grounds": "Mac agent reads PDF", "kind": "invoice-forward", "label": "Invoice", "state": "new", "thread": "1a2095640327b04f", "who": "GlobalConnect"}
 {"ask": "Daily quota 100% for team livid", "at": "2026-11-24T05:49:07+00:00", "conf": "L", "grounds": "urgency rule 5 quota at 100%", "kind": "system-alert", "label": "Urgent", "state": "alert 24.11", "thread": "1a208b13bb4669be", "who": "Resend"}
 {"ask": "Melding from Statens Vegvesen", "at": "2026-11-24T05:49:07+00:00", "conf": "L", "grounds": "needs read", "kind": "authority-notice", "label": "Action", "state": "new, not read", "thread": "1a208fc83dcd07e2", "who": "Statens vegvesen"}
+{"at": "2026-11-24T08:28:06+01:00", "closed": true, "thread": "1a1c5d99aac322a5"}
+{"at": "2026-11-24T08:28:06+01:00", "closed": true, "thread": "1a1bfc5f456796c4"}
+{"at": "2026-11-24T08:28:06+01:00", "closed": true, "thread": "1a1f79cf5017ce9f"}
+{"at": "2026-11-24T08:28:06+01:00", "closed": true, "thread": "1a1e47f9bc2b11e3"}
+{"at": "2026-11-24T08:28:06+01:00", "closed": true, "thread": "1a1e41ea897e4ac4"}
+{"at": "2026-11-24T08:28:06+01:00", "closed": true, "thread": "1a1f78c03b0616ec"}
+{"at": "2026-11-24T08:28:06+01:00", "closed": true, "thread": "1a1a7bef84a59907"}
