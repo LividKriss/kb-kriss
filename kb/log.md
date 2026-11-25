@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-25
+
+- **Update** Daily email run (cloud 2026-11-25), PARTIAL: classification (step 1) and thread state (2b) only; KB sync for substantive threads, drafts, follow-ups, `[KB-inbox]` and task-trigger check beyond sender/subject were not run (no thread bodies read). Session ran on Sonnet, no subagents. 43 unlabelled inbox threads processed in one page; none left on re-check. Labelled: Urgent 1 (Lyse Stavanger lease renegotiation), Reply 6 (Christopher MILL-TEX label, SMN underlag, Standard Agency Bogart and Ny adresse, Bon Parfumeur payment, Signatur Revisjon audit), Invoice 1 (Passamar 2026/7840). Archived with `AI/KB-synced` (INBOX + UNREAD removed): HR 3, FYI 15, Noise 17. Thread state: 8 lines. Nothing sent, forwarded or deleted. No drafts. Backlog: the 7 Reply/Urgent threads' content and all drafts carry over.
+
 ## 2026-11-24
 
 - **Update** 5 Person notes: moved 6 quiet open threads to History (thread archived, no mail for 14+ days; `scripts/email/kb_close_threads.py`).
