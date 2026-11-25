@@ -61,6 +61,9 @@ Guards that live here, not only in the agent's instructions:
   - forward refuses (exit 3) when the message already went to that address: the AI/PO-forwarded
     label for a voucher address, a sent message to it in the same thread, or a sent message to it
     carrying an attachment with the same file name. --force skips the last two, never the allowlist.
+  - forward sends PDFs only, always named *.pdf: a PDF whose name has no .pdf (by type, or an
+    extension-less octet-stream file starting with %PDF-) is sent as <name>.pdf, because PowerOffice's
+    email intake silently ignores it otherwise; no PDF at all → refused (body-only, images).
   - attachments and fetch refuse a target folder inside a Git repo (raw mail never goes in a repo);
   - fetch is GET-only over https to public hosts and sends no cookies or credentials;
   - delete-draft and housekeep only touch drafts whose subject starts with "[Doc]".
@@ -181,6 +184,25 @@ def strip_cid_images(html_text: str) -> str:
 
 def is_pdf(part) -> bool:
     return part["filename"].lower().endswith(".pdf") or part.get("mimeType") == "application/pdf"
+
+
+def has_extension(name: str) -> bool:
+    return bool(Path(name).suffix) and len(Path(name).suffix) <= 6
+
+
+def pdf_filename(name: str) -> str:
+    """The name a PDF is sent under: PowerOffice's email intake ignores a PDF whose name has no .pdf
+    (Billie's extension-less 'df5bbc97-…', 2026-11-06; livid-kb systems/poweroffice-go.md)."""
+    return name if name.lower().endswith(".pdf") else f"{name}.pdf"
+
+
+def is_unnamed_pdf(svc, msg_id, part) -> bool:
+    """A file with no extension and a generic type whose bytes are a PDF."""
+    if is_pdf(part) or has_extension(part["filename"]):
+        return False
+    if part.get("mimeType") not in (None, "", "application/octet-stream", "binary/octet-stream"):
+        return False
+    return part_bytes(svc, msg_id, part)[:5] == b"%PDF-"
 
 
 def part_bytes(svc, msg_id, part) -> bytes:
@@ -367,9 +389,10 @@ def already_sent(svc, msg, to, files) -> str:
             if to in rcpts:
                 return f"a sent message to {to} is already in this thread"
     for p in files:
-        q = f'in:sent to:{to} filename:"{p["filename"]}"'
-        if svc.users().messages().list(userId="me", q=q, maxResults=1).execute().get("messages"):
-            return f"{p['filename']} was already sent to {to}"
+        for name in {p["filename"], pdf_filename(p["filename"])}:
+            q = f'in:sent to:{to} filename:"{name}"'
+            if svc.users().messages().list(userId="me", q=q, maxResults=1).execute().get("messages"):
+                return f"{name} was already sent to {to}"
     return ""
 
 
@@ -418,10 +441,14 @@ def cmd_forward(svc, args):
     if to in VOUCHER_TO and labels.get(FORWARDED_LABEL) in msg.get("labelIds", []):
         print(f"SKIP {args.msg_id}: already labelled {FORWARDED_LABEL}")
         sys.exit(3)
-    files = [p for p in attachments(msg) if is_pdf(p) and (not args.only or p["filename"] in args.only)]
+    files = [p for p in attachments(msg)
+             if (is_pdf(p) or is_unnamed_pdf(svc, args.msg_id, p)) and (not args.only or p["filename"] in args.only)]
     missing = set(args.only or []) - {p["filename"] for p in files}
     if missing or not files:
-        sys.exit(f"No such PDF attachment(s) on {args.msg_id}: {sorted(missing) or 'none at all'}")
+        # PowerOffice reads PDF attachments only and gives no error: never send a voucher address
+        # a body-only email or an image (livid-kb invoice-routing step 7).
+        sys.exit(f"No such PDF attachment(s) on {args.msg_id}: {sorted(missing) or 'none at all'}"
+                 " (an email-only receipt or an image must be made into a PDF first)")
     if not args.force:
         why = already_sent(svc, msg, to, files)
         if why:
@@ -451,11 +478,16 @@ def cmd_forward(svc, args):
     fwd.add_alternative(rich, subtype="html")
 
     for p in files:
-        maintype, _, subtype = (p.get("mimeType") or "application/octet-stream").partition("/")
+        name = pdf_filename(p["filename"])
+        if name != p["filename"]:
+            maintype, subtype = "application", "pdf"
+        else:
+            maintype, _, subtype = (p.get("mimeType") or "application/octet-stream").partition("/")
         fwd.add_attachment(part_bytes(svc, args.msg_id, p), maintype=maintype,
-                           subtype=subtype or "octet-stream", filename=p["filename"])
+                           subtype=subtype or "octet-stream", filename=name)
 
-    names = ", ".join(p["filename"] for p in files)
+    names = ", ".join(pdf_filename(p["filename"]) + (f" (was {p['filename']})" if not p["filename"].lower().endswith(".pdf") else "")
+                      for p in files)
     if dry_mode(args):
         print(f"DRY would forward {args.msg_id} to {to}: {fwd['Subject']} | attachments: {names}"
               f" | note: {'yes' if args.note else 'no'}")

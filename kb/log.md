@@ -2,6 +2,8 @@
 
 ## 2026-11-25
 
+- **Sent** 1 voucher forward on Kriss's approval: Oslo Vedhandel invoice PDF (via Billie) to Retail's PowerOffice voucher address (poweroffice.net), thread 1a1cfadfe5622fff.
+- **Update** `scripts/email/gmail_tool.py` forward: a PDF whose name lacks `.pdf` (by type, or an extension-less octet-stream file starting with `%PDF-`) is sent as `<name>.pdf`; the duplicate check looks for both names; the refusal for "no PDF" says to make one first. Why: PowerOffice silently ignored Billie's extension-less PDF on 06.11 (livid-kb `systems/poweroffice-go.md`). Kriss approved in chat 2026-11-25; dry-run tested.
 - **Sent** 2 emails on Kriss's approval (send-after-approval, reviewed disclaimer): Konsis (konsis.no, T-shirt L sold out) and Eplehuset (eplehuset.no, 21240 delivered 2 of 3) — new threads 1a212ffae07d6463, 1a212ffb133b4fce; PrintCollect 21240 thread closed.
 - **Update** PrintCollect safeguard (Kriss approved in chat 2026-11-25, after 21240 was labelled FYI and archived by the partial 24.11 part A run): `email/task-triggers.md` rule 9 and T1 row, `email/labels.md` rule, `docs/brief-run.md` step 3a, `docs/midday-run.md` step 2b, `docs/routine.md` hard rule; Gmail filter for bestilling@printcollect.no (AI/Task, never spam, important). Missed order created: LO-0106 for PrintCollect 21240 (L ×2 of 3, fulfilment LOOM-20261125-002); drafts to Konsis (L sold out) and Stig Hammer (2 of 3, restock end of January).
 - **Update** LO-0105: Kriss creates the Livid Stavanger fulfilment himself in the Loom UI (the Loom MCP can only fulfil from Pio); a separate session was proposed to add store fulfilment to the Loom MCP.
