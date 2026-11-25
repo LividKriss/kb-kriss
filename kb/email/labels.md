@@ -41,6 +41,8 @@ Kriss's work Gmail. Applied by the [daily run](/email/daily-run.md) and [KB sync
 - No per-category labels: the contact category lives in the Person note.
 - Ignore old labels (`[Superhuman]/…`, `Kjell Odne/Done`, `Invoices`, Kriss's manual labels); never remove them.
 
+- **PrintCollect** (bestilling@printcollect.no) is never `AI/FYI` or `AI/Noise` and is never archived before its Loom order exists: always `AI/Task`, in the inbox ([task triggers](/email/task-triggers.md) rule 9; Kriss, 2026-11-25).
+
 # Exceptions
 
 # Examples

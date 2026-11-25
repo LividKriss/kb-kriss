@@ -11,6 +11,7 @@ The general rules are in `kb/notes/model-routing.md`.
 ## Run
 1. Read `AGENTS.md`, `kb/email/daily-run.md` (part D), `kb/email/task-triggers.md`, `kb/email/brief.md` (midday version) and `kb/email/send-policy.md`. Read the Processes only for today's matches.
 2. Check for a `[STOP-SENDING]` draft.
+2b. **PrintCollect check:** as `docs/brief-run.md` step 3a; any PrintCollect order number without a Loom order is the first task.
 3. Skim, label and prepare per `daily-run.md` part D steps 2–4. Nothing found → one line "No new tasks since the morning" and stop.
 4. Work through Kriss's replies as in `docs/brief-run.md` section 2 step 5.
 5. Finish with a short list: done, still open.

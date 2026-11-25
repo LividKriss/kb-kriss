@@ -2,6 +2,7 @@
 
 ## 2026-11-25
 
+- **Update** PrintCollect safeguard (Kriss approved in chat 2026-11-25, after 21240 was labelled FYI and archived by the partial 24.11 part A run): `email/task-triggers.md` rule 9 and T1 row, `email/labels.md` rule, `docs/brief-run.md` step 3a, `docs/midday-run.md` step 2b, `docs/routine.md` hard rule; Gmail filter for bestilling@printcollect.no (AI/Task, never spam, important). Missed order created: LO-0106 for PrintCollect 21240 (L ×2 of 3, fulfilment LOOM-20261125-002); drafts to Konsis (L sold out) and Stig Hammer (2 of 3, restock end of January).
 - **Update** LO-0105: Kriss creates the Livid Stavanger fulfilment himself in the Loom UI (the Loom MCP can only fulfil from Pio); a separate session was proposed to add store fulfilment to the Loom MCP.
 - **Update** Brief 25.11, round 3: Loom LO-0105 (Bogart supplement, 5 units, confirmed, no customer email) with Pio fulfilment LOOM-20261125-001 (2 units); Morten draft rewritten for Stavanger; auditor draft reworked from the 25.11 investor case email with the case presentation and 2026–2029 forecast attached; 2 decisions recorded.
 - **Update** Brief 25.11, follow-up: 4 threads Kriss answered himself closed (Tue ×2, Delfina, Wilhelm); Arnt draft rewritten to the 3 orders to refund; W-30688 checked in Loom: no line split across locations on the order page (Move takes the whole split; Sentrallager shows 0 there).
