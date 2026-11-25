@@ -23,6 +23,7 @@ He audits Livid Jeans AS (incl. group accounts) and Livid Retail AS and attests 
 Norwegian. "Hei Jarl Erik," (sometimes "Hei Jarl"), signed "Kristoffer". He answers audit question lists point by point in bullets and sends quick one-liners in between. He is open about being late with material and thanks him for working overtime.
 
 # History
+- 2026-11-24: Asked (cc Jon Birkeland) for status on overdue public charges and when they will be paid, status on the capital raise, PowerOffice access for Jon on both companies, and a web meeting this week ([thread](https://mail.google.com/mail/u/0/#all/1a20e1ddbd819e00)).
 - 2026-09-01: Issued an auditor revenue confirmation for the Løkka store (Livid Retail AS, 2025) for the landlord.
 - 2026-07-24: 2025 group accounts and audit report for Livid Jeans AS filed. Livid Retail AS accounts filed by Eskil.
 - 2026-07-19: Asked about unrealised intercompany profit. Kriss confirmed that store goods are commission stock owned by Livid Jeans AS until sold.
@@ -34,7 +35,7 @@ Norwegian. "Hei Jarl Erik," (sometimes "Hei Jarl"), signed "Kristoffer". He answ
 - 2025-10-09: Auditor change to Signatur Revisjon AS registered (protocols signed via Signant).
 
 # Open threads
-- None.
+- Audit status request 24.11: public charges, capital raise, PowerOffice access for Jon, web meeting ([thread](https://mail.google.com/mail/u/0/#all/1a20e1ddbd819e00))
 
 # Links
 - Organization: [Signatur Revisjon AS](kb://livid/organizations/advisors/signatur-revisjon.md)

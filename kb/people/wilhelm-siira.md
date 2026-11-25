@@ -23,6 +23,7 @@ Since at least 2024-03 (Livid asked for a rent reduction). Rent payments, remind
 Norwegian, "Hei Wilhelm", formal and well-argued in the renegotiation (figures, market comparisons); short and apologetic on late payments. Copies Jens Olav.
 
 # History
+- 2026-11-24: Replied to Kriss's 23.11 mail: found it too vague; invoice 100546 must be paid by 08.12.2026 at the latest; he will come back separately on the lease ([thread](https://mail.google.com/mail/u/0/#all/19ea0c1bcc51548f)).
 - 2026-11-20: Reminder that October rent (invoice 100546) is unpaid; asked for payment over the weekend.
 - 2026-11-20: Chased Livid's decision on the renewal again (first chaser 2026-11-08).
 - 2026-11-06: Kriss: will look at it properly and come back.
@@ -39,7 +40,7 @@ Norwegian, "Hei Wilhelm", formal and well-argued in the renegotiation (figures, 
 
 # Open threads
 - Ubetalt husleie okt. — October rent reminder 2026-11-20 ([thread](https://mail.google.com/mail/u/0/#all/1a1f98d571e1b720))
-- Reforhandling leiekontrakt Stavanger — Wilhelm offered 530k on rolling 3–4-month contracts 2026-11-02 and is waiting for Livid's decision (chased 08.11 and 20.11) ([thread](https://mail.google.com/mail/u/0/#all/19ea0c1bcc51548f))
+- Reforhandling leiekontrakt Stavanger — Wilhelm offered 530k on rolling 3–4-month contracts 2026-11-02; Kriss answered 23.11; 24.11 Wilhelm wants invoice 100546 paid by 08.12 and will return on the lease ([thread](https://mail.google.com/mail/u/0/#all/19ea0c1bcc51548f))
 
 # Links
 - Organization: [Kirkegaten 19/21 AS](kb://livid/organizations/suppliers/kirkegaten-19-21.md)

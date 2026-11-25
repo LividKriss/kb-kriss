@@ -23,6 +23,7 @@ Kriss is her main contact at Livid for the overdraft facility (kassakreditt), th
 Norwegian. "Hei Margit," usually followed by "Håper alt er bra.", signed "Kristoffer". For status updates and credit requests he writes long, structured emails with sections and attachments. Otherwise he sends short one-liners. He copies Jens Olav Dankertsen on status and credit matters, and Terje Berg and Liv Grethe Holten on formal applications. When reporting is late he apologises and gives a concrete delivery time.
 
 # History
+- 2026-11-24: Kriss sent the meeting presentation, forecast/budget and accounts (5 PDFs, cc Jens Olav), proposing NOK 2–3m equity before year-end, a bank match and no instalments in 2027. Margit confirmed the Livid Retail customer information is received and will come back after reviewing ([thread](https://mail.google.com/mail/u/0/#all/1a20c81cc0040031)).
 - 2026-11-19: Margit sent the invitation for Fri 2026-11-20 at 09:00; she will try to come to Livid in person, with a Teams link as backup (T-bane closure in Oslo; she must be elsewhere by 12:00). Kriss replied that was fine ([thread](https://mail.google.com/mail/u/0/#all/1a1edc33eef2e88e)).
 - 2026-11-18: Kriss asked for a follow-up meeting on Friday 2026-11-20 to present this year's results, the forecast and Livid's thinking on financing (fixing the funding structure and temporary needs), with Jens in copy. Margit: fine, preferably before 12:00. Kriss proposed 09:00, in person at Livid's office if possible ([thread](https://mail.google.com/mail/u/0/#all/1a1edc33eef2e88e))
 - 2026-11-17: Closed, no mail since 2026-10-30: Møte i dag
@@ -41,7 +42,7 @@ Norwegian. "Hei Margit," usually followed by "Håper alt er bra.", signed "Krist
 - 2025-10-13: 9-month instalment holiday, to June 2026, on the loans outside the growth/Eksfin guarantees. This followed 3 months granted in July 2025.
 
 # Open threads
-- Meeting Fri 2026-11-20 09:00 (in person if she makes it, Teams backup). Kriss presents results, forecast and the financing request; deck prepared 2026-11-19 ([thread](https://mail.google.com/mail/u/0/#all/1a1edc33eef2e88e))
+- Financing request: documents sent 24.11; waiting for the bank's answer on matching and avdragsfrihet 2027 ([thread](https://mail.google.com/mail/u/0/#all/1a20c81cc0040031))
 
 # Links
 - Organization: [SpareBank 1 SMN](kb://livid/organizations/advisors/sparebank-1-smn.md)
