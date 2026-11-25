@@ -273,3 +273,12 @@
 {"at": "2026-11-25T08:31:07+01:00", "by": "brief", "conf": "L", "grounds": "PO check 25.11", "kind": "payment-reminder", "rec": "get PDFs booked, then pay", "state": "INVP0268445-474 not booked either entity", "thread": "1a20bd3cb404f745", "who": "Nilorn East Asia"}
 {"at": "2026-11-25T08:31:07+01:00", "by": "brief", "conf": "M", "grounds": "PO check 25.11; Freja 24.11", "kind": "supplier-invoice-query", "rec": "reply; pay W50", "state": "PO Retail 27375 EUR 1,044 + 27378 EUR 15,100 open, due 30.11", "thread": "1a20847640ce4de7", "who": "Bon Parfumeur (Freja)"}
 {"at": "2026-11-25T08:31:07+01:00", "by": "brief", "conf": "L", "grounds": "PO check 25.11 (24.11 check said 24639/24657 paid)", "kind": "payment-reminder", "rec": "ask Amili for invoice 22451 copy before paying", "state": "22451 not booked in either entity 25.11", "thread": "1a1ee36b91c5b83e", "who": "Amili / Paa Stell"}
+{"at": "2026-11-25T08:58:40+01:00", "closed": true, "thread": "1a209405576eb196"}
+{"at": "2026-11-25T08:58:40+01:00", "closed": true, "thread": "1a1c59c51bf15ba0"}
+{"at": "2026-11-25T08:58:40+01:00", "closed": true, "thread": "1a20847150ee64bd"}
+{"at": "2026-11-25T08:58:40+01:00", "closed": true, "thread": "1a2114f56797541a"}
+{"at": "2026-11-25T08:58:40+01:00", "closed": true, "thread": "1a208b13bb4669be"}
+{"at": "2026-11-25T08:58:40+01:00", "closed": true, "thread": "1a208fc83dcd07e2"}
+{"at": "2026-11-25T08:58:40+01:00", "closed": true, "thread": "1a1ff4edc1a56417"}
+{"at": "2026-11-25T08:58:40+01:00", "closed": true, "thread": "1a1bde100234f9eb"}
+{"at": "2026-11-25T08:58:40+01:00", "closed": true, "thread": "1a20c81cc0040031"}
