@@ -297,3 +297,8 @@
 {"at": "2026-11-25T09:07:31+01:00", "by": "brief", "conf": "M", "rec": "book, reconcile vs statement", "state": "9 invoices forwarded to Jeans PO 25.11; 0268446-466 not seen", "thread": "1a20bd3cb404f745"}
 {"at": "2026-11-25T09:07:37+01:00", "closed": true, "thread": "1a20bd3cb404f745"}
 {"at": "2026-11-25T09:07:37+01:00", "closed": true, "thread": "1a1f6fb1fcc0c06e"}
+{"at": "2026-11-25T12:01:05+01:00", "closed": true, "thread": "1a20cbdfd176e5cc"}
+{"at": "2026-11-25T12:01:05+01:00", "closed": true, "thread": "1a17ce34d8d6f2dd"}
+{"at": "2026-11-25T12:01:05+01:00", "closed": true, "thread": "1a207becbd16de31"}
+{"at": "2026-11-25T12:01:05+01:00", "closed": true, "thread": "19ea0c1bcc51548f"}
+{"at": "2026-11-25T12:02:10+01:00", "by": "brief", "conf": "M", "draft": "r-9223304972830291559", "rec": "send", "state": "draft to Arnt: refund W-31010, W-30998, W-30953", "thread": "1a1e9e02ab2ec9d6"}
