@@ -2,6 +2,7 @@
 
 ## 2026-11-25
 
+- **Update** Brief 25.11, round 3: Loom LO-0105 (Bogart supplement, 5 units, confirmed, no customer email) with Pio fulfilment LOOM-20261125-001 (2 units); Morten draft rewritten for Stavanger; auditor draft reworked from the 25.11 investor case email with the case presentation and 2026–2029 forecast attached; 2 decisions recorded.
 - **Update** Brief 25.11, follow-up: 4 threads Kriss answered himself closed (Tue ×2, Delfina, Wilhelm); Arnt draft rewritten to the 3 orders to refund; W-30688 checked in Loom: no line split across locations on the order page (Move takes the whole split; Sentrallager shows 0 there).
 - **Update** Brief 25.11, Kriss's answers (Claude Code, Opus 5.5): closed 12 threads (High 1–4, archives, Prinsens Gate, GlobalConnect posted in Jeans 15773, FedEx, Passamar, Rangel, 2 Nilorn); forwarded to Livid Jeans AS PowerOffice: Passamar 2026/7840 (+ HK Consulting), FedEx DT520660939, 9 Nilorn invoices INVP0268445/467–474; Threadflow: SH-00144/145 ETA 18.12, new SH-00186 for PO-00140 (Kuroki 26-2400, invoice + PL attached, no email); Loom: Mandy billing and door address to St. Marie gate 88; 8 drafts (Morten, Tue ×2, Delfina, Lyse, Arnt, Ole Eivind, auditor); 20 decisions recorded; Lanificio Rogna hidden to 02.12. Nothing sent to anyone outside PowerOffice/HK Consulting.
 - **Update** 4 Person notes: moved 4 quiet open threads to History (thread archived, no mail for 14+ days; `scripts/email/kb_close_threads.py`).
