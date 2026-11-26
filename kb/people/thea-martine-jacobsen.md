@@ -24,6 +24,7 @@ Works with Kriss on operational matters that touch money or suppliers: paying su
 - Copies her on supplier threads that affect stores (e.g. Steamery), with Ole Eivind / invoice@lividjeans.com.
 
 # History
+- 2026-11-26: Closed, no mail since 2026-11-12: Fwd: Steamery utstående faktura
 - 2026-11-18: Thea replied positively to the new shipping rules but wants a round first (especially Oslo and replenishment late in the week) and is unsure about introducing new routines this late in the year; proposed to look at it next week ([thread](https://mail.google.com/mail/u/0/#all/1a1e4a651b522c4c))
 - 2026-11-16: Kriss sent Ole and Thea the proposal for new internal shipping rules; walkthrough to follow.
 - 2026-10-16: Steamery restock held up by an invoice mix-up (invoice 811542 belonged to another customer; 812462 still open); Kriss asked Steamery to offset against the overpayment.
@@ -37,7 +38,6 @@ Works with Kriss on operational matters that touch money or suppliers: paying su
 - 2025-05/06: Older subjects: Bergen upgrade cost estimate, company phone solution, follow-up "Fabrikken", weekly reports and Monday meeting agendas (inferred from subjects).
 
 # Open threads
-- Fwd: Steamery utstående faktura — Steamery's Norwegian bookkeeper to reconcile payment vs. invoice 812462 and confirm the remaining credit; restock shipment status unconfirmed ([thread](https://mail.google.com/mail/u/0/#all/1a0f0df463326384))
 - Nye fraktrutiner — Thea wants a round before start and suggests next week; Kriss to set up the walkthrough ([thread](https://mail.google.com/mail/u/0/#all/1a1e4a651b522c4c))
 
 # Links

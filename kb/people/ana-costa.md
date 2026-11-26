@@ -23,11 +23,12 @@ Kriss writes to "Luis and Ana" on production plans and invoices; Luís normally 
 English, same as with Luís; Paulo Teixeira (Tex-Challenge) is copied.
 
 # History
+- 2026-11-26: Closed, no mail since 2026-11-12: Dia SS27 productio nplan
 - 2026-11-10: Addressed with Luís on the SS27 plan follow-up; Luís replied.
 - 2026-10-20: Addressed with Luís when Kriss resent the SS27 plan in Excel.
 
 # Open threads
-- Dia SS27 productio nplan — see Luís; the Hayes price was set to EUR 36 on 2026-11-12 ([thread](https://mail.google.com/mail/u/0/#all/1a159532a2e94bbc))
+- None.
 
 # Links
 - Organization: [Dia Exemplar](kb://livid/organizations/manufacturers/dia-exemplar.md)

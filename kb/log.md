@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-26
+
+- **Update** 9 Person notes: moved 11 quiet open threads to History (thread archived, no mail for 14+ days; `scripts/email/kb_close_threads.py`).
+
 ## 2026-11-25
 
 - **Sent** 1 voucher forward on Kriss's approval: Oslo Vedhandel invoice PDF (via Billie) to Retail's PowerOffice voucher address (poweroffice.net), thread 1a1cfadfe5622fff.

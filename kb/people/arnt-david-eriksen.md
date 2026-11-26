@@ -22,6 +22,7 @@ Long-standing and very frequent (680 threads in 3 years, Kriss replied in 53, 29
 Norwegian. Short, often one line ("Tar du denne", "Hei Arnt,") or a forward with no text. Delegates with "@Arnt" inside group threads. With English-speaking vendors, Kriss writes in English and copies Arnt.
 
 # History
+- 2026-11-26: Closed, no mail since 2026-11-12: Fwd: UPS Final Reminder, Shopify order W-30595
 - 2026-11-17: Closed, no mail since 2026-11-03: QR SS27
 - 2026-11-17: Closed, no mail since 2026-11-02: Re: FAO ARNT & KRISTOFFER
 - 2026-11-17: Closed, no mail since 2026-09-18: Fwd: Duty Drawback
@@ -42,7 +43,6 @@ Norwegian. Short, often one line ("Tar du denne", "Hei Arnt,") or a forward with
 - 2025-10-15 onward: Follow-up with Madden Analytics (from subject, 31 messages).
 
 # Open threads
-- Fwd: UPS Final Reminder, Shopify order W-30595 — Arnt to contact the customer or instruct UPS ([thread](https://mail.google.com/mail/u/0/#all/1a1bf5e452322863))
 - CamperLab-støvler – refusjon av butikkjøp — Arnt to inform the store and answer the customer ([thread](https://mail.google.com/mail/u/0/#all/1a1cefc09fa0376d))
 
 # Links
