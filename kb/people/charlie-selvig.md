@@ -48,7 +48,7 @@ Internal mail is in Norwegian: "Hei Charlie," or "Hei dere,". It is short and pr
 - 2026-03-30: Charlie flagged weak women's sales since New Year in the weekly report, which led to a deeper review.
 
 # Open threads
-- Mail correspondence style Lora: 2026-11-23 Kriss checked the books (nothing paid or reserved on Lora) and decided to cancel; his reply to Maria is drafted and not yet sent ([thread](https://mail.google.com/mail/u/0/#all/1a1c54f1d80e6526))
+- Mail correspondence style Lora: 2026-11-23 Kriss checked the books (nothing paid or reserved on Lora) and decided to cancel; his reply to Maria was sent 23.11 15:59 (cc Gustaf, Charlie, Christopher). 25.11 Gustaf (Petter Korseth) asked to ship Lora with the other goods on open account; underskirt sample ready this week ([thread](https://mail.google.com/mail/u/0/#all/1a1c54f1d80e6526))
 - Ny prosedyre mot feilproduksjon — agreed 2026-11-17 (QC report where PPS approved, size set where not, tolerances in Threadflow); Kriss to take it up with Paulo and send the supplier mail ([thread](https://mail.google.com/mail/u/0/#all/1a1e4fc6544e6e38))
 
 # Links
