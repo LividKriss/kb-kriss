@@ -24,7 +24,7 @@ She is the day-to-day admin and logistics contact for Livid's production at Lisa
 - He copies Paulo Teixeira (Tex-Challenge) on threads with her.
 
 # History
-- 2026-11-26: Assistant drafted (in Portuguese, Paulo in cc) a request for the invoice and packing list for the FW26 Tori Twisted Bean shipment (MO-0002), which arrived at Livid without documents.
+- 2026-11-26: Assistant sent, on Kriss's approval (in Portuguese, Paulo in cc), a request for the invoice and packing list for the FW26 Tori Twisted Bean shipment (MO-0002), which arrived at Livid without documents.
 - 2026-11-24: Closed, no mail since 2026-11-10: INVOICES 1463
 - 2026-11-17: Closed, no mail since 2026-09-07: Stock Transfer Request — ST-00103
 - 2026-11-10: Kriss (in Portuguese) asked her about invoice 1464 for defect pieces: 83 pcs invoiced vs 70 in the packing list (boxes 100-103), and Keri Japan Kobe Blue at EUR 24 instead of 21. He asked for credit notes for the difference (EUR 320, plus EUR 33). She also corrected the packing list for boxes 17-23 and box 66.
@@ -41,7 +41,7 @@ She is the day-to-day admin and logistics contact for Livid's production at Lisa
 - 2024-11 to 2024-12: Import documents and customs paperwork for Kowa fabric (inferred from subjects).
 
 # Open threads
-- Tori Twisted Bean (FW26, MO-0002): invoice and packing list requested 2026-11-26; awaiting her reply.
+- Tori Twisted Bean (FW26, MO-0002): invoice and packing list requested 2026-11-26; awaiting her reply ([thread](https://mail.google.com/mail/u/0/#all/1a2180bd1a5edbcf)).
 
 # Links
 - Organization: [LISAMA – Sociedade de Confecções, Lda.](kb://livid/organizations/manufacturers/lisama.md)
