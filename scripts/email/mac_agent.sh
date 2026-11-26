@@ -26,7 +26,31 @@ DRY=0; FORCE=0
 case "${1:-}" in --dry) DRY=1 ;; --force) FORCE=1 ;; esac
 
 stamp() { date "+%Y-%m-%d %H:%M"; }
-[ -x "$CLAUDE" ] || { echo "$(stamp) FAIL claude CLI not found ($CLAUDE)" >> "$LOG"; exit 1; }
+
+# --- Failure alert (Kriss, 2026-11-26): a failing agent must never be silent again. While runs fail,
+# $ALERT holds: first failure, latest failure, reason. The morning brief shows it on its status line
+# (docs/brief-run.md step 2), and a macOS notification goes out at most every 3 hours.
+ALERT="$APP/mac-agent-alert"
+fail_alert() {
+  local reason="${1//\"/}" first
+  first=$(sed -n 1p "$ALERT" 2>/dev/null); [ -n "$first" ] || first="$(stamp)"
+  printf '%s\n%s\n%s\n' "$first" "$(stamp)" "$reason" > "$ALERT"
+  if [ $(( $(date +%s) - $(cat "$ALERT.notified" 2>/dev/null || echo 0) )) -ge 10800 ]; then
+    /usr/bin/osascript -e "display notification \"$reason (see docs/mac-agent.md, Login)\" with title \"Mac email agent failing since $first\" sound name \"Basso\"" >/dev/null 2>&1
+    date +%s > "$ALERT.notified"
+  fi
+}
+clear_alert() { rm -f "$ALERT" "$ALERT.notified"; }
+
+[ -x "$CLAUDE" ] || { echo "$(stamp) FAIL claude CLI not found ($CLAUDE)" >> "$LOG"; fail_alert "claude CLI not found"; exit 1; }
+
+# --- Login (Kriss, 2026-11-26): the agent uses its own long-lived token from `claude setup-token`, kept in
+# the Keychain (service kb-kriss-claude-token), not the interactive CLI login, which expired on 22.11 and
+# stopped every run for four days. Without the Keychain item it falls back to the interactive login.
+TOKEN=$(/usr/bin/security find-generic-password -s kb-kriss-claude-token -w 2>/dev/null)
+[ -n "$TOKEN" ] && export CLAUDE_CODE_OAUTH_TOKEN="$TOKEN"
+unset TOKEN
+HEALTHY="$APP/mac-agent-login-ok"         # date of the last successful daily login check
 
 RUNS="$APP/cache/mac-agent"
 mkdir -p "$RUNS" "$DOCS" "$(dirname "$LOG")"
@@ -64,6 +88,18 @@ if [ $DRY = 0 ]; then
     $GT housekeep >> "$LOG" 2>&1 && date +%F > "$HOUSEKEPT"
     # Quiet open threads in Person notes → History (kb/email/kb-sync.md step 8); auto-sync commits it.
     python scripts/email/kb_close_threads.py 2>&1 | tail -n 1 | sed "s/^/$(stamp) /" >> "$LOG"
+  fi
+  # Daily login check — a one-word Haiku call, so an expired login is caught on quiet days too, when the
+  # gate below would otherwise skip Claude and hide it. Fails → alert and stop (the real run would fail too).
+  if [ "$(cat "$HEALTHY" 2>/dev/null)" != "$(date +%F)" ]; then
+    PING=$(cd "$RUN" && "$CLAUDE" -p "Reply with the single word OK." --model haiku --permission-mode dontAsk \
+      --setting-sources project --strict-mcp-config --no-session-persistence 2>&1); PING_RC=$?
+    if [ $PING_RC = 0 ]; then
+      date +%F > "$HEALTHY"; echo "$(stamp) LOGIN ok ($([ -n "${CLAUDE_CODE_OAUTH_TOKEN:-}" ] && echo token || echo interactive login))" >> "$LOG"
+    else
+      REASON=$(printf '%s\n' "$PING" | tail -n 1 | cut -c1-90)
+      echo "$(stamp) LOGIN FAIL rc=$PING_RC $REASON" >> "$LOG"; fail_alert "Claude login failed: $REASON"; exit 1
+    fi
   fi
   if [ $FORCE = 0 ]; then
     NEW=$($GT list "$NEW_Q" --max 20 2>/dev/null); NEW_RC=$?
@@ -122,9 +158,13 @@ if [ $DRY = 1 ]; then
 else
   echo "$(stamp) rc=$RC $(tail -n 1 "$OUT")" >> "$LOG"
   if [ $RC = 0 ]; then
+    clear_alert
     date +%s > "$STATE"
     FP=$(fingerprint) && [ -n "$FP" ] && echo "$FP" > "$GATE"   # state after this run's own relabelling
   fi
-  [ $RC = 0 ] || sed 's/^/    /' "$OUT" | tail -n 40 >> "$LOG"
+  if [ $RC != 0 ]; then
+    sed 's/^/    /' "$OUT" | tail -n 40 >> "$LOG"
+    fail_alert "run failed: $(tail -n 1 "$OUT" | cut -c1-90)"
+  fi
 fi
 exit $RC
