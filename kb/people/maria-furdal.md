@@ -25,6 +25,7 @@ She works with Kriss on payments (deposits, balances, receipts), POs and deliver
 - Product and sample questions go to Christopher. Kriss handles payments, POs and portal questions.
 
 # History
+- 2026-11-27: Closed, no mail since 2026-11-13: Tompkins — PPS comments
 - 2026-11-17: Closed, no mail since 2026-10-26: FW: Production plan SS27 for approval — Livid/Bellanza
 - 2026-11-17: Closed, no mail since 2026-10-26: New Manufacture Order — MO-SS27-04
 - 2026-11-17: Closed, no mail since 2026-10-19: Pending matters for Springair
@@ -45,7 +46,6 @@ She works with Kriss on payments (deposits, balances, receipts), POs and deliver
 # Open threads
 - Mail correspondence style Lora — settlement of the cancelled Lora style (deposit paid) still open; Kriss was added 2026-11-10 to check amounts ([thread](https://mail.google.com/mail/u/0/#all/1a1c54f1d80e6526))
 - Production plan SS27 for approval — Springair has the transparency/QR labels but still lacks hangtags, main labels and size labels; Livid (Christopher) owes delivery and care-label dates ([thread](https://mail.google.com/mail/u/0/#all/1a1348398cb56fac))
-- Tompkins - PPS comments — price confirmed 2026-11-11; Kriss to send Huzhou the updated PO ([thread](https://mail.google.com/mail/#all/1a1a5a14164e743d))
 
 # Links
 - Organization: [Petter Korseth AS](kb://livid/organizations/manufacturers/petter-korseth.md)

@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-27
+
+- **Update** 6 Person notes: moved 6 quiet open threads to History (thread archived, no mail for 14+ days; `scripts/email/kb_close_threads.py`).
+
 ## 2026-11-26
 
 - **Update** Mac agent run 23:05: forwarded 1 to PowerOffice (Replit receipt, Livid Jeans AS; invoice copy not sent); none to Ole Eivind or HK; filed 0 customs. Left for the brief: Cipriani invoice C/847 (unchanged, see 17:59 entry).

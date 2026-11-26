@@ -23,6 +23,7 @@ She is Livid's long-standing sales contact at Somelos; the 3-year index has 144 
 English. "Hello Fernanda," and "Hope you are well.", then a short request, signed "Kristoffer" or "Best / Kristoffer". He usually copies Christopher Stangeby, and often Paulo Teixeira (tex-challenge.com) and Jens Olav Dankertsen. He apologises plainly for order mistakes ("Sorry for spam of emails"). She replies "Dear Kristoffer" and is brief.
 
 # History
+- 2026-11-27: Closed, no mail since 2026-11-13: Livid Jeans
 - 2026-11-20: Closed, no mail since 2026-11-06: Purchase Order
 - 2026-11-17: Closed, no mail since 2026-09-01: Urgent
 - 2026-11-13: Kriss asked Somelos for extra time on open invoices and sent a payment plan (weeks 48, 50 and 53). She confirmed the same day that she has informed Somelos accounting.
@@ -39,7 +40,7 @@ English. "Hello Fernanda," and "Hope you are well.", then a short request, signe
 - 2026-01-21: Bulk lead time was 10–14 weeks; orders placed then would arrive around weeks 17–19.
 
 # Open threads
-- Livid Jeans – payment plan for open invoices — plan accepted by Fernanda 2026-11-13; first payment EUR 5,772.33 in week 48 (23–27 Nov) ([thread](https://mail.google.com/mail/u/0/#all/1a1d551442b09e4c))
+- None.
 
 # Links
 - Organization: [Somelos Tecidos SA](kb://livid/organizations/suppliers/somelos.md)
