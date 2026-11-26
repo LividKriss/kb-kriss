@@ -28,7 +28,12 @@ from pathlib import Path
 
 ROOT = Path.home() / "Library/CloudStorage/GoogleDrive-kristoffer@livid.no/My Drive/test/REGNSKAP/Tolldeklarasjoner"
 FOLDER = {"jeans": "LJAS", "retail": "LRAS"}
-QUERY = "label:AI/Customs -label:AI/Filed newer_than:60d"
+# Labelled by the cloud run, or found by carrier sender + subject, so filing never depends on the cloud run
+# (2026-11-26: 20 UPS/DHL declarations from 19.–26.11 had no AI/Customs label and were never filed).
+QUERY = ("{label:AI/Customs"
+         " (from:emailservice@ups.com subject:(Innførsel OR Utførsel OR \"Rekalkulerte fortollinger\"))"
+         " (from:noreply.no.customs@dhl.com subject:Tolldeklaration)}"
+         " -label:AI/Filed newer_than:60d")
 
 RETAIL = re.compile(r"RETAIL\s+AS|913\s?818\s?822")
 JEANS = re.compile(r"LIVID\s+JEANS\s+AS\b|999\s?174\s?930")
@@ -107,14 +112,14 @@ def label_ids(svc, names):
 def run(dry: bool):
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     from gmail_auth import gmail_service
-    from gmail_tool import archive_thread
+    from gmail_tool import archive_thread, with_backoff
     svc = gmail_service()
     customs, filed, action = (label_ids(svc, [n]) for n in ("AI/Customs", "AI/Filed", "AI/Action"))
-    msgs = svc.users().messages().list(userId="me", q=QUERY, maxResults=200).execute().get("messages", [])
+    msgs = with_backoff(svc.users().messages().list(userId="me", q=QUERY, maxResults=200)).get("messages", [])
     stamp = dt.datetime.now().strftime("%Y-%m-%d %H:%M")
     print(f"{stamp} {len(msgs)} message(s) to file")
     for ref in msgs:
-        msg = svc.users().messages().get(userId="me", id=ref["id"]).execute()
+        msg = with_backoff(svc.users().messages().get(userId="me", id=ref["id"]))
         hdr = {h["name"].lower(): h["value"] for h in msg["payload"].get("headers", [])}
         email_date = dt.datetime.fromtimestamp(int(msg["internalDate"]) / 1000).date().isoformat()
         parts, stack = [], [msg["payload"]]
@@ -130,8 +135,8 @@ def run(dry: bool):
             continue
         unclear = False
         for p in parts:
-            att = svc.users().messages().attachments().get(
-                userId="me", messageId=ref["id"], id=p["body"]["attachmentId"]).execute()
+            att = with_backoff(svc.users().messages().attachments().get(
+                userId="me", messageId=ref["id"], id=p["body"]["attachmentId"]))
             data = base64.urlsafe_b64decode(att["data"])
             info = parse(pdf_text(data), hdr.get("from", ""), hdr.get("subject", ""), p["filename"], email_date)
             folder = ROOT / (FOLDER[info["entity"]] if info["entity"] else "_Usikker")
@@ -143,7 +148,7 @@ def run(dry: bool):
             print(f"  {'saved ' + str(out.relative_to(ROOT)) if out else 'already filed: ' + info['name']}")
         if not dry:
             body = {"addLabelIds": filed + (action if unclear else []), "removeLabelIds": [] if unclear else customs}
-            svc.users().messages().modify(userId="me", id=ref["id"], body=body).execute()
+            with_backoff(svc.users().messages().modify(userId="me", id=ref["id"], body=body))
         if not unclear:
             print(f"  {archive_thread(svc, msg['threadId'], dry)}")
 

@@ -3,7 +3,14 @@
 
     brief_state.py status <thread_id> ...         one line per thread: full | still-open | hidden <date>
     brief_state.py shown <thread_id> ...          record that these threads were shown as full rows today
-    brief_state.py later <thread_id> <YYYY-MM-DD> hide the thread until that date ("later 5 fri")
+    brief_state.py later <thread_id> <YYYY-MM-DD> hide the thread until that date ("later 5 fri"): it leaves
+                                                  the inbox (archived, read, label AI/Later) and comes back on the date
+    brief_state.py due                            bring back every AI/Later thread whose date has come (+INBOX,
+                                                  -AI/Later); run at the start of every brief and sweep
+    brief_state.py keep <thread_id> ...           Kriss keeps it in the inbox unprocessed for now: marked read,
+                                                  stays in the inbox, counted as "keep" in the inbox-zero line
+    brief_state.py inbox                          inbox-zero check: one line per inbox thread that is not a
+                                                  "keep" from today, then a count line "inbox: N left (keep K)"
     brief_state.py reopen <thread_id> ...         forget the thread (it shows as a full row again)
     brief_state.py prune                          drop threads no longer in the inbox, or untouched 30 days
 
@@ -25,7 +32,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from gmail_auth import APP_DIR, gmail_service  # noqa: E402
-from gmail_tool import with_backoff  # noqa: E402
+from gmail_tool import ensure_labels, label_map, with_backoff  # noqa: E402
 
 STATE = os.path.join(APP_DIR, "brief-state.json")
 
@@ -54,12 +61,12 @@ def latest(svc, tid) -> tuple[int, bool]:
 
 
 def main():
-    if len(sys.argv) < 2 or sys.argv[1] not in ("status", "shown", "later", "reopen", "prune"):
+    if len(sys.argv) < 2 or sys.argv[1] not in ("status", "shown", "later", "due", "keep", "inbox", "reopen", "prune"):
         sys.exit(__doc__)
     cmd, args = sys.argv[1], sys.argv[2:]
     today = dt.date.today().isoformat()
     state = load()
-    svc = gmail_service() if cmd in ("status", "shown", "later", "prune") else None
+    svc = gmail_service() if cmd != "reopen" else None
 
     if cmd == "status":
         for tid in args:
@@ -90,8 +97,44 @@ def main():
         dt.date.fromisoformat(until)
         newest, _ = latest(svc, tid)
         state.setdefault(tid, {}).update(hidden_until=until, hidden_at_msg=newest, touched=today)
+        state[tid].pop("keep", None)
         save(state)
-        print(f"{tid} hidden until {until}")
+        later_id = ensure_labels(svc, label_map(svc), ["AI/Later"])["AI/Later"]
+        with_backoff(svc.users().threads().modify(userId="me", id=tid, body={
+            "addLabelIds": [later_id], "removeLabelIds": ["INBOX", "UNREAD"]}))
+        print(f"{tid} hidden until {until} (archived, AI/Later)")
+    elif cmd == "due":
+        labels = label_map(svc)
+        later_id = labels.get("AI/Later")
+        res = with_backoff(svc.users().threads().list(userId="me", q="label:AI/Later", maxResults=500)) if later_id else {}
+        back = 0
+        for t in res.get("threads", []):
+            tid = t["id"]
+            if state.get(tid, {}).get("hidden_until", "") > today:
+                continue                     # not yet; new mail in it lands in the inbox by itself
+            with_backoff(svc.users().threads().modify(userId="me", id=tid, body={
+                "addLabelIds": ["INBOX"], "removeLabelIds": [later_id]}))
+            state.setdefault(tid, {}).pop("hidden_until", None)
+            back += 1
+            print(f"{tid} back in the inbox (later date reached)")
+        save(state)
+        print(f"due: {back} back")
+    elif cmd == "keep":
+        for tid in args:
+            state.setdefault(tid, {}).update(keep=today, touched=today)
+            with_backoff(svc.users().threads().modify(userId="me", id=tid, body={"removeLabelIds": ["UNREAD"]}))
+        save(state)
+        print(f"kept {len(args)} (read, in the inbox)")
+    elif cmd == "inbox":
+        res = with_backoff(svc.users().threads().list(userId="me", q="in:inbox", maxResults=500))
+        left = keep = 0
+        for t in res.get("threads", []):
+            if state.get(t["id"], {}).get("keep") == today:
+                keep += 1
+                continue
+            left += 1
+            print(f"{t['id']} {t.get('snippet', '')[:70]}")
+        print(f"inbox: {left} left (keep {keep})")
     elif cmd == "reopen":
         for tid in args:
             state.pop(tid, None)

@@ -18,7 +18,7 @@ stale_after: 2027-01-21
 ---
 
 # Applies to
-Every email the assistant sends, replies to or forwards from Kriss's work Gmail — in the morning brief, the midday sweep, the cloud run, the Mac agent or any other chat. Nothing is sent, forwarded or deleted outside this policy. When in doubt: draft, don't send.
+Every email the assistant sends, replies to or forwards from Kriss's work Gmail — in the morning brief, the afternoon sweep, the cloud run, the Mac agent or any other chat. Nothing is sent, forwarded or deleted outside this policy. When in doubt: draft, don't send.
 
 # Levels
 | Level | Meaning | Disclaimer ([signature](/email/signature.md)) |

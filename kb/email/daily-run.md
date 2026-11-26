@@ -16,11 +16,11 @@ Kriss starts the day with an inbox that holds only what needs him, ready drafts,
 
 # Trigger
 Four parts:
-- **A. Processing** — Claude cloud scheduled task (routine) "Daily email run", weekdays **06:47** Oslo. Unattended. Instructions: `docs/routine.md`.
+- **A. Processing** — two Claude cloud routines, unattended (instructions: `docs/routine.md`; split 2026-11-26 because the single run kept stopping after classification): **"Email sort"** weekdays **06:47 and 15:47** Oslo (steps 1–4, 8 and 3c; ends only when its completeness searches return nothing) and **"Email KB sync and drafts"** weekdays **07:02** (steps 5–7b and 8b).
 - **C. Mac attachment agent** — Claude Code on Kriss's Mac, hourly while awake (`docs/mac-agent.md`): reads invoice PDFs, forwards clear cases to PowerOffice (+ Ole Eivind for external brands), files customs documents, and reads documents/links on `AI/Docs` threads into `[Doc]` summary drafts and the KB. The cloud can't read attachments.
 - **B. Morning brief** — Claude Code scheduled task on Kriss's MacBook Air, weekdays **07:30** Oslo (instructions: `docs/brief-run.md`): opens a **new chat** with the brief ([brief format](/email/brief.md)); Kriss goes through it by voice or typing and gives instructions. Moved from Cowork 2026-11-06.
-- **D. Midday sweep** — Claude Code scheduled task on Kriss's MacBook Air, weekdays **12:00** Oslo (instructions: `docs/midday-run.md`): opens a new chat with tasks from mail since the morning (Steps — D). Moved from Cowork 2026-11-06.
-Also on request ("morning run", "go through my email", "midday sweep").
+- **D. Afternoon sweep** — Claude Code scheduled task on Kriss's MacBook Air, weekdays **16:00** Oslo (instructions: `docs/afternoon-run.md`), after the 15:47 sort run: opens a new chat with tasks, new urgent mail and the rest of the day's mail, and ends at inbox zero (Steps — D). Replaced the 12:00 midday sweep on 2026-11-26; that task had silently dropped out of the scheduler.
+Also on request ("morning run", "go through my email", "afternoon sweep", "inbox zero").
 
 # Inputs
 - Gmail: search (incl. sent and archived), read, label, archive, create drafts; send, reply and forward **only after Kriss's approval in part B**.
@@ -65,15 +65,14 @@ Also on request ("morning run", "go through my email", "midday sweep").
    - **Standing instructions** Kriss states ("from now on…") are written to the Rule or Process they concern; say which doc in the chat.
    - **Repeated decisions** that `ledger.py repeats` shows at least twice with none against are proposed as a rule under *KB → Needs your yes*.
    - `[KB-inbox]` drafts are only for chats that cannot reach the repos.
-5. End with what was done and what is still open.
+5. **Inbox zero:** end with `bs inbox`; every thread ends as done, waiting, later or keep ([brief format](/email/brief.md), Inbox zero; Kriss, 2026-11-26). Then say what was done and what is still open (later and keep, with dates).
 
-# Steps — D. Midday sweep (Claude Code on the Mac, 12:00)
-1. Load as part B step 1, but only what tasks need: both AGENTS.md, this doc, [task triggers](/email/task-triggers.md), [labels](/email/labels.md), [brief format](/email/brief.md), [send policy](/email/send-policy.md), and the Processes the matches need. Check for `[STOP-SENDING]`.
-2. **Light skim** of mail received today (inbox, archived and spam; `newer_than:1d`) that the morning run has not labelled, plus open `AI/Task` threads. Metadata and snippets only; open a thread only to confirm a match or build a proposal.
-3. Label matches `AI/Task`; anything new that is clearly urgent per [urgency](/email/urgency.md) → `AI/Urgent` (no draft unless Kriss asks). Nothing else is classified here; part A does the rest tomorrow.
-4. Prepare each task to the proposal (as part B step 2) and present: one summary line, *Tasks* table, then *New urgent* if any. Nothing at all → one line "No new tasks since the morning" and stop.
-5. Work through it with Kriss exactly as part B step 3 (approval per task, drafts shown in full, send only after approval). `[KB-inbox]` drafts for new rules as part B step 4.
-6. End with what was done and what is still open.
+# Steps — D. Afternoon sweep (Claude Code on the Mac, 16:00)
+1. Load as part B step 1, but only what the sweep needs: both AGENTS.md, this doc, [task triggers](/email/task-triggers.md), [labels](/email/labels.md), [brief format](/email/brief.md), [send policy](/email/send-policy.md), and the Processes the matches need. Check for `[STOP-SENDING]`, and that the 15:47 sort run logged a full checklist (missing or ✗ → classify today's unlabelled mail here, metadata only).
+2. `bs due`, then take the inbox as the sort run left it. Threads already settled in the systems are closed as in part B step 1b.
+3. Prepare `AI/Task` threads to the proposal and look up what new Urgent items depend on (as part B step 2). Other new Reply and Action items get a short recommendation from their snippet and thread state; no drafts unless Kriss asks.
+4. Present: one summary line, *Tasks*, *New urgent*, *New since the morning* (numbered, short), *Rest* with its default, and the inbox line. Nothing at all and an empty inbox → one line "Inbox zero, nothing new since the morning" and stop.
+5. Work through it with Kriss exactly as part B step 3 (approval per item, drafts shown in full, send only after approval), and finish with the inbox-zero step (part B step 5).
 
 # Decision rules
 - Gmail is the system of record; archived (and read) = done.

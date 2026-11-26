@@ -18,11 +18,11 @@ In early November 2026 the weekly usage limit was being reached: the 06:47 email
 
 | Work | Model | How |
 |---|---|---|
-| 06:47 email run (part A, cloud) | Sonnet | Set as the routine's model on 2026-11-19 (it had no model set and ran on Opus); KB sync and drafts in Sonnet subagents (`docs/routine.md`) |
+| Email sort (part A1, cloud, 06:47 and 15:47) and Email KB sync and drafts (part A2, cloud, 07:02) | Sonnet | Set as the routine's model on 2026-11-19 (it had no model set and ran on Opus). On Sonnet the single run stopped after classification every day from 20.11, so it was split into two one-job routines with a completeness check on 2026-11-26; back to Opus only if the split runs still stop early (`docs/routine.md`) |
 | Mac attachment agent (part C) | Sonnet | `--model sonnet` in `scripts/email/mac_agent.sh`; skipped when Gmail shows nothing new |
 | Morning brief (part B) | Opus, medium | Re-reads only threads with new mail since part A's state line (`data/threads.jsonl`); Sonnet subagents read threads, investigate items, prepare tasks, check payments (`docs/brief-run.md`) |
 | Weekly KB review (Fri 13:00) | Opus, medium | Sonnet subagents gather log, ledger, stale docs and TODOs (`docs/kb-review-run.md`) |
-| Midday sweep (part D) | Sonnet | Kriss switches the chat to Opus before a task that needs judgment (`docs/midday-run.md`) |
+| Afternoon sweep (part D, 16:00; replaced the midday sweep 2026-11-26) | Sonnet | Kriss switches the chat to Opus before a task that needs judgment (`docs/afternoon-run.md`) |
 | Bilagsmottak: refresh, triage, buckets with **stable** rules, the text-only check | Sonnet | Subagents `bilag-worker` and `bilag-checker` in livid-kb |
 | Bilagsmottak: Q bucket, **draft**-rule buckets, first-use verification, review, posting | Opus, medium | The orchestrating chat |
 | Mechanical runs: Z-report import fixes, gift cards, weekly report data, UPS DDP audit, customs filing, night runs | Sonnet | Started on Sonnet; Opus only when a case falls outside the doc |
@@ -41,10 +41,10 @@ In early November 2026 the weekly usage limit was being reached: the 06:47 email
 - Moving the morning and midday chats to the cloud: same token use, but the cloud can't reach the Gmail token for attachments or Chrome on the Mac.
 
 # Consequences
-- Run instructions name their model: `docs/routine.md`, `docs/mac-agent.md`, `docs/brief-run.md`, `docs/midday-run.md`.
+- Run instructions name their model: `docs/routine.md`, `docs/mac-agent.md`, `docs/brief-run.md`, `docs/afternoon-run.md`.
 - Subagent definitions with `model: sonnet` live in `.claude/agents/` in kb-kriss (email) and livid-kb (bilagsmottak).
 - `kb-router` points every task here.
 - Check with the explain-usage skill after the first week of the new setup, and adjust this table.
 
 # Affects
-`docs/routine.md`, `docs/brief-run.md`, `docs/midday-run.md`, `docs/mac-agent.md`, `.claude/agents/` in both repos, livid-kb `.claude/skills/kb-router/SKILL.md` and `.claude/skills/bilagsmottak/workflow.md`.
+`docs/routine.md`, `docs/brief-run.md`, `docs/afternoon-run.md`, `docs/mac-agent.md`, `.claude/agents/` in both repos, livid-kb `.claude/skills/kb-router/SKILL.md` and `.claude/skills/bilagsmottak/workflow.md`.

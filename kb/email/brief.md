@@ -12,7 +12,7 @@ applies_to: all
 ---
 
 # Applies to
-Part B of the [daily run](/email/daily-run.md), and the midday sweep (part D: summary line, then only the sections that have items).
+Part B of the [daily run](/email/daily-run.md), and the afternoon sweep (part D: summary line, then only the sections that have items, then *Rest* and the inbox-zero finish).
 
 # Rules
 **What the brief is:** a decision queue, not an inbox digest. Every numbered item arrives **already checked and investigated**, with a recommendation, a confidence (High, Medium or Low) and the grounds, following livid-kb AGENTS.md §7a. Kriss should be able to settle the High block with one word and most of the rest with a number and a word.
@@ -34,14 +34,23 @@ Part B of the [daily run](/email/daily-run.md), and the midday sweep (part D: su
 8. **Waiting**: overdue threads, as recommendations ("send nudge" with the draft, or "close: answered in <thread>").
 9. **Invoices**: *Forwarded automatically since the last brief* (`Supplier · Doc no · Amount · Entity`, unnumbered, for checking; source: the Mac agent's `kb/log.md` entries; ⚠ and a task number for a manufacturer invoice with no MO shipment in Threadflow, [task triggers](/email/task-triggers.md) rule 8), then any that need Kriss, numbered in the blocks above. One line: customs documents filed / waiting.
 10. **FYI**: up to 8 one-liners; "+N more". Noise: count only.
-11. **Still open**: one line, `n · who – what · default` where *default* is what happens without an answer ("closes 26.11", "stays"). An item comes back as a full row only on new mail or a deadline two days or less away.
+11. **Still open**: one line, `n · who – what · default` where *default* is what happens without an answer ("closes 26.11", "later Mon", "keep"). An item comes back as a full row only on new mail or a deadline two days or less away. "Stays" is no longer a default: an item that waits goes to *later* with a date.
+11b. **Rest**: one line for every inbox thread that is not a numbered row or on *Still open* (beyond the 20-item cap, or nothing to decide): `Rest (n): who – what, … · default archive`. "ok rest" archives them all; "ok rest except Bogart" keeps that one as a row next time.
 12. **Drafts going stale**: drafts unsent for more than 5 days: `# · Who · Age · recommendation (send / rewrite / drop)`.
 13. **KB**: *Written since the last brief*: a count and up to 5 one-liners (knowledge flows without approval, livid-kb AGENTS.md §5a). *Needs your yes*: numbered instruction changes (rules from repeated decisions, process changes), each with its cases. *Gaps that blocked a decision today*: one line.
-14. **Close**: "Reply e.g. *ok high · ok 7, 9 · 12 hold to 01.12 · 14: pay Friday · more on 5*."
+14. **Close**: "Reply e.g. *ok high · ok 7, 9 · 12 later 01.12 · 14: pay Friday · keep 5 · ok rest · more on 5*." Then the inbox line: `Inbox: n threads now · goal 0`.
+
+**Inbox zero — the brief's finish line** (Kriss, 2026-11-26): the brief is done when the inbox is empty except for what Kriss chose to keep. Every thread in the inbox when the brief starts ends as one of:
+- **done**: settled, sent or decided as no action → archived and read;
+- **waiting**: waits on someone else → archived with `AI/Waiting` (the follow-up rule brings it back if nobody answers);
+- **later**: put off to a date → archived and read with `AI/Later`, back in the inbox on that date (`bs later`, `bs due`);
+- **keep**: Kriss wants it in the inbox unprocessed for now → stays, marked read (`bs keep`). Keep is for a handful of items, not a parking place: a thread kept three briefs in a row is asked about as "later or done?".
+
+After Kriss's answers the brief runs `bs inbox`, asks once about anything left with a default ("12 left: 9 → archive, 3 → later Mon; ok?"), and ends on `inbox: 0 left (keep K)`. Approval mode is unchanged: nothing is archived, put off or closed without Kriss's word, except what the sort run already archives (FYI, Noise, Waiting, HR, threads whose last message is Kriss's own).
 
 **Answers are recorded:** every numbered item's recommendation and Kriss's answer go into the decision ledger (`scripts/email/ledger.py decision-add`): `agree` when he accepts it as given, `changed` when he decides otherwise or edits it, `rejected`, `later`. Facts and decisions in his answers are written to the KB at once (livid-kb AGENTS.md §8).
 
-**Decisions are remembered:** "skip", "handled", "no action" → the thread is closed (`gmail_tool.py done`); "later 5 fri" → hidden until that date (brief state, `docs/brief-run.md`). The brief never asks about the same thread again unless new mail has arrived in it or a hidden item's date has come.
+**Decisions are remembered:** "skip", "handled", "no action" → the thread is closed (`gmail_tool.py done`); "later 5 fri" → archived with `AI/Later` and hidden until that date (brief state, `docs/brief-run.md`); "keep 5" → stays in the inbox, read. The brief never asks about the same thread again unless new mail has arrived in it or a hidden item's date has come.
 
 **Documents:** a row whose thread has a `[Doc]` draft carries its key facts ("PL: 3 ctn, ETD 30.10"); the full summary on request.
 
@@ -56,6 +65,7 @@ Part B of the [daily run](/email/daily-run.md), and the midday sweep (part D: su
 - 18.11 brief, before this format: of 19 answers, none was "approve as drafted". 7 were "already handled, archive", 6 were "hold or later", 5 were "check X first" and 2–3 were dictated replies. That is why items are now checked and investigated before they are shown.
 
 # Source / history
+Kriss, 2026-11-26: inbox zero is the goal of every brief. After a full brief the inbox still held 73 threads (41 new since the 06:47 run, 30 left over from earlier briefs as held, later or past the 20-item cap). Added *Rest*, the four end states (done, waiting, later, keep) and the closing `bs inbox` check; *later* now archives. The afternoon sweep (16:00) uses the same finish line.
 Kriss, 2026-11-19: brief v2 — decision queue with confidence and grounds, investigation before presenting, answers recorded in the decision ledger, knowledge written without approval, payments check never blocks the brief.
 Kriss, 2026-11-17: the inbox kept building and settled items were asked about again: *Closed for you*, *Still open* after two briefs, at most 20 items, stale drafts, remembered decisions, HR counted then archived.
 Kriss, 2026-11-09: T4 price-control block and T5 rows in Tasks; ⚠ on forwarded manufacturer invoices without an MO shipment.
