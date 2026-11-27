@@ -22,12 +22,17 @@
                                                   draft a reply in the thread (sender, or everyone with --all),
                                                   body + signature above the quote; --keep re-attaches named
                                                   files from the message, --attach adds local files. Not sent.
+                                                  Refused when <msg_id> is not the latest message in its
+                                                  thread (lists the newer ones; --allow-older overrides).
     gmail_tool.py forward-draft <msg_id> <body-file> --to ADDR ... [--only NAME ...] [--attach FILE ...]
                                                   draft a forward to anyone with all attachments (or only the
                                                   named ones) plus local files. Not sent.
     gmail_tool.py send-draft <draft_id>           send a draft Kriss approved in the chat; refused in an
                                                   unattended run (KB_AGENT_UNATTENDED=1), while [STOP-SENDING]
                                                   exists, or while the draft has stray inline images.
+                                                  Refused (exit 6) when the thread has mail newer than the
+                                                  message the draft answers (or than the draft itself):
+                                                  read it, then redraft or pass --ignore-newer.
                                                   Then closes the thread: removes Urgent/Reply/Action/
                                                   Payments/HR/FYI/Noise, adds AI/Waiting if the new text asks
                                                   something (override: --waiting / --no-waiting), archives
@@ -540,9 +545,30 @@ def save_draft(svc, m: EmailMessage, thread_id: str, dry: bool, kind: str):
     print(f"drafted {d['id']}: {summary}")
 
 
+def newer_in_thread(svc, thread_id: str, since_ms: int, skip_ids=()) -> list:
+    """Messages in the thread (drafts excluded) that arrived after since_ms: one line each.
+    Guards against answering a thread that has moved on (Kriss, 2026-11-27: a reply asked Ole Eivind
+    to check a price he had already fixed in the same thread hours earlier)."""
+    t = with_backoff(svc.users().threads().get(userId="me", id=thread_id, format="metadata",
+                                               metadataHeaders=["From", "Date", "Subject"]))
+    out = []
+    for m in t.get("messages", []):
+        if m["id"] in skip_ids or "DRAFT" in m.get("labelIds", []):
+            continue
+        if int(m["internalDate"]) > since_ms:
+            mh = headers(m)
+            when = dt.datetime.fromtimestamp(int(m["internalDate"]) / 1000).strftime("%d.%m %H:%M")
+            out.append(f"{when} {mh.get('from', '?')} [{m['id']}]: {m.get('snippet', '')[:120]}")
+    return out
+
+
 def cmd_reply_draft(svc, args):
     """Draft a reply in the thread (never sent here): note + signature above the quoted message."""
     msg = svc.users().messages().get(userId="me", id=args.msg_id).execute()
+    newer = newer_in_thread(svc, msg["threadId"], int(msg["internalDate"]), skip_ids={msg["id"]})
+    if newer and not args.allow_older:
+        sys.exit(f"Refusing: {args.msg_id} is not the latest message in its thread; read these first "
+                 f"(reply to the latest, or pass --allow-older):\n  " + "\n  ".join(newer))
     h = headers(msg)
     me = my_address(svc)
     sent_by_me = me in {a.lower() for _, a in getaddresses([h.get("from", "")])}
@@ -628,6 +654,24 @@ def cmd_send_draft(svc, args):
                  f"as attachments ({', '.join(p.get('filename') or '?' for p in stray)}). "
                  f"Run clean-draft {args.draft_id} first.")
     voucher = bool(rcpts) and rcpts <= VOUCHER_TO
+    # Newer-reply check (Kriss, 2026-11-27): never send into a thread that has moved on since the
+    # message we answer (or, with no In-Reply-To, since the draft was last saved) without a fresh look.
+    if not voucher and not args.ignore_newer:
+        since, skip = int(d["message"]["internalDate"]), {d["message"]["id"]}
+        irt = h.get("in-reply-to", "").strip()
+        if irt:
+            t = with_backoff(svc.users().threads().get(userId="me", id=d["message"]["threadId"],
+                                                       format="metadata", metadataHeaders=["Message-ID"]))
+            for m in t.get("messages", []):
+                if headers(m).get("message-id", "").strip() == irt:
+                    since = min(since, int(m["internalDate"]))
+                    skip.add(m["id"])
+        newer = newer_in_thread(svc, d["message"]["threadId"], since, skip_ids=skip)
+        if newer:
+            print(f"Refusing: the thread has {len(newer)} newer message(s) than the one this draft answers; "
+                  f"read them and check the draft still fits (then --ignore-newer, or redraft):\n  "
+                  + "\n  ".join(newer))
+            sys.exit(6)
     if dry_mode(args):
         print(f"DRY would send draft {args.draft_id} to {h.get('to')}: {h.get('subject', '')}")
         if not args.keep_open:
@@ -1054,11 +1098,13 @@ def main():
     p = sub.add_parser("reply-draft"); p.add_argument("msg_id"); p.add_argument("body_file")
     p.add_argument("--all", action="store_true"); p.add_argument("--attach", nargs="+", metavar="FILE")
     p.add_argument("--keep", nargs="+", metavar="NAME"); p.add_argument("--dry", action="store_true")
+    p.add_argument("--allow-older", action="store_true")
     p = sub.add_parser("forward-draft"); p.add_argument("msg_id"); p.add_argument("body_file")
     p.add_argument("--to", nargs="+", required=True); p.add_argument("--only", nargs="+", metavar="NAME")
     p.add_argument("--attach", nargs="+", metavar="FILE"); p.add_argument("--dry", action="store_true")
     p = sub.add_parser("send-draft"); p.add_argument("draft_id"); p.add_argument("--dry", action="store_true")
-    p.add_argument("--keep-open", action="store_true"); g = p.add_mutually_exclusive_group()
+    p.add_argument("--keep-open", action="store_true"); p.add_argument("--ignore-newer", action="store_true")
+    g = p.add_mutually_exclusive_group()
     g.add_argument("--waiting", action="store_true"); g.add_argument("--no-waiting", action="store_true")
     p = sub.add_parser("done"); p.add_argument("ids", nargs="+"); p.add_argument("--waiting", action="store_true")
     p.add_argument("--dry", action="store_true")
