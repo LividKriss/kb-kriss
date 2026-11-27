@@ -398,3 +398,6 @@
 {"ask": "statement EUC108908 balance EUR 1,814.26, second chase 27.11", "at": "2026-11-27T05:49:07+00:00", "by": "sort", "class": "Payments", "conf": "L", "grounds": "needs PowerOffice supplier ledger check", "kind": "payment-reminder", "last_msg_at": "2026-11-27T04:30:53Z", "state": "asks payment status asap", "thread": "1a1f6fb1fcc0c06e", "who": "Nilorn East Asia finance"}
 {"ask": "reminder for invoice 13628", "at": "2026-11-27T05:49:07+00:00", "by": "sort", "class": "Payments", "conf": "L", "grounds": "needs PowerOffice check", "kind": "payment-reminder", "last_msg_at": "2026-11-26T22:00:00Z", "state": "unchecked", "thread": "1a21b6df079b16d0", "who": "PowerOffice reminder"}
 {"ask": "payment follow-up on invoice 10095/10098", "at": "2026-11-27T05:49:07+00:00", "by": "sort", "class": "Reply", "conf": "L", "grounds": "needs PowerOffice check", "kind": "landlord-invoice", "last_msg_at": "2026-11-26T08:00:00Z", "state": "support forwarded to correct entity 25.11", "thread": "1a159575316c5acb", "who": "Malling & Co (landlord Prinsens Gate)"}
+{"at": "2026-11-27T08:28:26+01:00", "closed": true, "thread": "1a21729a1cf4e862"}
+{"at": "2026-11-27T08:28:26+01:00", "closed": true, "thread": "1a216ee57a636029"}
+{"at": "2026-11-27T08:29:17+01:00", "closed": true, "thread": "1a2183282c09d6b1"}
