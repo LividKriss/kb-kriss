@@ -2,6 +2,7 @@
 
 ## 2026-11-27
 
+- **Update** Email sort (cloud 2026-11-27 06:47): 1 ✓ SINCE = 01:47 UTC 26.11 (last sort 26.11 14:47 Oslo minus 12 h; Gmail ignores Unix-timestamp `after:`, so `after:2026/11/26` used, a superset) · 2 ✓ S1 (single page returned, no token), S2 · 3 ✓ 22 unlabelled threads classified: Urgent 3 (Tompkins deposit chase, Centra suspension notice, Skatteetaten MVA letter), Reply 2 (Mathilde estimate question, Malling invoice 10095 also `AI/Invoice`), Action 1 (bounced funding-round mail), Payments 2 (Nilorn EUR 1,814.26 chase, PowerOffice reminder 13628); archived Waiting 2 (Bogart/Livid dame, Pio ticket), FYI 3, Noise 9 · 4 ✓ no task triggers · 5 ✓ no new voucher or customs candidates (Cargo Linea customs already `AI/Filed`) · 6 ✓ thread state 8 lines · 7 ✓ S2 0 · S3 0 · 8 ✓. Nothing sent, forwarded or deleted. Model: Sonnet 5.5.
 - **Update** 6 Person notes: moved 6 quiet open threads to History (thread archived, no mail for 14+ days; `scripts/email/kb_close_threads.py`).
 
 ## 2026-11-26
