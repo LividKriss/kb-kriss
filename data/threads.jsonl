@@ -424,3 +424,12 @@
 {"ask": "EUR 1,814.26", "at": "2026-11-27T08:32:03+01:00", "by": "brief", "conf": "L", "grounds": "PO Jeans 10 INVP open = 1,814.26", "kind": "payment-reminder", "rec": "pay once EUR 1,814.26, reply with date", "thread": "1a1f6fb1fcc0c06e", "who": "Nilorn East Asia finance"}
 {"ask": "pay C/2609250 by 04.12", "at": "2026-11-27T08:32:03+01:00", "by": "brief", "conf": "L", "deadline": "2026-12-04", "grounds": "PO Jeans 15838 open, due 13.09", "kind": "supplier-payment-reminder", "rec": "pay EUR 1,092.73 before 04.12", "thread": "1a2131ab7424063a", "who": "Cervotessile (Marina)"}
 {"ask": "10095/10098", "at": "2026-11-27T08:32:03+01:00", "by": "brief", "conf": "L", "grounds": "PO Retail 27530 paid, 27356 open", "kind": "landlord-invoice", "rec": "10095 paid 02.11; 10098 NOK 188,579 open: give a date", "thread": "1a159575316c5acb", "who": "Malling (Prinsens Gate)"}
+{"at": "2026-11-27T14:33:17+01:00", "closed": true, "thread": "1a2088cc0357221d"}
+{"at": "2026-11-27T14:33:17+01:00", "closed": true, "thread": "1a2135bf5e889430"}
+{"at": "2026-11-27T14:33:17+01:00", "closed": true, "thread": "1a211dfef97bc48f"}
+{"at": "2026-11-27T14:33:17+01:00", "closed": true, "thread": "1a211e6069dd5135"}
+{"at": "2026-11-27T14:33:17+01:00", "closed": true, "thread": "1a1e3e3f0e8a7b6b"}
+{"at": "2026-11-27T14:33:17+01:00", "closed": true, "thread": "1a2125fd2b42c691"}
+{"at": "2026-11-27T14:33:17+01:00", "closed": true, "thread": "1a21bdd62466ffd9"}
+{"at": "2026-11-27T14:36:12+01:00", "closed": true, "thread": "1a2173f1b03ffd61"}
+{"at": "2026-11-27T14:36:12+01:00", "closed": true, "thread": "1a1e9e02ab2ec9d6"}

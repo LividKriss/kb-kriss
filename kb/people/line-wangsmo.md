@@ -23,6 +23,7 @@ Billing on Livid's wholesale deliveries to Retro: invoices that don't match deli
 Norwegian, "Hei Line!", short. Owns the error, says what was fixed ("har sendt kreditnota nå"). Usually no one in copy.
 
 # History
+- 2026-11-27: Line had not received credit note CR-0013; it was sent from Loom to Retro's Visma invoice address (cc Eirik, Jørgen); reply to Line drafted.
 - 2026-11-18: Line asked for a credit note for 1 Fuller Japan Indigo Dusk 32/34 missing against invoice 0112; Kriss asked which store lacks it (Dusk is on 0111, Bergen); Line corrected herself: it is Fuller Japan Indigo Rinse 32/34 ([thread](https://mail.google.com/mail/u/0/#all/1a1ed67f37350e1a))
 - 2026-09-07: Line asked for EHF invoices; Kriss: the new order system doesn't support EHF yet (target before New Year), so invoices now go to each Retro company's own e-invoice email address.
 - 2026-06-09: Two credit notes (11360/11362) issued for one Miko claim; Line approved 11362 and Kriss issued an invoice to offset 11360.
