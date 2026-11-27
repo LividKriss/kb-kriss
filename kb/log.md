@@ -2,6 +2,7 @@
 
 ## 2026-11-27
 
+- **Sent** 1 email on Kriss's approval (reviewed disclaimer, Norwegian): reply-all on the Iron Ranger 8085 price thread asking Ole Eivind to confirm the right price (store and Loom 4,700, web 4,400); thread archived as `AI/Waiting`. Kriss's edit: no system jargon such as "(Archive)" in mail to colleagues.
 - **Sent** 4 emails on Kriss's approval (send-after-approval, reviewed disclaimer, Norwegian): Retro/Line (CR-0013 now sent to Visma, cc Eirik and Jørgen), CPO-0029 and CPO-0013 (pre-order cancelled, nothing owed), CPO-0002 (payment received, ships in the coming days). Threads closed. Iron Ranger 8085 price: reply-all drafted asking Ole Eivind to confirm the right price (Loom 4,700 vs web 4,400) before anything is changed.
 - **Update** Mac agent run 14:45: forwarded 1 to Livid Jeans AS PowerOffice (Anthropic Amex receipt only, not the invoice); none to Ole Eivind or HK; filed 0 customs.
 - **Update** Brief 27.11: CPO-0002 pro forma PF-0051 marked paid in Loom (NOK 1,300 from Peter Ulleberg Jussila, paid 25.11, in the Livid Jeans AS bank account on 26.11, unreconciled in PowerOffice); Pio hold dropped, Webshipper order created; reply drafted. Also unreconciled there: NOK 1,300 from another payer on 16.11 (possible pre-order payment).
