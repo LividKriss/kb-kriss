@@ -2,6 +2,7 @@
 
 ## 2026-11-27
 
+- **Creation** Note `notes/multiply-ups-rebill-ole-eivind.md`: reminder to find the UPS cost of Webshipper order MULTIPLY-20261127 (Multiply Solutions Sweden AB) when the UPS invoice arrives and invoice it to Ole Eivind (Kriss, 27.11).
 - **Update** Newer-reply check before sending (standing instruction from Kriss, 2026-11-27, after the brief asked Ole Eivind to check the Iron Ranger 8085 price he had already fixed in the same thread at 11:31; Kriss sent a correction at 15:11): `scripts/email/gmail_tool.py` reply-draft refuses a message that is not the latest in its thread (`--allow-older`), send-draft refuses with exit 6 when the thread has mail newer than the answered message or the draft (`--ignore-newer`); tested with dry runs on that thread. Rule in `email/actions.md`; `docs/brief-run.md` step 5. Iron Ranger thread: settled (4,700 everywhere, Ole Eivind 27.11).
 - **Update** `people/line-wangsmo.md` History (credit notes to the invoice address only, Kriss replied 27.11). The company rule went to livid-kb `loom-outgoing-invoices.md`.
 - **Sent** 1 email on Kriss's approval (reviewed disclaimer, Norwegian): reply-all on the Iron Ranger 8085 price thread asking Ole Eivind to confirm the right price (store and Loom 4,700, web 4,400); thread archived as `AI/Waiting`. Kriss's edit: no system jargon such as "(Archive)" in mail to colleagues.
