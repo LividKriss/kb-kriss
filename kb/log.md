@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-28
+
+- **Update** Mac agent 10:30: forwarded 1 (Anthropic Ireland receipt, Livid Jeans AS voucher address, receipt only); to Ole Eivind 0; filed 0 (no customs). Left for the brief: AutoStore 3rd reminder ×3 (not checked against PowerOffice ledger), Prinsens Gate 10098 (EHF-only, not forwarded).
+
 ## 2026-11-27
 
 - **Update** Afternoon sweep 2026-11-27 (Claude Code scheduled run, unattended): 15:47 sort ✓, no [STOP-SENDING], Mac agent OK, PrintCollect check clean (21240, 21250 = LO-0108). Closed as settled in systems: PrintCollect 21250 (LO-0108 fulfilled 27.11), Japan Blue PO-00180 T2 (SH-00191/192 in transit). Thread state 6 lines. Presented; nothing sent, nothing else archived (Kriss not present).
